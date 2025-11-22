@@ -1,0 +1,16 @@
+site_name: Sunder TTRPG
+site_url: https://woodsave03.github.io/tsindwr
+theme:
+  name: material
+
+docs_dir: public   # <--- inside the repo
+
+nav:
+  - Start Here: index.md
+  - Rules:
+      - Overview: core/overview.md
+      - Actions: core/actions.md
+      - Stress & Fallout: core/stress_fallout.md
+  - Characters:
+      - Potentials: characters/potentials.md
+      - Archetypes: characters/archetypes.md
