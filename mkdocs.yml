@@ -6,7 +6,7 @@ theme:
 docs_dir: public   # <--- inside the repo
 
 nav:
-  - Start Here: index.md
+  - Home: index.md
   - Rules:
       - Overview: core/overview.md
       - Actions: core/actions.md
