@@ -2,15 +2,66 @@ site_name: Sunder TTRPG
 site_url: https://woodsave03.github.io/tsindwr
 theme:
   name: material
+  logo: assets/sunder.png
+  favicon: assets/favicon.ico
+  font:
+    text: "IBM Plex Sans"
+    code: "JetBrains Mono"
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
 
 docs_dir: public   # <--- inside the repo
 
+markdown_extensions:
+  - nl2br
+  - admonition
+  - footnotes
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - js/math.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  - css/sunder-theme.css
+
+plugins:
+  - search
+  - obsidian-support
+  - roamlinks
+
 nav:
-  - Home: index.md
+  - The Essence of Truth: index.md
   - Rules:
-      - Overview: core/overview.md
-      - Actions: core/actions.md
-      - Stress & Fallout: core/stress_fallout.md
+      - Rolling Dice: "core/Resolution System.md"
+      - Stress & Fallout: "core/Stress, Fallout, and Marks.md"
+      - Volatility Dice: "core/Volatility and Perks.md"
   - Characters:
-      - Potentials: characters/potentials.md
-      - Archetypes: characters/archetypes.md
+      - Attributes: "characters/Potentials and Proficiencies.md"
+      - Experience: "characters/Experience Points.md"
