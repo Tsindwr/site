@@ -1,0 +1,47 @@
+/* LIGHT MODE – default scheme */
+[data-md-color-scheme="default"] {
+    /* Primary = magic purple */
+    --md-primary-fg-color:        #5A2D82;  /* medium purple */
+    --md-primary-fg-color--light: #8B4DC0;  /* lighter */
+    --md-primary-fg-color--dark:  #35174D;  /* deep */
+
+    /* Accent = gold/yellow highlights */
+    --md-accent-fg-color:         #F9C74F;
+    --md-accent-fg-color--light:  #FFE08A;
+    --md-accent-fg-color--dark:   #D9A322;
+
+    /* Body background + surface tweaks if you want */
+    /* --md-default-bg-color: #f8f5ff; */
+
+    /* LINKS – make them pop */
+    --md-typeset-a-color:         #C58AFF;  /* link color in text */
+}
+
+/* Dark mode (slate) */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #2B123F;
+    --md-primary-fg-color--light: #5A2D82;
+    --md-primary-fg-color--dark:  #170821;
+
+    --md-accent-fg-color:         #F9C74F;
+    --md-accent-fg-color--light:  #FFE08A;
+    --md-accent-fg-color--dark:   #D9A322;
+
+    /* Dark background already handled by slate, but you can nudge it: */
+    /* --md-default-bg-color: #0E0614; */
+
+    --md-typeset-a-color:         #FFE08A;  /* gold links on dark */
+}
+
+/* Extra link styling (both schemes) */
+.md-typeset a {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+}
+
+.md-typeset a:hover,
+.md-typeset a:focus {
+    text-decoration-thickness: 0.14em;
+}
