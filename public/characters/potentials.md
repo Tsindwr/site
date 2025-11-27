@@ -10,7 +10,8 @@ aliases:
   - Domain
   - Domains
 ---
-# You have much potential, Adventurer
+# Potentials
+## You have much potential, Adventurer
 ###### Potential Scores
 
 Each creature is made up of a set of 8 scores called **Potentials**. Each of these Potentials represent a character's capacity to success relating to a given category. Potentials are split between Physical and Mental: Physical Potentials relate to a creature's bodily and physical capabilities, whereas Mental Potentials relate to a creature's intellectual and mental capabilities. The 8 different Potentials are as follows:
@@ -34,13 +35,10 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 >    ***Heart:*** A creature's ability to maintain spirit in the face of dread and navigating social exchanges is represented by its Heart score. This score determines a player's ability to convey messages nonverbally, haggle for a better price at the bazaar, or remain unfazed in the presence of horrific otherworldly entities.
 >     
 >    ***Tether:*** A creature's ability to keep ahold of their sanity and manipulate dark powers is represented by its Tether score. This score determines a player's ability to resist mental arcane assaults, grasp the nature of ancient dwoemers, and wield the energies of the universe. 
-# The meat and potatoes of gameplay
+## The meat and potatoes of gameplay
 ###### Skills
 
-When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[Resolution System|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be proficient in the roll. 
-
-Proficiency in Skills can be achieved with class features, background features, and racial features. When proficient in a skill, a creature rolls 1 additional Volatility Die when testing that specific Skill.
-
+When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be [[proficiencies|proficient]] in the roll. %%  %%
 > [!warning]- The Rule of Narrative Ease
 > During gameplay, there are many situations where taking action may not require a test of a character's ability, and can be resolved purely narratively. Be sure not to bog down the narrative flow with excessive Skill Tests, and allow players to tell the story they want to build.
 
@@ -53,7 +51,7 @@ Feat - *Pushing past natural capability, breaking limitation, taking heroic test
 ##### Finesse
 Sleight - *Moving stealthily, ranged accuracy, manual deftness*
 Grace - *Steadiness and balance, moving quickly*
-Squirm - *Escaping restraint, avoiding known incoming threats*
+Squirm - *Escaping restraint, avoiding anticipated threats*
 ##### Nerve
 Bear - *Resisting mundane damage, continuing unfettered*
 Steel - *Enduring constant onslaught, surviving strenuous circumstances*

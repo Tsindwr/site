@@ -3,13 +3,14 @@ tags:
   - ttrpg
   - rules
 ---
-# A Deterministic D20 System
+# Resolution System
+## A Deterministic D20 System
 
 The Sunder TTRPG system uses a D20 system that allows players to know the outcome of their role without asking the GM for its "success level." 
 
-All rolls in Sunder will fall under a **Test**. Tests are rolls made associated with a player's stats, or [[characters/Potentials and Proficiencies|Potentials]]. Each creature has assigned scores for each of its 8 Potentials. Each Potential has three subcategories called **Skills**. When initiating a Test in one of these Skills, a player must narrate and declare their goal for the outcome of this roll. 
+All rolls in Sunder will fall under a **Test**. Tests are rolls made associated with a player's stats, or [[potentials|Potentials]]. Each creature has assigned scores for each of its 8 Potentials. Each Potential has three subcategories called **Skills**. When initiating a Test in one of these Skills, a player must narrate and declare their goal for the outcome of this roll. 
 
-## Initial Success Levels
+### Initial Success Levels
 ###### *Potential and Resistance*
 
 **Success levels** determine the narrative outcome of a given Test. Success levels range from the following values:
@@ -17,11 +18,11 @@ All rolls in Sunder will fall under a **Test**. Tests are rolls made associated 
 1. **Miff**\*\* <span>&mdash;</span> the worst plausible outcome
 2. Fail* <span>&mdash;</span> a negative outcome according to the player's goal
 3. Mixed* <span>&mdash;</span> an outcome with positive and negative (or overall neutral) results regarding the player's goal.
-4. ==Success==* <span>&mdash;</span> a positive outcome according to the player's goal. (This result is NOT a base success level. See [[core/Volatility and Perks|Volatility and Perks]].)
+4. ==Success==* <span>&mdash;</span> a positive outcome according to the player's goal. (This result is NOT a base success level. See [[volatility-and-perks|Volatility]].)
 5. Success <span>&mdash;</span> a positive outcome according to the player's goal
 6. **Crit** <span>&mdash;</span> the best plausible outcome
 
-*\* Success levels with a caveat will involve some sort of cost related to the action taken. This can come in the form of physical retribution, equipment damage, mental repercussion, or narrative detriments (see [[core/Stress, Fallout, and Marks|Fallout]]).*
+*\* Success levels with a caveat will involve some sort of cost related to the action taken. This can come in the form of physical retribution, equipment damage, mental repercussion, or narrative detriments (see [[stress-fallout-and-marks|Fallout]]).*
 *\*\* A critical fail, or Miff is the opposite of a Crit; it has the equivalent of two caveats or costs, but your GM may choose to narrate a single, more catastrophic consequence.*
 
 Crits and miffs will always be final and determine the outcome of the initial roll (unless otherwise stated). Sunder uses a variant "Roll Under" system, so Crits occur when a 1 is rolled on the D20, and Miffs occur when a 20 is rolled on the D20.
@@ -45,7 +46,7 @@ $$
 
 ==Note:== When a player's Test results in a success level of 3 or below (Mixed, Fail, Miff), they gain a Beat. 
 
-## Modifying Success Levels
+### Modifying Success Levels
 ###### *Volatility*
 
 The **Volatility Die** is a special modifier to a Test roll, but only applies under certain conditions. In order to add a Volatility Die or Volatility Dice to a Test, a player must satisfy one or more of the following scenarios:
