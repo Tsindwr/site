@@ -59,9 +59,9 @@ plugins:
 nav:
   - The Essence of Truth: index.md
   - Rules:
-      - Rolling Dice: "core/resolution-system.md"
-      - Stress & Fallout: "core/stress-fallout-and-marks.md"
-      - Volatility Dice: "core/volatility-and-perks.md"
+      - Rolling Dice: core/resolution-system.md
+      - Stress & Fallout: core/stress-fallout-and-marks.md
+      - Volatility Dice: core/volatility-and-perks.md
   - Characters:
-      - Attributes: "characters/potentials-and-proficiencies.md"
+      - Attributes: characters/potentials-and-proficiencies.md
 #      - Experience: "characters/Experience Points.md"
