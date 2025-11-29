@@ -26,7 +26,11 @@ Deno.serve(async (req: Request) => {
     return new Response("Invalid JSON", { status: 400, headers: corsHeaders });
   }
 
-  const { quote, pagePath, sectionUrl, question, contact, userAgent, version } = body || {};
+  if (!body || typeof body !== "object") {
+    return new Response("Invalid request body", { status: 400, headers: corsHeaders });
+  }
+
+  const { quote, pagePath, sectionUrl, question, contact, userAgent, version } = body;
 
   if (!question || typeof question !== "string") {
     return new Response("Question is required", { status: 400, headers: corsHeaders });
