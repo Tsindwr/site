@@ -15,6 +15,8 @@
 
     /* LINKS – make them pop */
     --md-typeset-a-color:         #C58AFF;  /* link color in text */
+
+    --heading-typeset-h3-color: deepskyblue;
 }
 
 /* Dark mode (slate) */
@@ -31,6 +33,8 @@
     /* --md-default-bg-color: #0E0614; */
 
     --md-typeset-a-color:         #FFE08A;  /* gold links on dark */
+
+    --heading-typeset-h3-color: skyblue;
 }
 
 /* Extra link styling (both schemes) */
@@ -44,4 +48,173 @@
 .md-typeset a:hover,
 .md-typeset a:focus {
     text-decoration-thickness: 0.14em;
+}
+
+.sunder-heading {
+    color: var(--heading-typeset-h3-color);
+}
+
+.lore-subheading {
+    color: grey;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+/* === Footer customization === */
+
+.sunder-footer-extra {
+    padding: 0.3rem 0 0.6rem;
+    font-size: 0.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    background-color: #161616;
+    color: rgba(255, 255, 255, 0.7);
+    border-top-color: rgba(255, 255, 255, 0.12);
+}
+
+.sunder-footer-links {
+    display: flex;
+    margin: auto .6rem;
+    padding: .4rem 0;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sunder-footer-label {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+
+.sunder-footer-links a:hover,
+.sunder-footer-links a:focus {
+    color: var(--md-accent-fg-color)
+}
+
+/* === Issue form card === */
+
+.sunder-form-card {
+    max-width: 720px;
+    margin: 2rem auto 4rem;
+    padding: 2rem 2.5rem;
+    border-radius: 0.75rem;
+    background-color: var(--md-default-bg-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-md-color-scheme="slate"] .sunder-form-card {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7);
+    border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* Lead text under the heading */
+.sunder-form-lead {
+    margin-bottom: 1.75rem;
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color--lighter);
+}
+
+/* Layout + spacing */
+
+.sunder-form-row {
+    margin-bottom: 1.25rem;
+}
+
+.sunder-form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
+.sunder-form-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+/* Inputs */
+
+.sunder-input {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    background-color: var(--md-default-bg-color);
+    color: inherit;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.sunder-textarea {
+    min-height: 7.5rem;
+    resize: vertical;
+}
+
+.sunder-input:focus {
+    outline: none;
+    border-color: var(--md-accent-fg-color);
+    box-shadow:
+        0 0 0 1px var(--md-accent-fg-color),
+        0 0 0 4px rgba(96, 80, 146, 0.25);
+}
+
+/* Help text */
+
+.sunder-help-text {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--lighter);
+}
+
+/* Status line */
+
+.sunder-form-status {
+    font-size: 0.85rem;
+}
+
+/* Buttons */
+
+.sunder-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem 1.2rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+        background-color 0.12s ease-out,
+        box-shadow 0.12s ease-out,
+        transform 0.05s ease-out;
+}
+
+.sunder-btn-primary {
+    background: linear-gradient(135deg, #5b3aa6, #9d6bff);
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(59, 27, 119, 0.5);
+}
+
+.sunder-btn-primary:hover,
+.sunder-btn-primary:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(59, 27, 119, 0.65);
+}
+
+.sunder-btn-primary:active {
+    transform: translateY(0px);
+    box-shadow: 0 3px 10px rgba(59, 27, 119, 0.55);
+}
+
+/* Dark mode button tweaks */
+[data-md-color-scheme="slate"] .sunder-btn-primary {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
 }
