@@ -386,6 +386,10 @@
     function openQuestionModal() {
         if (!currentQuote) return;
 
+        // Save values before hidePopover clears them
+        const savedQuote = currentQuote;
+        const savedPagePath = currentPagePath;
+
         // Save the selection before opening modal
         const selection = window.getSelection();
         if (selection && selection.rangeCount > 0) {
@@ -393,7 +397,13 @@
         }
 
         currentSectionUrl = getSectionUrlFromSelection();
+        
+        // Hide the popover (this clears currentQuote and currentPagePath)
         hidePopover();
+        
+        // Restore the saved values for use in the modal
+        currentQuote = savedQuote;
+        currentPagePath = savedPagePath;
 
         const modal = createQuestionModal();
         
