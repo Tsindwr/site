@@ -27,6 +27,7 @@ theme:
     - navigation.expand
 
 extra:
+  sunder_version: "0.1.0" # overridden during GitHub Actions
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/woodsave03/tsindwr
