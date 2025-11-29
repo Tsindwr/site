@@ -23,6 +23,9 @@
 {# override the scripts block to add a global version variable #}
 {% block scripts %}
     {{ super() }}
+    <script>
+        window.SUNDER_BASE_URL = "{{ base_url }}";
+    </script>
     {% if config.extra.sunder_version %}
         <script>
             window.SUNDER_VERSION = "{{ config.extra.sunder_version }}";

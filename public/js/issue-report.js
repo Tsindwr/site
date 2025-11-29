@@ -5,15 +5,36 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!form) return;
 
     const statusElement = document.getElementById('issue-status');
+    const typeSelect = document.getElementById('issue-type');
+    const pageInput = document.getElementById('issue-page');
+    const descriptionInput = document.getElementById('issue-description');
+    const contactInput = document.getElementById('issue-contact');
+
+    // Pre-fill page URL if provided in query params
+    try {
+        const params = new URLSearchParams(window.location.search);
+        const quote = params.get("quote");
+        const page = params.get("page");
+
+        if (page && pageInput && !pageInput.value) {
+            pageInput.value = page;
+        }
+
+        if (quote && descriptionInput && !descriptionInput.value) {
+            descriptionInput.value = `"${quote}"\n\n[Please describe the issue here.]`;
+        }
+    } catch (_e) {
+        // Ignore URL parsing errors
+    }
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         if (!statusElement) return;
 
-        const type = document.getElementById('issue-type').value || 'unspecified';
-        const page = document.getElementById('issue-page').value.trim();
-        const description = document.getElementById('issue-description').value.trim();
-        const contact = document.getElementById('issue-contact').value.trim();
+        const type = typeSelect ? typeSelect.value || 'unspecified' : 'unspecified';
+        const page = pageInput ? pageInput.value.trim() : 'unspecified';
+        const description = descriptionInput ? descriptionInput.value.trim() : '';
+        const contact = contactInput ? contactInput.value.trim() : '';
 
         if (!description) {
             statusElement.textContent = 'Please describe the issue.';

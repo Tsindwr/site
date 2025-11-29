@@ -236,3 +236,57 @@
 [data-md-color-scheme="slate"] .sunder-btn-primary {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
 }
+
+/* === Highlight report popover === */
+
+.sunder-highlight-popover {
+    position: absolute;
+    z-index: 1000;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background-color: var(--md-default-bg-color);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.12s ease-out, transform 0.12s ease-out;
+    transform: translateY(-2px);
+}
+
+[data-md-color-scheme="slate"] .sunder-highlight-popover {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.sunder-highlight-popover .sunder-highlight-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(135deg, #5b3aa6, #9d6bff);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sunder-highlight-popover .sunder-highlight-btn i {
+    font-size: 0.9rem;
+}
+
+.sunder-highlight-popover .sunder-highlight.btn span {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+}
+
+.sunder-highlight-popover .sunder-highlight-btn:hover,
+.sunder-highlight-popover .sunder-highlight-btn:focus-visible {
+    filter: brightness(1.05);
+}
+
+/* Show state */
+#sunder-highlight-popover {
+    /* JS toggles opacity + pointer-events to show/hide */
+}

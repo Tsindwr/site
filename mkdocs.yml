@@ -63,9 +63,11 @@ extra_javascript:
   - js/math.js
   - js/issue-report.js
   - js/header-version.js
+  - js/highlight-popup.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
   - css/sunder-theme.css
 
 plugins:
