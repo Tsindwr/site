@@ -2,6 +2,7 @@ site_name: Sunder TTRPG
 site_url: https://woodsave03.github.io/tsindwr
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/sunder.png
   favicon: assets/favicon.ico
   font:
@@ -59,6 +60,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
   - js/math.js
+  - js/issue-report.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css

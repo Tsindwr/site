@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{# keep the default content behavior #}
+{% block content %}
+    {{ super() }}
+{% endblock %}
+
+{# extend the footer block to add your links #}
+{% block footer %}
+    {{ super() }}
+    <div class="sunder-footer-extra md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="sunder-footer-links">
+          <span class="sunder-footer-label">Sunder site</span>
+          <a href="{{ base_url }}/meta/about-sunder/">About</a>
+          <span>.</span>
+          <a href="{{ base_url }}/meta/report-issue/">Report an issue</a>
+        </div>
+      </div>
+    </div>
+{% endblock %}
