@@ -81,10 +81,10 @@ nav:
   - Ruleset:
       - Rolling Dice:
           - Resolution System: core/resolution-system.md
-          - Stress & Fallout: core/stress-fallout-and-marks.md
+          - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
       - Characters:
-          - Attributes: characters/potentials.md
-#      - Experience: "characters/Experience Points.md"
+          - Attributes: characters/potentials-and-resistance.md
+          - Experience: characters/experience.md"
   - Profile:
       - Preferences: profile/preferences.md

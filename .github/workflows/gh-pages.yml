@@ -32,6 +32,7 @@ jobs:
           python-version: '3.x'
 
       - name: Compute Sunder version from tags
+        id: version
         run: |
           # Find the latest semver-like tag (e.g., v0.1.0)
           TAG=$(git describe --tags --match "v[0-9]*.[0-9]*.[0-9]*" --abbrev=0)
@@ -52,7 +53,18 @@ jobs:
 
           sed -i "s/^\(\s*sunder_version:\s*\).*/\1\"${VERSION}\"/" mkdocs.yml
           grep "sunder_version:" mkdocs.yml
-          # TODO: add display to override of header
+          
+          # Expose values to later steps
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "tag_full=${TAG}" >> $GITHUB_OUTPUT
+          echo "tag_version=${BASE}" >> $GITHUB_OUTPUT
+          echo "tag_patch=${PATCH}" >> $GITHUB_OUTPUT
+          
+          if [ "$PATCH" -eq 0 ]; then
+            echo "announce_release=true" >> $GITHUB_OUTPUT
+          else
+            echo "announce_release=false" >> $GITHUB_OUTPUT
+          fi
 
       # Runs a single command using the runners shell
       - name: Install MkDocs and plugins
@@ -73,3 +85,22 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+
+      - name: Announce new release in Discord
+        if: steps.version.outputs.announce_release == 'true'
+        env:
+          SUPABASE_RELEASE_FUNCTION_URL: ${{ secrets.SUPABASE_RELEASE_FUNCTION_URL }}
+        run: |
+          TAG="${{ steps.version.outputs.tag_full }}"
+          NOTES_FILE="release-notes/${TAG}.json"
+          
+          if [ ! -f "$NOTES_FILE" ]; then
+            echo "No release notes file found for ${TAG} at ${NOTES_FILE}, skipping announcement."
+            exit 0
+          fi
+          
+          echo "Sending release notes from ${NOTES_FILE} to Supabas..."
+          
+          curl -sS -X POST "$SUPABASE_RELEASE_FUNCTION_URL" \
+            -H "Content-Type: application/json" \
+            -d @"$NOTES_FILE"

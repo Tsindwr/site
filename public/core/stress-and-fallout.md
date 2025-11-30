@@ -5,10 +5,8 @@ tags:
 aliases:
   - Stress
   - Fallout
-  - Mark
-  - Marks
 ---
-# Stress, Fallout, and Marks
+# Stress and Fallout
 ## Success Comes at a Price
 ###### Stress
 
@@ -36,7 +34,5 @@ Depending on the amount of Stress accumulated in a Potential track, different in
 3. Severe Fallout - result 6+ Stress applied
 
 Minor Fallout is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition or 1 Mark. Major Fallout can be a result of a Miff, and causes either a 3 Marks, Minor Condition with 1 Mark, or a Major Condition. Severe Fallout is the only Fallout intensity that can only be caused by class features, and often causes a Major Condition with 3 Marks or a number of Marks equal to the number of Stress points applied.
-## Got Healing?
-###### Marks
 
 [^1]: See [[volatility-and-perks|Jinx Thresholds, Volatility]].
