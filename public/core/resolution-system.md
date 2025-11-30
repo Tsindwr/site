@@ -72,6 +72,7 @@ Higher levels of riskiness will alter what is rolled in a player's Volatility Po
 | Risky     | -1 Volatility Die      |
 | Dire      | -2 Volatility Dice     |
 | Desperate | -3 Volatility Dice     |
+
 If the modifier would ever cause the Volatility Pool to be less than zero (-X), then roll X + 1 Volatility Dice, and take the lowest result instead of the highest.
 ###### Contests
 Rolls between players are not encouraged, as this is a came that supports the exploration of team relationships and mutual support. Instead, it is highly encouraged to resolve any inter-party conflict narratively. Be mindful of the story you want to tell in these situations, not just how your character feels.
