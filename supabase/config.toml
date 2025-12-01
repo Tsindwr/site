@@ -367,6 +367,11 @@ entrypoint = "./functions/report-bug/index.ts"
 # For example, if you want to serve static HTML pages in your function:
 # static_files = [ "./functions/report-bug/*.html" ]
 
+[functions.ask-question]
+enabled = true
+verify_jwt = true
+import_map = "./functions/ask-question/deno.json"
+entrypoint = "./functions/ask-question/index.ts"
 [functions.post-update]
 enabled = true
 verify_jwt = true

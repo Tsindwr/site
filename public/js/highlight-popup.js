@@ -1,7 +1,12 @@
 (function () {
     const POP_ID = 'sunder-highlight-popover';
+    const MODAL_ID = 'sunder-question-modal';
+    const QUESTION_API_URL = 'https://oqngifbqawctgqxgtxfl.supabase.co/functions/v1/ask-question';
+    
     let currentQuote = null;
     let currentPagePath = null;
+    let currentSectionUrl = null;
+    let savedSelection = null;
 
     function getDocsContainer(node) {
         // Ensure selection is inside the docs content, not in nav/header/footer
@@ -231,6 +236,7 @@
 
         pop.appendChild(createCopyButton());
         pop.appendChild(reportBtn);
+        pop.appendChild(createAskButton());
         pop.appendChild(createLinkButton());
         document.body.appendChild(pop);
         return pop;
@@ -245,6 +251,325 @@
 
         currentQuote = null;
         currentPagePath = null;
+        currentSectionUrl = null;
+    }
+
+    // ==================== Question Modal ====================
+
+    function createQuestionModal() {
+        let modal = document.getElementById(MODAL_ID);
+        if (modal) return modal;
+
+        modal = document.createElement("div");
+        modal.id = MODAL_ID;
+        modal.className = "sunder-question-modal";
+        modal.setAttribute("role", "dialog");
+        modal.setAttribute("aria-modal", "true");
+        modal.setAttribute("aria-labelledby", "sunder-question-title");
+
+        modal.innerHTML = `
+            <div class="sunder-question-modal-backdrop"></div>
+            <div class="sunder-question-modal-content" role="document">
+                <h2 id="sunder-question-title" class="sunder-question-modal-title">
+                    <i class="fa-solid fa-circle-question"></i>
+                    Ask a Question
+                </h2>
+                <button type="button" class="sunder-question-modal-close" aria-label="Close dialog">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                
+                <div class="sunder-question-form-row">
+                    <label>Quoted Text</label>
+                    <div class="sunder-question-quote-container">
+                        <blockquote id="sunder-question-quote" class="sunder-question-quote"></blockquote>
+                        <button type="button" id="sunder-question-expand-btn" class="sunder-question-expand-btn" style="display: none;">
+                            Show more
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="sunder-question-form-row">
+                    <label>Page</label>
+                    <div id="sunder-question-page" class="sunder-question-page"></div>
+                </div>
+                
+                <div class="sunder-question-form-row">
+                    <label for="sunder-question-text">Your Question <span class="sunder-required">*</span></label>
+                    <textarea 
+                        id="sunder-question-text" 
+                        class="sunder-input sunder-textarea"
+                        placeholder="What would you like to ask about this text?"
+                        required
+                    ></textarea>
+                </div>
+                
+                <div class="sunder-question-form-row">
+                    <label for="sunder-question-contact">Contact (optional)</label>
+                    <input 
+                        type="text" 
+                        id="sunder-question-contact" 
+                        class="sunder-input"
+                        placeholder="Discord tag, email, etc."
+                    />
+                    <div class="sunder-help-text">Optional: provide a way for us to follow up with you.</div>
+                </div>
+                
+                <div id="sunder-question-status" class="sunder-question-status"></div>
+                
+                <div class="sunder-question-modal-actions">
+                    <button type="button" id="sunder-question-cancel" class="sunder-btn sunder-btn-secondary">
+                        Cancel
+                    </button>
+                    <button type="button" id="sunder-question-submit" class="sunder-btn sunder-btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Send Question
+                    </button>
+                </div>
+            </div>
+        `;
+
+        document.body.appendChild(modal);
+
+        // Setup event listeners
+        const backdrop = modal.querySelector(".sunder-question-modal-backdrop");
+        const closeBtn = modal.querySelector(".sunder-question-modal-close");
+        const cancelBtn = modal.querySelector("#sunder-question-cancel");
+        const submitBtn = modal.querySelector("#sunder-question-submit");
+        const expandBtn = modal.querySelector("#sunder-question-expand-btn");
+
+        backdrop.addEventListener("click", closeQuestionModal);
+        closeBtn.addEventListener("click", closeQuestionModal);
+        cancelBtn.addEventListener("click", closeQuestionModal);
+        submitBtn.addEventListener("click", submitQuestion);
+
+        expandBtn.addEventListener("click", () => {
+            const quoteEl = modal.querySelector("#sunder-question-quote");
+            const isExpanded = quoteEl.classList.contains("expanded");
+            quoteEl.classList.toggle("expanded");
+            expandBtn.textContent = isExpanded ? "Show more" : "Show less";
+        });
+
+        // Keyboard handling
+        modal.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") {
+                closeQuestionModal();
+            }
+            // Focus trap
+            if (e.key === "Tab") {
+                trapFocus(e, modal);
+            }
+        });
+
+        return modal;
+    }
+
+    function trapFocus(e, modal) {
+        const focusableElements = modal.querySelectorAll(
+            'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        const firstEl = focusableElements[0];
+        const lastEl = focusableElements[focusableElements.length - 1];
+
+        if (e.shiftKey) {
+            if (document.activeElement === firstEl) {
+                lastEl.focus();
+                e.preventDefault();
+            }
+        } else {
+            if (document.activeElement === lastEl) {
+                firstEl.focus();
+                e.preventDefault();
+            }
+        }
+    }
+
+    function openQuestionModal() {
+        if (!currentQuote) return;
+
+        // Save values before hidePopover clears them
+        const savedQuote = currentQuote;
+        const savedPagePath = currentPagePath;
+
+        // Save the selection before opening modal
+        const selection = window.getSelection();
+        if (selection && selection.rangeCount > 0) {
+            savedSelection = selection.getRangeAt(0).cloneRange();
+        }
+
+        currentSectionUrl = getSectionUrlFromSelection();
+        
+        // Hide the popover (this clears currentQuote and currentPagePath)
+        hidePopover();
+        
+        // Restore the saved values for use in the modal
+        currentQuote = savedQuote;
+        currentPagePath = savedPagePath;
+
+        const modal = createQuestionModal();
+        
+        // Populate modal content
+        const quoteEl = modal.querySelector("#sunder-question-quote");
+        const pageEl = modal.querySelector("#sunder-question-page");
+        const expandBtn = modal.querySelector("#sunder-question-expand-btn");
+        const questionInput = modal.querySelector("#sunder-question-text");
+        const contactInput = modal.querySelector("#sunder-question-contact");
+        const statusEl = modal.querySelector("#sunder-question-status");
+
+        // Display quote (truncate if too long)
+        const truncateLength = 300;
+        if (currentQuote.length > truncateLength) {
+            quoteEl.textContent = currentQuote;
+            quoteEl.classList.remove("expanded");
+            expandBtn.style.display = "inline-block";
+            expandBtn.textContent = "Show more";
+        } else {
+            quoteEl.textContent = currentQuote;
+            quoteEl.classList.add("expanded");
+            expandBtn.style.display = "none";
+        }
+
+        pageEl.textContent = currentPagePath || window.location.pathname;
+        
+        // Reset form
+        questionInput.value = "";
+        contactInput.value = "";
+        statusEl.textContent = "";
+        statusEl.className = "sunder-question-status";
+
+        // Show modal
+        modal.classList.add("open");
+        document.body.style.overflow = "hidden";
+
+        // Focus the question textarea
+        setTimeout(() => {
+            questionInput.focus();
+        }, 100);
+    }
+
+    function closeQuestionModal() {
+        const modal = document.getElementById(MODAL_ID);
+        if (modal) {
+            modal.classList.remove("open");
+            document.body.style.overflow = "";
+        }
+
+        // Restore selection if possible
+        if (savedSelection) {
+            try {
+                const selection = window.getSelection();
+                selection.removeAllRanges();
+                selection.addRange(savedSelection);
+            } catch (_e) {
+                // Ignore if we can't restore selection
+            }
+            savedSelection = null;
+        }
+    }
+
+    async function submitQuestion() {
+        const modal = document.getElementById(MODAL_ID);
+        if (!modal) return;
+
+        const questionInput = modal.querySelector("#sunder-question-text");
+        const contactInput = modal.querySelector("#sunder-question-contact");
+        const statusEl = modal.querySelector("#sunder-question-status");
+        const submitBtn = modal.querySelector("#sunder-question-submit");
+
+        const questionText = questionInput.value.trim();
+
+        if (!questionText) {
+            statusEl.textContent = "Please enter your question.";
+            statusEl.className = "sunder-question-status sunder-question-status--error";
+            questionInput.focus();
+            return;
+        }
+
+        const payload = {
+            quote: currentQuote,
+            pagePath: currentPagePath || window.location.pathname,
+            sectionUrl: currentSectionUrl || window.location.href,
+            question: questionText,
+            contact: contactInput.value.trim() || null,
+            userAgent: navigator.userAgent,
+            version: window.SUNDER_VERSION || null,
+        };
+
+        statusEl.textContent = "Sending your question...";
+        statusEl.className = "sunder-question-status";
+        submitBtn.disabled = true;
+
+        try {
+            const res = await fetch(QUESTION_API_URL, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload),
+            });
+
+            if (!res.ok) {
+                throw new Error(`API error: ${res.status}`);
+            }
+
+            // Success
+            closeQuestionModal();
+            showToast("Your question has been sent to The Archivist.");
+        } catch (err) {
+            console.error("Failed to submit question:", err);
+            statusEl.textContent = "Something went wrong. Please try again later, or reach out directly on Discord.";
+            statusEl.className = "sunder-question-status sunder-question-status--error";
+        } finally {
+            submitBtn.disabled = false;
+        }
+    }
+
+    function showToast(message) {
+        // Remove existing toast if any
+        const existingToast = document.querySelector(".sunder-toast");
+        if (existingToast) {
+            existingToast.remove();
+        }
+
+        const toast = document.createElement("div");
+        toast.className = "sunder-toast";
+        toast.setAttribute("role", "status");
+        toast.setAttribute("aria-live", "polite");
+        toast.innerHTML = `
+            <i class="fa-solid fa-check-circle"></i>
+            <span>${message}</span>
+        `;
+
+        document.body.appendChild(toast);
+
+        // Trigger animation
+        setTimeout(() => {
+            toast.classList.add("visible");
+        }, 10);
+
+        // Remove after delay
+        setTimeout(() => {
+            toast.classList.remove("visible");
+            setTimeout(() => {
+                toast.remove();
+            }, 300);
+        }, 4000);
+    }
+
+    // ==================== Ask Button ====================
+
+    function createAskButton() {
+        const askBtn = document.createElement("button");
+        askBtn.type = "button";
+        askBtn.className = "sunder-highlight-btn sunder-highlight-btn--ask";
+        askBtn.title = "Ask a question about this text";
+
+        askBtn.innerHTML = `<i class="fa-solid fa-circle-question"></i>`;
+
+        askBtn.addEventListener("click", () => {
+            openQuestionModal();
+        });
+
+        return askBtn;
     }
 
     function showPopoverForSelection() {
@@ -308,7 +633,13 @@
     // Hide popover on scroll or clicking elsewhere
     document.addEventListener("mousedown", (e) => {
         const pop = document.getElementById(POP_ID);
+        const modal = document.getElementById(MODAL_ID);
+        
         if (!pop) return;
+        
+        // Don't hide popover if clicking inside the modal
+        if (modal && modal.contains(e.target)) return;
+        
         if (!pop.contains(e.target)) {
             // clicking outside popover - clear selection and hide
             const selection = window.getSelection();
