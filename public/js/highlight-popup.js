@@ -474,8 +474,10 @@
         const contactInput = modal.querySelector("#sunder-question-contact");
         const statusEl = modal.querySelector("#sunder-question-status");
         const submitBtn = modal.querySelector("#sunder-question-submit");
+        const quoteEl = modal.querySelector("#sunder-question-quote");
 
         const questionText = questionInput.value.trim();
+        const quoteText = quoteEl ? quoteEl.textContent.trim() : "";
 
         if (!questionText) {
             statusEl.textContent = "Please enter your question.";
@@ -484,8 +486,14 @@
             return;
         }
 
+        if (!quoteText) {
+            statusEl.textContent = "No quoted text found. Please re-select the text you want to ask about.";
+            statusEl.className = "sunder-question-status sunder-question-status--error";
+            return;
+        }
+
         const payload = {
-            quote: currentQuote,
+            quote: quoteText,
             pagePath: currentPagePath || window.location.pathname,
             sectionUrl: currentSectionUrl || window.location.href,
             question: questionText,
@@ -508,7 +516,9 @@
             });
 
             if (!res.ok) {
-                throw new Error(`API error: ${res.status}`);
+                const errorText = await res.text();
+                console.error("Ask-question API error:", res.status, errorText);
+                throw new Error(`API error: ${res.status} - ${errorText}`);
             }
 
             // Success
@@ -573,6 +583,11 @@
     }
 
     function showPopoverForSelection() {
+        const modal = document.getElementById(MODAL_ID);
+        if (modal && modal.classList.contains("open")) {
+            return;
+        }
+
         const selection = window.getSelection();
         if (!selection || selection.isCollapsed || selection.rangeCount === 0) {
             hidePopover();

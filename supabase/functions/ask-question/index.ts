@@ -48,7 +48,7 @@ Deno.serve(async (req: Request) => {
   const embed: Record<string, unknown> = {
     title: "New Sunder rules question",
     description: String(question).substring(0, 1024),
-    color: 0x5a2d82, // Sunder purple
+    color: 0xF9C74F, // Sunder purple
     fields: [
       { 
         name: "Quoted text", 
