@@ -521,3 +521,602 @@
 .sunder-toast i {
     font-size: 1.1em;
 }
+
+/* ============================================================
+   ABOUT PAGE STYLES
+   ============================================================ */
+
+.sunder-about-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* === Author Card === */
+
+.sunder-author-card {
+    background: linear-gradient(135deg, rgba(90, 45, 130, 0.08), rgba(90, 45, 130, 0.02));
+    border: 1px solid rgba(90, 45, 130, 0.15);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+[data-md-color-scheme="slate"] .sunder-author-card {
+    background: linear-gradient(135deg, rgba(90, 45, 130, 0.2), rgba(90, 45, 130, 0.1));
+    border-color: rgba(140, 100, 180, 0.25);
+}
+
+.sunder-author-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .sunder-author-header {
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+.sunder-author-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid var(--md-primary-fg-color);
+    box-shadow: 0 6px 20px rgba(90, 45, 130, 0.35);
+}
+
+.sunder-author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.sunder-author-name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-author-handle {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color--light);
+    font-family: "JetBrains Mono", monospace;
+}
+
+.sunder-author-bio {
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-author-bio p {
+    margin: 0;
+}
+
+/* === Button Group === */
+
+.sunder-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.sunder-btn i {
+    margin-right: 0.5rem;
+}
+
+.sunder-btn-accent {
+    background: linear-gradient(135deg, #F9C74F, #D9A322);
+    color: #1a1a1a;
+    box-shadow: 0 4px 12px rgba(249, 199, 79, 0.3);
+}
+
+.sunder-btn-accent:hover,
+.sunder-btn-accent:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(249, 199, 79, 0.45);
+}
+
+/* === Resume Section === */
+
+.sunder-resume-section {
+    margin-bottom: 1.5rem;
+}
+
+/* === Contact Links === */
+
+.sunder-contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.sunder-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(90, 45, 130, 0.1);
+    color: var(--md-primary-fg-color);
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: background-color 0.15s, color 0.15s, transform 0.15s;
+}
+
+.sunder-contact-btn:hover,
+.sunder-contact-btn:focus-visible {
+    background: var(--md-primary-fg-color);
+    color: #fff;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+[data-md-color-scheme="slate"] .sunder-contact-btn {
+    background: rgba(140, 100, 180, 0.2);
+}
+
+/* === Section Titles === */
+
+.sunder-section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-section-title i {
+    color: var(--md-primary-fg-color--light);
+}
+
+.sunder-section-desc {
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 1.5rem;
+}
+
+/* === Features History / Accordion === */
+
+.sunder-features-history {
+    margin-bottom: 2.5rem;
+}
+
+.sunder-accordion {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="slate"] .sunder-accordion {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.sunder-releases-loading {
+    padding: 2rem;
+    text-align: center;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-no-releases {
+    padding: 2rem;
+    text-align: center;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-accordion-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.sunder-accordion-item:last-child {
+    border-bottom: none;
+}
+
+[data-md-color-scheme="slate"] .sunder-accordion-item {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.sunder-accordion-highlight {
+    background: linear-gradient(90deg, rgba(249, 199, 79, 0.1), transparent);
+}
+
+[data-md-color-scheme="slate"] .sunder-accordion-highlight {
+    background: linear-gradient(90deg, rgba(249, 199, 79, 0.15), transparent);
+}
+
+.sunder-accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+    color: inherit;
+    transition: background-color 0.15s;
+}
+
+.sunder-accordion-header:hover {
+    background: rgba(90, 45, 130, 0.06);
+}
+
+[data-md-color-scheme="slate"] .sunder-accordion-header:hover {
+    background: rgba(140, 100, 180, 0.12);
+}
+
+.sunder-accordion-header:focus-visible {
+    outline: 2px solid var(--md-accent-fg-color);
+    outline-offset: -2px;
+}
+
+.sunder-accordion-header-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sunder-release-version {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "JetBrains Mono", monospace;
+    color: var(--md-primary-fg-color--light);
+}
+
+.sunder-release-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #F9C74F, #D9A322);
+    color: #1a1a1a;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.sunder-release-date {
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--lighter);
+}
+
+.sunder-accordion-icon {
+    transition: transform 0.2s;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-accordion-header[aria-expanded="true"] .sunder-accordion-icon {
+    transform: rotate(180deg);
+}
+
+.sunder-accordion-panel {
+    overflow: hidden;
+}
+
+.sunder-accordion-panel[hidden] {
+    display: none;
+}
+
+.sunder-accordion-content {
+    padding: 0 1.25rem 1.25rem;
+}
+
+.sunder-release-summary {
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color--light);
+    margin: 0 0 1rem;
+    line-height: 1.6;
+}
+
+.sunder-release-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.sunder-tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: rgba(90, 45, 130, 0.15);
+    color: var(--md-primary-fg-color);
+}
+
+.sunder-tag--feature {
+    background: rgba(52, 211, 153, 0.15);
+    color: #059669;
+}
+
+[data-md-color-scheme="slate"] .sunder-tag--feature {
+    background: rgba(52, 211, 153, 0.2);
+    color: #34d399;
+}
+
+.sunder-tag--bugfix {
+    background: rgba(248, 113, 113, 0.15);
+    color: #dc2626;
+}
+
+[data-md-color-scheme="slate"] .sunder-tag--bugfix {
+    background: rgba(248, 113, 113, 0.2);
+    color: #f87171;
+}
+
+.sunder-tag--performance {
+    background: rgba(96, 165, 250, 0.15);
+    color: #2563eb;
+}
+
+[data-md-color-scheme="slate"] .sunder-tag--performance {
+    background: rgba(96, 165, 250, 0.2);
+    color: #60a5fa;
+}
+
+.sunder-release-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sunder-release-section {
+    padding: 0.75rem 1rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--md-primary-fg-color--light);
+}
+
+[data-md-color-scheme="slate"] .sunder-release-section {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.sunder-release-section-title {
+    margin: 0 0 0.35rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-release-section-desc {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.5;
+}
+
+/* === Quick Links === */
+
+.sunder-quick-links {
+    margin-bottom: 2.5rem;
+}
+
+.sunder-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.sunder-link-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    border-radius: 0.75rem;
+    background: rgba(90, 45, 130, 0.06);
+    border: 1px solid rgba(90, 45, 130, 0.12);
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.15s, border-color 0.15s, transform 0.15s;
+}
+
+.sunder-link-card:hover,
+.sunder-link-card:focus-visible {
+    background: rgba(90, 45, 130, 0.12);
+    border-color: var(--md-primary-fg-color);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+[data-md-color-scheme="slate"] .sunder-link-card {
+    background: rgba(140, 100, 180, 0.1);
+    border-color: rgba(140, 100, 180, 0.2);
+}
+
+[data-md-color-scheme="slate"] .sunder-link-card:hover,
+[data-md-color-scheme="slate"] .sunder-link-card:focus-visible {
+    background: rgba(140, 100, 180, 0.18);
+}
+
+.sunder-link-card i {
+    font-size: 1.75rem;
+    color: var(--md-primary-fg-color--light);
+    margin-bottom: 0.75rem;
+}
+
+.sunder-link-title {
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+    margin-bottom: 0.25rem;
+}
+
+.sunder-link-desc {
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light);
+}
+
+/* ============================================================
+   GUIDES PAGE STYLES
+   ============================================================ */
+
+.sunder-guides-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sunder-guides-intro {
+    font-size: 1.05rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 2rem;
+}
+
+/* === Guides Navigation === */
+
+.sunder-guides-nav {
+    background: rgba(90, 45, 130, 0.06);
+    border: 1px solid rgba(90, 45, 130, 0.12);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+[data-md-color-scheme="slate"] .sunder-guides-nav {
+    background: rgba(140, 100, 180, 0.1);
+    border-color: rgba(140, 100, 180, 0.2);
+}
+
+.sunder-guides-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sunder-guides-list a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+.sunder-guides-list a i {
+    color: var(--md-primary-fg-color--light);
+}
+
+/* === Guide Cards === */
+
+.sunder-guide-card {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+[data-md-color-scheme="slate"] .sunder-guide-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* === Demo Hint === */
+
+.sunder-demo-hint {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgba(249, 199, 79, 0.1), rgba(249, 199, 79, 0.05));
+    border: 1px solid rgba(249, 199, 79, 0.3);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.sunder-demo-hint i {
+    color: #D9A322;
+    font-size: 1.25rem;
+}
+
+/* === Feature Items === */
+
+.sunder-guide-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.sunder-feature-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.sunder-feature-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 0.75rem;
+    background: linear-gradient(135deg, #5b3aa6, #9d6bff);
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.sunder-feature-content h4 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-feature-content p {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-feature-content p:last-child {
+    margin-bottom: 0;
+}
+
+.sunder-feature-tip {
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--lighter);
+    font-style: italic;
+}
+
+/* === Guides Footer === */
+
+.sunder-guides-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+[data-md-color-scheme="slate"] .sunder-guides-footer {
+    border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+.sunder-guides-footer p {
+    margin-bottom: 1rem;
+    color: var(--md-default-fg-color--light);
+}
