@@ -61,7 +61,7 @@ markdown_extensions:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
-  - https://esm.sh/@supabase/supabase-js@2
+  - https://unpkg.com/@supabase/supabase-js@2
   - js/auth.js
   - js/math.js
   - js/issue-report.js

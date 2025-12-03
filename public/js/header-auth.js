@@ -1,103 +1,103 @@
-import { supabase } from './auth.js';
-
-function $(id) {
-    return document.getElementById(id);
+function $(elementID) {
+    return document.getElementById(elementID);
 }
 
-const userButton = $('user-button');
-const userDropdown = $('user-dropdown');
-const loginButton = $('login-button');
-const logoutButton = $('logout-button');
-const bookmarksButton = $('bookmarks-button');
-const userAvatar = $('user-avatar');
-const userNameSpan = $('user-name');
+window.addEventListener("DOMContentLoaded", async () => {
+    const userButton = $('user-button');
+    const userDropdown = $('user-dropdown');
+    const loginButton = $('login-button');
+    const logoutButton = $('logout-button');
+    const bookmarksButton = $('bookmarks-button');
+    const userAvatar = $('user-avatar');
+    const userNameSpan = $('user-name');
 
-// Guard in case this runs on pages without header (build quirks)
-if (userButton && userDropdown) {
-    userButton.addEventListener('click', (e) => {
+    // If the header elements aren't present, nothing to do
+    if (!userButton || !userDropdown) return;
+
+    // --- Dropdown open/close ---
+
+    function toggleDropdown(e) {
         e.stopPropagation();
-        const isHidden = userDropdown.classList.contains('user-dropdown--hidden');
-        userDropdown.classList.toggle('user-dropdown--hidden', !isHidden);
-    });
+        userDropdown.classList.toggle('user-dropdown--hidden');
+    }
 
-    document.addEventListener('click', () => {
+    function closeDropdown() {
         userDropdown.classList.add('user-dropdown--hidden');
-    });
-}
-
-async function signInWithDiscord() {
-    const { error } = await supabase.auth.signInWithOAuth({
-        provider: 'discord',
-        options: {
-            redirectTo: window.location.origin // your docs root
-        }
-    });
-
-    if (error) {
-        console.error('Discord login error', error);
-        alert('Failed to sign in with Discord.');
     }
-}
 
-async function signOut() {
-    const { error } = await supabase.auth.signOut();
-    if (error) {
-        console.error('Sign out error', error);
-    }
-}
+    userButton.addEventListener('click', toggleDropdown);
+    document.addEventListener('click', closeDropdown);
+    userDropdown.addEventListener('click', (e) => e.stopPropagation());
 
-if (loginButton) {
-    loginButton.addEventListener('click', () => {
-        signInWithDiscord();
-    });
-}
+    // --- Auth wiring ---
 
-if (logoutButton) {
-    logoutButton.addEventListener('click', () => {
-        signOut();
-    });
-}
+    const auth = (window.sunder && window.sunder.auth) || null;
 
-if (bookmarksButton) {
-    bookmarksButton.addEventListener('click', () => {
-        window.location.href = '/meta/bookmarks/';
-    });
-}
-
-function updateUserUI(user) {
-    if (!user) {
-        if (userAvatar) userAvatar.src = 'public/assets/default-avatar.svg';
-        if (userNameSpan) userNameSpan.textContent = 'Guest';
+    function setLoggedOutUI() {
+        if (userAvatar) userAvatar.src = 'assets/favicon/sunder-logo.png';
+        if (userNameSpan) userNameSpan.textContent = 'Profile';
 
         if (loginButton) loginButton.style.display = 'block';
+        if (bookmarksButton) bookmarksButton.style.display = 'none';
+        if (logoutButton) logoutButton.style.display = 'none';
+    }
+
+    function setUserUI(user) {
+        if (!user) {
+            setLoggedOutUI();
+            return;
+        }
+
+        const meta = user.user_metadata || {};
+        const name = meta.full_name || meta.name || meta.user_name || "Discord User";
+        const avatar = meta.avatar_url || "assets/favicon/sunder-logo.png";
+
+        if (userAvatar) userAvatar.src = avatar;
+        if (userNameSpan) userNameSpan.textContent = name;
+
+        if (loginButton) loginButton.style.display = 'none';
+        if (bookmarksButton) bookmarksButton.style.display = 'block';
+        if (logoutButton) logoutButton.style.display = 'block';
+    }
+
+    // If auth isn't ready, just show a dummy profile badge
+    if (!auth || !auth.getCurrentUser) {
+        setLoggedOutUI();
+        if (loginButton) loginButton.style.display = 'none';
         if (bookmarksButton) bookmarksButton.style.display = 'none';
         if (logoutButton) logoutButton.style.display = 'none';
         return;
     }
 
-    const meta = user.user_metadata || {};
-    const displayName = meta.full_name || meta.name || meta.user_name || 'Discord User';
-    const avatarUrl = meta.avatar_url || '/images/default-avatar.svg';
+    // Initial user
+    const user = await auth.getCurrentUser();
+    setUserUI(user);
 
-    if (userAvatar) userAvatar.src = avatarUrl;
-    if (userNameSpan) userNameSpan.textContent = displayName;
-
-    if (loginButton) loginButton.style.display = 'none';
-    if (bookmarksButton) bookmarksButton.style.display = 'block';
-    if (logoutButton) logoutButton.style.display = 'none';
-}
-
-// Initial state on page load
-(async () => {
-    if (!supabase) return;
-
-    const { data, error } = await supabase.auth.getUser();
-    if (error) {
-        console.warn('getUser error', error);
+    // Subscribe to future changes
+    if (auth.onAuthStateChange) {
+        auth.onAuthStateChange(setUserUI);
     }
-    updateUserUI(data?.user ?? null);
 
-    supabase.auth.onAuthStateChange((_event, session) => {
-        updateUserUI(session?.user ?? null);
-    });
-})();
+    // Button handlers
+    if (loginButton) {
+        loginButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            await auth.requireUserOrLogin();
+        });
+    }
+
+    if (logoutButton) {
+        logoutButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            await auth.signOut();
+            setLoggedOutUI();
+        });
+    }
+
+    if (bookmarksButton) {
+        bookmarksButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            window.location.href = "meta/bookmarks/";
+        });
+    }
+});
