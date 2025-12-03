@@ -1,0 +1,78 @@
+{# overrides/partials/header.html #}
+{% import "partials/language.html" as lang with context %}
+
+<header class="md-header" data-md-component="header">
+    <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+        {# --- Logo / home link --- #}
+        <a href="{{ config.site_url | default(nav.homepage.url, true) | url }}"
+           title="{{ config.site_name }}"
+           class="md-header__button md-logo"
+           aria-label="{{ config.site_name }}">
+            {% include "partials/logo.html" %}
+        </a>
+
+        {# --- Site title & current page title --- #}
+        {% if config.site_name %}
+        <div class="md-header__title" data-md-component="header-title">
+            <div class="md-header__ellipsis">
+                <div class="md-header__topic">
+            <span class="md-ellipsis">
+              {{ config.site_name }}
+            </span>
+                </div>
+                <div class="md-header__topic" data-md-component="header-topic">
+                    <span class="md-ellipsis"></span>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {# --- Header options: search, palette, repo/source, user menu --- #}
+        <div class="md-header__options">
+
+            {# Search bar – keep always, it's fine even if search plugin is off #}
+            {% include "partials/search.html" %}
+
+            {# Color palette / light–dark toggle #}
+            {% include "partials/palette.html" %}
+
+            {# Git repo/source (will only render if repo_url is set later) #}
+            {% if config.repo_url %}
+            <div class="md-header__source">
+                {% include "partials/source.html" %}
+            </div>
+            {% endif %}
+
+            {# --- Custom user menu (auth + bookmarks) --- #}
+            <div class="md-header__button user-menu">
+                <button id="user-button"
+                        class="user-button"
+                        type="button"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                    <img id="user-avatar" class="user-avatar" alt="Profile" />
+                    <span id="user-name" class="user-name"></span>
+                    <span class="user-chevron">▾</span>
+                </button>
+
+                <div id="user-dropdown" class="user-dropdown user-dropdown--hidden">
+                    <button id="login-button" class="user-dropdown__item" type="button">
+                        Discord Login
+                    </button>
+                    <button id="bookmarks-button" class="user-dropdown__item" type="button">
+                        Bookmarks
+                    </button>
+                    <button id="logout-button" class="user-dropdown__item" type="button">
+                        Log out
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        {# --- Drawer toggle (mobile nav hamburger) --- #}
+        <label class="md-header__button md-icon" for="__drawer">
+            {% include ".icons/material/menu.svg" %}
+        </label>
+    </nav>
+</header>

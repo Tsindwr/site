@@ -38,7 +38,7 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 ## The meat and potatoes of gameplay
 ###### Skills
 
-When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be [[proficiencies|proficient]] in the roll. 
+When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be proficient in the roll. 
 
 Here is the list of Skills organized by their parent Potential:
 ##### Might
@@ -79,6 +79,6 @@ Some abilities or perks may call for expending a Resistance point. Each Potentia
 
 In the example below, a player has 5 Stress points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by Stress), and if they take any additional Stress, it will trigger Fallout since, the player cannot hold any more Stress (the slots are taken by Resistance Drain).
 
-![[potential-resistance-example.png]]
+![[../assets/potential-resistance-example.png]]
 
 [^1]: See Sunder's [[resolution-system|Resolution System]]
