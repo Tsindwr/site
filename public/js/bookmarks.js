@@ -57,14 +57,26 @@ window.sunder.bookmarks = (function () {
     }
 
     async function deleteBookmark(id) {
-        if (!supabase || !auth) return;
+        console.log("Deleting bookmark", id);
+        if (!supabase || !auth) {
+            console.warn("Supabase or auth not available for deleting bookmark.");
+            return;
+        }
         const user = await auth.requireUserOrLogin();
-        if (!user) return;
+        if (!user) {
+            console.warn("No user logged in for deleting bookmark.");
+            return;
+        }
 
-        const { error } = await supabase
+        const { data, error } = await supabase
             .from("bookmarks")
             .delete()
-            .eq("id", id);
+            .eq("id", id)
+            .eq("user_id", user.id)
+            .select("id");
+
+        console.log("Deleted bookmarks:", data);
+
         if (error) {
             console.error("Error deleting bookmark:", error);
             alert("Failed to delete bookmark.");
