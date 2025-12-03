@@ -29,7 +29,7 @@ A Volatility die's **jinx threshold** is determined by the amount of Stress a pl
 ## Perks of the Profession
 ###### Perks
 
-**Perks** allow all players, including the GM, to level up their Volatility rolls and tips the odds in their favor. Perks give Volatility results a secondary effect, which can turn the tides in an integral Test. Perks are bought using the [[Experience Points]] system, oftentimes only costing a few [[Experience Points|Beats]] (these are low-cost abilities).
+**Perks** allow all players, including the GM, to level up their Volatility rolls and tips the odds in their favor. Perks give Volatility results a secondary effect, which can turn the tides in an integral Test. Perks are bought using the [[experience|Experience Points]] system, oftentimes only costing a few [[experience|Beats]] (these are low-cost abilities).
 
 A Perk can be assigned to a specific slot on a Volatility die. A slot is any number on the Volatility die that is neither its maximum or minimum value. Assigning a Perk to a slot, moving a Perk to a new slot, or swapping two assigned Perks requires spending 1 Beat. A creature can only assign Perks to slots that are equal to their Potential score or lower.
 

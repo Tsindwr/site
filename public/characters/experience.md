@@ -1,19 +1,17 @@
 # Experience Points
 ## Narrative Beats and Where to Find Them
 
-Experience Points are divided into four denominations: **Beats**, **Threads**, **Milestones**, and **Zeniths**. 
+Experience Points are divided into four denominations: **Beats**, **Threads**, **Milestones**, and **Zeniths**.
+
 $$
-10 \text{ Beats} = 1 \text{ Thread}
+10\,\mathrm{Beats} = 1\,\mathrm{Thread} \\
+10\,\mathrm{Threads} = 1\,\mathrm{Milestone} \\
+10\,\mathrm{Milestones} = 1\,\mathrm{Zenith}
 $$
-$$
-10 \text{ Threads} = 1 \text{ Milestone}
-$$
-$$
-10 \text{ Milestones} = 1 \text{ Zenith}
-$$
+
 Beats are the smallest Experience Point, and can be earned just by rolling Tests. When a Test's overall result is a success level of Mixed, Fail, or Miff, the player gains a Beat. These are most commonly used for Volatility Perks[^1].
 
-Threads are the next smallest Experience Point. Oftentimes Threads are accumulated when the party levels up using the [[Spirit Dice]] system. Threads are used for purchasing minor character features and abilities.
+Threads are the next smallest Experience Point. Oftentimes Threads are accumulated when the party levels up using the **Spirit Dice**[^2] system. Threads are used for purchasing minor character features and abilities.
 
 Milestones and Zeniths represent major and concluding steps in a hero's arc or progression. These are used to gain powerful abilities that define a character's archetype.
 ### Character Goals
@@ -27,3 +25,4 @@ Major goals are often specific to a character, and can only be completed once. T
 Heroic goals are often game-changing scenarios, a character would be lucky to complete more than one on their hero's journey. These goals grant a Zenith, the highest level of Experience Point. Oftentimes heroic goals represent the ending of a chapter of a campaign's arc, and can consist of eradicating the influence of a risen-again lich king, banishing an eldritch entity from the Material Plane, or awakening a dead god.
 
 [^1]: See [[volatility-and-perks#Perks|Perks]].
+[^2]: To be detailed in a future update.
