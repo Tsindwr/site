@@ -1,0 +1,95 @@
+/* Align with Material header styling */
+.user-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+}
+
+.user-button:hover {
+    background-color: var(--md-primary-fg-color--transparent, rgba(255, 255, 255, 0.06));
+}
+
+.user-avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    object-fit: cover;
+    background: #222;
+}
+
+.user-name {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--md-default-bg-color);
+}
+
+.user-chevron {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    color: var(--md-default-bg-color);
+}
+
+.user-avatar {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+/* Dropdown */
+.user-dropdown {
+    position: absolute;
+    right: 0;
+    top: 120%;
+    min-width: 180px;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    border-radius: 0.5rem;
+    /*padding: 0.25rem 0;*/
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.user-dropdown--hidden {
+    display: none;
+}
+
+.user-dropdown__item {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-size: 0.85rem;
+
+    border-radius: 0.5rem;
+}
+
+/* Sunder Gold/Purple accents on hover */
+.user-dropdown__item:hover {
+    background-color: rgba(255, 215, 0, 0.68); /* Sunder Gold-ish highlight */
+    border-left: 5px solid #ffd700;
+}
+
+/* ===== Header alterations to incorporate profile styling ===== */
+
+.md-header__options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
