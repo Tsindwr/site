@@ -31,6 +31,9 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
       - name: Compute Sunder version from tags
         id: version
         run: |
