@@ -10,6 +10,9 @@
     --md-accent-fg-color--light:  #FFE08A;
     --md-accent-fg-color--dark:   #D9A322;
 
+    --md-h2-color: goldenrod;
+    --md-h3-color: rgb(199, 139, 56);
+
     /* Body background + surface tweaks if you want */
     /* --md-default-bg-color: #f8f5ff; */
 
@@ -29,6 +32,9 @@
     --md-accent-fg-color--light:  #FFE08A;
     --md-accent-fg-color--dark:   #D9A322;
 
+    --md-h2-color: darkgoldenrod;
+    --md-h3-color: rgb(174, 114, 21);
+
     /* Dark background already handled by slate, but you can nudge it: */
     /* --md-default-bg-color: #0E0614; */
 
@@ -44,6 +50,14 @@
     text-decoration: underline;
     text-decoration-thickness: 0.08em;
     text-underline-offset: 0.18em;
+}
+
+h2 {
+    color: var(--md-h2-color);
+}
+
+h3 {
+    color: var(--md-h3-color);
 }
 
 .md-typeset a:hover,

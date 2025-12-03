@@ -25,6 +25,7 @@ theme:
     - content.code.copy
     - navigation.tabs
     - navigation.expand
+    - header.autohide
 
 extra:
   sunder_version: "0.1.0" # overridden during GitHub Actions
@@ -60,8 +61,12 @@ markdown_extensions:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - https://unpkg.com/@supabase/supabase-js@2
+  - js/auth.js
+  - js/bookmarks.js
   - js/math.js
   - js/issue-report.js
+  - js/header-auth.js
   - js/header-version.js
   - js/highlight-popup.js
 
@@ -69,6 +74,8 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
   - css/sunder-theme.css
+  - css/bookmarks.css
+  - css/header-auth.css
 
 plugins:
   - search
