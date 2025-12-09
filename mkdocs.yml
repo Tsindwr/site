@@ -90,8 +90,12 @@ nav:
           - Resolution System: core/resolution-system.md
           - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
+          - Proficiency: core/proficiencies.md
       - Characters:
           - Attributes: characters/potentials-and-resistance.md
+          - Backstory: characters/origin.md
           - Experience: characters/experience.md
+      - Campaigns:
+          - Spirit Tokens: campaigns/spirit-tokens.md
   - Profile:
       - Preferences: profile/preferences.md
