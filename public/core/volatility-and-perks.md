@@ -67,3 +67,7 @@ Perks' effects activate after a player has rolled their Volatility Pool and choo
 | 5    | Fracture | When activating this Perk while its slot is in the jinx threshold, its result is considered the lowest value on the Die. Otherwise, it is considered the highest value. |
 
 [^1]: See [[stress-and-fallout|Fallout]]. Once Fallout is triggered, that Potential's Stress track is reset to 0.
+
+%%
+![[Pasted image 20251207132125.jpg]]
+%%

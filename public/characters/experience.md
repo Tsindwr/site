@@ -1,24 +1,24 @@
 # Experience Points
 ## Narrative Beats and Where to Find Them
 
-Experience Points are divided into four denominations: **Beats**, **Threads**, **Milestones**, and **Zeniths**.
+Experience Points are divided into four denominations: **Beats**, **Strings**, **Milestones**, and **Zeniths**.
 
 $$
-10\,\mathrm{Beats} = 1\,\mathrm{Thread} \\
-10\,\mathrm{Threads} = 1\,\mathrm{Milestone} \\
+10\,\mathrm{Beats} = 1\,\mathrm{String} \\
+10\,\mathrm{Strings} = 1\,\mathrm{Milestone} \\
 10\,\mathrm{Milestones} = 1\,\mathrm{Zenith}
 $$
 
 Beats are the smallest Experience Point, and can be earned just by rolling Tests. When a Test's overall result is a success level of Mixed, Fail, or Miff, the player gains a Beat. These are most commonly used for Volatility Perks[^1].
 
-Threads are the next smallest Experience Point. Oftentimes Threads are accumulated when the party levels up using the **Spirit Dice**[^2] system. Threads are used for purchasing minor character features and abilities.
+Strings are the next smallest Experience Point. Oftentimes Strings are accumulated when the party levels up using the **Spirit Dice**[^2] system. Strings are used for purchasing minor character features and abilities.
 
 Milestones and Zeniths represent major and concluding steps in a hero's arc or progression. These are used to gain powerful abilities that define a character's archetype.
 ### Character Goals
 
-Some Experience Points can only be achieved through narrative action. When choosing a character's archetype, a player will need to establish a list of goals that will grant either a Thread, a Milestone, or a Zenith upon completion.
+Some Experience Points can only be achieved through narrative action. When choosing a character's archetype, a player will need to establish a list of goals that will grant either a String, a Milestone, or a Zenith upon completion.
 
-Minor goals are often repeatable, and grant a Thread upon completion. This should be something within the lines of saving a certain type of community, conducting a sacrificial ritual on a foe that killed someone you know, or discover an ancient dwoemer from the Drakonic Age.
+Minor goals are often repeatable, and grant a String upon completion. This should be something within the lines of saving a certain type of community, conducting a sacrificial ritual on a foe that killed someone you know, or discover an ancient dwoemer from the Drakonic Age.
 
 Major goals are often specific to a character, and can only be completed once. These goals grant a Milestone, and should be worthy of one by assigning tasks such as slaying the wizard who killed your parents, making amends with someone you betrayed and have long since abandoned, or undergo an enchantment to absorb the power of a primordial artifact.
 
@@ -26,3 +26,8 @@ Heroic goals are often game-changing scenarios, a character would be lucky to co
 
 [^1]: See [[volatility-and-perks#Perks|Perks]].
 [^2]: To be detailed in a future update.
+
+
+%%
+![[Pasted image 20251207132151.jpg]]
+%%

@@ -38,7 +38,7 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 ## The meat and potatoes of gameplay
 ###### Skills
 
-When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be proficient in the roll. 
+When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be [[proficiencies|proficient]] in the roll. 
 
 Here is the list of Skills organized by their parent Potential:
 ##### Might
