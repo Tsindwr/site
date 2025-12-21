@@ -679,8 +679,8 @@ window.sunder = window.sunder || {};
         currentPagePath = getPagePath();
 
         const pop = createPopover();
-        const scrollX = window.scrollY || document.documentElement.scrollTop;
-        const scrollY = window.scrollX || document.documentElement.scrollLeft;
+        const scrollX = window.scrollX || document.documentElement.scrollLeft;
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
 
         const top = rect.top + scrollY - pop.offsetHeight - 8;
         const left = rect.left + scrollX + rect.width / 2 - pop.offsetWidth / 2;
