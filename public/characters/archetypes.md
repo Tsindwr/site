@@ -28,7 +28,11 @@ Provided below is a list of short explanations for each archetype. While these a
 
 **Summoners** use magic to bring physical manifestations into Umbrea for both battle and everyday tasks. These adventurers augment their battlestyle with magic to bring physical attacks, sometimes even enhancing their own bodies. Many Artificers, Druids, Monks, and Mystics fall under the summoner archetype.
 
-**Control** archetype adventurers focus on influencing others both on and off the field. 
+**Control** archetype adventurers focus on orchestrating the actions and surroundings of others in battle. These characters can create widespread magical effects to alter the battlefield, make snap decisions to maneuver allies in the fray, or overpower the will of enemies and use their strength to the enchanter's advantage. Many Druids, Fighters, Mystics, and Wizards fall under the control archetype.
+
+**Faces** of the party excel in weaving words and reading people to anticipate and influence others' actions. They specialize in inspiring allies to find the confidence to succeed, analyzing the habits and fighting style of enemies to locate weaknesses, or charming their way into otherwise inaccessible corners of society. Many Bards, Monks, Rogues, and Warlocks fall under this archetype.
+
+**Saboteurs** are the shadows in the night and 
 
 %%
 ![[Pasted image 20251207133932.jpg]]
