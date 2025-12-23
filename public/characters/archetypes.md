@@ -28,7 +28,7 @@ Provided below is a list of short explanations for each archetype. While these a
 
 **Summoners** use magic to bring physical manifestations into Umbrea for both battle and everyday tasks. These adventurers augment their battlestyle with magic to bring physical attacks, sometimes even enhancing their own bodies. Many Artificers, Druids, Monks, and Mystics fall under the summoner archetype.
 
-**Control** archetype adventurers focus on influencing others both on and off the field. 
+**Control** archetype adventurers focus on influencing others both on and off the field.
 
 %%
 ![[Pasted image 20251207133932.jpg]]
