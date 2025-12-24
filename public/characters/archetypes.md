@@ -32,7 +32,7 @@ Provided below is a list of short explanations for each archetype. While these a
 
 **Faces** of the party excel in weaving words and reading people to anticipate and influence others' actions. They specialize in inspiring allies to find the confidence to succeed, analyzing the habits and fighting style of enemies to locate weaknesses, or charming their way into otherwise inaccessible corners of society. Many Bards, Monks, Rogues, and Warlocks fall under this archetype.
 
-**Saboteurs** are the shadows in the night and 
+**Saboteurs** are the shadows in the night and the knife in the dark. 
 
 %%
 ![[Pasted image 20251207133932.jpg]]
