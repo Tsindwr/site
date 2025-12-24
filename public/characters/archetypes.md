@@ -34,7 +34,7 @@ Provided below is a list of short explanations for each archetype. While these a
 
 **Saboteurs** are the shadows in the night and the knife in the dark. These are the sneak-thieves, the discreet watchers, and the cunning deliverers of impairment who may focus on catching enemies by surprise, creating new and innovative methods of incapacitating others, or obtaining magic for both concealment and sabotage. Many Artificers, Rangers, Rogues, and Sorcerers tend to fall into this archetype.
 
-**Support** characters are those who work best from the sidelines, both relying on their allies to reach their goal and being relied on to prop up said allies.
+**Support** characters are those who work best from the sidelines, both relying on their allies to reach their goal and being relied on to prop up said allies. These adventurers are notoriously versatile, and may focus anywhere between providing expertise in various skills and trades, presenting a knack for quick but minor battlefield triage, or even enhancing their allies with performance-based dwoemers. Artificers, Bards, Rangers, and Rogues tend to fall into this category.
 
 **Frontliners**
 
