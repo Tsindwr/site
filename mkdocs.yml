@@ -93,6 +93,7 @@ nav:
           - Proficiency: core/proficiencies.md
       - Characters:
           - Attributes: characters/potentials-and-resistance.md
+          - Archetypes: characters/archetypes.md
           - Backstory: characters/origin.md
           - Experience: characters/experience.md
       - Campaigns:

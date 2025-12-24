@@ -5,8 +5,9 @@ In Sunder, it is difficult to define “classes” as one may in a general TTRPG
 
 These categories are called Archetypes, which start an adventurer off with a few abilities and features. One primary attribute they contribute to is an adventurer’s Mark pool. The 10 main archetypes and their respective base Marks value are as follows:
 
+
 | Archetype    | Marks |
-| ———— | —— |
+| ------------ | ----- |
 | Spellslinger | 2     |
 | Summoner     | 2     |
 | Control      | 3     |
@@ -17,7 +18,6 @@ These categories are called Archetypes, which start an adventurer off with a few
 | Halfcaster   | 5     |
 | Healer       | 6     |
 | Tank         | 6     |
-
 Archetypes’ Marks values are balanced with the starting amount of [[experience|Strings]] they are allowed at character creation.
 
 ### Archetype Descriptions
@@ -36,14 +36,10 @@ Provided below is a list of short explanations for each archetype. While these a
 
 **Support** characters are those who work best from the sidelines, both relying on their allies to reach their goal and being relied on to prop up said allies. These adventurers are notoriously versatile, and may focus anywhere between providing expertise in various skills and trades, presenting a knack for quick but minor battlefield triage, or even enhancing their allies with performance-based dwoemers. Artificers, Bards, Rangers, and Rogues tend to fall into this category.
 
-**Frontliners**
+**Frontliners** are the daring adventurers who face their tasks head-on, often with heavy training or combat magic to assist them. To do so, these characters either train rigorously under a certain fighting style, unlock secret mystical potentials through deep meditation and discipline, or master fusing physical combat with simple arcane enchantments. Artificers, Fighters, Monks, and Rangers are often considered as part of this category.
 
-**Halfcasters**
+**Halfcasters** dip into both worlds: physical combat and spell-slinging alike. These adventurers are able to focus on spells that both enhance one’s power and bolster one’s well-being while also boasting expertise in weapons and physical activity. Halfcasters may pluck from other archetypes’ specialties, such as a summoner-support-type who channels psionic energy for both protective barriers and restorative spells. Many Artificers, Mystics, Paladins, and Rangers fall under this category.
 
-**Healers**
+**Healers** are the epitome of adventuring safety, and specialize in warding and restorative magicks. This can range from attuned channelers of nature who use the world’s flow of life force to jumpstart a creature’s healing, to researchers of the humanoid body that can utilize tools and salves to enhance one’s performance, to unnatural wielders of alien magicks that can reanimate the dead and create strange prosthetics by combining limbs from other creatures. Healers can often present as Clerics, Druids, Warlocks, and Wizards.
 
-**Tanks**
-
-%%
-![[Pasted image 20251207133932.jpg]]
-%%
+**Tanks** are the defensive line in any adventuring party: always happy to take a hit for their friends. Tanks come in many varieties: whether they are armor-laden bulwarks, steel-nerved berserkers, or biologically-enhanced beings of extraordinary absorptive constitution. Many Barbarians, Fighters, Paladins, and Sorcerers fall under this archetype.
