@@ -91,10 +91,9 @@ nav:
           - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
       - Characters:
-          - Attributes: characters/potentials-and-resistance.md
           - Archetypes: characters/archetypes.md
+          - Attributes: characters/potentials-and-resistance.md
           - Backstory: characters/origin.md
-          - Classes: characters/archetypes.md
           - Experience: characters/experience.md
           - Proficiency: characters/proficiencies.md
       - Campaigns:
