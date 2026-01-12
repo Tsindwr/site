@@ -7,7 +7,7 @@ Throughout the events of an adventurer's career there are plenty of opportunitie
 
 Damage in Sunder is a raw measurement of an attack’s power. This is the value rolled initially for the effects of an attack or ability. When damage is taken, the resolution flow goes as follows:
 
-1. Reduce any damage due to any Proofs[^1].
+1. Reduce any damage due to any Proofs.
 2. Convert to Stress (see below).
 3. Apply the Stress to the relevant Potential Track.
 4. Resolve any Fallout on an overflow.
