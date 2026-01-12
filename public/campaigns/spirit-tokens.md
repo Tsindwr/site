@@ -9,9 +9,9 @@ Levelling up a party requires a certain amount of story points. This number is d
 
 $$
 U=(2N+NL) \\
-U=\mathrm{level-up requirement} \\
-L=\mathrm{current party level (minimum of 1)} \\
-N-\mathrm{number of players}
+U=\mathrm{level-up~requirement} \\
+L=\mathrm{current~party~level~(minimum~of~1)} \\
+N-\mathrm{number~of~players}
 $$
 
 
@@ -23,8 +23,8 @@ There are checkpoints in each leveling track at indices that satisfy the conditi
 
 $$
 u\mod{(L+4)}=0 \\
-L = \mathrm{current party level (minimum of 1)} \\
-u = \mathrm{current amount of story points}
+L = \mathrm{current~party~level~(minimum~of~1)} \\
+u = \mathrm{current~amount~of~story~points}
 $$
 
 *Note: index at 1.*
