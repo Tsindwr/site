@@ -90,13 +90,18 @@ nav:
           - Resolution System: core/resolution-system.md
           - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
-          - Proficiency: core/proficiencies.md
       - Characters:
           - Attributes: characters/potentials-and-resistance.md
           - Archetypes: characters/archetypes.md
           - Backstory: characters/origin.md
+          - Classes: characters/archetypes.md
           - Experience: characters/experience.md
+          - Proficiency: characters/proficiencies.md
       - Campaigns:
-          - Spirit Tokens: campaigns/spirit-tokens.md
+          - Combat: campaigns/combat.md
+          - Conditions: campaigns/combat.md
+          - Countdown Dice: campaigns/countdown-dice.md
+          - Damage: campaigns/damage.md
+          - Spirit Tokens:  campaigns/spirit-tokens.md
   - Profile:
-      - Preferences: profile/preferences.md
+      - Preferences: profile/preferences.md 

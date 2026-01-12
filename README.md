@@ -27,4 +27,3 @@ Download MkDocs and its dependencies:
 pip install mkdocs mkdocs-material mkdocs-callouts mkdocs-obsidian-support-plugin mkdocs-roamlinks-plugin
 pip install pymdown-extensions
 ```
-
