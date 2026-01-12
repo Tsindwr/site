@@ -69,5 +69,26 @@ Perks' effects activate after a player has rolled their Volatility Pool and choo
 [^1]: See [[stress-and-fallout|Fallout]]. Once Fallout is triggered, that Potential's Stress track is reset to 0.
 
 %%
+
+**Phase 5: Volatility Track UI**
+
+- Volatility view mode on potential tracks
+- Visual perk slot indicators
+- Flip animation between potential and volatility views
+- Perk management interface
+
+**Phase 6: Dice Results Overlay**
+
+- Modal overlay for dice results
+- 3D dice animations (mentioned in issue as eventual goal)
+- Visual display of perk effects
+
+**Phase 7: Advanced Features**
+
+- Domains and knacks support
+- Help Action implementation
+- Fallout trigger system
+- Stress gain on jinxed rolls
+- Die explosion benefits (auto-crit, die upgrade, thread gain, short rest)
 ![[Pasted image 20251207132125.jpg]]
 %%

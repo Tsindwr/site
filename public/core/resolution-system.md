@@ -66,14 +66,17 @@ Rolls with significant difficulty may become risky. A normal test represents the
 
 Higher levels of riskiness will alter what is rolled in a player's Volatility Pool:
 
-| Riskiness | Modifier to Volatility |
-| --------- | ---------------------- |
-| Uncertain | None, regular roll     |
-| Risky     | -1 Volatility Die      |
-| Dire      | -2 Volatility Dice     |
-| Desperate | -3 Volatility Dice     |
+| Level | Riskiness | Modifier to Volatility |
+| ----- | --------- | ---------------------- |
+| 0     | Uncertain | None, regular roll     |
+| 1     | Risky     | -1 Volatility Die      |
+| 2     | Dire      | -2 Volatility Dice     |
+| 3     | Desperate | -3 Volatility Dice     |
 
 If the modifier would ever cause the Volatility Pool to be less than zero (-X), then roll X + 1 Volatility Dice, and take the lowest result instead of the highest.
+###### Advantage/Disadvantage
+
+If a Test is given Advantage, then it is rolled with -1 level of Riskiness (see above). If the Riskiness Level is lower than zero, a Volatility Die is added to the pool instead. If a Test is given Disadvantage, then it is made with +1 level of Riskiness.
 ###### Contests
 Rolls between players are not encouraged, as this is a came that supports the exploration of team relationships and mutual support. Instead, it is highly encouraged to resolve any inter-party conflict narratively. Be mindful of the story you want to tell in these situations, not just how your character feels.
 

@@ -22,7 +22,7 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 > 
 > ***Finesse:*** A creature's quickness and flexibility is represented by its Finesse score. This score may determine a player's ability to navigate quickly through a market chase, tie a knot, or evade someone's grasp.
 >  
->  ***Nerve:*** A creature's heartiness and stamina is represented by its Resolve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
+>  ***Nerve:*** A creature's heartiness and stamina is represented by its Nerve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
 >   
 >   ***Seep:*** A creature's ability to manifest and maintain their physical form is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist physical arcane effects.
 
