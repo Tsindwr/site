@@ -92,6 +92,7 @@ nav:
           - Volatility Dice: core/volatility-and-perks.md
       - Characters:
           - Attributes: characters/potentials-and-resistance.md
+          - Archetypes: characters/archetypes.md
           - Backstory: characters/origin.md
           - Classes: characters/archetypes.md
           - Experience: characters/experience.md
