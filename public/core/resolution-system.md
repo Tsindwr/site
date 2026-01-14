@@ -78,7 +78,7 @@ If the modifier would ever cause the Volatility Pool to be less than zero (-X), 
 
 If a Test is given Advantage, then it is rolled with -1 level of Riskiness (see above). If the Riskiness Level is lower than zero, a Volatility Die is added to the pool instead. If a Test is given Disadvantage, then it is made with +1 level of Riskiness.
 ###### Contests
-Rolls between players are not encouraged, as this is a came that supports the exploration of team relationships and mutual support. Instead, it is highly encouraged to resolve any inter-party conflict narratively. Be mindful of the story you want to tell in these situations, not just how your character feels.
+Rolls between players are not encouraged, as this is a game that supports the exploration of team relationships and mutual support. Instead, it is highly encouraged to resolve any inter-party conflict narratively. Be mindful of the story you want to tell in these situations, not just how your character feels.
 
 In situations where this cannot be circumvented, the initiator of an action rolls a test in the center of the table. The target, to resist, may then roll a test of their own, also in the center of the table. If the dice collide and change their results, then the new results are kept to determine the effect. Be sure to use different-colored D20s and Volatility Dice from your partner to discern between the two sets. The highest level of success succeeds; ties are resolved by the highest number rolled between the Volatility Pools, or Rollies.
 

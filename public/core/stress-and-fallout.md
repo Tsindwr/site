@@ -14,15 +14,16 @@ aliases:
 
 The more Stress a player accumulates, the more likely they are to fall to this strain. Stress can come from enemies' attacks, or the call can come from inside the house:
 
-1. Rolling without Volatility on a Test that results in a success level of 3 or more (Mixed+) results in accumulating a point of Stress in the relevant Potential track.
-2. When rolling with Volatility results in a value within its **jinx threshold**[^1] and the overall Test results in a success level of 3 or more (Mixed+), then the player gains a point of Stress in the relevant Potential track.
+1. Rolling without Volatility on a Test that results in a success level of 4 or more ($\geq$ Success with cost) results in accumulating a point of Stress in the relevant Potential track.
+2. When rolling with Volatility results in a value within its **jinx threshold**[^1] and the overall Test results in a success level of 4 or more ($\geq$ Success with cost), then the player gains a point of Stress in the relevant Potential track.
 ## Better Luck Next Time...
 ###### Fallout
 
-**Fallout** is an accumulation of misfortune and heroic strain, providing an extra risk to initiating Tests. Fallout can be triggered in a few ways, all determined by the rolling of Tests:
+**Fallout** is an accumulation of misfortune and heroic strain, providing an extra risk to initiating Tests. Fallout can be triggered in a few ways, including sources of damage and the rolling of Tests:
 
-1. Rolling without Volatility on a Test that results in a success level of 3 or lower (Mixed-) results in triggering Fallout.
-2. When rolling with Volatility results in a value within its **jinx threshold**[^1] and the overall Test results in a success level of 4 or less (success level with cost or Success*-), then Fallout is triggered.
+1. When a character would take Stress in a Potential track that does not contain enough free slots and would result in an overflow, this triggers Fallout.
+2. Rolling without Volatility on a Test that results in a success level of 3 or lower ($\leq$ Mixed) results in triggering Fallout.
+3. When rolling with Volatility results in a value within its **jinx threshold**[^1] and the overall Test results in a success level of 3 or lower ($\leq$ Mixed), then Fallout is triggered.
 
 Once Fallout is triggered, that Potential's Stress track is reset to 0.
 ###### Types of Fallout

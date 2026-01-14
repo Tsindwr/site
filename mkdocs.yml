@@ -98,7 +98,7 @@ nav:
           - Proficiency: characters/proficiencies.md
       - Campaigns:
           - Combat: campaigns/combat.md
-          - Conditions: campaigns/combat.md
+          - Conditions: campaigns/conditions.md
           - Countdown Dice: campaigns/countdown-dice.md
           - Damage: campaigns/damage.md
           - Spirit Tokens:  campaigns/spirit-tokens.md
