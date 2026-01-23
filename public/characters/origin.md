@@ -25,7 +25,7 @@ The second defining section of one's background is the character's **Crux**. Thi
 - 1 Knack
 - 1 Minor goal
 - 1 Major goal
-- 1 aesthetic piece of equipment
+- 1 sentimental piece of equipment
 ## Heritage
 ###### Descent & Bloodline
 An adventurer also gains boons from their upbringing and species. Being a fantasy world, Umbrea's inhabitants not only benefit from the skills taught to them based on their Descent and community, but also gain innate abilities based on their Bloodline.
