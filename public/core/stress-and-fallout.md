@@ -14,8 +14,8 @@ aliases:
 
 The more Stress a player accumulates, the more likely they are to fall to this strain. Stress can come from enemies' attacks, or the call can come from inside the house:
 
-1. Rolling without Volatility on a Test that results in a success level of 4 or more ($\geq$ Success with cost) results in accumulating a point of Stress in the relevant Potential track.
-2. When rolling with Volatility results in a value within its **jinx threshold**[^1] and the overall Test results in a success level of 4 or more ($\geq$ Success with cost), then the player gains a point of Stress in the relevant Potential track.
+1. Rolling without Volatility on a Test that results in a success level of 5 or more ($\geq$ success) results in accumulating a point of Stress in the relevant Potential track.
+2. When rolling with Volatility results in a value within its **jinx threshold**[^1] and the overall Test results in a success level of 4 or more ($\geq$ success with cost), then the player gains a point of Stress in the relevant Potential track.
 ## Better Luck Next Time...
 ###### Fallout
 
