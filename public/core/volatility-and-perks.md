@@ -15,7 +15,7 @@ The **Volatility Die** is a special modifier to a Test roll, but only applies un
 After adding each applicable Volatility Die, a player now has their Volatility Pool for this roll. The result for a Volatility Pool is determined by the die that rolled highest.
 
 >[!check]+ The Help Action
->Taking the Help Action allows a player to give a target an additional Volatility Die in their Pool on their next Test relevant to the intended purpose. The intention is declared when the player takes the Help Action.
+>Taking the Help Action requires a player to declare an intention of how their actions will assist a target with a goal. This allows a player to give the target [[resolution-system#Risky Tests|Advantage]] on that Test, effectively lowering the Riskiness of that roll.
 
 The role of Volatility in a Test is to modify its base success level. Volatility represents a creature's association or experience with a given activity, giving them an opportunity to turn a failure into a success, but also risking the chance of decreasing the success level. 
 ### Introducing: Explosive Gameplay
@@ -24,7 +24,7 @@ The role of Volatility in a Test is to modify its base success level. Volatility
 
 Like in Tests, the thresholds of Volatility Dice are impacted by an external feature: **Stress**. Stress represents the amount of strain a creature has accumulated from external influence and Fallout. Stress is more common than Resistance Drain, but is easier to reset and recover from.
 
-A Volatility die's **jinx threshold** is determined by the amount of Stress a player has in the respective Potential. The jinx threshold cannot be more than one less than the maximum value on a Volatility Die. After rolling their Volatility pool, if a player's chosen Volatility Die results as within the jinx threshold and the Test results in a success level of 4 or less (success level with cost/Success*-), then it triggers Fallout[^1]. Additionally, if the chosen Volatility die results as within the jinx threshold and the Test results in a success level of 3 or more (Mixed+), then the player gains a point of [[stress-and-fallout|Stress]] in the relevant [[potentials-and-resistance|Potential]] track.
+A Volatility die's **jinx threshold** is determined by the amount of Stress a player has in the respective Potential. The jinx threshold cannot be more than one less than the maximum value on a Volatility Die. After rolling their Volatility pool, if a player's chosen Volatility Die results as within the jinx threshold and the Test results in a success level of 4 or less ($\leq$ success level with cost), then it triggers Fallout[^1]. Additionally, if the chosen Volatility die results as within the jinx threshold and the Test results in a success level of 3 or more (Mixed+), then the player gains a point of [[stress-and-fallout|Stress]] in the relevant [[potentials-and-resistance|Potential]] track.
 
 ## Perks of the Profession
 ###### Perks
@@ -43,14 +43,14 @@ A Perk can be assigned to a specific slot on a Volatility die. A slot is any num
 
 When all Perk slots on a Die are filled, a special Perk is unlocked for that Volatility Die. This special Perk is called a Charge, and is purchasable for a number of Beats equal to the number of Perk slots on the Volatility Die. When Charged, a Volatility Die explodes when rolling the maximum value on the Volatility Die when its jinx threshold is maxxed out.
 
-Exploding a Volatility Die during a Test causes an automatic crit, and gives a creature the following benefits:
+Exploding a Volatility Die during a Test causes an automatic Crit, and gives a creature the following benefits:
 - If your Volatility Die is not already a D12, it becomes one die type higher from now on. For now, it is empty of Perks.
-- You are given 1 usage of the Bonus Action: Recollect (see below).
+- You are given 1 usage of the Surge: Recollect (see below).
 - You gain 1 Thread.
 - You gain the benefits of a Short Rest.
 
-> [!info]+ Recollect Bonus Action
-> The Recollect Bonus Action allows a player to reapply the Perks they had assigned to their previous Volatility Die before it exploded. This action only applies to the Volatility Die that generated its usage. This will be referred to as the Previous Die hereafter. 
+> [!info]+ Recollect Surge
+> The Recollect Surge allows a player to reapply the Perks they had assigned to their previous Volatility Die before it exploded. This action only applies to the Volatility Die that generated its usage. This will be referred to as the Previous Die hereafter. 
 > 
 > When used, this action causes the creature to regain a number of Special Beats equal to the Previous Die's number of Perk Slots. These Special Beats can only be used during this action. The creature may immediately spend these Beats to reassign their purchased Perks to the new Volatility Die. 
 ### Purchasable Perks
@@ -64,10 +64,31 @@ Perks' effects activate after a player has rolled their Volatility Pool and choo
 | 3    | Cleave   | Roll 2 Volatility Dice instead, taking the result furthest from the middle. If they are equidistant, take the higher.                                                   |
 | 3    | Drive    | Reroll the kept die and take the resulting value.                                                                                                                       |
 | 5    | Burn     | Spend 1 Resistance for an automatic max Volatility value.                                                                                                               |
-| 5    | Fracture | When activating this Perk while its slot is in the jinx threshold, its result is considered the lowest value on the Die. Otherwise, it is considered the highest value. |
+| 5    | Fracture | When activating this Perk while its slot is in the jinx threshold, its result is considered the highest value on the Die. Otherwise, it is considered the lowest value. |
 
 [^1]: See [[stress-and-fallout|Fallout]]. Once Fallout is triggered, that Potential's Stress track is reset to 0.
 
 %%
+
+**Phase 5: Volatility Track UI**
+
+- Volatility view mode on potential tracks
+- Visual perk slot indicators
+- Flip animation between potential and volatility views
+- Perk management interface
+
+**Phase 6: Dice Results Overlay**
+
+- Modal overlay for dice results
+- 3D dice animations (mentioned in issue as eventual goal)
+- Visual display of perk effects
+
+**Phase 7: Advanced Features**
+
+- Domains and knacks support
+- Help Action implementation
+- Fallout trigger system
+- Stress gain on jinxed rolls
+- Die explosion benefits (auto-crit, die upgrade, thread gain, short rest)
 ![[Pasted image 20251207132125.jpg]]
 %%

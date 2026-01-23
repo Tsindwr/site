@@ -10,7 +10,7 @@ You will need to set up a virtual environment (venv) for testing the website on 
 
 ```shell
 python -m venv .venv
-./venv/Scripts/Activate.ps1
+./.venv/Scripts/Activate.ps1
 ```
 
 ## Installing Dependencies
@@ -27,4 +27,3 @@ Download MkDocs and its dependencies:
 pip install mkdocs mkdocs-material mkdocs-callouts mkdocs-obsidian-support-plugin mkdocs-roamlinks-plugin
 pip install pymdown-extensions
 ```
-

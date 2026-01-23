@@ -22,7 +22,7 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 > 
 > ***Finesse:*** A creature's quickness and flexibility is represented by its Finesse score. This score may determine a player's ability to navigate quickly through a market chase, tie a knot, or evade someone's grasp.
 >  
->  ***Nerve:*** A creature's heartiness and stamina is represented by its Resolve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
+>  ***Nerve:*** A creature's heartiness and stamina is represented by its Nerve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
 >   
 >   ***Seep:*** A creature's ability to manifest and maintain their physical form is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist physical arcane effects.
 
@@ -77,7 +77,7 @@ Weave - *Conducting rituals, channeling raw warp*
 ###### Resistance Points
 Some abilities or perks may call for expending a Resistance point. Each Potential is considered to be a pool of Resistance Points equal to the Potential Score. Expending Resistance Points causes the Mixed success level threshold to increase during tests[^1]. However, the Resistance pool shares the same threshold of strain on a character as a Potential's Stress track. Given a certain Potential, a Potential track can only hold a total number of Stress and Resistance points equal to the Potential Score. 
 
-In the example below, a player has 5 Stress points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by Stress), and if they take any additional Stress, it will trigger Fallout since, the player cannot hold any more Stress (the slots are taken by Resistance Drain).
+In the example below, a player has 5 Stress points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by Stress), and if they take any additional Stress, it will trigger Fallout since the player cannot hold any more Stress (the slots are taken by Resistance Drain).
 
 ![[../assets/potential-resistance-example.png]]
 
