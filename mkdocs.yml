@@ -85,22 +85,24 @@ plugins:
 nav:
   - Lore:
       - The Essence of Truth: index.md
+      - The Arras: lore/arras.md
   - Ruleset:
-      - Rolling Dice:
+      - Core Rules:
           - Resolution System: core/resolution-system.md
           - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
+          - Spirit Tokens: core/spirit-tokens.md
+          - Countdown Dice: core/countdown-dice.md
       - Characters:
           - Archetypes: characters/archetypes.md
           - Attributes: characters/potentials-and-resistance.md
           - Backstory: characters/origin.md
           - Experience: characters/experience.md
+          - Spellcasting: charscters/spellcasting.md
           - Proficiency: characters/proficiencies.md
       - Campaigns:
           - Combat: campaigns/combat.md
-          - Conditions: campaigns/combat.md
-          - Countdown Dice: campaigns/countdown-dice.md
+          - Conditions: campaigns/conditions.md
           - Damage: campaigns/damage.md
-          - Spirit Tokens:  campaigns/spirit-tokens.md
   - Profile:
       - Preferences: profile/preferences.md 
