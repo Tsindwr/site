@@ -33,5 +33,6 @@
 | Slowed        | A Slowed creature cannot take any Movement Actions besides the Default Shift, which requires a successful Test to activate.                                                                 |
 | Unseen        | A creature that is Unseen by a target creature has Advantage on Attack Tests against the target and the target creature has Disadvantage on Sense Tests made to detect the Unseen creature. |
 
->>>>>>>+HEAD
+[^1]: See [[resolution-system#Risky Tests|Risky Tests]].
 esolution-system#Risky Tests|Risky Tests]].
+>>>>>>> origin/dev

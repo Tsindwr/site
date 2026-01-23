@@ -535,3 +535,27 @@ h3 {
 .sunder-toast i {
     font-size: 1.1em;
 }
+
+/* ===== Domain Display ===== */
+
+.domain {
+    display: flex;
+    flex-direction: column;
+    gap: 5 px;
+}
+
+.domain p {
+    font-size: large;
+    margin: 0;
+}
+
+.subtext {
+    color: gray;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+p.description {
+    color: darkgray;
+    font-size: small;
+}
