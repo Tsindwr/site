@@ -1,0 +1,15 @@
+{
+  "version": "0.8.0",
+  "discord_announcement_sent": false,
+  "summary": "The Renee Update",
+  "sections": [
+    {
+      "title": "Typos, Adjustments, and Math, Oh My!",
+      "description": "Rneeeeee told me when my explanations were confusing or contradicting (and also not to use 'the the' in a sentence). I have fixed them :>. Thank u Rneee."
+    },
+    {
+      "title": "Oh yeah, Spellcasting is also important I guess",
+      "description": "This section might as well be called the Vyx Update cuz their excitement for spellcasting rules and lore explanations revolving them were what motivated me to finish this big lore update. The Spellcasting rules themselves are sparse, but mostly because spells will be treated as class features to be bought using Experience Points, so they will not be treated too differently outside of the rules specified in the new Spellcasting page under Character Rules."
+    }
+  ]
+}
