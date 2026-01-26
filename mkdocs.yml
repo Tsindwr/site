@@ -103,7 +103,6 @@ nav:
       - Campaigns:
           - Combat: campaigns/combat.md
           - Conditions: campaigns/conditions.md
-          - Countdown Dice: campaigns/countdown-dice.md
           - Damage: campaigns/damage.md
   - Profile:
       - Preferences: profile/preferences.md 
