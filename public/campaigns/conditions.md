@@ -16,6 +16,7 @@
 | Muddled (P)   | A Muddled creature has Disadvantage on Tests made in the specified Potential (P).                                                                 |
 | Spirited      | An ally to a Spirited creature recovers a Stress point when succeeding on a Test while within Melee range of the ally.                            |
 | Warded (X)    | A Warded creature reduces X amount of incoming Physical Stress.                                                                                   |
+
 #### Minor Conditions
 
 | Name          | Effect                                                                                                                                                                                      |
@@ -33,6 +34,3 @@
 | Slowed        | A Slowed creature cannot take any Movement Actions besides the Default Shift, which requires a successful Test to activate.                                                                 |
 | Unseen        | A creature that is Unseen by a target creature has Advantage on Attack Tests against the target and the target creature has Disadvantage on Sense Tests made to detect the Unseen creature. |
 
-[^1]: See [[resolution-system#Risky Tests|Risky Tests]].
-esolution-system#Risky Tests|Risky Tests]].
->>>>>>> origin/dev
