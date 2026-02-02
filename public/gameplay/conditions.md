@@ -26,7 +26,6 @@ aliases:
   - Slowed
   - Unseen
 ---
-
 # Conditions
 ## An Exhaustive Guide to Status Effects
 
@@ -63,4 +62,3 @@ aliases:
 | Silenced      | A Silenced creature cannot be heard, nor can they activate  abilities relying on sound.                                                                                                     |
 | Slowed        | A Slowed creature cannot take any Movement Actions besides the Default Shift, which requires a successful Test to activate.                                                                 |
 | Unseen        | A creature that is Unseen by a target creature has Advantage on Attack Tests against the target and the target creature has Disadvantage on Sense Tests made to detect the Unseen creature. |
-
