@@ -122,8 +122,9 @@ Deno.serve(async (req: Request) => {
   };
 
   const payload = {
-    content: "", // optional add @role mentions
+    content: "<@&1431133782852898916>", // optional add @role mentions
     embeds: [embed],
+    footer: "https://tsindwr.github.io/site/"
   };
 
   // 3) Send to Discord

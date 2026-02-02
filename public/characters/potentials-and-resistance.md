@@ -3,12 +3,16 @@ tags: ttrpg, rules
 aliases:
   - Potential
   - Potentials
-  - Skill
+  - Might
+  - Finesse
+  - Nerve
+  - Seep
+  - Instinct
+  - Wit
+  - Heart
+  - Tether
+  - Resistance
   - Skills
-  - Knack
-  - Knacks
-  - Domain
-  - Domains
 ---
 # Potentials and Resistance
 ## You have much potential, Adventurer

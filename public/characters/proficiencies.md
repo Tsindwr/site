@@ -1,3 +1,23 @@
+---
+aliases:
+  - Proficiency
+  - Knacks
+  - Domains
+  - Spark
+  - Root
+  - Flow
+  - Scorch
+  - Still
+  - Warp
+  - Thread
+  - Gleam
+  - Glare
+  - Crossing
+  - Tear
+  - Remnant
+  - Bastion
+---
+
 # Proficiencies
 
 ## Skill Proficiencies

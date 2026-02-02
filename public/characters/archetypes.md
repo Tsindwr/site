@@ -1,3 +1,19 @@
+---
+aliases:
+  - Archetypes
+  - Classes
+  - Spellslinger
+  - Summoner
+  - Control
+  - Face
+  - Saboteur
+  - Support
+  - Frontliner
+  - Halfcaster
+  - Healer
+  - Tank
+---
+
 # Adventuring Classes
 
 In Sunder, it is difficult to define “classes” as one may in a general TTRPG. Sunder’s feature of a class feature market and purchasable features tends to allow players to stray from any defined “class.” However, at a very base level, there are initial categories an adventurer can fit into, which begin the prerequisite path for characters to level up and purchase new abilities.
@@ -18,7 +34,6 @@ These categories are called Archetypes, which start an adventurer off with a few
 | Halfcaster   | 5     |
 | Healer       | 6     |
 | Tank         | 6     |
-Archetypes’ Marks values are balanced with the starting amount of [[experience|Strings]] they are allowed at character creation.
 
 ### Archetype Descriptions
 

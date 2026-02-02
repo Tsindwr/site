@@ -89,20 +89,25 @@ nav:
   - Ruleset:
       - Core Rules:
           - Resolution System: core/resolution-system.md
-          - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
-          - Spirit Tokens: core/spirit-tokens.md
+          - Stress & Fallout: core/stress-and-fallout.md
           - Countdown Dice: core/countdown-dice.md
+          - Equipment: core/equipment.md
+          - Spirit Tokens: core/tokens.md
       - Characters:
           - Archetypes: characters/archetypes.md
           - Attributes: characters/potentials-and-resistance.md
-          - Backstory: characters/origin.md
+          - Origin: characters/origin.md
           - Experience: characters/experience.md
+          - Levels: characters/leveling.md
           - Spellcasting: characters/spellcasting.md
           - Proficiency: characters/proficiencies.md
-      - Campaigns:
-          - Combat: campaigns/combat.md
-          - Conditions: campaigns/conditions.md
-          - Damage: campaigns/damage.md
+      - Gameplay:
+          - Abilities: gameplay/abilities.md
+          - Actions: gameplay/actions.md
+          - Conditions: gameplay/conditions.md
+          - Damage: gameplay/ damage.md
+          - Resting: gameplay/resting.md
+          - Scenes: gameplay/scenes.md
   - Profile:
       - Preferences: profile/preferences.md 

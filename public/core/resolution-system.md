@@ -2,6 +2,20 @@
 tags:
   - ttrpg
   - rules
+aliases:
+  - Tests
+  - Success Levels
+  - Miff
+  - Crit
+  - Resolution System
+  - Hybrid Tests
+  - Riskiness
+  - Risky Tests
+  - Advantage
+  - Disadvantage
+  - Contests
+  - Rollies
+  - Group Tests
 ---
 # Resolution System
 ## A Deterministic D20 System
@@ -15,16 +29,15 @@ All rolls in Sunder will fall under a **Test**. Tests are rolls made associated 
 **Success levels** determine the narrative outcome of a given Test. Success levels range from the following values:
 
 1. **Miff**\*\* <span>&mdash;</span> the worst plausible outcome
-2. Fail* <span>&mdash;</span> a negative outcome according to the player's goal
+2. Failure* <span>&mdash;</span> a negative outcome according to the player's goal
 3. Mixed* <span>&mdash;</span> an outcome with positive and negative (or overall neutral) results regarding the player's goal.
-4. ==Success==* <span>&mdash;</span> a positive outcome according to the player's goal. (This result is NOT a base success level. See [[volatility-and-perks|Volatility]].)
-5. Success <span>&mdash;</span> a positive outcome according to the player's goal
-6. **Crit** <span>&mdash;</span> the best plausible outcome
+4. Success <span>&mdash;</span> a positive outcome according to the player's goal
+5. **Crit** <span>&mdash;</span> the best plausible outcome
 
 *\* Success levels with a caveat will involve some sort of cost related to the action taken. This can come in the form of physical retribution, equipment damage, mental repercussion, or narrative detriments (see [[stress-and-fallout|Fallout]]).*
-*\*\* A critical fail, or Miff is the opposite of a Crit; it has the equivalent of two caveats or costs, but your GM may choose to narrate a single, more catastrophic consequence.*
+*\*\* A critical failure, or Miff is the opposite of a Crit; it has the equivalent of two caveats or costs, but your GM may choose to narrate a single, more catastrophic consequence.*
 
-Crits and miffs will always be final and determine the outcome of the initial roll (unless otherwise stated). Sunder uses a variant "Roll Under" system, so Crits occur when a player's Potential score value is rolled on the D20, and Miffs occur when a 20 is rolled on the D20.
+Crits and Miffs will always be final and determine the outcome of the initial roll (unless otherwise stated). This means Volatility cannot change the success level of a D20 that has rolled a Crit or Miff. Sunder uses a variant "Roll Under" system, so Crits occur when a player's Potential score value is rolled on the D20, and Miffs occur when a 20 is rolled on the D20.
 
 A player will receive different base success levels based on the Potential they are rolling the Test under. Potentials are both representations of a creature's capabilities, as well as a resource to be managed. Spending resources from a Potential is called expending a **Resistance**, or Resistance Drain. Resistance points can be used to fuel ability features and can be restored through resting and healing.
 
@@ -36,7 +49,7 @@ $$
 \textbf{Crit} & x\in\{P\},\\[2pt]
 \textbf{Success} & x\in\bigl(R,\;P\bigr),\\[2pt]
 \textbf{Mixed} & x\in\bigl[1,\;R\bigr],\\[2pt]
-\textbf{Fail} & x\in\bigl(P,\;20\bigr),\\[2pt]
+\textbf{Failure} & x\in\bigl(P,\;20\bigr),\\[2pt]
 \textbf{Miff} & x\in\{20\}.
 \end{cases}
 $$
@@ -46,14 +59,14 @@ $$
 > [!warning]- The Rule of Narrative Ease
 > During gameplay, there are many situations where taking action may not require a test of a character's ability, and can be resolved purely narratively. As long as the situation is low-risk, players shouldn't need to make a Test toll at all as long as they have the time to do it unhurriedly. Remember your heroes are capable! Be sure not to bog down the narrative flow with excessive Skill Tests, and allow players to tell the story they want to build.
 
-==Note:== When a player's Test results in a success level of 3 or below (Mixed, Fail, Miff), they gain a Beat. 
+==Note:== When a player's Test results in a success level of 3 or below (Mixed, Failure, Miff), they gain a Beat. 
 
 ### Emphasized Rolls
 Crits and Miffs are major story beats that represent parts of the hero's journey. Rolling either of these success levels has additional mechanical effects defined below:
 ###### Rolling Crits
 Rolling a Crit not only counts as an automatic success, but also allows a player to recover a Resistance point of their choosing.
 ###### Rolling Miffs
-Rolling a Miff counts as an automatic failure, and causes an additional cost decided by the GM. This comes in the form of Fallout or losing a Resistance point in the Potential used in the triggering Test.
+Rolling a Miff counts as an automatic failure, and causes an additional cost decided by the GM. This can come in the form of increasing Fallout or losing a Resistance point in the Potential used in the triggering Test.
 
 !!! nextup "See [[volatility-and-perks|Volatility]] for modifying Test success levels!"
 
@@ -94,7 +107,7 @@ Group Tests are when the entire party needs to make a shared roll. Each player r
 	</div>
 	<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 15%;">
 		<strong>-1</strong>
-		<p>Fail</p>
+		<p>Failure</p>
 	</div>
 	<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 15%;">
 		<strong>0</strong>

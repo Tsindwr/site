@@ -1,3 +1,11 @@
+---
+aliases:
+  - Casting
+  - Spellcasting
+  - Spell Limits
+  - Potency
+---
+
 # Spellcasting
 
 The act of casting a spell is a considerably new concept in the grander history of Tsindwr. Spells are portable Magick, conjurations plucked from the Arras with incantation and foci freed from the limitations of Inscription and Ritual casting. Before, permanent infusions of Magick onto a physical medium called Enchantments were the only method of harnessing the Arras. 
@@ -13,6 +21,6 @@ In order to learn new spells, a player must use the Experience Market to purchas
 The maximum number of Stored Spells a character may have is equal to their Potency score. The maximum number of Prepared Spells a character may have is equal to the maximum number on their spellcasting Potential's Volatility Die. These are both initial values which can be increased in the Experience Market.
 ### The Act of Casting
 
-Harnessing the Arras is a difficult task, and comes with risk. Casting a spell will always require a Test to be made, as specified by the spell description: any success level that results in Fallout will activate the spell's consequences, otherwise it is successfully cast. There is no limit to the number of times a spell can be cast, but balancing Stress and risk of consequences will prevent spellcasters from casting safely indefinitely.
+Harnessing the Arras is a difficult task, and comes with risk. Casting a spell will always require a Test to be made, as specified by the spell description: any success level of Failure or lower will activate the spell's consequences, otherwise it is successfully cast. There is no limit to the number of times a spell can be cast, but balancing Stress and risk of consequences will prevent spellcasters from casting safely indefinitely.
 
 Adventurers will be able to choose and switch out their Prepared Spells from their Stored Spells throughout their adventuring. This can be done at the end of a Long Rest. Newly purchased spells start as Stored Spells and are not automatically assigned in a slot within a character's Prepared Spells. 
