@@ -1,3 +1,13 @@
+---
+aliases:
+  - Background
+  - Profession
+  - Heritage
+  - Crux
+  - Descent
+  - Bloodline
+---
+
 # Character Origin
 
 Every character has an origin story: whether they have a tragic event that fuels their motivation or a defining moment that marks how they decided to become an adventurer. No matter the adventurer, there is a set of identities that have shaped them into being the person they are today, and that is defined by their **Background** and **Heritage**.[^1]
@@ -40,8 +50,24 @@ A character's descent represents where and by whom the character was raised. Thi
 A character's bloodline represents their connection to the natural Warp of Umbrea. Whether that Warp be from the Faerie & Gloam, from the Land of Storm, or from the influence of the Starry Beyond, characters carry a spark of magic from the world within them. 
 #### Boons:
 - +1 to a Potential
-- 1 special ability
+- 1 special ability (budget: 5 Strings, considered having a prerequisite)
 
+>[!example] Bloodline Special Ability Example
+>**Legacy of the Stars**
+>(Astral Elf/Abyssal Tiefling)
+>
+>*Attack Action*:
+>
+>Once per scene, you may cast a divinatory spell to read the omens surrounding a Near creature. On a successful Sense Test, you gain insight into their fortune in the upcoming tenday: whether it brings Weal or Woe, and any symbolic visions that may accompany it. On a failed Test, your mind is flooded with visions of your own possible fortunes within the next year; you are Dazed until you take a Short Rest, and you cannot use this spell again until you remove the Dazed Condition.
+> 
+> *Movement Action*:
+>
+> Once per long rest, you can use this Movement Action to activate the following effects that last until the end of the current scene:
+> - Once you activate this ability, recover a number of Mental Resistances equal to your Tier.
+> - Once per turn, you may take a reaction transfer an incoming Physical Stress point to a Mental Stress track.
+> - You are considered Proficient in unarmed attacks. On a hit, they do Finesse damage equal to a number of Seep Volatility Dice equal to your Tier.
+> - You may add "Move Near" to each of your Movement Actions.
+> - On each turn, you must make a melee attack against another creature. If there are none within range, you must spend your Movement Action to move towards the nearest creature, and then take your Attack Action. If there are no adversaries within range, this ability targets your allies. Allies within Here range may use a reaction to spend 1 Flavor Token to narrate how they calm your rage. This ends your rage, and avoids expending your Attack Action.
 ## Player Options
 Here are some example origin choices for aspiring adventurers:
 
@@ -59,8 +85,8 @@ COMING SOON
 [^1]: Any of these origin features (Profession, Crux, Bloodline, & Descent) can be easily homebrewed as long as the Boons of each are satisfied. 
 
 %%
-![[Pasted image 20251207131833.jpg]]
+![[BloodlineOptions.jpg]]
 
-![[Pasted image 20251207131847.jpg]]
+![[RaceOptions.jpg]]
 
 %%

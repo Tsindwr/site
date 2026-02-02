@@ -1,3 +1,15 @@
+---
+aliases:
+  - Damage
+  - Marks
+  - Stress
+  - Scars
+  - Proof
+  - Bane
+  - Death
+  - Critical Damage
+---
+
 # Damage, Stress, Marks, & Scars
 ###### Oh my!
 

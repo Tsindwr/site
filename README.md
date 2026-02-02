@@ -27,3 +27,13 @@ Download MkDocs and its dependencies:
 pip install mkdocs mkdocs-material mkdocs-callouts mkdocs-obsidian-support-plugin mkdocs-roamlinks-plugin
 pip install pymdown-extensions
 ```
+
+## Deploying Supabase Edge Functions
+
+To deploy the Supabase Edge Functions, ensure you have NPX installed. Then run:
+
+```shell
+npx supabase login
+npx supabase functions deploy --project-ref your-project-ref
+```
+Replace `your-project-ref` with your actual Supabase project reference (in URL).

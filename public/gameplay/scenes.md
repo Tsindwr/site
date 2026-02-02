@@ -1,6 +1,15 @@
-### Initiative
+---
+aliases:
+  - initiative
+  - scenes
+  - turns
+  - Surges
+  - Traits
+  - Reactions
+---
+# Initiative
 
-In Sunder, initiative order is loose, responsive, and adaptable to player action. The GM decides who starts the initiative order, often based on actions and events leading up to the instance of combat.
+In Sunder, initiative order is loose, responsive, and adaptable to player action. The GM decides who starts the initiative order, often based on actions and events leading up to the instance of combat. Initiative can be started due to combat or an intense moment requiring timing. Either one is called a scene.
 
 Generally, adversary turns happen in response to player turns, this balances combatant action while also maintaining a reactive and cohesive narrative.
 
@@ -16,6 +25,8 @@ Generally, a turn consists of two actions: Movement and Attack. These can occur 
 ### Movement and Attack
 
 When a character gains a new ability, either during character creation or by using the class feature market, they can receive an **Action Card**. These Action Cards are what define the character's options during combat. Each Action Card has two sides: an "Attack" side on the top and a "Movement" side on the bottom. During a player's turn, they play two cards. They must choose the top (or "Attack") side of one card, and the bottom (or "Movement") side of the other. During one's turn, a player cannot use the opposite side of the same card they have already chosen one side for, and they cannot choose the same side on both cards. 
+
+A Movement Action does not need to be restricted to literal movement. A Movement action could contain a buff that lasts for a certain amount of usages, it could allow for a small secondary weapon strike, or it could involve a defensive effect that lasts the round. The same goes for Attack Actions: Attacks need not specifically be a direct assault against a target creature. They can involve healing targeting an ally, or the activation of a large area of effect ability that lasts for a given duration. These are meant to be interpreted and follow the flavor of a given Action Card's title, where the Attack half is a direct approach and the Movement half is indirect.
 ### Default Actions
 
 Every creature is given a deck of default Action Cards that are accessible to everyone. Some class features may alter these base cards or replace them, but otherwise one player's default Action Cards do not differ from another player's.

@@ -1,3 +1,13 @@
+---
+aliases:
+  - Countdown Dice
+  - Risky Scenes
+  - Hope
+  - Dread
+  - Sequence Abilities
+  - Countdown Die
+---
+
 # Countdown Dice
 ## A Doomsday Clock
 ###### Using Countdown Dice for Risky Scenes
@@ -11,11 +21,11 @@ The die type of a Countdown Scene is determined by the scenario's riskiness, a j
 | Crit          | Increase Hope by 1 AND decrease Dread by 1 |
 | Success       | Increase Hope by 1 OR decrease Dread by 1  |
 | Mixed Success | Increase both by 1 OR decrease both by 1   |
-| Fail          | Decrease Hope by 1 OR increase Dread by 1  |
+| Failure       | Decrease Hope by 1 OR increase Dread by 1  |
 | Miff          | Decrease Hope by 1 AND increase Dread by 1 |
 
 Countdown Dice can also be used to represent the party's progress towards a compound goal. This can be represented by just one Die, its die type again chosen based on the difficulty of the goal or time necessary to complete it.
 
-### Count-up Abilities
+### Sequence Abilities
 
-Some abilities, once activated, are able to be used several times before their effect ends. These call for another type of Countdown Die, which starts at 1 and ends at its maximum value. After each use of the ability, the counter increases by 1. If the ability calls for the current value on the die, it refers to the value it had before it increased from the current usage. So, if a character activates an ability that allows them to reduce the amount of Stress of incoming effects targeting their Nerve Potential, the ability is activated with the count-up die value at 1. The first reaction they take to reduce the amount of Stress they take in Nerve, if specified in the ability, allows the character to reduce the amount of Stress by 1, then the count-up die is increased to 2. After a count-up die increases while it is on its max value, the ability has expired and no longer has any uses left.
+Some abilities, once activated, are able to be used several times before their effect ends. These call for another type of Countdown Die, which starts at 1 and ends at its maximum value. After each use of the ability, the counter increases by 1. If the ability calls for the current value on the die, it refers to the value it had before it increased from the current usage. So, if a character activates an ability that allows them to reduce the amount of Stress of incoming effects targeting their Nerve Potential, the ability is activated with the Sequence die value at 1. The first reaction they take to reduce the amount of Stress they take in Nerve, if specified in the ability, allows the character to reduce the amount of Stress by 1, then the Sequence die is increased to 2. After a Sequence die increases while it is on its max value, the ability has expired and no longer has any uses left.
