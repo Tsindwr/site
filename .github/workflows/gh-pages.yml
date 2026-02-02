@@ -91,6 +91,7 @@ jobs:
         if: ${{ steps.version.outputs.tag_feature != '' }}
         env:
           SUPABASE_RELEASE_FUNCTION_URL: ${{ secrets.SUPABASE_RELEASE_FUNCTION_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
           set -euo pipefail
           
@@ -106,4 +107,5 @@ jobs:
           
           curl -sS -X POST "$SUPABASE_RELEASE_FUNCTION_URL" \
             -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
             -d @"$NOTES_FILE"
