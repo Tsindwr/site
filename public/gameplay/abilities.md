@@ -89,6 +89,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 - *Aid*: Grant you Advantage ok a Test while within Here. 
 - *Buffer*: Once per scene, as a reaction to you being subject to an external effect that applies Stress, you may reduce it by a roll of your chosen Potential's Volatility Die. 
 - *Connect*: The bond between you and your Companion allows you to understand each other even if you do not share a language. You may also use a Surge to perceive through your Companion's senses. While perceiving in this way, you are insensate to your own body's senses.
+
 You may give this Ability a prerequisite of the Summoner archetype (-2 Strings).
 
 ### Anatomy of Custom Abilities
@@ -119,6 +120,7 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 | IV   | 13-16  | 4                               | 12                               |
 | V    | 17-20  | 5                               | 19                               |
 Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.
+
 ### Buying Enhancements
 
 Enhancements become more expensive the more you buy for a single Ability.
@@ -198,6 +200,7 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | There  | +1.5    |
 | Far    | +2      |
 | Yonder | +3      |
+
 #### Movement
 
 | Distance | String |
@@ -209,6 +212,7 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | Far      | +3     |
 | Yonder   | +5     |
 If Movement is being added to an Attack Action, it requires an Enhancement slot. 
+
 ### Targets and Area
 
 | Targeting            | Strings | Enhancements |
@@ -218,6 +222,7 @@ If Movement is being added to an Attack Action, it requires an Enhancement slot.
 | Near AOE             | +2      | 1            |
 | Close AOE            | +4      | 1            |
 | Far AOE              | +6      | 2            |
+
 ### Conditions
 
 | Minor Conditions | String | Enhancements |
@@ -310,6 +315,7 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | Spend Resistance             | -1     |
 | Prerequisite                 | -2     |
 \* Prerequisites can be Abilities, Archetypes, or Origin choices.
+
 ### Beat-Level Caveats
 
 | Constraint           | Beats |
@@ -319,6 +325,7 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | One use per scene    | -5    |
 | Spend Stress         | -5    |
 \* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing Riskiness on a Test to activate the Ability can only be applied when there is a Test required, either by default or through the purchased Caveat.
+
 ### Spell Consequences
 
 Spells must always have a Consequence. If the Consequence is more severe, it reduces the purchase cost more.

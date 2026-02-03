@@ -26,6 +26,7 @@ aliases:
   - Slowed
   - Unseen
 ---
+
 # Conditions
 ## An Exhaustive Guide to Status Effects
 
