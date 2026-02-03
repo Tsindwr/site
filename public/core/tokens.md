@@ -48,6 +48,7 @@ Spending Flavor Tokens allows players to take guided storytelling actions and ev
 | 5             | Pry      | Find what someone needs to give them a chance to change fundamentally, ask them what it is\*                                      |
 | 5             | Pray     | Listen to the shared wisdom of the spirits, and ask the table what they tell you                                                  |
 \* Any player involved in the roleplay during the moments of this Flavor ability gains a Beat.
+
 ## The Party Loom
 
 Each party of adventurers is given a Loom: a track of story points that records their progress and party level. This Loom also determines how many Spirit Tokens they may hold. The maximum number of Spirit Tokens is determined by half of the number of story points needed to level up the party rounded down (see below).

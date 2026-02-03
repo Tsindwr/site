@@ -20,6 +20,23 @@
     --md-typeset-a-color:         #C58AFF;  /* link color in text */
 
     --heading-typeset-h3-color: deepskyblue;
+    
+    /* Size: feels like a small playing card on a webpage */
+    --cardW: 270px;
+    --cardH: 410px;
+
+    --ink: rgba(255,255,255,.92);
+    --ink2: rgba(255,255,255,.72);
+    --ink3: rgba(255,255,255,.55);
+
+    --paper: #0b0f14;
+    --frame: rgba(160,190,255,.55);
+    --frame2: rgba(120,255,200,.35);
+
+    --topTint: rgba(100,170,255,.12);
+    --botTint: rgba(120,255,200,.10);
+
+    --cut: rgba(255,255,255,.14);
 }
 
 /* Dark mode (slate) */
@@ -41,6 +58,23 @@
     --md-typeset-a-color:         #FFE08A;  /* gold links on dark */
 
     --heading-typeset-h3-color: skyblue;
+    
+    /* Size: feels like a small playing card on a webpage */
+    --cardW: 270px;
+    --cardH: 410px;
+
+    --ink: rgba(255,255,255,.92);
+    --ink2: rgba(255,255,255,.72);
+    --ink3: rgba(255,255,255,.55);
+
+    --paper: #0b0f14;
+    --frame: rgba(160,190,255,.55);
+    --frame2: rgba(120,255,200,.35);
+
+    --topTint: rgba(100,170,255,.12);
+    --botTint: rgba(120,255,200,.10);
+
+    --cut: rgba(255,255,255,.14);
 }
 
 /* Extra link styling (both schemes) */
@@ -558,4 +592,199 @@ h3 {
 p.description {
     color: darkgray;
     font-size: small;
+}
+
+/* ===== Card Display ===== */
+.gh-card{
+  width: min(var(--cardW), 92vw);
+  height: var(--cardH);
+  border-radius: 18px;
+  position: relative;
+  color: var(--ink);
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(255,255,255,.08), transparent 55%),
+    radial-gradient(120% 90% at 50% 110%, rgba(255,255,255,.06), transparent 55%),
+    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)),
+    var(--paper);
+  box-shadow:
+    0 18px 40px rgba(0,0,0,.55),
+    0 2px 0 rgba(255,255,255,.06) inset;
+  overflow: hidden;
+}
+
+/* Outer frame like a printed border */
+.gh-card::before{
+  content:"";
+  position:absolute; inset:0;
+  border-radius: 18px;
+  padding: 2.5px;
+  background: linear-gradient(140deg, var(--frame), var(--frame2), var(--frame));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events:none;
+}
+
+/* Inner bevel */
+.gh-card::after{
+  content:"";
+  position:absolute; inset:8px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.35) inset;
+  pointer-events:none;
+}
+
+/* ===== Header plaque ===== */
+.gh-head{
+  position: relative;
+  padding: 14px 14px 10px 14px;
+}
+.gh-title{
+  margin:0;
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: .2px;
+  line-height: 1.05;
+  text-shadow: 0 1px 0 rgba(0,0,0,.35);
+}
+.gh-sub{
+  margin: 4px 0 0 0;
+  font-size: 11px;
+  color: var(--ink3);
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+
+/* Small corner cost stamp */
+.gh-stamp{
+  position:absolute;
+  top: 12px;
+  right: 12px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.25);
+  font-size: 11px;
+  color: var(--ink2);
+}
+
+/* ===== Halves ===== */
+.gh-half{
+  display:grid;
+  grid-template-columns: 38px 1fr;
+  gap: 10px;
+  padding: 14px;
+  height: calc((var(--cardH) - 74px) / 2); /* header approx */
+  box-sizing: border-box;
+}
+.gh-half.top{
+  background: linear-gradient(180deg, var(--topTint), transparent 70%);
+  border-top: 1px solid rgba(255,255,255,.06);
+}
+.gh-half.bottom{
+  background: linear-gradient(0deg, var(--botTint), transparent 70%);
+  border-top: 1px solid var(--cut);
+}
+
+/* Cut line (stronger, like printed divider) */
+.gh-cut{
+  position:absolute;
+  left: 10px; right: 10px;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent);
+  pointer-events:none;
+}
+
+/* ===== Icon rail ===== */
+.gh-rail{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap: 8px;
+  padding-top: 18px;
+}
+.gh-pip{
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(255,255,255,.06);
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.08) inset,
+    0 6px 16px rgba(0,0,0,.35);
+  display:grid;
+  place-items:center;
+  font-size: 12px;
+  color: rgba(255,255,255,.88);
+}
+.gh-pip[data-tone="attack"]{ outline: 1px solid rgba(110,185,255,.28); }
+.gh-pip[data-tone="move"]{ outline: 1px solid rgba(140,255,200,.24); }
+
+/* ===== Text ===== */
+.gh-label{
+  margin: 0 0 6px 0;
+  font-size: 10px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.gh-text{
+  margin:0;
+  font-size: 13px;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+/* Tiny "runes" line (symbols instead of pills) */
+.gh-runes{
+  margin-top: 8px;
+  display:flex;
+  flex-wrap:wrap;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--ink2);
+}
+.gh-rune{
+  display:inline-flex;
+  align-items:center;
+  gap: 6px;
+}
+.gh-dot{
+  width: 4px; height: 4px; border-radius: 99px;
+  background: rgba(255,255,255,.28);
+  display:inline-block;
+  transform: translateY(-.5px);
+}
+
+/* ===== 2-wide card grid wrapper ===== */
+.gh-card-grid{
+  /* two columns on desktop, collapses gracefully on small screens */
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, var(--cardW)));
+  gap: 18px 18px;              /* row gap / col gap */
+  justify-content: center;     /* center the 2-wide grid in the page */
+  align-items: start;
+
+  /* optional: keeps the grid from stretching edge-to-edge */
+  width: 100%;
+  max-width: calc(var(--cardW) * 2 + 18px);
+  margin: 0 auto;
+  padding: 12px;
+}
+
+/* small screens: 1-wide */
+@media (max-width: 640px){
+  .gh-card-grid{
+    grid-template-columns: 1fr;
+    max-width: min(92vw, var(--cardW));
+  }
+  .gh-card-grid > .gh-card{
+    justify-self: center;
+  }
 }
