@@ -1,4 +1,5 @@
 const ISSUE_API_URL = 'https://oqngifbqawctgqxgtxfl.supabase.co/functions/v1/report-bug';
+const SUPABASE_ANON_JWT = '32D8C469-D89D-4206-B0A4-B0C36A22A0FE';
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('issue-form');
@@ -58,7 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const res = await fetch(ISSUE_API_URL, {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
+                    "apikey": SUPABASE_ANON_JWT,
+    "Authorization": `Bearer ${SUPABASE_ANON_JWT}`,
                 },
                 body: JSON.stringify(payload),
             });
