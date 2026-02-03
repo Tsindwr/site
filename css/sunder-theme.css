@@ -20,6 +20,23 @@
     --md-typeset-a-color:         #C58AFF;  /* link color in text */
 
     --heading-typeset-h3-color: deepskyblue;
+    
+    /* Size: feels like a small playing card on a webpage */
+    --cardW: 270px;
+    --cardH: 410px;
+
+    --ink: rgba(255,255,255,.92);
+    --ink2: rgba(255,255,255,.72);
+    --ink3: rgba(255,255,255,.55);
+
+    --paper: #0b0f14;
+    --frame: rgba(160,190,255,.55);
+    --frame2: rgba(120,255,200,.35);
+
+    --topTint: rgba(100,170,255,.12);
+    --botTint: rgba(120,255,200,.10);
+
+    --cut: rgba(255,255,255,.14);
 }
 
 /* Dark mode (slate) */
@@ -41,6 +58,23 @@
     --md-typeset-a-color:         #FFE08A;  /* gold links on dark */
 
     --heading-typeset-h3-color: skyblue;
+    
+    /* Size: feels like a small playing card on a webpage */
+    --cardW: 270px;
+    --cardH: 410px;
+
+    --ink: rgba(255,255,255,.92);
+    --ink2: rgba(255,255,255,.72);
+    --ink3: rgba(255,255,255,.55);
+
+    --paper: #0b0f14;
+    --frame: rgba(160,190,255,.55);
+    --frame2: rgba(120,255,200,.35);
+
+    --topTint: rgba(100,170,255,.12);
+    --botTint: rgba(120,255,200,.10);
+
+    --cut: rgba(255,255,255,.14);
 }
 
 /* Extra link styling (both schemes) */
