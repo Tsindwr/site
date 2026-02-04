@@ -73,7 +73,7 @@ $$
 >*Level 4*: 20
 >*Level 5*: 24
 
-A party gains Story points whenever a player gains a String, Milestone, or Zenith (from a source other than the Loom). At the beginning of a party's adventure, it is given 1 Loom Boon.
+A party gains Story points whenever a player gains a String, Milestone, or Zenith (from a source other than the Loom). At the beginning of a party's adventure, it is given 1 Loom Boon. The cost for Loom Boon Abilities is limited to a number of Strings equal to the upcoming Party Level (i.e. initial = 1 String, leveling up from level 1 = 2 Strings). Spending a Spirit Token for an Ability counts as the same cost reduction as spending a Resistance.
 
 When a party levels up, each character gains a [[experience|String]]. In addition, they gain a Loom Boon (see below), as well as refresh all Spirit Tokens.
 

@@ -32,9 +32,9 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 
 > [!info]+ **Mental Potentials**
 >  
+>  ***Instinct:*** A creature's ability to be aware of their surroundings and others' emotions is represented by its Instinct score. This score determines a player's ability to spot a target from far away, determine if someone is lying, or dodge a sudden incoming attack.
+>  
 >  ***Wit:*** A creature's ability to quickly discern patterns and remember information is represented by its Wit score. This score determines a player's ability to recall details about history, glean an understanding of a mechanism, or understand the workings of synthetic arcane enchantments.
->   
->   ***Instinct:*** A creature's ability to be aware of their surroundings and others' emotions is represented by its Instinct score. This score determines a player's ability to spot a target from far away, determine if someone is lying, or dodge a sudden incoming attack.
 >    
 >    ***Heart:*** A creature's ability to maintain spirit in the face of dread and navigating social exchanges is represented by its Heart score. This score determines a player's ability to convey messages nonverbally, haggle for a better price at the bazaar, or remain unfazed in the presence of horrific otherworldly entities.
 >     
@@ -61,14 +61,14 @@ Grit - *Mind over body, powering through the physical effects of mystical damage
 Frame - *Resisting arcane alteration, maintaining appearance*
 Draw - *Adapting to surroundings, letting in warp*
 Form - *Actuating physical change, becoming something new*
-##### Wit
-Reason - *Understanding patterns, puzzling and calculating*
-Recall - *Remembering information, memorizing mundane facts*
-Esoterica - *Intuiting the abstract, creating structure in the unknown*
 ##### Instinct
 Reflex - *Making quick decisions, avoiding unexpected hazards*
 Read - *Honing in on a creature's behaviors, gleaning intent*
 Sense - *Using the five senses, tapping into a sixth sense*
+##### Wit
+Reason - *Understanding patterns, puzzling and calculating*
+Recall - *Remembering information, memorizing mundane facts*
+Esoterica - *Intuiting the abstract, creating structure in the unknown*
 ##### Heart
 Aura - *Expressing body language, signaling subtly, acting*
 Sway - *Influencing others, deceiving, appealing*
