@@ -12,7 +12,11 @@ Every player starts out with a set of General Action Cards. These are Abilities 
 
 An Action during Initiative involves the playing of two cards: one on its Attack side, and one on its Movement side. A player is not able to play two Attack cards for their action, nor are they able to play two Movement cards. Each Action Card has an Attack and Movement side, but the two cannot be activated at the same time, since the player must play two cards per turn.
 
+A player may choose to forgo the defined Attack or Movement on an Action card and instead use the default action. The default Attack Action is "Make a weapon or unarmed\* attack (Force) against a Here target." The default Movement Action is "Move Close." 
+
 A player will receive new Action Cards whenever they purchase the corresponding Ability from the [[abilities|Experience Market]].
+
+\* *Unarmed attacks deal damage to Might equal to your Tier.*
 
 ## Action Tests
 

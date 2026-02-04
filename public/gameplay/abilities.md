@@ -66,11 +66,11 @@ The Dexterity Ability allows a character to use their Finesse Potential instead 
 
  <div class="domain"><p>Discipline Pool<span class="subtext"> - Stat</span></p></div>
 **Cost: 6 Strings** (1 Enhancement)
-When taking this Ability, choose one of your current Archetypes: this is your prerequisite. Create a name for your *Discipline* (e.g. Chi, Psionics, Vis, etc.). You have a number of *Discipline* Points equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a Resistance (-1 String) and having a prerequisite (-2 Strings). Your number of *Discipline* Points is considered a permanent Stat.
+When taking this Ability, choose one of your current Archetypes: this is your prerequisite. Create a name for your *Discipline* (e.g. Chi, Psionics, Vis, etc.). You have a number of *Discipline* Points (a special kind of Resistance) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a Resistance (-1 String) and having a prerequisite (-2 Strings). Your number of *Discipline* Points is considered a permanent Stat.
 
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
 **Cost: 5 Strings**
-Taking an Upgrade allows a character to increment one of the following Stats by 1: +1 Mark, +1 to a Potential Score, +1 Knack, +1 to a Discipline Pool's total Points, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.
+Taking an Upgrade allows a character to increment one of the following Stats by 1: +1 Mark, +1 to a Potential Score, +1 Knack, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or Long Rest Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.
 
 <div class="domain"><p>Driven<span class="subtext"> - Stat</span></p></div>
 **Base Cost: 1 String** (1 Enhancement)
@@ -131,6 +131,7 @@ Enhancements become more expensive the more you buy for a single Ability.
 | 2nd           | 3              |
 | 3rd           | 5              |
 | 4th           | 8              |
+| 5th           | 13             |
 
 ### Conditional Enhancements
 
@@ -228,7 +229,7 @@ If Movement is being added to an Attack Action, it requires an Enhancement slot.
 | Minor Conditions | String | Enhancements |
 | ---------------- | ------ | ------------ |
 | Single Target    | +1     | 0            |
-| AOE or multiple  | +2     | 0            |
+| AOE or multiple  | +2     | 1            |
 
 | Major Conditions | String | Enhancements |
 | ---------------- | ------ | ------------ |
@@ -238,16 +239,23 @@ If Movement is being added to an Attack Action, it requires an Enhancement slot.
 ### Temporary Increases
 Increase your stat by 1 for the Ability's duration.
 
-| Stat        | String |
-| ----------- | ------ |
-| Potential   | 2      |
-| Proficiency | 1      |
+| Stat                   | Cost      |
+| ---------------------- | --------- |
+| Mark                   | 2 Strings |
+| Potential              | 2 Strings |
+| Proficiency            | 1 String  |
+| 1 Test's Success Level | 5 Beats   |
 
 | Recover    | String |
 | ---------- | ------ |
 | Stress     | 1      |
 | Resistance | 2      |
 | Condition  | 2      |
+
+| Clear                   | String | Enhancements |
+| ----------------------- | ------ | ------------ |
+| Potential's Stress      | 2      | 0            |
+| Potential's Resistances | 4      | 1            |
 
 
 ---
@@ -266,7 +274,7 @@ Increase your stat by 1 for the Ability's duration.
 ---
 ## Ability Durations
 
-Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several time to alter the effect of another Ability, then it is measured in Sequence Dice.
+Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.
 
 >[!important] Sequence Experience
 >Sequence Tracks allow for opportunities to increase a player's Experience pool through gaining Beats. The length of a Sequence Track is determined by the maximum value on the Sequence Die. This Track can be decreased in length in exchange for marking one of the Sequence Nodes on the Track as an Experience Node. When a player expends a use of a Sequence Ability whose current slot was an Experience Slot before expenditure, the player gains a Beat (e.g. if a D4 Sequence Ability which has been decreased to 3 Nodes, and the Experience Node was assigned to the 2nd slot, once the player activates the Ability for the second time, they gain a Beat).
@@ -280,24 +288,25 @@ Durations are priced by how long they remain active. Durations can either refer 
 | 1 round                   | 0       | 0           | Until the start of your next turn                                                       |
 | 1 minute/Scene            | +2      | 0           | Scene-level impact                                                                      |
 | 1 hour                    | +4      | 0           | Travel / downtime impact                                                                |
+| Until Dispelled           | +5      | 1           | Until Successful action is taken by another creature to end the condition.              |
 | Sequence Die (Volatility) | +2      | 1           | Use the user's Volatility Die in the relevant Potential for the Sequence. This includes |
 | Sequence Die (1d6)        | +1      | 1           | Default Sequence die                                                                    |
 | Add Sequence Experience   | +1      | 0           | Only able to be added to Sequence abilities                                             |
 | Concentration\*           | -1      | 0           | Discount; can stack with another duration                                               |
-\* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it.
+\* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it. You may spend a Resistance point in the relevant Potential to maintain concentration after Fallout.
 
 ---
 ## Companion Abilities
 
 Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring.
 
-| Modification   | Description                                                                                                                                                                                                                                                                                                               | Strings | Enhancements |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
-| Agency         | This ability, when taken by your Companion, can replace any Movement Action on your turn. Use your chosen Potential for any Tests.                                                                                                                                                                                        | 3       | 1            |
-| Presence       | Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. | 5       | 0            |
-| Mount          | You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.                                                                                                                                                                                  | 3       | 0            |
-| Specialization | Assign 2 Skills and a Knack to your Companion (requires Presence).                                                                                                                                                                                                                                                        | 2       | 0            |
-| Coordination   | Give your Companion access to a shared Discipline Pool (requires Discipline Pool).                                                                                                                                                                                                                                        | 3       | 0            |
+| Modification   | Description                                                                                                                                                                                                                                                                                                                                                                                               | Strings | Enhancements |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
+| Agency         | This ability, when taken by your Companion, can replace any Movement Action on your turn. Use your chosen Potential for any Tests.                                                                                                                                                                                                                                                                        | 3       | 1            |
+| Presence       | Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead. | 5       | 0            |
+| Mount          | You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.                                                                                                                                                                                                                                                                  | 3       | 0            |
+| Specialization | Assign 2 Skills and a Knack to your Companion (requires Presence).                                                                                                                                                                                                                                                                                                                                        | 2       | 0            |
+| Coordination   | Give your Companion access to a shared Discipline Pool (requires Discipline Pool).                                                                                                                                                                                                                                                                                                                        | 3       | 0            |
 
 
 ---
@@ -307,14 +316,15 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 
 ### String-Level Caveats
 
-| Constraint                   | String |
-| ---------------------------- | ------ |
-| Narrow trigger               | -1     |
-| Narrative consequence        | -1     |
-| Severe narrative consequence | -2     |
-| Spend Resistance             | -1     |
-| Prerequisite                 | -2     |
-\* Prerequisites can be Abilities, Archetypes, or Origin choices.
+| Constraint                   | Strings |
+| ---------------------------- | ------- |
+| Narrow trigger               | -1      |
+| Narrative consequence        | -1      |
+| Severe narrative consequence | -2      |
+| Mechanical consequence       | -2      |
+| Spend Resistance             | -1      |
+| Prerequisite                 | -2      |
+\* Prerequisites can be Abilities, Archetype Levels, or Origin choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.
 
 ### Beat-Level Caveats
 
@@ -330,11 +340,11 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 
 Spells must always have a Consequence. If the Consequence is more severe, it reduces the purchase cost more.
 
-| Consequence    | String |
-| -------------- | ------ |
-| Minor Fallout  | -0.5   |
-| Major Fallout  | -2     |
-| Severe Fallout | -5     |
+| Consequence    | Cost Reduction |
+| -------------- | -------------- |
+| Minor Fallout  | -5 Beats       |
+| Major Fallout  | -2 Strings     |
+| Severe Fallout | -5 Strings     |
 
 ---
 

@@ -27,7 +27,7 @@ Like Potentials, equipment can also become stressed and eventually experience de
 
 Weapons are assigned a damage die and target Potential. Attacks made with weapons require a successful Test to have any effect.
 
-Armor is assigned a number of protection slots that can be used to store incoming physical Stress instead of applying it directly to the wearer's Stress Track. These reset each scene.
+Armor is assigned a number of **Protection Slots** that can be used to store incoming physical Stress instead of applying it directly to the wearer's Stress Track. These reset each scene.
 
 Taking Fallout in a weapon or tool increases the [[resolution-system#Risky Tests|Riskiness]] of Tests used to use that piece of equipment. Taking Fallout in armor causes the number of protection slots available to be decreased. These debuff effects can be removed when taking the [[resting|Repair Rest Action]].
 
@@ -49,5 +49,7 @@ Some pieces of equipment have unique properties that alter their stats.
 | Unwieldly           | Tests made with this weapon while wielding it with only one hand are made with [[resolution-system#Risky Tests\|Disadvantage]].                                                                                                                                                        |
 | Reach               | Attacks with this weapon have a range of *Near* instead of *Here*.                                                                                                                                                                                                                     |
 | **Armor**           |                                                                                                                                                                                                                                                                                        |
+| Protection (*X*)    | This armor provides *X* Protection Slots.                                                                                                                                                                                                                                              |
 | Light               | Protection slots grant Disadvantage on incoming physical attacks instead of Stress storage. These Slots replenish after moving on your turn.                                                                                                                                           |
 | Heavy               | As long as you have protection slots left open, you may reduce incoming physical damage by 1 roll of your Might Volatility Die. You have Disadvantage on Finesse Tests.                                                                                                                |
+| Shield (*P*)        | This armor provides a maximum of 2 Protection Slots. You may spend a Resistance from the given *Potential* to refresh the Protection Slots provided by this armor.                                                                                                                     |
