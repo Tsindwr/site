@@ -2262,10 +2262,10 @@ The Redirect Ability allows characters to move incoming Stress from one Potentia
 The Dexterity Ability allows a character to use their Finesse Potential instead of their Might Potential when making Tests with melee weapons. This does not apply to any weapon with the <a href="../../core/equipment/">Heavy</a> or <a href="../../core/equipment/">Unwieldy</a> properties. <em>This ability can be assigned a prerequisite of any of the following archetypes, reducing its cost by 2 Strings:</em> Saboteur, Frontliner, or Summoner.</p>
 <div class="domain"><p>Discipline Pool<span class="subtext"> - Stat</span></p></div>
 <p><strong>Cost: 6 Strings</strong> (1 Enhancement)<br />
-When taking this Ability, choose one of your current Archetypes: this is your prerequisite. Create a name for your <em>Discipline</em> (e.g. Chi, Psionics, Vis, etc.). You have a number of <em>Discipline</em> Points equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend <em>Discipline</em> Points instead of Resistances, but still have the discount to cost of spending a Resistance (-1 String) and having a prerequisite (-2 Strings). Your number of <em>Discipline</em> Points is considered a permanent Stat.</p>
+When taking this Ability, choose one of your current Archetypes: this is your prerequisite. Create a name for your <em>Discipline</em> (e.g. Chi, Psionics, Vis, etc.). You have a number of <em>Discipline</em> Points (a special kind of Resistance) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend <em>Discipline</em> Points instead of Resistances, but still have the discount to cost of spending a Resistance (-1 String) and having a prerequisite (-2 Strings). Your number of <em>Discipline</em> Points is considered a permanent Stat.</p>
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
 <p><strong>Cost: 5 Strings</strong><br />
-Taking an Upgrade allows a character to increment one of the following Stats by 1: +1 Mark, +1 to a Potential Score, +1 Knack, +1 to a Discipline Pool's total Points, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.</p>
+Taking an Upgrade allows a character to increment one of the following Stats by 1: +1 Mark, +1 to a Potential Score, +1 Knack, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or Long Rest Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.</p>
 <div class="domain"><p>Driven<span class="subtext"> - Stat</span></p></div>
 <p><strong>Base Cost: 1 String</strong> (1 Enhancement)<br />
 Purchasing new Goals allows a character to have new sources of Experience Points, but these Goals must have a narrative connection to your character's story. Purchasing this ability allows you make further purchases to unlock new goals:</p>
@@ -2390,6 +2390,10 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>4th</td>
 <td>8</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>13</td>
 </tr>
 </tbody>
 </table>
@@ -2657,7 +2661,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>AOE or multiple</td>
 <td>+2</td>
-<td>0</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -2688,17 +2692,25 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <thead>
 <tr>
 <th>Stat</th>
-<th>String</th>
+<th>Cost</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>Mark</td>
+<td>2 Strings</td>
+</tr>
+<tr>
 <td>Potential</td>
-<td>2</td>
+<td>2 Strings</td>
 </tr>
 <tr>
 <td>Proficiency</td>
-<td>1</td>
+<td>1 String</td>
+</tr>
+<tr>
+<td>1 Test's Success Level</td>
+<td>5 Beats</td>
 </tr>
 </tbody>
 </table>
@@ -2721,6 +2733,27 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>Condition</td>
 <td>2</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Clear</th>
+<th>String</th>
+<th>Enhancements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Potential's Stress</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Potential's Resistances</td>
+<td>4</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -2759,7 +2792,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </table>
 <hr />
 <h2 id="ability-durations">Ability Durations</h2>
-<p>Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several time to alter the effect of another Ability, then it is measured in Sequence Dice.</p>
+<p>Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.</p>
 <div class="admonition important">
 <p class="admonition-title">Sequence Experience</p>
 <p>Sequence Tracks allow for opportunities to increase a player's Experience pool through gaining Beats. The length of a Sequence Track is determined by the maximum value on the Sequence Die. This Track can be decreased in length in exchange for marking one of the Sequence Nodes on the Track as an Experience Node. When a player expends a use of a Sequence Ability whose current slot was an Experience Slot before expenditure, the player gains a Beat (e.g. if a D4 Sequence Ability which has been decreased to 3 Nodes, and the Experience Node was assigned to the 2nd slot, once the player activates the Ability for the second time, they gain a Beat).</p>
@@ -2795,6 +2828,12 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>Travel / downtime impact</td>
 </tr>
 <tr>
+<td>Until Dispelled</td>
+<td>+5</td>
+<td>1</td>
+<td>Until Successful action is taken by another creature to end the condition.</td>
+</tr>
+<tr>
 <td>Sequence Die (Volatility)</td>
 <td>+2</td>
 <td>1</td>
@@ -2819,7 +2858,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>Discount; can stack with another duration</td>
 </tr>
 <tr>
-<td>* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it.</td>
+<td>* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it. You may spend a Resistance point in the relevant Potential to maintain concentration after Fallout.</td>
 <td></td>
 <td></td>
 <td></td>
@@ -2847,7 +2886,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tr>
 <tr>
 <td>Presence</td>
-<td>Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability.</td>
+<td>Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.</td>
 <td>5</td>
 <td>0</td>
 </tr>
@@ -2879,7 +2918,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <thead>
 <tr>
 <th>Constraint</th>
-<th>String</th>
+<th>Strings</th>
 </tr>
 </thead>
 <tbody>
@@ -2896,6 +2935,10 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>-2</td>
 </tr>
 <tr>
+<td>Mechanical consequence</td>
+<td>-2</td>
+</tr>
+<tr>
 <td>Spend Resistance</td>
 <td>-1</td>
 </tr>
@@ -2904,7 +2947,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>-2</td>
 </tr>
 <tr>
-<td>* Prerequisites can be Abilities, Archetypes, or Origin choices.</td>
+<td>* Prerequisites can be Abilities, Archetype Levels, or Origin choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.</td>
 <td></td>
 </tr>
 </tbody>
@@ -2946,21 +2989,21 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <thead>
 <tr>
 <th>Consequence</th>
-<th>String</th>
+<th>Cost Reduction</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Minor Fallout</td>
-<td>-0.5</td>
+<td>-5 Beats</td>
 </tr>
 <tr>
 <td>Major Fallout</td>
-<td>-2</td>
+<td>-2 Strings</td>
 </tr>
 <tr>
 <td>Severe Fallout</td>
-<td>-5</td>
+<td>-5 Strings</td>
 </tr>
 </tbody>
 </table>
@@ -3125,7 +3168,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.0.15";
+            window.SUNDER_VERSION = "1.0.17";
         </script>
     
 

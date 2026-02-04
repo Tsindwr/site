@@ -1538,15 +1538,11 @@
 </tr>
 <tr>
 <td>Petrified</td>
-<td>A Petrified creature cannot move or take Actions, Surges, or reactions. Physical Attacks against this creature have Advantage.</td>
+<td>A Petrified creature is considered Physically Vulnerable, and cannot move or take Actions, Surges, or reactions.</td>
 </tr>
 <tr>
 <td>Pinned</td>
 <td>A Pinned creature is also Rooted, Held, and Bound.</td>
-</tr>
-<tr>
-<td>Muddled (P)</td>
-<td>A Muddled creature has Disadvantage on Tests made in the specified Potential (P).</td>
 </tr>
 <tr>
 <td>Spirited</td>
@@ -1555,6 +1551,10 @@
 <tr>
 <td>Warded (X)</td>
 <td>A Warded creature reduces X amount of incoming Physical Stress.</td>
+</tr>
+<tr>
+<td>Cursed</td>
+<td>A Cursed creature cannot regain Stress, Resistances, or Marks.</td>
 </tr>
 </tbody>
 </table>
@@ -1576,6 +1576,10 @@
 <td>An Armed creature is considered to have a weapon or some other implement of attacking equipped.</td>
 </tr>
 <tr>
+<td>Armored</td>
+<td>An armored creature is considered to have a Physical form of protection equipped.</td>
+</tr>
+<tr>
 <td>Bound</td>
 <td>A Bound creature rolls Tests made to take the Attack Action with Disadvantage. Physical Attacks against this creature have Advantage.</td>
 </tr>
@@ -1589,7 +1593,7 @@
 </tr>
 <tr>
 <td>Distracted</td>
-<td>A creature that applies Distracted condition to a target is considered Unseen to that target.</td>
+<td>A creature that applies the Distracted condition to a target is considered Unseen to that target, or can transfer the Unseen condition to an ally within Yonder.</td>
 </tr>
 <tr>
 <td>Empowered (P)</td>
@@ -1602,6 +1606,10 @@
 <tr>
 <td>Held</td>
 <td>A Held creature is Rooted (1), centered on the creature holding it, and has Disadvantage on Tests requiring the appendage being held.</td>
+</tr>
+<tr>
+<td>Muddled (<em>P</em>)</td>
+<td>A Muddled creature has Disadvantage on Tests made in the specified Potential (P).</td>
 </tr>
 <tr>
 <td>Rooted (X)</td>
@@ -1618,6 +1626,10 @@
 <tr>
 <td>Unseen</td>
 <td>A creature that is Unseen by a target creature has Advantage on Attack Tests against the target and the target creature has Disadvantage on Sense Tests made to detect the Unseen creature.</td>
+</tr>
+<tr>
+<td>Vulnerable</td>
+<td>Attacks made against a Vulnerable creature are made with Advantage. A creature can be Mentally, Physically, or Completely Vulnerable, which dictates which attacks are given Advantage based on what Stress Tracks they target.</td>
 </tr>
 </tbody>
 </table>
@@ -1758,7 +1770,7 @@
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.0.15";
+            window.SUNDER_VERSION = "1.0.17";
         </script>
     
 
