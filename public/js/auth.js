@@ -3,6 +3,7 @@ window.sunder = window.sunder || {};
 (function () {
     const SUPABASE_URL = 'https://oqngifbqawctgqxgtxfl.supabase.co';
     const SUPABASE_ANON_KEY = 'sb_publishable_yWdBi5JCNErFyMqF6F6pbw_iasqMQjj';
+    const USER_STORAGE_KEY = 'sunder_user_info';
 
     if (!window.supabase || !window.supabase.createClient) {
         console.error(
@@ -13,18 +14,57 @@ window.sunder = window.sunder || {};
 
     const client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+    // Save user info to localStorage
+    function saveUserInfo(user) {
+        if (!user) {
+            localStorage.removeItem(USER_STORAGE_KEY);
+            return;
+        }
+        try {
+            const userInfo = {
+                id: user.id,
+                email: user.email,
+                user_metadata: user.user_metadata,
+                updated_at: new Date().toISOString()
+            };
+            localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(userInfo));
+        } catch (err) {
+            console.warn("Failed to save user info to localStorage:", err);
+        }
+    }
+
+    // Get cached user info from localStorage
+    function getCachedUserInfo() {
+        try {
+            const cached = localStorage.getItem(USER_STORAGE_KEY);
+            return cached ? JSON.parse(cached) : null;
+        } catch (err) {
+            console.warn("Failed to read user info from localStorage:", err);
+            return null;
+        }
+    }
+
     async function getCurrentUser() {
         try {
             const { data, error } = await client.auth.getUser();
             if (error) {
                 console.warn("getUser error:", error);
+                saveUserInfo(null); // Clear cached user on error
                 return null;
             }
-            return data.user || null;
+            const user = data.user || null;
+            saveUserInfo(user); // Save to localStorage
+            return user;
         } catch (err) {
             console.error("getUser threw:", err);
+            saveUserInfo(null); // Clear cached user on error
             return null;
         }
+    }
+
+    // Get user info (returns cached version for quick access)
+    function getUserInfo() {
+        return getCachedUserInfo();
     }
 
     async function requireUserOrLogin() {
@@ -51,12 +91,16 @@ window.sunder = window.sunder || {};
         if (error) {
             console.error("Sign out error:", error);
             alert("Failed to log out.");
+        } else {
+            saveUserInfo(null); // Clear localStorage on successful logout
         }
     }
 
     function onAuthStateChange(callback) {
         client.auth.onAuthStateChange((_event, session) => {
-            callback(session?.user || null);
+            const user = session?.user || null;
+            saveUserInfo(user); // Keep localStorage in sync
+            callback(user);
         });
     }
 
@@ -64,6 +108,7 @@ window.sunder = window.sunder || {};
     window.sunder.auth = {
         client,
         getCurrentUser,
+        getUserInfo,
         requireUserOrLogin,
         signOut,
         onAuthStateChange,

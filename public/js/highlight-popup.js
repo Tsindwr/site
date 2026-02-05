@@ -445,6 +445,23 @@ window.sunder = window.sunder || {};
         statusEl.textContent = "";
         statusEl.className = "sunder-question-status";
 
+        // Auto-fill contact info if user is logged in
+        if (window.sunder && window.sunder.auth) {
+            const userInfo = window.sunder.auth.getUserInfo();
+            if (userInfo) {
+                const meta = userInfo.user_metadata || {};
+                const username = meta.full_name || meta.name || meta.user_name || meta.custom_claims?.global_name;
+                const email = userInfo.email;
+                
+                // Prefer Discord username, fallback to email
+                if (username) {
+                    contactInput.value = `Discord: ${username}`;
+                } else if (email) {
+                    contactInput.value = email;
+                }
+            }
+        }
+
         // Show modal
         modal.classList.add("open");
         document.body.style.overflow = "hidden";
