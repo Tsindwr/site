@@ -2,6 +2,27 @@ function $(elementID) {
     return document.getElementById(elementID);
 }
 
+// Helper to produce a stable URL for site assets using the optional global base URL
+function assetUrl(relPath) {
+    const base = (window.SUNDER_BASE_URL || '').replace(/\/$/, '');
+    return base + '/' + String(relPath || '').replace(/^\/+/, '');
+}
+
+// Resolve an avatar value which may be absolute (http/s or //), root-absolute (/...), or relative (assets/...)
+function resolveAvatar(avatar) {
+    if (!avatar) return assetUrl('assets/favicon/sunder-logo.png');
+    const s = String(avatar);
+    // protocol-relative or absolute
+    if (/^(https?:)?\/\//.test(s)) return s;
+    // root-absolute: prepend base without duplicating slash
+    if (s.startsWith('/')) {
+        const base = (window.SUNDER_BASE_URL || '').replace(/\/$/, '');
+        return base + s;
+    }
+    // relative path: resolve under base
+    return assetUrl(s);
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
     const userButton = $('user-button');
     const userDropdown = $('user-dropdown');
@@ -34,7 +55,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     const auth = (window.sunder && window.sunder.auth) || null;
 
     function setLoggedOutUI() {
-        if (userAvatar) userAvatar.src = 'assets/favicon/sunder-logo.png';
+        if (userAvatar) userAvatar.src = assetUrl('assets/favicon/sunder-logo.png');
         if (userNameSpan) userNameSpan.textContent = 'Profile';
 
         if (loginButton) loginButton.style.display = 'block';
@@ -50,7 +71,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 
         const meta = user.user_metadata || {};
         const name = meta.full_name || meta.name || meta.user_name || "Discord User";
-        const avatar = meta.avatar_url || "assets/favicon/sunder-logo.png";
+        const avatar = resolveAvatar(meta.avatar_url || 'assets/favicon/sunder-logo.png');
 
         if (userAvatar) userAvatar.src = avatar;
         if (userNameSpan) userNameSpan.textContent = name;

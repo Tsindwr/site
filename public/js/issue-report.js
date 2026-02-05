@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const displayName = window.sunder.auth.getUserDisplayName();
         if (displayName) {
             contactInput.value = displayName;
+            // Keep the contact input static so it can't be changed after autofill (match question modal behavior)
+            contactInput.disabled = true;
         }
     }
 

@@ -450,6 +450,7 @@ window.sunder = window.sunder || {};
             const displayName = window.sunder.auth.getUserDisplayName();
             if (displayName) {
                 contactInput.value = displayName;
+                contactInput.disabled = true;
             }
         }
 

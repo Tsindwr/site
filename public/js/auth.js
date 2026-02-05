@@ -21,8 +21,31 @@ window.sunder = window.sunder || {};
             return;
         }
         try {
+            // Attempt to extract the Discord provider user id (so we can mention them in Discord)
+            let discordProviderId = null;
+
+            // Supabase may expose an `identities` array on the user with provider information
+            if (user.identities && Array.isArray(user.identities)) {
+                const discordIdent = user.identities.find(i => (i.provider || '').toLowerCase() === 'discord');
+                if (discordIdent) {
+                    // identity_data commonly contains provider-specific fields (e.g. `id` for OAuth providers)
+                    if (discordIdent.identity_data) {
+                        discordProviderId = discordIdent.identity_data.id || discordIdent.identity_data.user_id || discordIdent.identity_data.sub || null;
+                    }
+                    // fallback fields
+                    if (!discordProviderId) discordProviderId = discordIdent.provider_id || discordIdent.id || null;
+                }
+            }
+
+            // Some setups may surface provider ids in user_metadata
+            if (!discordProviderId && user.user_metadata) {
+                discordProviderId = user.user_metadata.discord_id || user.user_metadata.id || null;
+            }
+
             const userInfo = {
                 id: user.id,
+                // store a dedicated discord_id when available (otherwise null)
+                discord_id: discordProviderId || null,
                 email: user.email,
                 user_metadata: user.user_metadata,
                 updated_at: new Date().toISOString()
@@ -75,16 +98,23 @@ window.sunder = window.sunder || {};
     function getUserDisplayName() {
         const userInfo = getCachedUserInfo();
         if (!userInfo) return null;
-        
+
         const meta = userInfo.user_metadata || {};
         const username = meta.full_name || meta.name || meta.user_name || meta.custom_claims?.global_name;
-        
+        // Prefer the Discord provider id if we stored it; fallback to supabase user id
+        const discordId = userInfo.discord_id || userInfo.id;
+
         if (username) {
-            return `Discord: ${username}`;
+            // Only format a Discord mention if the id looks like a numeric Discord id
+            if (discordId && /^\d+$/.test(String(discordId))) {
+                return `${username} <@${discordId}>`;
+            }
+            // Otherwise return the username (append non-numeric id for debugging if present)
+            return username + (discordId ? ` (${discordId})` : '');
         } else if (userInfo.email) {
             return userInfo.email;
         }
-        
+
         return null;
     }
 
