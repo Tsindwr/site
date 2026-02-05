@@ -136,7 +136,9 @@ Deno.serve(async (req: Request) => {
     color: 0x7cd958, // Green color
     fields,
     timestamp: new Date().toISOString(),
-    footer: "https://tsindwr.github.io/site/"
+    footer: {
+      text: "https://tsindwr.github.io/site/",
+    },
   };
 
   const payload = {
@@ -154,7 +156,10 @@ Deno.serve(async (req: Request) => {
   if (!res.ok) {
     const text = await res.text();
     console.error("Discord error:", res.status, text);
-    return new Response("Discord error", { status: 502, headers: corsHeaders });
+    return new Response(`Discord error: ${res.status} ${text}`, {
+      status: 502,
+      headers: corsHeaders,
+    });
   }
 
   // 4) Record the announcement in DB so we don't send again
