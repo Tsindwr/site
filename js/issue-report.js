@@ -11,6 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const descriptionInput = document.getElementById('issue-description');
     const contactInput = document.getElementById('issue-contact');
 
+    // Auto-fill contact info if user is logged in
+    if (contactInput && !contactInput.value && window.sunder && window.sunder.auth) {
+        const displayName = window.sunder.auth.getUserDisplayName();
+        if (displayName) {
+            contactInput.value = displayName;
+            // Keep the contact input static so it can't be changed after autofill (match question modal behavior)
+            contactInput.disabled = true;
+        }
+    }
+
     // Pre-fill page URL if provided in query params
     try {
         const params = new URLSearchParams(window.location.search);

@@ -570,12 +570,20 @@ h3 {
     font-size: 1.1em;
 }
 
+.md-nav__item--section>.md-nav__link[for] {
+    color: var(--md-primary-fg-color) !important;
+}
+
+.md-nav__title {
+    color: var(--md-primary-fg-color) !important;
+}
+
 /* ===== Domain Display ===== */
 
 .domain {
     display: flex;
     flex-direction: column;
-    gap: 5 px;
+    gap: 5px;
 }
 
 .domain p {
