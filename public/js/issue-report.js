@@ -12,19 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactInput = document.getElementById('issue-contact');
 
     // Auto-fill contact info if user is logged in
-    if (contactInput && window.sunder && window.sunder.auth) {
-        const userInfo = window.sunder.auth.getUserInfo();
-        if (userInfo) {
-            const meta = userInfo.user_metadata || {};
-            const username = meta.full_name || meta.name || meta.user_name || meta.custom_claims?.global_name;
-            const email = userInfo.email;
-            
-            // Prefer Discord username, fallback to email
-            if (username && !contactInput.value) {
-                contactInput.value = `Discord: ${username}`;
-            } else if (email && !contactInput.value) {
-                contactInput.value = email;
-            }
+    if (contactInput && !contactInput.value && window.sunder && window.sunder.auth) {
+        const displayName = window.sunder.auth.getUserDisplayName();
+        if (displayName) {
+            contactInput.value = displayName;
         }
     }
 

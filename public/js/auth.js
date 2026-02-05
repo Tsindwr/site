@@ -67,6 +67,27 @@ window.sunder = window.sunder || {};
         return getCachedUserInfo();
     }
 
+    // Get user's display name for contact field auto-fill
+    // Discord OAuth user_metadata typically includes:
+    // - full_name: Discord display name
+    // - user_name: Discord username (without @)
+    // - custom_claims.global_name: Discord global name (if set)
+    function getUserDisplayName() {
+        const userInfo = getCachedUserInfo();
+        if (!userInfo) return null;
+        
+        const meta = userInfo.user_metadata || {};
+        const username = meta.full_name || meta.name || meta.user_name || meta.custom_claims?.global_name;
+        
+        if (username) {
+            return `Discord: ${username}`;
+        } else if (userInfo.email) {
+            return userInfo.email;
+        }
+        
+        return null;
+    }
+
     async function requireUserOrLogin() {
         const user = await getCurrentUser();
         if (user) return user;
@@ -109,6 +130,7 @@ window.sunder = window.sunder || {};
         client,
         getCurrentUser,
         getUserInfo,
+        getUserDisplayName,
         requireUserOrLogin,
         signOut,
         onAuthStateChange,
