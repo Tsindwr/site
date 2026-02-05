@@ -4,7 +4,7 @@
 
 // Setup type definitions for built-in Supabase Runtime APIs
 import "jsr:@supabase/functions-js/edge-runtime.d.ts"
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2"
+import { createClient } from "npm:@supabase/supabase-js@2.95.0"
 
 interface Section {
   title: string;
@@ -20,16 +20,21 @@ interface Payload {
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type, x-post-update-secret",
 }
 
 const supabaseUrl = Deno.env.get("SUPABASE_URL") ?? "";
 const supabaseServiceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "";
+const postUpdateSecret = Deno.env.get("POST_UPDATE_SHARED_SECRET") ?? "";
 
 if (!supabaseUrl || !supabaseServiceKey) {
   console.error(
       "Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in environment",
   )
+}
+
+if (!postUpdateSecret) {
+  console.error("Missing POST_UPDATE_SHARED_SECRET in environment");
 }
 
 const supabase =
@@ -46,6 +51,18 @@ Deno.serve(async (req: Request) => {
 
   if (req.method !== "POST") {
     return new Response("Method not allowed", { status: 405, headers: corsHeaders});
+  }
+
+  if (!postUpdateSecret) {
+    return new Response("Shared secret not configured", {
+      status: 500,
+      headers: corsHeaders,
+    });
+  }
+
+  const requestSecret = req.headers.get("x-post-update-secret") ?? "";
+  if (requestSecret !== postUpdateSecret) {
+    return new Response("Unauthorized", { status: 401, headers: corsHeaders });
   }
 
   let body: Payload;
@@ -119,12 +136,12 @@ Deno.serve(async (req: Request) => {
     color: 0x7cd958, // Green color
     fields,
     timestamp: new Date().toISOString(),
+    footer: "https://tsindwr.github.io/site/"
   };
 
   const payload = {
     content: "<@&1431133782852898916>", // optional add @role mentions
-    embeds: [embed],
-    footer: "https://tsindwr.github.io/site/"
+    embeds: [embed]
   };
 
   // 3) Send to Discord
