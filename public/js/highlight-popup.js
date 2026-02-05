@@ -445,6 +445,15 @@ window.sunder = window.sunder || {};
         statusEl.textContent = "";
         statusEl.className = "sunder-question-status";
 
+        // Auto-fill contact info if user is logged in
+        if (window.sunder && window.sunder.auth) {
+            const displayName = window.sunder.auth.getUserDisplayName();
+            if (displayName) {
+                contactInput.value = displayName;
+                contactInput.disabled = true;
+            }
+        }
+
         // Show modal
         modal.classList.add("open");
         document.body.style.overflow = "hidden";
