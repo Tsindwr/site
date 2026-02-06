@@ -41,7 +41,7 @@
 
 /* Dark mode (slate) */
 [data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #2B123F;
+    --md-primary-fg-color:        #5A2D82;
     --md-primary-fg-color--light: #5A2D82;
     --md-primary-fg-color--dark:  #170821;
 
@@ -64,7 +64,8 @@
     --md-footer-bg-color: #11151c;
     --md-footer-fg-color: #cfc7db;
 
-    --md-typeset-a-color:         #FFE08A;  /* gold links on dark */
+    /* LINKS – make them pop */
+    --md-typeset-a-color:         #C58AFF !important;  /* link color in text */
 
     --heading-typeset-h3-color: skyblue;
 
@@ -141,7 +142,7 @@ h3 {
     padding: 0.3rem 0 0.6rem;
     font-size: 0.8rem;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
-    background-color: #161616;
+    background-color: var(--md-footer-bg-color);
     color: rgba(255, 255, 255, 0.7);
     border-top-color: rgba(255, 255, 255, 0.12);
 }
