@@ -1,3 +1,4 @@
+window.sunder = window.sunder || {};
 (function () {
     const POP_ID = 'sunder-highlight-popover';
     const MODAL_ID = 'sunder-question-modal';
@@ -5,6 +6,7 @@
     
     let currentQuote = null;
     let currentPagePath = null;
+    let currentPage = null;
     let currentSectionUrl = null;
     let savedSelection = null;
 
@@ -19,6 +21,11 @@
         return null;
     }
 
+    function getPage() {
+        const title = document.title || "";
+        return title.replace(/\s*[-–—]\s*.*$/, '').trim() || title;
+    }
+
     function getPagePath() {
         // Try to build "Section > Subsection > Page" from the sidebar nav
         const activeLink = document.querySelector(
@@ -26,8 +33,7 @@
         );
         if (!activeLink) {
             // Fallback to document.title without site name suffix
-            const title = document.title || "";
-            return title.replace(/\s*[-–—]\s*.*$/, '').trim() || title;
+            return getPage();
         }
 
         const segments = [];
@@ -235,8 +241,11 @@
         const reportBtn = __ret.reportBtn;
 
         pop.appendChild(createCopyButton());
-        pop.appendChild(reportBtn);
+        if (window.sunder && window.sunder.auth && window.sunder.auth.getCurrentUser() !== null) {
+            pop.appendChild(createBookmarkButton());
+        }
         pop.appendChild(createAskButton());
+        pop.appendChild(reportBtn);
         pop.appendChild(createLinkButton());
         document.body.appendChild(pop);
         return pop;
@@ -436,6 +445,15 @@
         statusEl.textContent = "";
         statusEl.className = "sunder-question-status";
 
+        // Auto-fill contact info if user is logged in
+        if (window.sunder && window.sunder.auth) {
+            const displayName = window.sunder.auth.getUserDisplayName();
+            if (displayName) {
+                contactInput.value = displayName;
+                contactInput.disabled = true;
+            }
+        }
+
         // Show modal
         modal.classList.add("open");
         document.body.style.overflow = "hidden";
@@ -582,6 +600,53 @@
         return askBtn;
     }
 
+    // ==================== Bookmark Button ====================
+
+
+    function createBookmarkButton() {
+        const bookmarkBtn = document.createElement("button");
+        bookmarkBtn.type = "button";
+        bookmarkBtn.className = "sunder-highlight-btn sunder-highlight-btn--bookmark";
+        bookmarkBtn.title = "Bookmark this highlight";
+
+        bookmarkBtn.innerHTML = `<i class="fa-solid fa-bookmark"></i>`
+
+        bookmarkBtn.addEventListener("click", () => {
+            if (!currentQuote) {
+                console.warn("No current quote to bookmark.");
+                return;
+            }
+            if (!currentSectionUrl) {
+                console.error("No current section URL.");
+                return;
+            }
+            if (!currentPage) {
+                console.error("No current page title.");
+                return;
+            }
+
+            const bookmarks = window.sunder && window.sunder.bookmarks;
+            if (!bookmarks || !bookmarks.openBookmarkDialog) {
+                console.error("Bookmarks helper not available.");
+                return;
+            }
+
+            bookmarks.openBookmarkDialog({
+                quote: currentQuote,
+                pageUrl: currentSectionUrl,
+                pageTitle: currentPage
+            });
+        });
+
+        return bookmarkBtn;
+    }
+
+    function addBookmark() {
+        return;
+    }
+
+    // ==================== Main Logic ====================
+
     function showPopoverForSelection() {
         const modal = document.getElementById(MODAL_ID);
         if (modal && modal.classList.contains("open")) {
@@ -618,11 +683,13 @@
         }
 
         currentQuote = text;
+        currentPage = getPage();
+        currentSectionUrl = getSectionUrlFromSelection();
         currentPagePath = getPagePath();
 
         const pop = createPopover();
-        const scrollX = window.scrollY || document.documentElement.scrollTop;
-        const scrollY = window.scrollX || document.documentElement.scrollLeft;
+        const scrollX = window.scrollX || document.documentElement.scrollLeft;
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
 
         const top = rect.top + scrollY - pop.offsetHeight - 8;
         const left = rect.left + scrollX + rect.width / 2 - pop.offsetWidth / 2;

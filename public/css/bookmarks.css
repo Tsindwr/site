@@ -1,0 +1,292 @@
+/* --- Bookmarks page layout --- */
+
+.bookmarks-page {
+    max-width: 960px;
+    margin: 1.5rem auto 2.5rem;
+}
+
+.bookmarks-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.bookmarks-title {
+    margin: 0;
+}
+
+.bookmarks-subtitle {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* ==== Bookmarks toolbar === = */
+.bookmarks-toolbar {
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmarks-search {
+    width: 100%;
+}
+
+.bookmarks-search-label {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+}
+
+.bookmarks-search-label kbd {
+    display: inline-block;
+    padding: 0.05rem 0.3rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-size: 0.7rem;
+    font-family: inherit;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bookmarks-meta {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-bottom: 0.75rem;
+}
+
+/* --- Bookmarks list --- */
+
+.bookmarks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* --- Card-style bookmarks --- */
+
+.card {
+    border-radius: 0.5rem;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    padding: 0.75rem 1rem;
+}
+
+.bookmark-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.bookmark-card-title {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bookmark-card-title:hover {
+    text-decoration: underline;
+}
+
+.bookmark-card-badge {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+}
+
+.bookmark-card-body {
+    margin-top: 0.25rem;
+}
+
+.bookmark-card-quote {
+    margin: 0.25rem 0 0.5rem;
+    font-style: italic;
+    font-size: 0.9rem;
+    opacity: 0.95;
+}
+
+.bookmark-card-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+/* pseudo-Bootstrap button styles */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    background: transparent;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-sm {
+    padding: 0.2rem 0.55rem;
+    font-size: 0.75rem;
+}
+
+.btn-primary {
+    background: #ffd700;
+    border-color: #ffd700;
+    color: #2b1840;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.05);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.btn-outline-primary {
+    border-color: #ffd700;
+    color: #ffd700;
+}
+
+.btn-outline-primary:hover {
+    background: rgba(255, 215, 0, 0.1);
+}
+
+.btn-link {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.text-danger {
+    color: #ff7676;
+}
+
+/* --- Modal for Add Bookmark --- */
+
+.bookmark-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.bookmark-modal-hidden {
+    display: none;
+}
+
+.bookmark-modal {
+    width: 100%;
+    max-width: 540px;
+    border-radius: 0.75rem;
+    background: var(--md-default-bg-color);
+    padding: 1rem 1.25rem 0.85rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.bookmark-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.bookmark-modal-title {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.bookmark-modal-body {
+    margin-bottom: 0.75rem;
+}
+
+.bookmark-modal-quote {
+    margin: 0.25rem 0 0.75rem;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.bookmark-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(0, 0, 0, 0.2);
+    color: inherit;
+    font-size: 0.85rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ffd700;
+}
+
+.btn-close {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.btn-close:hover {
+    opacity: 1;
+}
+
+/* Note section under quote */
+.bookmark-card-note {
+    margin-top: 0.4rem;
+    padding: 0.45rem 0.6rem;
+    border-radius: 0.4rem;
+    background: rgba(0, 0 ,0, 0.25);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.1rem;
+}
+
+.bookmark-card-note-label {
+    align-self: start;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: rgba(255, 215, 0, 0.16);
+    color: #ffd700;
+    font-weight: 600;
+}
+
+.bookmark-card-note-text {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    opacity: 0.55;
+}

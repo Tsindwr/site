@@ -25,6 +25,7 @@ theme:
     - content.code.copy
     - navigation.tabs
     - navigation.expand
+    - header.autohide
 
 extra:
   sunder_version: "0.1.0" # overridden during GitHub Actions
@@ -61,8 +62,12 @@ markdown_extensions:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - https://unpkg.com/@supabase/supabase-js@2
+  - js/auth.js
+  - js/bookmarks.js
   - js/math.js
   - js/issue-report.js
+  - js/header-auth.js
   - js/header-version.js
   - js/highlight-popup.js
 
@@ -70,6 +75,8 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
   - css/sunder-theme.css
+  - css/bookmarks.css
+  - css/header-auth.css
 
 plugins:
   - search
@@ -79,14 +86,32 @@ plugins:
 nav:
   - Lore:
       - The Essence of Truth: index.md
+      - The Arras: lore/arras.md
   - Ruleset:
-      - Rolling Dice:
+      - Core Rules:
           - Resolution System: core/resolution-system.md
-          - Stress & Fallout: core/stress-and-fallout.md
           - Volatility Dice: core/volatility-and-perks.md
+          - Stress & Fallout: core/stress-and-fallout.md
+          - Countdown Dice: core/countdown-dice.md
+          - Equipment: core/equipment.md
+          - Spirit Tokens: core/tokens.md
       - Characters:
+          - Archetypes: characters/archetypes.md
           - Attributes: characters/potentials-and-resistance.md
+          - Origin: characters/origin.md
           - Experience: characters/experience.md
+          - Levels: characters/leveling.md
+          - Spellcasting: characters/spellcasting.md
+          - Proficiency: characters/proficiencies.md
+      - Gameplay:
+          - Abilities: gameplay/abilities.md
+          - Actions: gameplay/actions.md
+          - Conditions: gameplay/conditions.md
+          - Damage: gameplay/damage.md
+          - Resting: gameplay/resting.md
+          - Scenes: gameplay/scenes.md
+  - Profile:
+      - Preferences: profile/preferences.md
   - About:
       - About Sunder: meta/about-sunder.md
       - Guides: meta/guides.md

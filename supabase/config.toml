@@ -358,7 +358,7 @@ s3_secret_key = "env(S3_SECRET_KEY)"
 
 [functions.report-bug]
 enabled = true
-verify_jwt = true
+verify_jwt = false
 import_map = "./functions/report-bug/deno.json"
 # Uncomment to specify a custom file path to the entrypoint.
 # Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
@@ -369,12 +369,12 @@ entrypoint = "./functions/report-bug/index.ts"
 
 [functions.ask-question]
 enabled = true
-verify_jwt = true
+verify_jwt = false
 import_map = "./functions/ask-question/deno.json"
 entrypoint = "./functions/ask-question/index.ts"
 [functions.post-update]
 enabled = true
-verify_jwt = true
+verify_jwt = false
 import_map = "./functions/post-update/deno.json"
 # Uncomment to specify a custom file path to the entrypoint.
 # Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx

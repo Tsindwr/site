@@ -59,6 +59,7 @@ jobs:
           echo "tag_full=${TAG}" >> $GITHUB_OUTPUT
           echo "tag_version=${BASE}" >> $GITHUB_OUTPUT
           echo "tag_patch=${PATCH}" >> $GITHUB_OUTPUT
+          echo "tag_feature=v${MAJOR}.${MINOR}.0" >> $GITHUB_OUTPUT
           
           if [ "$PATCH" -eq 0 ]; then
             echo "announce_release=true" >> $GITHUB_OUTPUT
@@ -86,12 +87,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
 
-      - name: Announce new release in Discord
-        if: steps.version.outputs.announce_release == 'true'
+      - name: Send release notes to Supabase / Discord (idempotent)
+        if: ${{ steps.version.outputs.tag_feature != '' }}
         env:
           SUPABASE_RELEASE_FUNCTION_URL: ${{ secrets.SUPABASE_RELEASE_FUNCTION_URL }}
+          SUPABASE_POST_UPDATE_SECRET: ${{ secrets.SUPABASE_POST_UPDATE_SECRET }}
         run: |
-          TAG="${{ steps.version.outputs.tag_full }}"
+          set -euo pipefail
+          
+          TAG="${{ steps.version.outputs.tag_feature }}"
           NOTES_FILE="release-notes/${TAG}.json"
           
           if [ ! -f "$NOTES_FILE" ]; then
@@ -99,8 +103,9 @@ jobs:
             exit 0
           fi
           
-          echo "Sending release notes from ${NOTES_FILE} to Supabas..."
+          echo "Sending release notes from ${NOTES_FILE} to Supabase..."
           
           curl -sS -X POST "$SUPABASE_RELEASE_FUNCTION_URL" \
             -H "Content-Type: application/json" \
+            -H "x-post-update-secret: $SUPABASE_POST_UPDATE_SECRET" \
             -d @"$NOTES_FILE"

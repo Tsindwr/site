@@ -1,4 +1,5 @@
 const ISSUE_API_URL = 'https://oqngifbqawctgqxgtxfl.supabase.co/functions/v1/report-bug';
+const SUPABASE_ANON_JWT = '32D8C469-D89D-4206-B0A4-B0C36A22A0FE';
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('issue-form');
@@ -9,6 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageInput = document.getElementById('issue-page');
     const descriptionInput = document.getElementById('issue-description');
     const contactInput = document.getElementById('issue-contact');
+
+    // Auto-fill contact info if user is logged in
+    if (contactInput && !contactInput.value && window.sunder && window.sunder.auth) {
+        const displayName = window.sunder.auth.getUserDisplayName();
+        if (displayName) {
+            contactInput.value = displayName;
+            // Keep the contact input static so it can't be changed after autofill (match question modal behavior)
+            contactInput.disabled = true;
+        }
+    }
 
     // Pre-fill page URL if provided in query params
     try {
@@ -58,7 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const res = await fetch(ISSUE_API_URL, {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
+                    "apikey": SUPABASE_ANON_JWT,
+    "Authorization": `Bearer ${SUPABASE_ANON_JWT}`,
                 },
                 body: JSON.stringify(payload),
             });

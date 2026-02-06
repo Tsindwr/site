@@ -1,5 +1,6 @@
 {
   "version": "0.3.0",
+  "discord_announcement_sent": true,
   "summary": "Reorganizing base mechanics with some additions: resolution, stress/fallout, volatility, resistance, experience.",
   "sections": [
     {

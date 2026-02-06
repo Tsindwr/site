@@ -3,12 +3,16 @@ tags: ttrpg, rules
 aliases:
   - Potential
   - Potentials
-  - Skill
+  - Might
+  - Finesse
+  - Nerve
+  - Seep
+  - Instinct
+  - Wit
+  - Heart
+  - Tether
+  - Resistance
   - Skills
-  - Knack
-  - Knacks
-  - Domain
-  - Domains
 ---
 # Potentials and Resistance
 ## You have much potential, Adventurer
@@ -22,15 +26,15 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 > 
 > ***Finesse:*** A creature's quickness and flexibility is represented by its Finesse score. This score may determine a player's ability to navigate quickly through a market chase, tie a knot, or evade someone's grasp.
 >  
->  ***Nerve:*** A creature's heartiness and stamina is represented by its Resolve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
+>  ***Nerve:*** A creature's heartiness and stamina is represented by its Nerve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
 >   
 >   ***Seep:*** A creature's ability to manifest and maintain their physical form is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist physical arcane effects.
 
 > [!info]+ **Mental Potentials**
 >  
+>  ***Instinct:*** A creature's ability to be aware of their surroundings and others' emotions is represented by its Instinct score. This score determines a player's ability to spot a target from far away, determine if someone is lying, or dodge a sudden incoming attack.
+>  
 >  ***Wit:*** A creature's ability to quickly discern patterns and remember information is represented by its Wit score. This score determines a player's ability to recall details about history, glean an understanding of a mechanism, or understand the workings of synthetic arcane enchantments.
->   
->   ***Instinct:*** A creature's ability to be aware of their surroundings and others' emotions is represented by its Instinct score. This score determines a player's ability to spot a target from far away, determine if someone is lying, or dodge a sudden incoming attack.
 >    
 >    ***Heart:*** A creature's ability to maintain spirit in the face of dread and navigating social exchanges is represented by its Heart score. This score determines a player's ability to convey messages nonverbally, haggle for a better price at the bazaar, or remain unfazed in the presence of horrific otherworldly entities.
 >     
@@ -57,14 +61,14 @@ Grit - *Mind over body, powering through the physical effects of mystical damage
 Frame - *Resisting arcane alteration, maintaining appearance*
 Draw - *Adapting to surroundings, letting in warp*
 Form - *Actuating physical change, becoming something new*
-##### Wit
-Reason - *Understanding patterns, puzzling and calculating*
-Recall - *Remembering information, memorizing mundane facts*
-Esoterica - *Intuiting the abstract, creating structure in the unknown*
 ##### Instinct
 Reflex - *Making quick decisions, avoiding unexpected hazards*
 Read - *Honing in on a creature's behaviors, gleaning intent*
 Sense - *Using the five senses, tapping into a sixth sense*
+##### Wit
+Reason - *Understanding patterns, puzzling and calculating*
+Recall - *Remembering information, memorizing mundane facts*
+Esoterica - *Intuiting the abstract, creating structure in the unknown*
 ##### Heart
 Aura - *Expressing body language, signaling subtly, acting*
 Sway - *Influencing others, deceiving, appealing*
@@ -77,8 +81,8 @@ Weave - *Conducting rituals, channeling raw warp*
 ###### Resistance Points
 Some abilities or perks may call for expending a Resistance point. Each Potential is considered to be a pool of Resistance Points equal to the Potential Score. Expending Resistance Points causes the Mixed success level threshold to increase during tests[^1]. However, the Resistance pool shares the same threshold of strain on a character as a Potential's Stress track. Given a certain Potential, a Potential track can only hold a total number of Stress and Resistance points equal to the Potential Score. 
 
-In the example below, a player has 5 Stress points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by Stress), and if they take any additional Stress, it will trigger Fallout since, the player cannot hold any more Stress (the slots are taken by Resistance Drain).
+In the example below, a player has 5 Stress points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by Stress), and if they take any additional Stress, it will trigger Fallout since the player cannot hold any more Stress (the slots are taken by Resistance Drain).
 
-![[potential-resistance-example.png]]
+![[../assets/potential-resistance-example.png]]
 
 [^1]: See Sunder's [[resolution-system|Resolution System]]
