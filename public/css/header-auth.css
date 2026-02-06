@@ -17,8 +17,12 @@
     font-size: 0.85rem;
 }
 
+.md-header__button:hover {
+    opacity: 1 !important;
+}
+
 .user-button:hover {
-    background-color: var(--md-primary-fg-color--transparent, rgba(255, 255, 255, 0.06));
+    cursor: pointer;
 }
 
 .user-avatar {

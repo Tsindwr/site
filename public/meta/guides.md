@@ -1,7 +1,5 @@
 # Guides & Tutorials
 
-<div class="sunder-guides-page">
-
 <p class="sunder-guides-intro">
 Welcome to the Sunder TTRPG guides section. Here you'll find helpful tutorials on how to use various features of this website.
 </p>
@@ -30,7 +28,7 @@ When you select text on any page in the Sunder documentation (on desktop), a pop
   </p>
 </div>
 
-### The Four Action Buttons
+<h3>The Four Action Buttons</h3>
 
 <div class="sunder-guide-features">
 
@@ -80,13 +78,15 @@ When you select text on any page in the Sunder documentation (on desktop), a pop
 
 </div>
 
-### Keyboard Accessibility
+<h3>Keyboard Accessibility</h3>
 
 The highlight popup is fully accessible via keyboard:
 
-- **Tab** to move between buttons in the popup
-- **Enter** or **Space** to activate the focused button
-- **Escape** to dismiss the popup (clicking outside also works)
+<ul>
+<li><strong>Tab</strong> to move between buttons in the popup</li>
+<li><strong>Enter</strong> or <strong>Space</strong> to activate the focused button</li>
+<li><strong>Escape</strong> to dismiss the popup (clicking outside also works)</li>
+</ul>
 
 </div>
 
@@ -98,25 +98,29 @@ The highlight popup is fully accessible via keyboard:
 
 We rely on feedback from the community to improve Sunder TTRPG. Here's how to report different types of issues:
 
-### Using the Highlight Popup
+<h3>Using the Highlight Popup</h3>
 
-1. Select the problematic text
-2. Click the <i class="fa-solid fa-triangle-exclamation"></i> (Report Issue) button
-3. Fill out the form with details about what seems wrong
-4. Submit your report
+<ol>
+<li>Select the problematic text</li>
+<li>Click the <i class="fa-solid fa-triangle-exclamation"></i> (Report Issue) button</li>
+<li>Fill out the form with details about what seems wrong</li>
+<li>Submit your report</li>
+</ol>
 
-### Using the Report Form Directly
+<h3>Using the Report Form Directly</h3>
 
-You can also visit the [Report an Issue](../report-issue/) page directly to submit feedback without highlighting text first.
+You can also visit the <a href="https://tsindwr.github.io/site/meta/report-issue/">Report an Issue</a> page directly to submit feedback without highlighting text first.
 
-### What to Include
+<h3>What to Include</h3>
 
 When reporting an issue, try to include:
 
-- **The specific location** (page and section)
-- **What seems wrong** (typo, unclear wording, broken link, etc.)
-- **Suggested fix** (if you have one)
-- **Your contact** (optional, if you'd like a response)
+<ul>
+<li>The specific location (page and section)</li>
+<li>What seems wrong (typo, unclear wording, broken link, etc.)</li>
+<li>Suggested fix (if you have one)</li>
+<li>Your contact (optional, if you'd like a response)</li>
+</ul>
 
 </div>
 
@@ -126,29 +130,35 @@ When reporting an issue, try to include:
 
 <div class="sunder-guide-card">
 
-### Searching the Documentation
+<h3>Searching the Documentation</h3>
 
 Use the search bar at the top of the page to quickly find rules, terms, or concepts. The search supports:
 
-- Keywords (e.g., "stress", "volatility")
-- Partial matches
-- Phrase searches
+<ul>
+<li>Keywords (e.g., "stress", "volatility")</li>
+<li>Partial matches</li>
+<li>Phrase searches</li>
+</ul>
 
-### Using the Sidebar
+<h3>Using the Sidebar</h3>
 
 The sidebar navigation is organized into sections:
 
-- **Lore** - Background story and world information
-- **Ruleset** - Game mechanics and rules
-- **Profile** - User preferences (coming soon)
+<ul>
+<li><strong>Lore</strong> - Background story and world information</li>
+<li><strong>Ruleset</strong> - Game mechanics and rules</li>
+<li><strong>Preferences</strong> - User settings, display settings (Coming Soon)</li>
+</ul>
 
-### Keyboard Shortcuts
+<h3>Keyboard Shortcuts</h3>
 
-- **/** - Focus the search bar
-- **Arrow keys** - Navigate search results
-- **Enter** - Select a search result
+<ul>
+<li><strong>/</strong> - Focus the search bar</li>
+<li><strong>Arrow keys</strong> - Navigate search results</li>
+<li><strong>Enter</strong> - Select a search result</li>
+</ul>
 
-### Mobile Navigation
+<h3>Mobile Navigation</h3>
 
 On mobile devices, tap the hamburger menu (<i class="fa-solid fa-bars"></i>) to access the navigation sidebar.
 
@@ -163,4 +173,3 @@ On mobile devices, tap the hamburger menu (<i class="fa-solid fa-bars"></i>) to 
   </a>
 </div>
 
-</div>

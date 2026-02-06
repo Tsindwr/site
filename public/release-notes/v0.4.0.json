@@ -1,0 +1,15 @@
+{
+  "version": "0.4.0",
+  "discord_announcement_sent": false,
+  "summary": "Switching to a project repository and adding the question feature.",
+  "sections": [
+    {
+      "title": "Highlight Question",
+      "description": "Highlighting text on desktop now has an additional action option: Ask a Question! Please send all inquiries through this feature or on the Discord ⁠feedback channel as this helps me improve the user experience of the Sunder Ruleset."
+    },
+    {
+      "title": "Tsindwr Github Organization",
+      "description": "Project backlog items and additional microservices projects are now organized all in one place on GitHub! It is all set up for additional people to work on this project through Agile. The new website url is **https://tsindwr.github.io/site/**."
+    }
+  ]
+}

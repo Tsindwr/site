@@ -1,5 +1,5 @@
 site_name: Sunder TTRPG
-site_url: https://woodsave03.github.io/tsindwr
+site_url: https://tsindwr.github.io/site
 theme:
   name: material
   custom_dir: overrides
@@ -28,7 +28,7 @@ theme:
     - header.autohide
 
 extra:
-  sunder_version: "0.1.0" # overridden during GitHub Actions
+  sunder_version: "1.0.0" # overridden during GitHub Actions
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/woodsave03/tsindwr
@@ -36,7 +36,7 @@ extra:
       link: https://discord.gg/zJEdEy4xtm
 
 copyright: >
-  &copy; 2025 Avery M. Woods -
+  &copy; 2025 Sintobhe M. Woods -
   Sunder TTRPG, set in the world of Umbrea
 
 docs_dir: public   # <--- inside the repo
@@ -63,6 +63,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
   - https://unpkg.com/@supabase/supabase-js@2
+  - js/theme.js
   - js/auth.js
   - js/bookmarks.js
   - js/math.js
@@ -70,6 +71,7 @@ extra_javascript:
   - js/header-auth.js
   - js/header-version.js
   - js/highlight-popup.js
+  - js/profile.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
@@ -77,6 +79,7 @@ extra_css:
   - css/sunder-theme.css
   - css/bookmarks.css
   - css/header-auth.css
+  - css/graphics.css
 
 plugins:
   - search
@@ -110,8 +113,6 @@ nav:
           - Damage: gameplay/damage.md
           - Resting: gameplay/resting.md
           - Scenes: gameplay/scenes.md
-  - Profile:
-      - Preferences: profile/preferences.md
   - About:
       - About Sunder: meta/about-sunder.md
       - Guides: meta/guides.md

@@ -53,7 +53,16 @@
     --md-h3-color: rgb(174, 114, 21);
 
     /* Dark background already handled by slate, but you can nudge it: */
-    /* --md-default-bg-color: #0E0614; */
+    --md-default-bg-color: #0b0f14;
+    --md-default-fg-color: #e7e3ef;
+    --md-default-fg-color--light: #cfc7db;
+    --md-default-fg-color--lighter: #a99ab8;
+    --md-default-fg-color--lightest: #7a6a8e;
+    --md-typeset-color: var(--md-default-fg-color);
+    --md-code-bg-color: #141a22;
+    --md-code-fg-color: #e9e3f5;
+    --md-footer-bg-color: #11151c;
+    --md-footer-fg-color: #cfc7db;
 
     --md-typeset-a-color:         #FFE08A;  /* gold links on dark */
 
@@ -576,225 +585,6 @@ h3 {
 
 .md-nav__title {
     color: var(--md-primary-fg-color) !important;
-}
-
-/* ===== Domain Display ===== */
-
-.domain {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.domain p {
-    font-size: large;
-    margin: 0;
-}
-
-.subtext {
-    color: gray;
-    text-transform: uppercase;
-    font-size: small;
-}
-
-p.description {
-    color: darkgray;
-    font-size: small;
-}
-
-/* ===== Card Display ===== */
-.gh-card{
-  width: min(var(--cardW), 92vw);
-  height: var(--cardH);
-  border-radius: 18px;
-  position: relative;
-  color: var(--ink);
-  background:
-    radial-gradient(120% 80% at 50% -10%, rgba(255,255,255,.08), transparent 55%),
-    radial-gradient(120% 90% at 50% 110%, rgba(255,255,255,.06), transparent 55%),
-    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)),
-    var(--paper);
-  box-shadow:
-    0 18px 40px rgba(0,0,0,.55),
-    0 2px 0 rgba(255,255,255,.06) inset;
-  overflow: hidden;
-}
-
-/* Outer frame like a printed border */
-.gh-card::before{
-  content:"";
-  position:absolute; inset:0;
-  border-radius: 18px;
-  padding: 2.5px;
-  background: linear-gradient(140deg, var(--frame), var(--frame2), var(--frame));
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-  pointer-events:none;
-}
-
-/* Inner bevel */
-.gh-card::after{
-  content:"";
-  position:absolute; inset:8px;
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,.08);
-  box-shadow: 0 0 0 1px rgba(0,0,0,.35) inset;
-  pointer-events:none;
-}
-
-/* ===== Header plaque ===== */
-.gh-head{
-  position: relative;
-  padding: 14px 14px 10px 14px;
-}
-.gh-title{
-  margin:0;
-  font-family: ui-serif, Georgia, "Times New Roman", serif;
-  font-weight: 800;
-  font-size: 20px;
-  letter-spacing: .2px;
-  line-height: 1.05;
-  text-shadow: 0 1px 0 rgba(0,0,0,.35);
-}
-.gh-sub{
-  margin: 4px 0 0 0;
-  font-size: 11px;
-  color: var(--ink3);
-  letter-spacing: .10em;
-  text-transform: uppercase;
-}
-
-/* Small corner cost stamp */
-.gh-stamp{
-  position:absolute;
-  top: 12px;
-  right: 12px;
-  padding: 5px 8px;
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,.14);
-  background: rgba(0,0,0,.25);
-  font-size: 11px;
-  color: var(--ink2);
-}
-
-/* ===== Halves ===== */
-.gh-half{
-  display:grid;
-  grid-template-columns: 38px 1fr;
-  gap: 10px;
-  padding: 14px;
-  height: calc((var(--cardH) - 74px) / 2); /* header approx */
-  box-sizing: border-box;
-}
-.gh-half.top{
-  background: linear-gradient(180deg, var(--topTint), transparent 70%);
-  border-top: 1px solid rgba(255,255,255,.06);
-}
-.gh-half.bottom{
-  background: linear-gradient(0deg, var(--botTint), transparent 70%);
-  border-top: 1px solid var(--cut);
-}
-
-/* Cut line (stronger, like printed divider) */
-.gh-cut{
-  position:absolute;
-  left: 10px; right: 10px;
-  top: 50%;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent);
-  pointer-events:none;
-}
-
-/* ===== Icon rail ===== */
-.gh-rail{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:flex-start;
-  gap: 8px;
-  padding-top: 18px;
-}
-.gh-pip{
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,.22);
-  background: rgba(255,255,255,.06);
-  box-shadow:
-    0 1px 0 rgba(255,255,255,.08) inset,
-    0 6px 16px rgba(0,0,0,.35);
-  display:grid;
-  place-items:center;
-  font-size: 12px;
-  color: rgba(255,255,255,.88);
-}
-.gh-pip[data-tone="attack"]{ outline: 1px solid rgba(110,185,255,.28); }
-.gh-pip[data-tone="move"]{ outline: 1px solid rgba(140,255,200,.24); }
-
-/* ===== Text ===== */
-.gh-label{
-  margin: 0 0 6px 0;
-  font-size: 10px;
-  letter-spacing: .22em;
-  text-transform: uppercase;
-  color: var(--ink3);
-}
-.gh-text{
-  margin:0;
-  font-size: 13px;
-  line-height: 1.25;
-  color: var(--ink);
-}
-
-/* Tiny "runes" line (symbols instead of pills) */
-.gh-runes{
-  margin-top: 8px;
-  display:flex;
-  flex-wrap:wrap;
-  gap: 8px;
-  font-size: 11px;
-  color: var(--ink2);
-}
-.gh-rune{
-  display:inline-flex;
-  align-items:center;
-  gap: 6px;
-}
-.gh-dot{
-  width: 4px; height: 4px; border-radius: 99px;
-  background: rgba(255,255,255,.28);
-  display:inline-block;
-  transform: translateY(-.5px);
-}
-
-/* ===== 2-wide card grid wrapper ===== */
-.gh-card-grid{
-  /* two columns on desktop, collapses gracefully on small screens */
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, var(--cardW)));
-  gap: 18px 18px;              /* row gap / col gap */
-  justify-content: center;     /* center the 2-wide grid in the page */
-  align-items: start;
-
-  /* optional: keeps the grid from stretching edge-to-edge */
-  width: 100%;
-  max-width: calc(var(--cardW) * 2 + 18px);
-  margin: 0 auto;
-  padding: 12px;
-}
-
-/* small screens: 1-wide */
-@media (max-width: 640px){
-  .gh-card-grid{
-    grid-template-columns: 1fr;
-    max-width: min(92vw, var(--cardW));
-  }
-  .gh-card-grid > .gh-card{
-    justify-self: center;
-  }
 }
 
 /* ============================================================
@@ -1394,4 +1184,472 @@ p.description {
 .sunder-guides-footer p {
     margin-bottom: 1rem;
     color: var(--md-default-fg-color--light);
+}
+
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-container {
+    background-color: var(--md-default-bg-color);
+}
+
+/* ============================================================
+   PROFILE PAGE STYLES
+   ============================================================ */
+
+.sunder-profile-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sunder-profile-hero {
+    position: relative;
+    border-radius: 1.25rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(90, 45, 130, 0.12), rgba(249, 199, 79, 0.08));
+    border: 1px solid rgba(90, 45, 130, 0.2);
+    overflow: hidden;
+    animation: sunder-profile-rise 0.45s ease both;
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-hero {
+    background: linear-gradient(135deg, rgba(90, 45, 130, 0.35), rgba(249, 199, 79, 0.12));
+    border-color: rgba(140, 100, 180, 0.35);
+}
+
+.sunder-profile-hero-banner {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at top left, rgba(90, 45, 130, 0.25), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(249, 199, 79, 0.2), transparent 50%);
+    pointer-events: none;
+}
+
+.sunder-profile-hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media (min-width: 860px) {
+    .sunder-profile-hero-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.sunder-profile-identity {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.sunder-profile-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 3px solid var(--md-primary-fg-color);
+    box-shadow: 0 10px 24px rgba(90, 45, 130, 0.35);
+}
+
+.sunder-profile-eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--md-default-fg-color--lighter);
+}
+
+.sunder-profile-name {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-profile-handle {
+    margin: 0.15rem 0 0.65rem;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-profile-tagline {
+    margin: 0;
+    max-width: 440px;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-profile-status {
+    margin: 0.4rem 0 0;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--lighter);
+}
+
+.sunder-profile-status--hidden {
+    display: none;
+}
+
+.sunder-profile-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: end;
+}
+
+.sunder-profile-stats {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.sunder-profile-stat {
+    padding: 0.9rem 1rem;
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(90, 45, 130, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-stat {
+    background: rgba(8, 10, 14, 0.65);
+    border-color: rgba(140, 100, 180, 0.2);
+}
+
+.sunder-profile-stat-value {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--md-primary-fg-color--light);
+}
+
+.sunder-profile-stat-label {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-profile-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.sunder-profile-card {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(90, 45, 130, 0.12);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation: sunder-profile-rise 0.45s ease both;
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-card {
+    background: rgba(10, 12, 18, 0.65);
+    border-color: rgba(140, 100, 180, 0.2);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
+}
+
+.sunder-profile-card--wide {
+    grid-column: span 2;
+}
+
+@media (max-width: 860px) {
+    .sunder-profile-card--wide {
+        grid-column: span 1;
+    }
+}
+
+.sunder-profile-card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    font-size: 1.15rem;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-profile-card-title i {
+    color: var(--md-primary-fg-color--light);
+}
+
+.sunder-profile-card-copy {
+    margin: 0;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.6;
+}
+
+.sunder-profile-detail-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.sunder-profile-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.sunder-profile-detail-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--md-default-fg-color--lighter);
+}
+
+.sunder-profile-detail-value {
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-profile-pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sunder-profile-pill {
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(90, 45, 130, 0.12);
+    color: var(--md-primary-fg-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-pill {
+    background: rgba(140, 100, 180, 0.2);
+}
+
+.sunder-profile-progress {
+    position: relative;
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-progress {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.sunder-profile-progress-bar {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #F9C74F, #9d6bff);
+}
+
+.sunder-profile-progress-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--lighter);
+}
+
+.sunder-profile-spotlight {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    background: rgba(249, 199, 79, 0.12);
+    border: 1px solid rgba(249, 199, 79, 0.3);
+}
+
+.sunder-profile-spotlight i {
+    color: #D9A322;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.sunder-profile-theme-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.sunder-theme-toggle-btn {
+    border: 1px solid rgba(90, 45, 130, 0.2);
+    background: rgba(90, 45, 130, 0.06);
+    color: var(--md-default-fg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.sunder-theme-toggle-btn[aria-pressed="true"] {
+    background: linear-gradient(135deg, #5b3aa6, #9d6bff);
+    border-color: transparent;
+    color: #fff;
+    box-shadow: 0 8px 18px rgba(59, 27, 119, 0.45);
+}
+
+.sunder-profile-settings {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.sunder-profile-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-profile-toggle input {
+    position: absolute;
+    opacity: 0;
+}
+
+.sunder-profile-toggle-slider {
+    width: 42px;
+    height: 24px;
+    border-radius: 999px;
+    background: rgba(90, 45, 130, 0.2);
+    position: relative;
+    transition: background-color 0.2s ease;
+}
+
+.sunder-profile-toggle-slider::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    transition: transform 0.2s ease;
+}
+
+.sunder-profile-toggle input:checked + .sunder-profile-toggle-slider {
+    background: linear-gradient(135deg, #5b3aa6, #9d6bff);
+}
+
+.sunder-profile-toggle input:checked + .sunder-profile-toggle-slider::after {
+    transform: translateX(16px);
+}
+
+.sunder-profile-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1.25rem;
+}
+
+.sunder-profile-timeline li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.sunder-profile-timeline-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--md-accent-fg-color);
+    margin-top: 0.4rem;
+}
+
+.sunder-profile-timeline-time {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--lighter);
+    margin-top: 0.35rem;
+}
+
+.sunder-profile-character-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.sunder-profile-character {
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    background: rgba(90, 45, 130, 0.06);
+    border: 1px solid rgba(90, 45, 130, 0.12);
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-character {
+    background: rgba(140, 100, 180, 0.14);
+}
+
+.sunder-profile-character h4 {
+    margin: 0 0 0.35rem;
+}
+
+.sunder-profile-character-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-profile-vault {
+    display: grid;
+    gap: 0.6rem;
+}
+
+.sunder-profile-vault-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.65rem 0.9rem;
+    border-radius: 0.65rem;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+[data-md-color-scheme="slate"] .sunder-profile-vault-item {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sunder-profile-vault-title {
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+}
+
+.sunder-profile-vault-meta {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--lighter);
+}
+
+.sunder-profile-link {
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+}
+
+.sunder-profile-card:nth-child(1) { animation-delay: 0.05s; }
+.sunder-profile-card:nth-child(2) { animation-delay: 0.1s; }
+.sunder-profile-card:nth-child(3) { animation-delay: 0.15s; }
+.sunder-profile-card:nth-child(4) { animation-delay: 0.2s; }
+.sunder-profile-card:nth-child(5) { animation-delay: 0.25s; }
+.sunder-profile-card:nth-child(6) { animation-delay: 0.3s; }
+
+@keyframes sunder-profile-rise {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
