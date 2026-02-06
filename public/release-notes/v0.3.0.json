@@ -1,0 +1,18 @@
+{
+  "version": "0.3.0",
+  "summary": "Reorganizing base mechanics with some additions: resolution, stress/fallout, volatility, resistance, experience.",
+  "sections": [
+    {
+      "title": "Highlight Popup Function",
+      "description": "Highlighting text on desktop now shows a popup with options to copy, export to link, or report an issue."
+    },
+    {
+      "title": "Versioning System",
+      "description": "Site now displays current version of the project and posts release notes for each feature update."
+    },
+    {
+      "title": "Documentation",
+      "description": "Finished welcome lore guide, consolidated volatility notes, added experience points page, and created a Resistance helper graphic."
+    }
+  ]
+}

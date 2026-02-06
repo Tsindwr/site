@@ -29,6 +29,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     const loginButton = $('login-button');
     const logoutButton = $('logout-button');
     const bookmarksButton = $('bookmarks-button');
+    const profileButton = $('profile-button');
     const userAvatar = $('user-avatar');
     const userNameSpan = $('user-name');
 
@@ -59,6 +60,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         if (userNameSpan) userNameSpan.textContent = 'Profile';
 
         if (loginButton) loginButton.style.display = 'block';
+        if (profileButton) profileButton.style.display = 'none';
         if (bookmarksButton) bookmarksButton.style.display = 'none';
         if (logoutButton) logoutButton.style.display = 'none';
     }
@@ -77,6 +79,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         if (userNameSpan) userNameSpan.textContent = name;
 
         if (loginButton) loginButton.style.display = 'none';
+        if (profileButton) profileButton.style.display = 'block';
         if (bookmarksButton) bookmarksButton.style.display = 'block';
         if (logoutButton) logoutButton.style.display = 'block';
     }
@@ -112,6 +115,13 @@ window.addEventListener("DOMContentLoaded", async () => {
             e.preventDefault();
             await auth.signOut();
             setLoggedOutUI();
+        });
+    }
+
+    if (profileButton) {
+        profileButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            window.location = window.SUNDER_BASE_URL + "/meta/profile/";
         });
     }
 

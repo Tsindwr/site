@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0",
+  "discord_announcement_sent": false,
+  "summary": "Shaking off the bugs",
+  "sections": [
+    {
+      "title": "Yayyy I can develop on my laptop again!",
+      "description": "Canada served its purpose of giving me the space to finish the playtesting version of the rulset, but it led to me bringing back some invasive bugs back into the States. If you are receiving this message, it means I have fixed the bugs!"
+    }
+  ]
+}
