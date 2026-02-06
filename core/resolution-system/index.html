@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://woodsave03.github.io/tsindwr/core/resolution-system/">
+        <link rel="canonical" href="https://tsindwr.github.io/site/core/resolution-system/">
       
       
         <link rel="prev" href="../../lore/arras/">
@@ -61,12 +61,26 @@
     
       <link rel="stylesheet" href="../../css/header-auth.css">
     
+      <link rel="stylesheet" href="../../css/graphics.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
+    
+    <script>
+        (function () {
+            var key = "sunder-color-scheme";
+            var stored = localStorage.getItem(key);
+            var scheme = (stored === "default" || stored === "slate") ? stored : "slate";
+            document.documentElement.setAttribute("data-md-color-scheme", scheme);
+            var metaScheme = document.querySelector('meta[name="color-scheme"]');
+            if (metaScheme) metaScheme.setAttribute("content", scheme === "slate" ? "dark" : "light");
+        })();
+    </script>
+
   </head>
   
   
@@ -102,7 +116,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://woodsave03.github.io/tsindwr/"
+        <a href="https://tsindwr.github.io/site/"
            title="Sunder TTRPG"
            class="md-header__button md-logo"
            aria-label="Sunder TTRPG">
@@ -204,6 +218,9 @@
                     <button id="login-button" class="user-dropdown__item" type="button">
                         Discord Login
                     </button>
+                    <button id="profile-button" class="user-dropdown__item" type="button">
+                        Profile
+                    </button>
                     <button id="bookmarks-button" class="user-dropdown__item" type="button">
                         Bookmarks
                     </button>
@@ -294,11 +311,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../profile/preferences.md" class="md-tabs__link">
+        <a href="../../meta/about-sunder/" class="md-tabs__link">
           
   
   
-  Profile
+  About
 
         </a>
       </li>
@@ -1481,7 +1498,7 @@
   <span class="md-ellipsis">
     
   
-    Profile
+    About
   
 
     
@@ -1497,7 +1514,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Profile
+    About
   
 
           </label>
@@ -1510,14 +1527,70 @@
   
   
     <li class="md-nav__item">
-      <a href="../../profile/preferences.md" class="md-nav__link">
+      <a href="../../meta/about-sunder/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Preferences
+    About Sunder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/report-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report an Issue
   
 
     
@@ -1902,7 +1975,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy; 2025 Avery M. Woods - Sunder TTRPG, set in the world of Umbrea
+      &copy; 2025 Sintobhe M. Woods - Sunder TTRPG, set in the world of Umbrea
 
     </div>
   
@@ -1949,7 +2022,7 @@
       <div class="md-footer-meta__inner md-grid">
         <div class="sunder-footer-links">
           <span class="sunder-footer-label">Sunder site</span>
-          <a href="../../meta/mantra/">About</a>
+          <a href="../../meta/about-sunder/">About</a>
           <span>.</span>
           <a href="../../meta/report-issue/">Report an issue</a>
           <span>.</span>
@@ -1979,6 +2052,8 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="../../js/theme.js"></script>
+      
         <script src="../../js/auth.js"></script>
       
         <script src="../../js/bookmarks.js"></script>
@@ -1993,13 +2068,15 @@
       
         <script src="../../js/highlight-popup.js"></script>
       
+        <script src="../../js/profile.js"></script>
+      
     
     <script>
         window.SUNDER_BASE_URL = "../..";
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.1.6";
+            window.SUNDER_VERSION = "1.1.13";
         </script>
     
 

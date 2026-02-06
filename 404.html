@@ -14,7 +14,7 @@
         
       
       
-      <link rel="icon" href="/tsindwr/assets/favicon/favicon.ico">
+      <link rel="icon" href="/site/assets/favicon/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
@@ -23,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="/tsindwr/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/site/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/tsindwr/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/site/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,18 +49,32 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-      <link rel="stylesheet" href="/tsindwr/css/sunder-theme.css">
+      <link rel="stylesheet" href="/site/css/sunder-theme.css">
     
-      <link rel="stylesheet" href="/tsindwr/css/bookmarks.css">
+      <link rel="stylesheet" href="/site/css/bookmarks.css">
     
-      <link rel="stylesheet" href="/tsindwr/css/header-auth.css">
+      <link rel="stylesheet" href="/site/css/header-auth.css">
     
-    <script>__md_scope=new URL("/tsindwr/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="/site/css/graphics.css">
+    
+    <script>__md_scope=new URL("/site/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
+    
+    <script>
+        (function () {
+            var key = "sunder-color-scheme";
+            var stored = localStorage.getItem(key);
+            var scheme = (stored === "default" || stored === "slate") ? stored : "slate";
+            document.documentElement.setAttribute("data-md-color-scheme", scheme);
+            var metaScheme = document.querySelector('meta[name="color-scheme"]');
+            if (metaScheme) metaScheme.setAttribute("content", scheme === "slate" ? "dark" : "light");
+        })();
+    </script>
+
   </head>
   
   
@@ -91,12 +105,12 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://woodsave03.github.io/tsindwr/"
+        <a href="https://tsindwr.github.io/site/"
            title="Sunder TTRPG"
            class="md-header__button md-logo"
            aria-label="Sunder TTRPG">
             
-  <img src="/tsindwr/assets/favicon/sunder-logo.png" alt="logo">
+  <img src="/site/assets/favicon/sunder-logo.png" alt="logo">
 
         </a>
 
@@ -193,6 +207,9 @@
                     <button id="login-button" class="user-dropdown__item" type="button">
                         Discord Login
                     </button>
+                    <button id="profile-button" class="user-dropdown__item" type="button">
+                        Profile
+                    </button>
                     <button id="bookmarks-button" class="user-dropdown__item" type="button">
                         Bookmarks
                     </button>
@@ -229,7 +246,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/tsindwr/." class="md-tabs__link">
+        <a href="/site/." class="md-tabs__link">
           
   
   
@@ -256,7 +273,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/tsindwr/core/resolution-system/" class="md-tabs__link">
+        <a href="/site/core/resolution-system/" class="md-tabs__link">
           
   
   
@@ -279,11 +296,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="/tsindwr/profile/preferences.md" class="md-tabs__link">
+        <a href="/site/meta/about-sunder/" class="md-tabs__link">
           
   
   
-  Profile
+  About
 
         </a>
       </li>
@@ -313,9 +330,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/tsindwr/." title="Sunder TTRPG" class="md-nav__button md-logo" aria-label="Sunder TTRPG" data-md-component="logo">
+    <a href="/site/." title="Sunder TTRPG" class="md-nav__button md-logo" aria-label="Sunder TTRPG" data-md-component="logo">
       
-  <img src="/tsindwr/assets/favicon/sunder-logo.png" alt="logo">
+  <img src="/site/assets/favicon/sunder-logo.png" alt="logo">
 
     </a>
     Sunder TTRPG
@@ -384,7 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/." class="md-nav__link">
+      <a href="/site/." class="md-nav__link">
         
   
   
@@ -412,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/lore/arras/" class="md-nav__link">
+      <a href="/site/lore/arras/" class="md-nav__link">
         
   
   
@@ -555,7 +572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/core/resolution-system/" class="md-nav__link">
+      <a href="/site/core/resolution-system/" class="md-nav__link">
         
   
   
@@ -583,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/core/volatility-and-perks/" class="md-nav__link">
+      <a href="/site/core/volatility-and-perks/" class="md-nav__link">
         
   
   
@@ -611,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/core/stress-and-fallout/" class="md-nav__link">
+      <a href="/site/core/stress-and-fallout/" class="md-nav__link">
         
   
   
@@ -639,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/core/countdown-dice/" class="md-nav__link">
+      <a href="/site/core/countdown-dice/" class="md-nav__link">
         
   
   
@@ -667,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/core/equipment/" class="md-nav__link">
+      <a href="/site/core/equipment/" class="md-nav__link">
         
   
   
@@ -695,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/core/tokens/" class="md-nav__link">
+      <a href="/site/core/tokens/" class="md-nav__link">
         
   
   
@@ -785,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/archetypes/" class="md-nav__link">
+      <a href="/site/characters/archetypes/" class="md-nav__link">
         
   
   
@@ -813,7 +830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/potentials-and-resistance/" class="md-nav__link">
+      <a href="/site/characters/potentials-and-resistance/" class="md-nav__link">
         
   
   
@@ -841,7 +858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/origin/" class="md-nav__link">
+      <a href="/site/characters/origin/" class="md-nav__link">
         
   
   
@@ -869,7 +886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/experience/" class="md-nav__link">
+      <a href="/site/characters/experience/" class="md-nav__link">
         
   
   
@@ -897,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/leveling/" class="md-nav__link">
+      <a href="/site/characters/leveling/" class="md-nav__link">
         
   
   
@@ -925,7 +942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/spellcasting/" class="md-nav__link">
+      <a href="/site/characters/spellcasting/" class="md-nav__link">
         
   
   
@@ -953,7 +970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/characters/proficiencies/" class="md-nav__link">
+      <a href="/site/characters/proficiencies/" class="md-nav__link">
         
   
   
@@ -1043,7 +1060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/gameplay/abilities/" class="md-nav__link">
+      <a href="/site/gameplay/abilities/" class="md-nav__link">
         
   
   
@@ -1071,7 +1088,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/gameplay/actions/" class="md-nav__link">
+      <a href="/site/gameplay/actions/" class="md-nav__link">
         
   
   
@@ -1099,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/gameplay/conditions/" class="md-nav__link">
+      <a href="/site/gameplay/conditions/" class="md-nav__link">
         
   
   
@@ -1127,7 +1144,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/gameplay/damage/" class="md-nav__link">
+      <a href="/site/gameplay/damage/" class="md-nav__link">
         
   
   
@@ -1155,7 +1172,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/gameplay/resting/" class="md-nav__link">
+      <a href="/site/gameplay/resting/" class="md-nav__link">
         
   
   
@@ -1183,7 +1200,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/gameplay/scenes/" class="md-nav__link">
+      <a href="/site/gameplay/scenes/" class="md-nav__link">
         
   
   
@@ -1251,7 +1268,7 @@
   <span class="md-ellipsis">
     
   
-    Profile
+    About
   
 
     
@@ -1267,7 +1284,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Profile
+    About
   
 
           </label>
@@ -1280,14 +1297,70 @@
   
   
     <li class="md-nav__item">
-      <a href="/tsindwr/profile/preferences.md" class="md-nav__link">
+      <a href="/site/meta/about-sunder/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Preferences
+    About Sunder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/site/meta/guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/site/meta/report-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report an Issue
   
 
     
@@ -1362,7 +1435,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy; 2025 Avery M. Woods - Sunder TTRPG, set in the world of Umbrea
+      &copy; 2025 Sintobhe M. Woods - Sunder TTRPG, set in the world of Umbrea
 
     </div>
   
@@ -1409,11 +1482,11 @@
       <div class="md-footer-meta__inner md-grid">
         <div class="sunder-footer-links">
           <span class="sunder-footer-label">Sunder site</span>
-          <a href="/tsindwr//meta/mantra/">About</a>
+          <a href="/site//meta/about-sunder/">About</a>
           <span>.</span>
-          <a href="/tsindwr//meta/report-issue/">Report an issue</a>
+          <a href="/site//meta/report-issue/">Report an issue</a>
           <span>.</span>
-          <a href="/tsindwr//meta/bookmarks/">Bookmarks</a>
+          <a href="/site//meta/bookmarks/">Bookmarks</a>
         </div>
       </div>
     </div>
@@ -1427,11 +1500,11 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/tsindwr/", "features": ["navigation.sections", "navigation.top", "navigation.tracking", "content.code.copy", "navigation.tabs", "navigation.expand", "header.autohide"], "search": "/tsindwr/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "/site/", "features": ["navigation.sections", "navigation.top", "navigation.tracking", "content.code.copy", "navigation.tabs", "navigation.expand", "header.autohide"], "search": "/site/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
     
-      <script src="/tsindwr/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/site/assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
       
@@ -1439,27 +1512,31 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
-        <script src="/tsindwr/js/auth.js"></script>
+        <script src="/site/js/theme.js"></script>
       
-        <script src="/tsindwr/js/bookmarks.js"></script>
+        <script src="/site/js/auth.js"></script>
       
-        <script src="/tsindwr/js/math.js"></script>
+        <script src="/site/js/bookmarks.js"></script>
       
-        <script src="/tsindwr/js/issue-report.js"></script>
+        <script src="/site/js/math.js"></script>
       
-        <script src="/tsindwr/js/header-auth.js"></script>
+        <script src="/site/js/issue-report.js"></script>
       
-        <script src="/tsindwr/js/header-version.js"></script>
+        <script src="/site/js/header-auth.js"></script>
       
-        <script src="/tsindwr/js/highlight-popup.js"></script>
+        <script src="/site/js/header-version.js"></script>
+      
+        <script src="/site/js/highlight-popup.js"></script>
+      
+        <script src="/site/js/profile.js"></script>
       
     
     <script>
-        window.SUNDER_BASE_URL = "/tsindwr/";
+        window.SUNDER_BASE_URL = "/site/";
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.1.6";
+            window.SUNDER_VERSION = "1.1.13";
         </script>
     
 
