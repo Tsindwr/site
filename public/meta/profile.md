@@ -38,7 +38,6 @@
     </div>
 -->
   </section>
-<!--
   <section class="sunder-profile-grid">
     <div class="sunder-profile-card sunder-profile-card--wide" id="interface-preferences">
       <h3 class="sunder-profile-card-title"><i class="fa-solid fa-palette"></i> Theme &amp; Interface</h3>
@@ -53,5 +52,4 @@
       </div>
     </div>
   </section>
--->
 </div>
