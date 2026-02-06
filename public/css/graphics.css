@@ -16,6 +16,10 @@
     overflow: hidden;
 }
 
+.gh-card h3 {
+    margin-block: 0;
+}
+
 /* Outer frame like a printed border */
 .gh-card::before{
     content:"";

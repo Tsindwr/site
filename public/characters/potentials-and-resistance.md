@@ -45,35 +45,35 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill Tests are unique due to their potential for a creature to be [[proficiencies|proficient]] in the roll. 
 
 Here is the list of Skills organized by their parent Potential:
-##### Might
+<h5>Might</h5>
 Force - *Contested strength, striking against an enemy, taking athletic action*
 Brace - *Preparing against force, standing one's ground*
 Feat - *Pushing past natural capability, breaking limitation, taking heroic tests of strength*
-##### Finesse
+<h5>Finesse</h5>
 Sleight - *Moving stealthily, ranged accuracy, manual deftness*
 Grace - *Steadiness and balance, moving quickly*
 Squirm - *Escaping restraint, avoiding anticipated threats*
-##### Nerve
-Bear - *Resisting mundane damage, continuing unfettered*
-Steel - *Enduring constant onslaught, surviving strenuous circumstances*
-Grit - *Mind over body, powering through the physical effects of mystical damage*
-##### Seep
+<h5>Nerve</h5>
+Bear - *Resisting physical effects of damage, continuing unfettered*
+Steel - *Enduring strenuous wear unphased, resisting natural bodily response*
+Grit - *Mind over body, maintaining clarity in moments of pain*
+<h5>Seep</h5>
 Frame - *Resisting arcane alteration, maintaining appearance*
 Draw - *Adapting to surroundings, letting in warp*
 Form - *Actuating physical change, becoming something new*
-##### Instinct
+<h5>Instinct</h5>
 Reflex - *Making quick decisions, avoiding unexpected hazards*
 Read - *Honing in on a creature's behaviors, gleaning intent*
 Sense - *Using the five senses, tapping into a sixth sense*
-##### Wit
+<h5>Wit</h5>
 Reason - *Understanding patterns, puzzling and calculating*
 Recall - *Remembering information, memorizing mundane facts*
 Esoterica - *Intuiting the abstract, creating structure in the unknown*
-##### Heart
+<h5>Heart</h5>
 Aura - *Expressing body language, signaling subtly, acting*
 Sway - *Influencing others, deceiving, appealing*
 Hope - *Inspiring others, resisting fear*
-##### Tether
+<h5>Tether</h5>
 Anchor - *Resisting the effects of insanity, staying spiritually grounded*
 Grasp - *Understanding the indecipherable, drawing from the powers that be*
 Weave - *Conducting rituals, channeling raw warp*
