@@ -4,6 +4,8 @@ window.sunder = window.sunder || {};
     const page = document.querySelector('.sunder-profile-page');
     if (!page) return;
 
+    const FLASH_SENSITIVE_KEY = 'sunder-flash-sensitive';
+
     const elements = {
         avatar: page.querySelector('[data-profile-avatar]'),
         eyebrow: page.querySelector('[data-profile-eyebrow]'),
@@ -86,9 +88,10 @@ window.sunder = window.sunder || {};
         }
     }
 
-    function bindThemeToggle() {
-        const buttons = document.querySelectorAll('.sunder-theme-toggle-btn');
-        if (!buttons.length) return;
+    function bindFlashSensitiveToggle() {
+        const toggle = page.querySelector('[data-flash-sensitive-toggle]');
+        if (!toggle) return;
+
         const theme = window.sunder?.theme || null;
         const getScheme = theme?.getScheme || (() => document.documentElement.getAttribute('data-md-color-scheme') || 'default');
         const setScheme = theme?.setScheme || ((scheme) => {
@@ -97,30 +100,38 @@ window.sunder = window.sunder || {};
             localStorage.setItem('sunder-color-scheme', scheme);
         });
 
-        function updateButtons(scheme) {
-            buttons.forEach((btn) => {
-                btn.setAttribute('aria-pressed', btn.dataset.scheme === scheme ? 'true' : 'false');
-            });
+        function readFlashSensitive() {
+            return localStorage.getItem(FLASH_SENSITIVE_KEY) === 'true';
         }
 
-        updateButtons(getScheme());
-
-        if (theme?.onChange) {
-            theme.onChange(updateButtons);
+        function updateToggleState() {
+            toggle.checked = readFlashSensitive();
+            if (toggle.checked && getScheme() !== 'default') {
+                setScheme('default');
+            }
         }
 
-        buttons.forEach((btn) => {
-            btn.addEventListener('click', () => setScheme(btn.dataset.scheme));
+        updateToggleState();
+
+        toggle.addEventListener('change', () => {
+            localStorage.setItem(FLASH_SENSITIVE_KEY, toggle.checked ? 'true' : 'false');
+            if (toggle.checked) {
+                setScheme('default');
+            }
+        });
+
+        window.addEventListener('storage', (event) => {
+            if (event.key === FLASH_SENSITIVE_KEY) updateToggleState();
         });
     }
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
             hydrate();
-            bindThemeToggle();
+            bindFlashSensitiveToggle();
         });
     } else {
         hydrate();
-        bindThemeToggle();
+        bindFlashSensitiveToggle();
     }
 })();
