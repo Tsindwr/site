@@ -298,7 +298,7 @@ Durations are priced by how long they remain active. Durations can either refer 
 ---
 ## Companion Abilities
 
-Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring.
+Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. All of these abilities have already taken into account a prerequisite of at least the Companion Ability.
 
 | Modification   | Description                                                                                                                                                                                                                                                                                                                                                                                               | Strings | Enhancements |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
