@@ -1593,7 +1593,7 @@
 
 <h1 id="conditions">Conditions</h1>
 <h2 id="an-exhaustive-guide-to-status-effects">An Exhaustive Guide to Status Effects</h2>
-<p><strong>Conditions</strong> are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or situational Fallout. These Conditions are separated between Major and Minor effects:</p>
+<p><strong>Conditions</strong> are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or <a href="../../core/stress-and-fallout/">Situational Fallout</a>. These Conditions are separated between Major and Minor effects:</p>
 <h4 id="major-conditions">Major Conditions</h4>
 <table>
 <thead>
@@ -1606,6 +1606,10 @@
 <tr>
 <td>Bleeding (P)</td>
 <td>Suffer 1 Stress in a given Potential (P) at the beginning of each of your turns.</td>
+</tr>
+<tr>
+<td>Cursed</td>
+<td>A Cursed creature cannot regain Stress, Resistances, or Marks.</td>
 </tr>
 <tr>
 <td>Dazed</td>
@@ -1625,7 +1629,7 @@
 </tr>
 <tr>
 <td>Petrified</td>
-<td>A Petrified creature is considered Physically Vulnerable, and cannot move or take Actions, Surges, or reactions.</td>
+<td>A Petrified creature is considered Physically Vulnerable, and cannot move or take <a href="../actions/">Actions</a>, Surges, or reactions.</td>
 </tr>
 <tr>
 <td>Pinned</td>
@@ -1633,15 +1637,11 @@
 </tr>
 <tr>
 <td>Spirited</td>
-<td>An ally to a Spirited creature recovers a Stress point when succeeding on a Test while within Melee range of the ally.</td>
+<td>An ally to a Spirited creature recovers a Stress point when succeeding on a Test while within Near range of the ally.</td>
 </tr>
 <tr>
 <td>Warded (X)</td>
 <td>A Warded creature reduces X amount of incoming Physical Stress.</td>
-</tr>
-<tr>
-<td>Cursed</td>
-<td>A Cursed creature cannot regain Stress, Resistances, or Marks.</td>
 </tr>
 </tbody>
 </table>
@@ -1699,6 +1699,10 @@
 <td>A Muddled creature has Disadvantage on Tests made in the specified Potential (P).</td>
 </tr>
 <tr>
+<td>Pushed (<em>X</em>)</td>
+<td>A Pushed creature is moved <em>X</em> spaces away from the effect that applied the condition.</td>
+</tr>
+<tr>
 <td>Rooted (X)</td>
 <td>A Rooted creature cannot use a Movement Action to move further than X tiles away from this effect's center.</td>
 </tr>
@@ -1716,7 +1720,7 @@
 </tr>
 <tr>
 <td>Vulnerable</td>
-<td>Attacks made against a Vulnerable creature are made with Advantage. A creature can be Mentally, Physically, or Completely Vulnerable, which dictates which attacks are given Advantage based on what Stress Tracks they target.</td>
+<td>Attacks made against a Vulnerable creature are made with Advantage, and Tests made by a Vulnerable creature against damaging effects are made with Disadvantage. A creature can be Mentally, Physically, or Completely Vulnerable, which dictates which Tests are given Advantage and Disadvantage based on what Stress Tracks they target. Creatures may also be Specifically Vulnerable, which triggers the Advantage and Disadvantage</td>
 </tr>
 </tbody>
 </table>
@@ -1859,7 +1863,7 @@
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.2.9";
+            window.SUNDER_VERSION = "1.2.11";
         </script>
     
 
