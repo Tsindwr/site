@@ -16,10 +16,10 @@ aliases:
 
 # Adventuring Classes
 
-In Sunder, it is difficult to define “classes” as one may in a general TTRPG. Sunder’s feature of a class feature market and purchasable features tends to allow players to stray from any defined “class.” However, at a very base level, there are initial categories an adventurer can fit into, which begin the prerequisite path for characters to level up and purchase new abilities.
+In Sunder, it is difficult to define “classes” as one may in a general TTRPG. Sunder’s feature of a class feature market and purchasable features tends to allow players to stray from any defined “class.” However, at a very base level, there are initial categories an adventurer can fit into, which begin the prerequisite path for characters to level up and purchase new [[abilities]].
 ## Archetypes
 
-These categories are called Archetypes, which start an adventurer off with a few abilities and features. One primary attribute they contribute to is an adventurer’s Mark pool. The 10 main archetypes and their respective base Marks value are as follows:
+These categories are called Archetypes, which start an adventurer off with a few [[abilities]] and features. One primary attribute they contribute to is an adventurer’s Mark pool. The 10 main archetypes and their respective base [[damage|Marks]] value are as follows:
 
 
 | Archetype    | Marks |
