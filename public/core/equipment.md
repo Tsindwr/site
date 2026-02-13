@@ -23,13 +23,13 @@ aliases:
 During a character's journey, they will need to equip themselves with the tools for the job, as well as maintain them as they go through wear and tear.
 ## Handhelds and Wearables
 
-Like Potentials, equipment can also become stressed and eventually experience deterioration. Experiencing Fallout has the possibility of applying Equipment Stress or Equipment Fallout to your equipped items. When this happens, you or the GM will decide which of your equipped items is the target of aforementioned Stress or Fallout. 
+Like Potentials, equipment can also become stressed and eventually experience deterioration. Experiencing [[stress-and-fallout|Fallout]] has the possibility of applying Equipment Stress or Equipment Fallout to your equipped items. When this happens, you or the GM will decide which of your equipped items is the target of aforementioned [[stress-and-fallout|Stress]] or [[stress-and-fallout|Fallout]]. 
 
-Weapons are assigned a damage die and target Potential. Attacks made with weapons require a successful Test to have any effect.
+Weapons are assigned a damage die and target [[potentials-and-resistance|Potential]]. Attacks made with weapons require a successful Test to have any effect.
 
-Armor is assigned a number of **Protection Slots** that can be used to store incoming physical Stress instead of applying it directly to the wearer's Stress Track. These reset each scene.
+Armor is assigned a number of **Protection Slots** that can be used to store incoming physical [[stress-and-fallout|Stress]] instead of applying it directly to the wearer's [[potentials-and-resistance|Stress Track]]. These reset each scene.
 
-Taking Fallout in a weapon or tool increases the [[resolution-system#Risky Tests|Riskiness]] of Tests used to use that piece of equipment. Taking Fallout in armor causes the number of protection slots available to be decreased. These debuff effects can be removed when taking the [[resting|Repair Rest Action]].
+Taking [[stress-and-fallout|Fallout]] in a weapon or tool increases the [[resolution-system#Risky Tests|Riskiness]] of [[resolution-system|Tests]] used to use that piece of equipment. Taking [[stress-and-fallout|Fallout]] in armor causes the number of protection slots available to be decreased. These debuff effects can be removed when taking the [[resting|Repair Rest Action]].
 
 ### Equipment Properties
 

@@ -8,21 +8,21 @@ aliases:
 
 # Actions in Sunder
 
-Every player starts out with a set of General Action Cards. These are Abilities all characters have, and can take as their Action during Initiative.
+Every player starts out with a set of General [[abilities|Action Cards]]. These are [[Abilities]] all characters have, and can take as their Action during [[scenes|Initiative]].
 
-An Action during Initiative involves the playing of two cards: one on its Attack side, and one on its Movement side. A player is not able to play two Attack cards for their action, nor are they able to play two Movement cards. Each Action Card has an Attack and Movement side, but the two cannot be activated at the same time, since the player must play two cards per turn.
+An Action during [[scenes|Initiative]] involves the playing of two cards: one on its Attack side, and one on its Movement side. A player is not able to play two Attack cards for their action, nor are they able to play two Movement cards. Each [[abilities|Action Card]] has an Attack and Movement side, but the two cannot be activated at the same time, since the player must play two cards per turn.
 
-A player may choose to forgo the defined Attack or Movement on an Action card and instead use the default action. The default Attack Action is "Make a weapon or unarmed\* attack (Force) against a Here target." The default Movement Action is "Move Close." 
+A player may choose to forgo the defined Attack or Movement on an [[abilities|Action card]] and instead use the default action. The default Attack Action is "Make a weapon or unarmed\* attack (Force) against a Here target." The default Movement Action is "Move Close." 
 
-A player will receive new Action Cards whenever they purchase the corresponding Ability from the [[abilities|Experience Market]].
+A player will receive new [[abilities|Action Cards]] whenever they purchase the corresponding Ability from the [[abilities|Experience Market]].
 
 \* *Unarmed attacks deal damage to Might equal to your Tier.*
 
 ## Action Tests
 
-If an Action requires a test from the character or its target, then the success levels are defined as follows:
+If an Action requires a test from the character or its target, then the [[resolution-system|success levels]] are defined as follows:
 
-- On a Test made by the character against the target, any Test that result in Mixed or higher is a success. On a fail, take a Stress instead of Minor Fallout.
+- On a Test made by the character against the target, any Test that result in Mixed or higher is a success. On a fail, take a [[stress-and-fallout|Stress]] instead of Minor [[stress-and-fallout|Fallout]].
 - On a Test made by the target to resist a character, any Test that does results in Success or higher is a success.
 ## General Actions
 
@@ -61,7 +61,7 @@ If an Action requires a test from the character or its target, then the success 
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Until the start of your next turn, reduce incoming Might Stress by your Might Volatility Die while armed. If unarmed, spend 1 Might Resistance to gain this benefit.
+        Until the start of your next turn, reduce incoming Might Stress by your Might [[volatility-and-perks|Volatility Die]] while armed. If unarmed, spend 1 Might Resistance to gain this benefit.
       </p>
     </div>
   </section>
@@ -183,7 +183,7 @@ If an Action requires a test from the character or its target, then the success 
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Give a <em>Near</em> creature Advantage on a Test regarding a specified course of action.
+        Give a <em>Near</em> creature [[resolution-system|Advantage]] on a Test regarding a specified course of action.
       </p>
 
       <div class="gh-runes">
@@ -211,7 +211,7 @@ If an Action requires a test from the character or its target, then the success 
     <div>
       <p class="gh-label">Attack</p>
       <p class="gh-text">
-        Until the start of your next turn, Tests made against you using Physical Potentials have Disadvantage.
+        Until the start of your next turn, [[resolution-system|Tests]] made against you using Physical Potentials have [[resolution-system|Disadvantage]].
       </p>
     </div>
   </section>
@@ -347,7 +347,7 @@ If an Action requires a test from the character or its target, then the success 
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Center your mind against Warp and the Arcane. Until the start of your next turn, you have Advantage on Tests made to resist Magick effects targeting Mental Potentials.
+        Center your mind against Warp and the Arcane. Until the start of your next turn, you have [[resolution-system|Advantage]] on [[resolution-system|Tests]] made to resist Magick effects targeting Mental Potentials.
       </p>
     </div>
   </section>
