@@ -1450,10 +1450,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#narrative-weight" class="md-nav__link">
+  <a href="#narrative-effect" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Narrative Weight
+        Narrative Effect
       
     </span>
   </a>
@@ -2185,10 +2185,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#narrative-weight" class="md-nav__link">
+  <a href="#narrative-effect" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Narrative Weight
+        Narrative Effect
       
     </span>
   </a>
@@ -2390,13 +2390,12 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 - <em>Connect</em>: The bond between you and your Companion allows you to understand each other even if you do not share a language. You may also use a Surge to perceive through your Companion's senses. While perceiving in this way, you are insensate to your own body's senses.</p>
 <p>You may give this Ability a prerequisite of the <a href="../../characters/archetypes/">Summoner</a> archetype (-2 <a href="../../characters/experience/">Strings</a>).</p>
 <h3 id="anatomy-of-custom-abilities">Anatomy of Custom Abilities</h3>
-<p>When pricing a custom Ability, split it into these parts:</p>
+<p>When building a custom Ability, consider what primary effect you want to allow your character to do through this Ability (is it an attack, buff, heal, condition, or narrative effect?). Then, you can address what effects the Experience Cost of the Ability:</p>
 <ul>
-<li><strong>Focus</strong>: the primary thing the Ability does (Strike, Mend, Bolster, Afflict, Manipulate, Narrative).</li>
-<li><strong>Enhancements</strong>: quantifying how much you can increase the capability of your custom ability</li>
 <li><strong>Activation Profile</strong>: reset condition + action economy.</li>
 <li><strong>Effect Package</strong>: damage, range, movement, targets, area, conditions, and durations.</li>
 <li><strong>Narrative Weight</strong>: how much interpretive authority the Ability gives you.</li>
+<li><strong>Enhancements</strong>: quantifying how much you can increase the capability of your custom ability</li>
 <li><strong>Caveats</strong>: constraints that reduce cost.</li>
 </ul>
 <hr />
@@ -2846,7 +2845,8 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tbody>
 </table>
 <hr />
-<h2 id="narrative-weight">Narrative Weight</h2>
+<h2 id="narrative-effect">Narrative Effect</h2>
+<p>Applying a Narrative Effect to an Ability is required when you are looking for a specific effect that is not represented within the Sunder rule system. The magnitude of this effect will be determined by its Narrative Weight:</p>
 <ol>
 <li>Aesthetic <span class="arithmatex">\(\rightarrow\)</span> Visual/sensational effects, utility effect up to a Here-sized sphere in Here range.</li>
 <li>Utility <span class="arithmatex">\(\rightarrow\)</span> Minor magickal effects, can be physical, up to a Near-sized sphere in Close range.</li>
@@ -2856,24 +2856,24 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <thead>
 <tr>
 <th>Narrative Weight</th>
-<th>Strings</th>
+<th>Cost</th>
 <th>Enhancements</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Aesthetic</td>
-<td>-1</td>
+<td>+1 Beat</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Utility</td>
-<td>+1</td>
+<td>+1 String</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Interpretable</td>
-<td>+3-7</td>
+<td>+3-7 Strings</td>
 <td>1</td>
 </tr>
 </tbody>
@@ -3016,6 +3016,10 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tr>
 <tr>
 <td>Narrative consequence</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Strictly narrative ability</td>
 <td>-1</td>
 </tr>
 <tr>
@@ -3262,7 +3266,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.2.11";
+            window.SUNDER_VERSION = "1.2.13";
         </script>
     
 
