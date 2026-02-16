@@ -319,10 +319,25 @@ h3 {
     border-color: rgba(255, 255, 255, 0.18);
 }
 
+.sunder-highlight-popover.sunder-highlight-popover--mobile {
+    position: fixed;
+    left: 50%;
+    top: auto;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: calc(100vw - 1rem);
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.45rem 0.55rem;
+    border-radius: 0.8rem;
+    z-index: 10002;
+}
+
 .sunder-highlight-popover .sunder-highlight-btn,
 .sunder-highlight-popover .sunder-copy-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.35rem;
     padding: 0.25rem 0.6rem;
     border-radius: 999px;
@@ -352,6 +367,15 @@ h3 {
 /* Show state */
 #sunder-highlight-popover {
     /* JS toggles opacity + pointer-events to show/hide */
+}
+
+@media (max-width: 900px) {
+    .sunder-highlight-popover.sunder-highlight-popover--mobile .sunder-highlight-btn,
+    .sunder-highlight-popover.sunder-highlight-popover--mobile .sunder-copy-btn {
+        min-width: 2.25rem;
+        min-height: 2.25rem;
+        padding: 0.25rem 0.5rem;
+    }
 }
 
 /* === Question Modal === */
@@ -1654,3 +1678,4 @@ h3 {
         transform: translateY(0);
     }
 }
+

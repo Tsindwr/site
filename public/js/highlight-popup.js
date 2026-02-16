@@ -9,6 +9,8 @@ window.sunder = window.sunder || {};
     let currentPage = null;
     let currentSectionUrl = null;
     let savedSelection = null;
+    let selectionUpdateTimer = null;
+    let useMobileHighlightUi = false;
 
     function getDocsContainer(node) {
         // Ensure selection is inside the docs content, not in nav/header/footer
@@ -254,8 +256,12 @@ window.sunder = window.sunder || {};
     function hidePopover() {
         const pop = document.getElementById(POP_ID);
         if (pop) {
+            pop.classList.remove("sunder-highlight-popover--mobile");
             pop.style.opacity = "0";
             pop.style.pointerEvents = "none";
+            pop.style.top = "";
+            pop.style.left = "";
+            pop.style.bottom = "";
         }
 
         currentQuote = null;
@@ -647,6 +653,23 @@ window.sunder = window.sunder || {};
 
     // ==================== Main Logic ====================
 
+    function isMobileSelectionMode() {
+        if (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) {
+            return true;
+        }
+        if (window.matchMedia && window.matchMedia("(max-width: 900px)").matches) {
+            return true;
+        }
+        return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    }
+
+    function scheduleSelectionCheck(delay) {
+        if (selectionUpdateTimer) {
+            clearTimeout(selectionUpdateTimer);
+        }
+        selectionUpdateTimer = setTimeout(showPopoverForSelection, delay);
+    }
+
     function showPopoverForSelection() {
         const modal = document.getElementById(MODAL_ID);
         if (modal && modal.classList.contains("open")) {
@@ -688,27 +711,52 @@ window.sunder = window.sunder || {};
         currentPagePath = getPagePath();
 
         const pop = createPopover();
-        const scrollX = window.scrollX || document.documentElement.scrollLeft;
-        const scrollY = window.scrollY || document.documentElement.scrollTop;
+        if (useMobileHighlightUi) {
+            pop.classList.add("sunder-highlight-popover--mobile");
+            pop.style.top = "";
+            pop.style.left = "";
+            pop.style.bottom = "calc(env(safe-area-inset-bottom, 0px) + 0.75rem)";
+        } else {
+            pop.classList.remove("sunder-highlight-popover--mobile");
+            const scrollX = window.scrollX || document.documentElement.scrollLeft;
+            const scrollY = window.scrollY || document.documentElement.scrollTop;
+            const top = rect.top + scrollY - pop.offsetHeight - 8;
+            const left = rect.left + scrollX + rect.width / 2 - pop.offsetWidth / 2;
 
-        const top = rect.top + scrollY - pop.offsetHeight - 8;
-        const left = rect.left + scrollX + rect.width / 2 - pop.offsetWidth / 2;
+            pop.style.bottom = "";
+            pop.style.top = `${Math.max(top, scrollY + 8)}px`;
+            pop.style.left = `${Math.max(left, scrollX + 8)}px`;
+        }
 
-        pop.style.top = `${Math.max(top, scrollY + 8)}px`;
-        pop.style.left = `${Math.max(left, scrollX + 8)}px`;
         pop.style.opacity = "1";
         pop.style.pointerEvents = "auto";
     }
 
+    useMobileHighlightUi = isMobileSelectionMode();
+    window.addEventListener("resize", () => {
+        useMobileHighlightUi = isMobileSelectionMode();
+    });
+
     // Listen for mouseup and keyup (keyboard selection)
     document.addEventListener("mouseup", () => {
-        setTimeout(showPopoverForSelection, 10);
+        scheduleSelectionCheck(10);
+    });
+
+    // Mobile text selection (long press / drag handles)
+    document.addEventListener("touchend", () => {
+        scheduleSelectionCheck(40);
+    }, { passive: true });
+
+    // Reliable fallback for browsers that update selection asynchronously.
+    document.addEventListener("selectionchange", () => {
+        if (!useMobileHighlightUi) return;
+        scheduleSelectionCheck(60);
     });
 
     document.addEventListener("keyup", (e) => {
         // After keyboard-based selection (Shift+Arrow, etc.)
         if (['Shift', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) {
-            setTimeout(showPopoverForSelection, 10);
+            scheduleSelectionCheck(10);
         }
     });
 
@@ -729,4 +777,18 @@ window.sunder = window.sunder || {};
             hidePopover();
         }
     });
+
+    document.addEventListener("touchstart", (e) => {
+        const pop = document.getElementById(POP_ID);
+        const modal = document.getElementById(MODAL_ID);
+
+        if (!pop) return;
+        if (modal && modal.contains(e.target)) return;
+
+        if (!pop.contains(e.target)) {
+            const selection = window.getSelection();
+            if (selection) selection.removeAllRanges();
+            hidePopover();
+        }
+    }, { passive: true });
 })();
