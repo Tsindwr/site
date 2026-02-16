@@ -94,13 +94,12 @@ You may give this Ability a prerequisite of the Summoner archetype (-2 Strings).
 
 ### Anatomy of Custom Abilities
 
-When pricing a custom Ability, split it into these parts:
+When building a custom Ability, consider what primary effect you want to allow your character to do through this Ability (is it an attack, buff, heal, condition, or narrative effect?). Then, you can address what effects the Experience Cost of the Ability:
 
-- **Focus**: the primary thing the Ability does (Strike, Mend, Bolster, Afflict, Manipulate, Narrative).
-- **Enhancements**: quantifying how much you can increase the capability of your custom ability
 - **Activation Profile**: reset condition + action economy.
 - **Effect Package**: damage, range, movement, targets, area, conditions, and durations.
 - **Narrative Weight**: how much interpretive authority the Ability gives you.
+- **Enhancements**: quantifying how much you can increase the capability of your custom ability
 - **Caveats**: constraints that reduce cost.
 
 ---
@@ -259,17 +258,19 @@ Increase your stat by 1 for the Ability's duration.
 
 
 ---
-## Narrative Weight
+## Narrative Effect
+
+Applying a Narrative Effect to an Ability is required when you are looking for a specific effect that is not represented within the Sunder rule system. The magnitude of this effect will be determined by its Narrative Weight:
 
 1. Aesthetic $\rightarrow$ Visual/sensational effects, utility effect up to a Here-sized sphere in Here range.
 2. Utility $\rightarrow$ Minor magickal effects, can be physical, up to a Near-sized sphere in Close range.
 3. Interpretable $\rightarrow$ Represents an affinity or attunement to a specific topic, no range constraints.
 
-| Narrative Weight | Strings | Enhancements |
-| ---------------- | ------- | ------------ |
-| Aesthetic        | -1      | 0            |
-| Utility          | +1      | 0            |
-| Interpretable    | +3-7    | 1            |
+| Narrative Weight | Cost         | Enhancements |
+| ---------------- | ------------ | ------------ |
+| Aesthetic        | +1 Beat      | 0            |
+| Utility          | +1 String    | 0            |
+| Interpretable    | +3-7 Strings | 1            |
 
 ---
 ## Ability Durations
