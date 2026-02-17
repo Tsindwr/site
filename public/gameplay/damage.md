@@ -25,6 +25,8 @@ Damage in Sunder is a raw measurement of an attack’s power. This is the value 
 4. Resolve any [[stress-and-fallout|Fallout]] on an overflow.
 
 *Damage is converted to [[stress-and-fallout|Stress]] on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 [[stress-and-fallout|stress]]).* 
+
+This rule applies for healing as well, removing Stress on 5:1 ratio, and is always applied in a target Potential.
 ### Proof and Bane
 
 Some characters or creatures have a specific resistance or vulnerability to certain sources of damage. A skeleton may be susceptible to crushing attacks, and fire may be ineffective on a character with an infernal bloodline. **Proof** is a feature paired with a certain source of damage that gives a creature protection against damage coming from that source, effectively reducing the level of any triggered [[stress-and-fallout|Fallout]] by 1. **Bane** is a feature paired with a certain source of damage that causes susceptibility in a creature against damage coming from that source, effectively increasing the level of any triggered [[stress-and-fallout|Fallout]] by 1.
