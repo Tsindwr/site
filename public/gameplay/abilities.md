@@ -96,7 +96,7 @@ You may give this Ability a prerequisite of the [[archetypes|Summoner]] archetyp
 
 ### Anatomy of Custom Abilities
 
-When building a custom Ability, consider what primary effect you want to allow your character to do through this Ability (is it an attack, buff, heal, condition, or narrative effect?). Then, you can address what effects the Experience Cost of the Ability:
+When building a custom Ability, consider what primary effect you want to allow your character to do through this Ability: is it an attack, buff, heal, condition, or narrative effect? Then, you can address what effects the Experience Cost of the Ability:
 
 - **Activation Profile**: reset condition + action economy.
 - **Effect Package**: damage, range, movement, targets, area, conditions, and durations.
@@ -124,7 +124,7 @@ Only Zenith-level Abilities can increase a character's Enhancement limits as a S
 
 ### Buying Enhancements
 
-Enhancements become more expensive the more you buy for a single Ability.
+Enhancements become more expensive the more you buy for a single Ability. Each Enhancement is priced individually, so if you need to buy 3 Enhancements for one Ability, you need to purchase the 1st for 2 Strings, the 2nd for 3 Strings, and the 3rd for 5 Strings (total of 10 Strings).
 
 | Enhancement # | Cost (Strings) |
 | ------------- | -------------- |
@@ -144,7 +144,7 @@ You can build an Ability with a real-time cost that expands the effect of the Ab
 
 ---
 
-## Base Costs
+## Base Profile
 
 ### Reset Condition
 
@@ -176,12 +176,12 @@ When altering the Reset Condition of the Flipside of a custom Ability, pay the d
 ## Effect Package Costs
 ### Damage
 
-| Damage    | Strings | Enhancements |
-| --------- | ------- | ------------ |
-| Weapon    | 1       | 0            |
-| Initial\* | 1       | 0            |
-| +1dX      | +1      | 1            |
-\* The initial amount of damage will always be the [[volatility-and-perks|Volatility Die]] that corresponds to the Test Skill's [[potentials-and-resistance|Potential]]. If it is an AOE effect, it associates with either the [[Spellcasting]] [[potentials-and-resistance|Potential]] if it is a spell, or the primary [[potentials-and-resistance|Potential]] chosen when acquiring the Archetype this Ability is for. 
+| Damage                                            | Strings | Enhancements |
+| ------------------------------------------------- | ------- | ------------ |
+| Weapon                                            | 1       | 0            |
+| Initial\*                                         | 1       | 0            |
+| +1dX (X being whichever die type assigned above^) | +1      | 1            |
+\* The initial amount of damage will always be the [[volatility-and-perks|Volatility Die]] that corresponds to the Spellcasting or Skill Test's [[potentials-and-resistance|Potential]]. If it is an AOE effect, it associates with either the [[Spellcasting]] [[potentials-and-resistance|Potential]] if it is a spell, or the primary [[potentials-and-resistance|Potential]] chosen when acquiring the Archetype this Ability is for. 
 
 ### Distances
 
@@ -288,16 +288,17 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 #### Durations
 
-| Duration                  | Strings | Enhancement | Notes                                                                      |
-| ------------------------- | ------- | ----------- | -------------------------------------------------------------------------- |
-| 1 round                   | 0       | 0           | Until the start of your next turn                                          |
-| 1 minute/Scene            | +2      | 0           | Scene-level impact                                                         |
-| 1 hour                    | +4      | 0           | Travel / downtime impact                                                   |
-| Until Dispelled           | +5      | 1           | Until Successful action is taken by another creature to end the condition. |
-| Sequence Die (Volatility) | +2      | 1           | Use the user's Volatility Die in the relevant Potential for the Sequence.  |
-| Sequence Die (1d6)        | +1      | 1           | Default Sequence die                                                       |
-| Add Sequence Experience   | +1      | 0           | Only able to be added to Sequence abilities                                |
-| Concentration\*           | -1      | 0           | Discount; can stack with another duration                                  |
+| Duration                  | Strings | Enhancements | Notes                                                                      |
+| ------------------------- | ------- | ------------ | -------------------------------------------------------------------------- |
+| 1 round                   | 0       | 0            | Until the start of your next turn                                          |
+| 1 minute/Scene            | +3      | 0            | Scene-level impact                                                         |
+| 1 hour                    | +3      | 1            | Travel / downtime impact                                                   |
+| Until Long Rest           | +6      | 1            | Lasts until you begin a Long Rest                                          |
+| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition. |
+| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.  |
+| Sequence Die (1d6)        | +2      | 0            | Default Sequence die                                                       |
+| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities                                |
+| Concentration\*           | -1      | 0            | Discount; can stack with another duration                                  |
 \* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]].
 
 ---
@@ -321,15 +322,15 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 
 ### String-Level Caveats
 
-| Constraint                   | Strings |
-| ---------------------------- | ------- |
-| Narrow trigger               | -1      |
-| Narrative consequence        | -1      |
-| Strictly narrative ability   | -1      |
-| Severe narrative consequence | -2      |
-| Mechanical consequence       | -2      |
-| Spend Resistance             | -1      |
-| Prerequisite                 | -2      |
+| Constraint                                             | Strings |
+| ------------------------------------------------------ | ------- |
+| Narrow trigger <strong>or</strong> Components required | -1      |
+| Strictly narrative ability                             | -1      |
+| Mechanical consequence                                 | -1      |
+| Narrative consequence                                  | -1      |
+| Severe narrative consequence                           | -2      |
+| Spend Resistance                                       | -1      |
+| Prerequisite                                           | -2      |
 \* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.
 
 ### Beat-Level Caveats
