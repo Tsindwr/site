@@ -50,7 +50,7 @@ A character's descent represents where and by whom the character was raised. Thi
 A character's bloodline represents their connection to the natural Warp of Umbrea. Whether that Warp be from the Faerie & Gloam, from the Land of Storm, or from the influence of the Starry Beyond, characters carry a spark of magic from the world within them. 
 #### Boons:
 - +1 to a [[potentials-and-resistance|Potential]]
-- 1 special ability (budget: 5 [[experience|Strings]], considered having a prerequisite)
+- 1 special ability (budget: 5 [[experience|Strings]], up to 1 Enhancement, and considered having a prerequisite)
 
 >[!example] Bloodline Special Ability Example
 >**Legacy of the Stars**
