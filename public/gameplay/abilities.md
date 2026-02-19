@@ -276,6 +276,8 @@ Applying a Narrative Effect to an Ability is required when you are looking for a
 2. Utility $\rightarrow$ Minor magickal effects, can be physical, up to a Near-sized sphere in Close range.
 3. Interpretable $\rightarrow$ Represents an affinity or attunement to a specific topic, no range constraints.
 
+When deciding on a Narrative Ability's cost, always choose the cost of the most expensive relative Narrative Weight (you do not need to purchase multiple for each effect).
+
 | Narrative Weight | Cost         | Enhancements |
 | ---------------- | ------------ | ------------ |
 | Aesthetic        | +1 Beat      | 0            |
