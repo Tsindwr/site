@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../assets/favicon/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
     
     
       
@@ -2348,7 +2348,7 @@ The Redirect Ability allows characters to move incoming <a href="../../core/stre
 <p><strong>Cost: 3 Strings</strong> (1 Enhancement)<br />
 The Dexterity Ability allows a character to use their Finesse <a href="../../characters/potentials-and-resistance/">Potential</a> instead of their Might <a href="../../characters/potentials-and-resistance/">Potential</a> when making <a href="../../core/resolution-system/">Tests</a> with melee <a href="../../core/equipment/">weapons</a>. This does not apply to any weapon with the <a href="../../core/equipment/">Heavy</a> or <a href="../../core/equipment/">Unwieldy</a> properties. <em>This ability can be assigned a prerequisite of any of the following <a href="../../characters/archetypes/">archetypes</a>, reducing its cost by 2 <a href="../../characters/experience/">Strings</a>:</em> Saboteur, Frontliner, or Summoner.</p>
 <div class="domain"><p>Discipline Pool<span class="subtext"> - Stat</span></p></div>
-<p><strong>Cost: 6 Strings</strong> (1 Enhancement)<br />
+<p><strong>Cost: 6 Strings</strong><br />
 When taking this Ability, choose one of your current <a href="../../characters/archetypes/">Archetypes</a>: this is your prerequisite. Create a name for your <em>Discipline</em> (e.g. Chi, Psionics, Vis, etc.). You have a number of <em>Discipline</em> Points (a special kind of <a href="../../characters/potentials-and-resistance/">Resistance</a>) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend <em>Discipline</em> Points instead of Resistances, but still have the discount to cost of spending a <a href="../../characters/potentials-and-resistance/">Resistance</a> (-1 String) and having a prerequisite (-2 <a href="../../characters/experience/">Strings</a>). Your number of <em>Discipline</em> Points is considered a permanent Stat.</p>
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
 <p><strong>Cost: 5 Strings</strong><br />
@@ -2595,12 +2595,38 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>0</td>
 </tr>
 <tr>
-<td>+1dX (X being whichever die type assigned above^)</td>
-<td>+1</td>
+<td>* The initial amount of damage will always be the <a href="../../core/volatility-and-perks/">Volatility Die</a> that corresponds to the Spellcasting or Skill Test's <a href="../../characters/potentials-and-resistance/">Potential</a>. If it is an AOE effect, it associates with either the <a href="../../characters/spellcasting/">Spellcasting</a> <a href="../../characters/potentials-and-resistance/">Potential</a> if it is a spell, or the primary <a href="../../characters/potentials-and-resistance/">Potential</a> chosen when acquiring the Archetype this Ability is for.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Increasing Damage</th>
+<th>Strings</th>
+<th>Enhancements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primed for increase</td>
+<td>0</td>
 <td>1</td>
 </tr>
 <tr>
-<td>* The initial amount of damage will always be the <a href="../../core/volatility-and-perks/">Volatility Die</a> that corresponds to the Spellcasting or Skill Test's <a href="../../characters/potentials-and-resistance/">Potential</a>. If it is an AOE effect, it associates with either the <a href="../../characters/spellcasting/">Spellcasting</a> <a href="../../characters/potentials-and-resistance/">Potential</a> if it is a spell, or the primary <a href="../../characters/potentials-and-resistance/">Potential</a> chosen when acquiring the Archetype this Ability is for.</td>
+<td>+1dX to Single Target*</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>+1dX to AOE*</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>* X is the Die type decided by the Initial damage or the weapon damage Die.</td>
 <td></td>
 <td></td>
 </tr>
@@ -2934,7 +2960,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>Use the user's Volatility Die in the relevant Potential for the Sequence.</td>
 </tr>
 <tr>
-<td>Sequence Die (1d6)</td>
+<td>Sequence Die (1d4)</td>
 <td>+2</td>
 <td>0</td>
 <td>Default Sequence die</td>
@@ -2943,13 +2969,13 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>Add Sequence Experience</td>
 <td>+1</td>
 <td>0</td>
-<td>Only able to be added to Sequence abilities</td>
+<td>Only able to be added to Sequence abilities. This does not count as a Duration.</td>
 </tr>
 <tr>
 <td>Concentration*</td>
 <td>X</td>
 <td>Y</td>
-<td>Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may subtract 2 Strings from the cost, otherwise you may subtract 1 Enhancement.</td>
+<td>Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may halve the number of Strings for that Duration, otherwise you may subtract 1 Enhancement.</td>
 </tr>
 <tr>
 <td>* Concentration means the effect ends if you take <a href="../../core/stress-and-fallout/">Fallout</a> that causes a <a href="../../core/stress-and-fallout/">Stress</a> refresh, or if you willingly drop it. You may spend a <a href="../../characters/potentials-and-resistance/">Resistance</a> point in the relevant <a href="../../characters/potentials-and-resistance/">Potential</a> to maintain concentration after <a href="../../core/stress-and-fallout/">Fallout</a>.</td>
@@ -3272,7 +3298,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.3.16";
+            window.SUNDER_VERSION = "1.3.18";
         </script>
     
 
