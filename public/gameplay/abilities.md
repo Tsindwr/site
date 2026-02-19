@@ -67,7 +67,7 @@ The Redirect Ability allows characters to move incoming [[stress-and-fallout|Str
 The Dexterity Ability allows a character to use their Finesse [[potentials-and-resistance|Potential]] instead of their Might [[potentials-and-resistance|Potential]] when making [[resolution-system|Tests]] with melee [[equipment|weapons]]. This does not apply to any weapon with the [[equipment|Heavy]] or [[equipment|Unwieldy]] properties. *This ability can be assigned a prerequisite of any of the following [[archetypes]], reducing its cost by 2 [[experience|Strings]]:* Saboteur, Frontliner, or Summoner.
 
  <div class="domain"><p>Discipline Pool<span class="subtext"> - Stat</span></p></div>
-**Cost: 6 Strings** (1 Enhancement)
+**Cost: 6 Strings**
 When taking this Ability, choose one of your current [[Archetypes]]: this is your prerequisite. Create a name for your *Discipline* (e.g. Chi, Psionics, Vis, etc.). You have a number of *Discipline* Points (a special kind of [[potentials-and-resistance|Resistance]]) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a [[potentials-and-resistance|Resistance]] (-1 String) and having a prerequisite (-2 [[experience|Strings]]). Your number of *Discipline* Points is considered a permanent Stat.
 
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
@@ -176,12 +176,18 @@ When altering the Reset Condition of the Flipside of a custom Ability, pay the d
 ## Effect Package Costs
 ### Damage
 
-| Damage                                            | Strings | Enhancements |
-| ------------------------------------------------- | ------- | ------------ |
-| Weapon                                            | 1       | 0            |
-| Initial\*                                         | 1       | 0            |
-| +1dX (X being whichever die type assigned above^) | +1      | 1            |
+| Damage    | Strings | Enhancements |
+| --------- | ------- | ------------ |
+| Weapon    | 1       | 0            |
+| Initial\* | 1       | 0            |
 \* The initial amount of damage will always be the [[volatility-and-perks|Volatility Die]] that corresponds to the Spellcasting or Skill Test's [[potentials-and-resistance|Potential]]. If it is an AOE effect, it associates with either the [[Spellcasting]] [[potentials-and-resistance|Potential]] if it is a spell, or the primary [[potentials-and-resistance|Potential]] chosen when acquiring the Archetype this Ability is for. 
+
+| Increasing Damage       | Strings | Enhancements |
+| ----------------------- | ------- | ------------ |
+| Primed for increase     | 0       | 1            |
+| +1dX to Single Target\* | 1       | 0            |
+| +1dX to AOE\*           | 2       | 0            |
+\* X is the Die type decided by the Initial damage or the weapon damage Die.
 
 ### Distances
 
@@ -288,17 +294,17 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 #### Durations
 
-| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                    |
-| ------------------------- | ------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                        |
-| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                       |
-| 1 hour                    | +2      | 1            | Travel / downtime impact                                                                                                                                                                                 |
-| Until Long Rest           | +4      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                        |
-| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                               |
-| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                |
-| Sequence Die (1d6)        | +2      | 0            | Default Sequence die                                                                                                                                                                                     |
-| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities                                                                                                                                                              |
-| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may subtract 2 Strings from the cost, otherwise you may subtract 1 Enhancement. |
+| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                                 |
+| ------------------------- | ------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                                     |
+| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                                    |
+| 1 hour                    | +2      | 1            | Travel / downtime impact                                                                                                                                                                                              |
+| Until Long Rest           | +4      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                                     |
+| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                                            |
+| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                             |
+| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                                  |
+| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                       |
+| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may halve the number of Strings for that Duration, otherwise you may subtract 1 Enhancement. |
 \* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]].
 
 ---
