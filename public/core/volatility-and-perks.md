@@ -64,13 +64,20 @@ Exploding a Volatility Die during a Test causes an automatic [[resolution-system
 
 Perks' effects activate after a player has rolled their Volatility Pool and choose the highest value.
 
-| Cost (Beats) | Name     | Description                                                                                                                                                             |
-| ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2            | Refresh  | Remove 1 Stress from this Potential's track                                                                                                                             |
-| 2            | Implode  | If your Volatility Die is not already a D4, roll one Die level below your current Die size and take the resulting value.                                                |
-| 3            | Cleave   | Roll 2 Volatility Dice instead, taking the result furthest from the middle. If they are equidistant, take the higher.                                                   |
-| 3            | Drive    | Reroll the kept die and take the resulting value.                                                                                                                       |
-| 5            | Burn     | Spend 1 Resistance for an automatic max Volatility value.                                                                                                               |
-| 5            | Fracture | When activating this Perk while its slot is in the jinx threshold, its result is considered the highest value on the Die. Otherwise, it is considered the lowest value. |
+| Cost (Beats) | Name         | Description                                                                                                                                                                                                        |
+| ------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2            | Anchor Point | Activating this Perk allows you to choose to not modify your D20's success level at all.                                                                                                                           |
+| 2            | Implode      | If your Volatility Die is not already a D4, roll one Die level below your current Die size and take the resulting value.                                                                                           |
+| 2            | Refresh      | Remove 1 Stress from this Potential's track                                                                                                                                                                        |
+| 2            | Spark        | This Perk takes up a slot on your Volatility Die, but does nothing besides decrease the cost of Charging this Volatility Die by 2 Beats.                                                                           |
+| 3            | Cleave       | Roll 2 Volatility Dice instead, taking the result furthest from the middle. If they are equidistant, take the higher.                                                                                              |
+| 3            | Drive        | Reroll the kept die and take the resulting value.                                                                                                                                                                  |
+| 3            | Momentum     | If the success level of this roll would cause an increment of Stress that would overflow your Track, you may instead regain 1 Resistance, if any have been spent. This does not prevent the Stress gained.         |
+| 3            | Stabilize    | When activating this Perk, treat your jinx threshold as 1 lower for this roll.                                                                                                                                     |
+| 4            | Reversal     | If this Perk is activated within the jinx threshold, you decrease your Stress in this Potential by 1, keeping the original success level if such a decreased should put your result outside of the jinx threshold. |
+| 4            | Spite        | You may ignore the success level granted by this Volatility Die and instead add its value to a damage roll.                                                                                                        |
+| 5            | Burn         | Spend 1 Resistance for an automatic max Volatility value.                                                                                                                                                          |
+| 5            | Fracture     | When activating this Perk while its slot is in the jinx threshold, its result is considered the highest value on the Die. Otherwise, it is considered the lowest value.                                            |
+| 5            | Tempt        | If this Perk is exactly 1 above your current jinx threshold, you may increase your success level by 2 instead of 1.                                                                                                |
 
 [^1]: See [[stress-and-fallout|Fallout]]. Once Fallout is triggered, that [[potentials-and-resistance|Potential]]'s [[damage|Stress]] track is reset to 0.

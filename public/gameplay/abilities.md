@@ -221,7 +221,7 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | There    | +2     |
 | Far      | +3     |
 | Yonder   | +5     |
-If Movement is being added to an Attack Action, it requires an Enhancement slot. 
+If Movement is being added to an Attack Action, it requires an extra String. 
 
 ### Targets and Area
 
@@ -334,21 +334,21 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | ------------------------------------------------------ | ------- |
 | Narrow trigger <strong>or</strong> Components required | -1      |
 | Strictly narrative ability                             | -1      |
-| Mechanical consequence                                 | -1      |
-| Narrative consequence                                  | -1      |
-| Severe narrative consequence                           | -2      |
 | Spend Resistance                                       | -1      |
+| Mechanical consequence                                 | -1      |
+| Severe narrative consequence                           | -2      |
 | Prerequisite                                           | -2      |
 \* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.
 
 ### Beat-Level Caveats
 
-| Constraint         | Beats |
-| ------------------ | ----- |
-| Test required\*    | -5    |
-| Increase Riskiness | -5    |
-| One use per scene  | -5    |
-| Spend Stress       | -5    |
+| Constraint            | Beats |
+| --------------------- | ----- |
+| Test required\*       | -5    |
+| Increase Riskiness    | -5    |
+| One use per scene     | -5    |
+| Spend Stress          | -5    |
+| Narrative consequence | -5    |
 \* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing [[resolution-system|Riskiness]] on a Test to activate the Ability can only be applied when there is a Test required, either by default or through the purchased Caveat.
 
 ### Spell Consequences
