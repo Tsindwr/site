@@ -1,0 +1,15 @@
+{
+  "version": "1.4.0",
+  "discord_announcement_sent": false,
+  "summary": "Experience Market Tweaks",
+  "sections": [
+    {
+      "title": "Cost Changes",
+      "description": "The method of purchasing increased damage on an Ability has become much less of a hassle. Added explicit definition of rolling for Healing. Origin Abilities may now contain 1 Enhancement, not affecting class Abilities' Enhancement limits. Duration costs have lessened and become more reliant on Enhancements, representing multiplication of Abilities' base effect. Updated how Concentration reduces Duration Cost. Specified only 1 Narrative Weight is applicable per Ability, you need not apply multiple. Updated Caveat costs."
+    },
+    {
+      "title": "New Perks",
+      "description": "Added new Perks to the Volatility page, giving players more options for customizing their Volatility Pools."
+    }
+  ]
+}
