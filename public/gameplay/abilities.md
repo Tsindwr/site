@@ -255,11 +255,13 @@ Increase your stat by 1 for the Ability's duration.
 | Proficiency            | 1 String  |
 | 1 Test's Success Level | 5 Beats   |
 
-| Recover    | String |
-| ---------- | ------ |
-| Stress     | 1      |
-| Resistance | 2      |
-| Condition  | 2      |
+| Recover         | String |
+| --------------- | ------ |
+| Stress          | 1      |
+| Resistance      | 2      |
+| Minor Condition | 2      |
+| Major Condition | 3      |
+| Mark            | 4      |
 
 | Clear                   | String | Enhancements |
 | ----------------------- | ------ | ------------ |
