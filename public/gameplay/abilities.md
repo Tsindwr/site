@@ -28,7 +28,7 @@ Stats are a group of numbers made to define the base values of a creature. Stats
 With Abilities come Ability Cards, which give a player their options during gameplay and combat. Both Action Cards and Surge Cards are held upright or vertically, whereas Trait Cards are displayed horizontally. This allows players to organize their Hand in any way they wish, and have all of their options displayed in front of them.
 ### Action Cards
 
-In Sunder, [[Actions]] come in two parts: an **[[actions|Attack]]** and a **[[actions|Movement]]**[^1]. When creating new Actions, one side of the Action card is the Focus. A **Focus** will be defined and purchased using the Experience Market, and its cost defines the budget for its Flipside. A **Flipside** is whichever part of an Action is not its **Focus**, so if an Action is built primarily around its [[actions|Attack]], then that Action's Flipside is its [[actions|Movement]].
+In Sunder, [[Actions]] come in two parts: an **[[actions|Attack]]** and a **[[actions|Movement]]**[^1].  Attack and Movement may also be referred to as your Direct and Indirect Actions, respectively. When creating new Actions, one side of the Action card is the Focus. A **Focus** will be defined and purchased using the Experience Market, and its cost defines the budget for its Flipside. A **Flipside** is whichever part of an Action is not its **Focus**, so if an Action is built primarily around its [[actions|Attack]], then that Action's Flipside is its [[actions|Movement]].
 
 The budget for purchasing the Flipside of an Action Card is calculated by *half* of the cost of its Focus (rounded down). Once a player has purchased a Focus, they need not spend any more [[Experience]] on its Flipside, as the budget is a complementary amount of [[Experience]] to spend on that Ability.
 ### Surge Cards
@@ -115,7 +115,7 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 
 | Tier | Levels | Max Enhancements on one Ability | Total Enhancements per character |
 | ---- | ------ | ------------------------------- | -------------------------------- |
-| I    | 1–4    | 1                               | 2                                |
+| I    | 1–4    | 1                               | 3                                |
 | II   | 5-8    | 2                               | 5                                |
 | III  | 9-12   | 3                               | 8                                |
 | IV   | 13-16  | 4                               | 12                               |
@@ -255,11 +255,13 @@ Increase your stat by 1 for the Ability's duration.
 | Proficiency            | 1 String  |
 | 1 Test's Success Level | 5 Beats   |
 
-| Recover    | String |
-| ---------- | ------ |
-| Stress     | 1      |
-| Resistance | 2      |
-| Condition  | 2      |
+| Recover         | String |
+| --------------- | ------ |
+| Stress          | 1      |
+| Resistance      | 2      |
+| Minor Condition | 2      |
+| Major Condition | 3      |
+| Mark            | 4      |
 
 | Clear                   | String | Enhancements |
 | ----------------------- | ------ | ------------ |
@@ -333,7 +335,7 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | Constraint                                             | Strings |
 | ------------------------------------------------------ | ------- |
 | Narrow trigger <strong>or</strong> Components required | -1      |
-| Strictly narrative ability                             | -1      |
+| Primarily narrative ability                            | -1      |
 | Spend Resistance                                       | -1      |
 | Mechanical consequence                                 | -1      |
 | Severe narrative consequence                           | -2      |
