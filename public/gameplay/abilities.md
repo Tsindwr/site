@@ -115,7 +115,7 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 
 | Tier | Levels | Max Enhancements on one Ability | Total Enhancements per character |
 | ---- | ------ | ------------------------------- | -------------------------------- |
-| I    | 1–4    | 1                               | 2                                |
+| I    | 1–4    | 1                               | 3                                |
 | II   | 5-8    | 2                               | 5                                |
 | III  | 9-12   | 3                               | 8                                |
 | IV   | 13-16  | 4                               | 12                               |
@@ -333,7 +333,7 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | Constraint                                             | Strings |
 | ------------------------------------------------------ | ------- |
 | Narrow trigger <strong>or</strong> Components required | -1      |
-| Strictly narrative ability                             | -1      |
+| Primarily narrative ability                            | -1      |
 | Spend Resistance                                       | -1      |
 | Mechanical consequence                                 | -1      |
 | Severe narrative consequence                           | -2      |
