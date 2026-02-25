@@ -1683,3 +1683,57 @@ h3 {
     }
 }
 
+/* ============================================================
+   MOBILE NAVIGATION - Accordion tree instead of drill-down layers
+   ============================================================
+   Material's default mobile nav (with navigation.tabs) hides all
+   top-level sections except the active one (md-nav--lifted) and
+   renders nested sections as full-height absolute layers that slide
+   in/out. This replaces that pattern with a simple expandable tree
+   so users can see every section at a glance and expand them inline.
+   ============================================================ */
+@media screen and (max-width: 76.234375em) {
+    /* 1. Show ALL top-level sections in the drawer, not just the active one */
+    .md-nav--primary.md-nav--lifted > .md-nav__list > .md-nav__item {
+        display: block !important;
+    }
+
+    /* 2. Convert nested nav layers from absolute-positioned to inline blocks */
+    .md-nav--primary .md-nav[data-md-level] {
+        background-color: transparent !important;
+        height: auto !important;
+        opacity: 1 !important;
+        position: static !important;
+        transform: none !important;
+        transition: none !important;
+        visibility: visible !important;
+        z-index: auto !important;
+        /* Hidden by default; toggled by the checkbox below */
+        display: none !important;
+    }
+
+    /* 3. Show nested nav when its section toggle is checked */
+    .md-nav--primary .md-nav__toggle:checked ~ .md-nav[data-md-level] {
+        display: block !important;
+    }
+
+    /* 4. Hide the back-arrow section titles (only needed for layer navigation) */
+    .md-nav--primary .md-nav[data-md-level] > .md-nav__title {
+        display: none !important;
+    }
+
+    /* 5. Indent nested items to visually communicate hierarchy */
+    .md-nav--primary .md-nav[data-md-level="1"] .md-nav__link {
+        padding-left: 1.4rem !important;
+    }
+
+    .md-nav--primary .md-nav[data-md-level="2"] .md-nav__link {
+        padding-left: 2rem !important;
+    }
+
+    /* 6. Restore the site-title label in the drawer (md-nav--lifted hid it) */
+    .md-nav--primary.md-nav--lifted > .md-nav__title {
+        display: block !important;
+    }
+}
+
