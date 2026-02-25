@@ -1,7 +1,5 @@
 # About Sunder TTRPG
-
 <div class="sunder-about-page">
-
 <h2>Sunder's Vision Statement</h2>
 
 <p>Sunder was created with the intent to give TTRPG players a storytelling framework that accommodates for creative choice. In this system, tasteful storytelling is rewarded in a quantifiable manner, and there are little to no limits to the kind of character you can play. Ease of use has been prioritized to cultivate a storytelling space that needs not be hindered by rules when unnecessary. This system encourages players to lean into their strengths, giving a natural blueprint for how to roleplay their character. Anything should be possible in Sunder, as long as a player is willing to pay the price to the story or to Magick itself.</p>
@@ -91,7 +89,7 @@
 (function() {
   // Release notes configuration
   const RELEASE_NOTES_BASE = '../../release-notes/';
-  const KNOWN_RELEASES = ['v0.3.0', 'v0.4.0', 'v0.5.0', 'v0.6.0', 'v0.7.0', 'v0.8.0', 'v1.0.0', 'v1.1.0', 'v1.2.0', 'v1.3.0', 'v1.4.0']; // Add more versions as they are created
+  const KNOWN_RELEASES = ['v0.3.0', 'v0.4.0', 'v0.5.0', 'v0.6.0', 'v0.7.0', 'v0.8.0', 'v1.0.0', 'v1.1.0', 'v1.2.0', 'v1.3.0', 'v1.4.0', 'v1.5.0']; // Add more versions as they are created
   
   async function loadReleaseNotes() {
     const accordion = document.getElementById('sunder-releases-accordion');
