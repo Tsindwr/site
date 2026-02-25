@@ -97,3 +97,12 @@
     align-items: center;
     justify-content: space-around;
 }
+
+/* ===== Mobile search toggle ===== */
+
+/* Hide the mobile search toggle on desktop (search bar is shown inline) */
+@media screen and (min-width: 60em) {
+    .md-mobile-search-toggle {
+        display: none;
+    }
+}
