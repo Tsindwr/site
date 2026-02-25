@@ -160,7 +160,7 @@ The sidebar navigation is organized into sections:
 
 <h3>Mobile Navigation</h3>
 
-On mobile devices, tap the hamburger menu (<i class="fa-solid fa-bars"></i>) to access the navigation sidebar.
+On mobile devices, tap the hamburger menu (<i class="fa-solid fa-bars"></i>) to access the navigation sidebar. A breadcrumb trail at the top of each page shows your current location in the navigation hierarchy, so you can always see where you are and navigate up to parent sections easily.
 
 </div>
 
