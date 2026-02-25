@@ -1,4 +1,4 @@
-site_name: Sunder TTRPG
+site_name: Sunder
 site_url: https://tsindwr.github.io/site
 theme:
   name: material
@@ -30,7 +30,7 @@ theme:
     - navigation.tracking
     - content.code.copy
     - navigation.tabs
-    - navigation.expand
+    - navigation.path
     - header.autohide
 
 extra:

@@ -12,4 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
     span.textContent = `v${version}`;
 
     titleElement.appendChild(span);
+
+    // Also inject the version into the mobile nav drawer title (next to the logo/site name)
+    const drawerTitle = document.querySelector(".md-nav__title[for='__drawer']>a");
+    if (!drawerTitle || drawerTitle.querySelector(".sunder-nav-version")) return;
+
+    const navSpan = document.createElement("span");
+    navSpan.className = "sunder-nav-version";
+    navSpan.textContent = `v${version}`;
+
+    drawerTitle.appendChild(navSpan);
 });

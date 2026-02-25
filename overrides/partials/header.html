@@ -27,6 +27,11 @@
         </div>
         {% endif %}
 
+        {# --- Mobile search toggle (visible only on mobile, hidden on desktop where search bar is inline) --- #}
+        <label class="md-header__button md-icon md-mobile-search-toggle" for="__search" aria-label="{{ lang.t('search.placeholder') }}">
+            {% include ".icons/material/magnify.svg" %}
+        </label>
+
         {# --- Header options: search, palette, repo/source, user menu --- #}
         <div class="md-header__options">
 
