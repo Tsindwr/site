@@ -7,13 +7,13 @@ tags:
 ---
 ## Table of Contents
 
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline Economy and Industries|Economy and Industries]]
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline Geography and Layout|Geography and Layout]]
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline Governance and Power|Governance and Power]]
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline Mysticism and Threats|Mysticism and Threats]]
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline NPC Directory|NPC Directory]]
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline Relations and Neighbours|Relations and Neighbours]]
-### ~ [[locations/Settlements/Verdant City/Subpages/Vrelline Society and Culture|Society and Culture]]
+### ~ [[Vrelline Economy and Industries|Economy and Industries]]
+### ~ [[Vrelline Geography and Layout|Geography and Layout]]
+### ~ [[Vrelline Governance and Power|Governance and Power]]
+### ~ [[Vrelline Mysticism and Threats|Mysticism and Threats]]
+### ~ [[Vrelline NPC Directory|NPC Directory]]
+### ~ [[Vrelline Relations and Neighbours|Relations and Neighbours]]
+### ~ [[Vrelline Society and Culture|Society and Culture]]
 
 ## Overview
 

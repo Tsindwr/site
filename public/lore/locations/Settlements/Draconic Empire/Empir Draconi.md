@@ -6,13 +6,13 @@ tags:
 ---
 ## Table of Contents
 
-### ~ [[locations/Settlements/Draconic Empire/Subpages/Draconian Geography and Layout|Geography and Layout]]
-### ~ [[locations/Settlements/Draconic Empire/Subpages/Draconian Society and Culture|Society and Culture]]
-### ~ [[Draconian Economy and Industries|Economy and Industries]]
-### ~ [[locations/Settlements/Draconic Empire/Subpages/Draconian Governance and Power|Governance and Power]]
-### ~ [[locations/Settlements/Draconic Empire/Subpages/Draconian Mysticism and Threats|Mysticism and Threats]]
-### ~ [[locations/Settlements/Draconic Empire/Subpages/Draconian NPC Directory|NPC Directory]]
-### ~ [[locations/Settlements/Draconic Empire/Subpages/Draconian Relations and Neighbours|Relations and Neighbours]]
+### ~ [[Draconian Geography and Layout]]
+### ~ [[Draconian Society and Culture]]
+### ~ [[Draconian Economy and Industry|Economy and Industries]]
+### ~ [[Draconian Governance and Power|Governance and Power]]
+### ~ [[Draconian Mysticism and Threats|Mysticism and Threats]]
+### ~ [[Draconian NPC Directory|NPC Directory]]
+### ~ [[Draconian Relations and Neighbours|Relations and Neighbours]]
 
 ### Overview
 

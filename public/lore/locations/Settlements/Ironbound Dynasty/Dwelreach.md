@@ -15,7 +15,7 @@ community:
 ### ~ [[Governance and Power]]
 ### ~ [[Mysticism and Threats]]
 ### ~ [[NPC Directory]]
-### ~ [[locations/Settlements/Ironbound Dynasty/Subpages/Delricht Relations and Neighbours|Relations and Neighbours]]
+### ~ [[Delricht Relations and Neighbours|Relations and Neighbours]]
 ### ~ [[Society and Culture]]
 
 ### Overview
