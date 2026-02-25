@@ -376,6 +376,10 @@ h3 {
         min-height: 2.25rem;
         padding: 0.25rem 0.5rem;
     }
+
+    .sunder-version {
+        display: none;
+    }
 }
 
 /* === Question Modal === */
