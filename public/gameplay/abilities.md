@@ -78,12 +78,13 @@ Taking an Upgrade allows a character to increment one of the following Stats by 
 **Base Cost: 1 String** (1 Enhancement)
 Purchasing new [[experience|Goals]] allows a character to have new sources of [[Experience]] Points, but these [[experience|Goals]] must have a narrative connection to your character's story. Purchasing this ability allows you make further purchases to unlock new [[experience|goals]]:
 
-| Goal        | Cost (Strings) |
-| ----------- | -------------- |
-| Minor Goal  | 1              |
-| Flaw        | 2              |
-| Major Goal  | 3              |
-| Heroic Goal | 10             |
+| Goal                 | Cost (Strings) |
+| -------------------- | -------------- |
+| Minor Goal           | 1              |
+| Flaw                 | 2              |
+| Major Goal           | 3              |
+| Heroic Goal          | 10             |
+| Flavor Token Trigger | 0.5            |
 
 <div class="domain"><p>Companion (P)<span class="subtext"> - Trait</span></p></div>
 **Cost: 5 Strings** (1 Enhancements)
@@ -152,12 +153,13 @@ An Ability's reset condition should by default be the same for each side of the 
 
 When altering the Reset Condition of the Flipside of a custom Ability, pay the difference in cost between the new Reset Condition and the already-purchased base Reset Condition.
 
-| Reset Condition | Base Cost (Strings) |
-| --------------- | ------------------- |
-| Long Rest       | 1                   |
-| Short Rest      | 2                   |
-| Spell*          | 3                   |
-| General         | 4                   |
+| Reset Condition | Base Cost (Strings)                     |
+| --------------- | --------------------------------------- |
+| Long Rest       | 1                                       |
+| Short Rest      | 2                                       |
+| Spell*          | 3                                       |
+| General         | 4                                       |
+| Conditional     | *Ask your GM, based on Goal or Trigger* |
 \* Spells always come with a Consequence Caveat.
 
 ### Action Economy
