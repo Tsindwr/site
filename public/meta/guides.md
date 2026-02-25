@@ -160,7 +160,7 @@ The sidebar navigation is organized into sections:
 
 <h3>Mobile Navigation</h3>
 
-On mobile devices, tap the hamburger menu (<i class="fa-solid fa-bars"></i>) to access the navigation sidebar.
+On mobile devices, tap the hamburger menu (<i class="fa-solid fa-bars"></i>) to open the navigation drawer. All top-level sections (Lore, Ruleset, About) are always visible — tap any section to expand or collapse its pages inline. Your current section and page are automatically highlighted so you always know where you are.
 
 </div>
 

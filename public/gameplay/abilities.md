@@ -28,7 +28,7 @@ Stats are a group of numbers made to define the base values of a creature. Stats
 With Abilities come Ability Cards, which give a player their options during gameplay and combat. Both Action Cards and Surge Cards are held upright or vertically, whereas Trait Cards are displayed horizontally. This allows players to organize their Hand in any way they wish, and have all of their options displayed in front of them.
 ### Action Cards
 
-In Sunder, [[Actions]] come in two parts: an **[[actions|Attack]]** and a **[[actions|Movement]]**[^1]. When creating new Actions, one side of the Action card is the Focus. A **Focus** will be defined and purchased using the Experience Market, and its cost defines the budget for its Flipside. A **Flipside** is whichever part of an Action is not its **Focus**, so if an Action is built primarily around its [[actions|Attack]], then that Action's Flipside is its [[actions|Movement]].
+In Sunder, [[Actions]] come in two parts: an **[[actions|Attack]]** and a **[[actions|Movement]]**[^1].  Attack and Movement may also be referred to as your Direct and Indirect Actions, respectively. When creating new Actions, one side of the Action card is the Focus. A **Focus** will be defined and purchased using the Experience Market, and its cost defines the budget for its Flipside. A **Flipside** is whichever part of an Action is not its **Focus**, so if an Action is built primarily around its [[actions|Attack]], then that Action's Flipside is its [[actions|Movement]].
 
 The budget for purchasing the Flipside of an Action Card is calculated by *half* of the cost of its Focus (rounded down). Once a player has purchased a Focus, they need not spend any more [[Experience]] on its Flipside, as the budget is a complementary amount of [[Experience]] to spend on that Ability.
 ### Surge Cards
@@ -67,7 +67,7 @@ The Redirect Ability allows characters to move incoming [[stress-and-fallout|Str
 The Dexterity Ability allows a character to use their Finesse [[potentials-and-resistance|Potential]] instead of their Might [[potentials-and-resistance|Potential]] when making [[resolution-system|Tests]] with melee [[equipment|weapons]]. This does not apply to any weapon with the [[equipment|Heavy]] or [[equipment|Unwieldy]] properties. *This ability can be assigned a prerequisite of any of the following [[archetypes]], reducing its cost by 2 [[experience|Strings]]:* Saboteur, Frontliner, or Summoner.
 
  <div class="domain"><p>Discipline Pool<span class="subtext"> - Stat</span></p></div>
-**Cost: 6 Strings** (1 Enhancement)
+**Cost: 6 Strings**
 When taking this Ability, choose one of your current [[Archetypes]]: this is your prerequisite. Create a name for your *Discipline* (e.g. Chi, Psionics, Vis, etc.). You have a number of *Discipline* Points (a special kind of [[potentials-and-resistance|Resistance]]) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a [[potentials-and-resistance|Resistance]] (-1 String) and having a prerequisite (-2 [[experience|Strings]]). Your number of *Discipline* Points is considered a permanent Stat.
 
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
@@ -78,12 +78,13 @@ Taking an Upgrade allows a character to increment one of the following Stats by 
 **Base Cost: 1 String** (1 Enhancement)
 Purchasing new [[experience|Goals]] allows a character to have new sources of [[Experience]] Points, but these [[experience|Goals]] must have a narrative connection to your character's story. Purchasing this ability allows you make further purchases to unlock new [[experience|goals]]:
 
-| Goal        | Cost (Strings) |
-| ----------- | -------------- |
-| Minor Goal  | 1              |
-| Flaw        | 2              |
-| Major Goal  | 3              |
-| Heroic Goal | 10             |
+| Goal                 | Cost (Strings) |
+| -------------------- | -------------- |
+| Minor Goal           | 1              |
+| Flaw                 | 2              |
+| Major Goal           | 3              |
+| Heroic Goal          | 10             |
+| Flavor Token Trigger | 0.5            |
 
 <div class="domain"><p>Companion (P)<span class="subtext"> - Trait</span></p></div>
 **Cost: 5 Strings** (1 Enhancements)
@@ -116,10 +117,10 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 | Tier | Levels | Max Enhancements on one Ability | Total Enhancements per character |
 | ---- | ------ | ------------------------------- | -------------------------------- |
 | I    | 1–4    | 1                               | 2                                |
-| II   | 5-8    | 2                               | 5                                |
-| III  | 9-12   | 3                               | 8                                |
+| II   | 5-8    | 2                               | 4                                |
+| III  | 9-12   | 3                               | 7                                |
 | IV   | 13-16  | 4                               | 12                               |
-| V    | 17-20  | 5                               | 19                               |
+| V    | 17-20  | 5                               | 21                               |
 Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.
 
 ### Buying Enhancements
@@ -152,12 +153,13 @@ An Ability's reset condition should by default be the same for each side of the 
 
 When altering the Reset Condition of the Flipside of a custom Ability, pay the difference in cost between the new Reset Condition and the already-purchased base Reset Condition.
 
-| Reset Condition | Base Cost (Strings) |
-| --------------- | ------------------- |
-| Long Rest       | 1                   |
-| Short Rest      | 2                   |
-| Spell*          | 3                   |
-| General         | 4                   |
+| Reset Condition | Base Cost (Strings)                     |
+| --------------- | --------------------------------------- |
+| Long Rest       | 1                                       |
+| Short Rest      | 2                                       |
+| Spell*          | 3                                       |
+| General         | 4                                       |
+| Conditional     | *Ask your GM, based on Goal or Trigger* |
 \* Spells always come with a Consequence Caveat.
 
 ### Action Economy
@@ -176,12 +178,18 @@ When altering the Reset Condition of the Flipside of a custom Ability, pay the d
 ## Effect Package Costs
 ### Damage
 
-| Damage                                            | Strings | Enhancements |
-| ------------------------------------------------- | ------- | ------------ |
-| Weapon                                            | 1       | 0            |
-| Initial\*                                         | 1       | 0            |
-| +1dX (X being whichever die type assigned above^) | +1      | 1            |
+| Damage    | Strings | Enhancements |
+| --------- | ------- | ------------ |
+| Weapon    | 1       | 0            |
+| Initial\* | 1       | 0            |
 \* The initial amount of damage will always be the [[volatility-and-perks|Volatility Die]] that corresponds to the Spellcasting or Skill Test's [[potentials-and-resistance|Potential]]. If it is an AOE effect, it associates with either the [[Spellcasting]] [[potentials-and-resistance|Potential]] if it is a spell, or the primary [[potentials-and-resistance|Potential]] chosen when acquiring the Archetype this Ability is for. 
+
+| Increasing Damage       | Strings | Enhancements |
+| ----------------------- | ------- | ------------ |
+| Primed for increase     | 0       | 1            |
+| +1dX to Single Target\* | 1       | 0            |
+| +1dX to AOE\*           | 2       | 0            |
+\* X is the Die type decided by the Initial damage or the weapon damage Die.
 
 ### Distances
 
@@ -215,7 +223,7 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | There    | +2     |
 | Far      | +3     |
 | Yonder   | +5     |
-If Movement is being added to an Attack Action, it requires an Enhancement slot. 
+If Movement is being added to an Attack Action, it requires an extra String. 
 
 ### Targets and Area
 
@@ -249,11 +257,13 @@ Increase your stat by 1 for the Ability's duration.
 | Proficiency            | 1 String  |
 | 1 Test's Success Level | 5 Beats   |
 
-| Recover    | String |
-| ---------- | ------ |
-| Stress     | 1      |
-| Resistance | 2      |
-| Condition  | 2      |
+| Recover         | String |
+| --------------- | ------ |
+| Stress          | 1      |
+| Resistance      | 2      |
+| Minor Condition | 2      |
+| Major Condition | 3      |
+| Mark            | 4      |
 
 | Clear                   | String | Enhancements |
 | ----------------------- | ------ | ------------ |
@@ -269,6 +279,8 @@ Applying a Narrative Effect to an Ability is required when you are looking for a
 1. Aesthetic $\rightarrow$ Visual/sensational effects, utility effect up to a Here-sized sphere in Here range.
 2. Utility $\rightarrow$ Minor magickal effects, can be physical, up to a Near-sized sphere in Close range.
 3. Interpretable $\rightarrow$ Represents an affinity or attunement to a specific topic, no range constraints.
+
+When deciding on a Narrative Ability's cost, always choose the cost of the most expensive relative Narrative Weight (you do not need to purchase multiple for each effect).
 
 | Narrative Weight | Cost         | Enhancements |
 | ---------------- | ------------ | ------------ |
@@ -288,17 +300,17 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 #### Durations
 
-| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                    |
-| ------------------------- | ------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                        |
-| 1 minute/Scene            | +3      | 0            | Scene-level impact                                                                                                                                                                                       |
-| 1 hour                    | +3      | 1            | Travel / downtime impact                                                                                                                                                                                 |
-| Until Long Rest           | +6      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                        |
-| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                               |
-| Sequence Die (Volatility) | +3      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                |
-| Sequence Die (1d6)        | +3      | 0            | Default Sequence die                                                                                                                                                                                     |
-| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities                                                                                                                                                              |
-| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may subtract 2 Strings from the cost, otherwise you may subtract 1 Enhancement. |
+| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                                 |
+| ------------------------- | ------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                                     |
+| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                                    |
+| 1 hour                    | +2      | 1            | Travel / downtime impact                                                                                                                                                                                              |
+| Until Long Rest           | +4      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                                     |
+| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                                            |
+| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                             |
+| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                                  |
+| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                       |
+| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may halve the number of Strings for that Duration, otherwise you may subtract 1 Enhancement. |
 \* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]].
 
 ---
@@ -325,22 +337,22 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | Constraint                                             | Strings |
 | ------------------------------------------------------ | ------- |
 | Narrow trigger <strong>or</strong> Components required | -1      |
-| Strictly narrative ability                             | -1      |
-| Mechanical consequence                                 | -1      |
-| Narrative consequence                                  | -1      |
-| Severe narrative consequence                           | -2      |
+| Primarily narrative ability                            | -1      |
 | Spend Resistance                                       | -1      |
+| Mechanical consequence                                 | -1      |
+| Severe narrative consequence                           | -2      |
 | Prerequisite                                           | -2      |
 \* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.
 
 ### Beat-Level Caveats
 
-| Constraint         | Beats |
-| ------------------ | ----- |
-| Test required\*    | -5    |
-| Increase Riskiness | -5    |
-| One use per scene  | -5    |
-| Spend Stress       | -5    |
+| Constraint            | Beats |
+| --------------------- | ----- |
+| Test required\*       | -5    |
+| Increase Riskiness    | -5    |
+| One use per scene     | -5    |
+| Spend Stress          | -5    |
+| Narrative consequence | -5    |
 \* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing [[resolution-system|Riskiness]] on a Test to activate the Ability can only be applied when there is a Test required, either by default or through the purchased Caveat.
 
 ### Spell Consequences
