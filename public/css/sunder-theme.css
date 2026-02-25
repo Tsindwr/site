@@ -1735,5 +1735,15 @@ h3 {
     .md-nav--primary.md-nav--lifted > .md-nav__title {
         display: block !important;
     }
+
+    /* 7. Version badge in the drawer title */
+    .sunder-nav-version {
+        font-size: 0.7rem;
+        font-weight: 500;
+        opacity: 0.7;
+        margin-left: 0.4rem;
+        vertical-align: middle;
+        color: var(--md-primary-bg-color);
+    }
 }
 
