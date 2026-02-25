@@ -1738,12 +1738,16 @@ h3 {
 
     /* 7. Version badge in the drawer title */
     .sunder-nav-version {
-        font-size: 0.7rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 900;
         opacity: 0.7;
-        margin-left: 0.4rem;
+        margin-right: 1rem;
         vertical-align: middle;
         color: var(--md-primary-bg-color);
     }
-}
 
+    .md-nav__title[for='__drawer'] > a {
+        display: inline-flex !important;
+        justify-content: space-between !important;
+    }
+}
