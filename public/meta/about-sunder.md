@@ -89,7 +89,7 @@
 (function() {
   // Release notes configuration
   const RELEASE_NOTES_BASE = '../../release-notes/';
-  const KNOWN_RELEASES = ['v0.3.0', 'v0.4.0', 'v0.5.0', 'v0.6.0', 'v0.7.0', 'v0.8.0', 'v1.0.0', 'v1.1.0', 'v1.2.0', 'v1.3.0', 'v1.4.0']; // Add more versions as they are created
+  const KNOWN_RELEASES = ['v0.3.0', 'v0.4.0', 'v0.5.0', 'v0.6.0', 'v0.7.0', 'v0.8.0', 'v1.0.0', 'v1.1.0', 'v1.2.0', 'v1.3.0', 'v1.4.0', 'v1.5.0']; // Add more versions as they are created
   
   async function loadReleaseNotes() {
     const accordion = document.getElementById('sunder-releases-accordion');
