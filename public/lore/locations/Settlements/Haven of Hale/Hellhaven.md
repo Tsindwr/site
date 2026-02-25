@@ -9,13 +9,13 @@ tags:
 
 ## Table of Contents
 
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Economy and Industries|Economy and Industries]]
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Geography and Layout|Geography and Layout]]
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Governance and Power|Governance and Power]]
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Mysticism and Threats|Mysticism and Threats]]
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen NPC Directory|NPC Directory]]
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Relations and Neighbours|Relations and Neighbours]]
-### ~ [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Society and Culture|Society and Culture]]
+### ~ [[Hellhapfen Economy and Industries|Economy and Industries]]
+### ~ [[Hellhapfen Geography and Layout|Geography and Layout]]
+### ~ [[Hellhapfen Governance and Power|Governance and Power]]
+### ~ [[Hellhapfen Mysticism and Threats|Mysticism and Threats]]
+### ~ [[Hellhapfen NPC Directory|NPC Directory]]
+### ~ [[Hellhapfen Relations and Neighbours|Relations and Neighbours]]
+### ~ [[Hellhapfen Society and Culture|Society and Culture]]
 
 ### Overview
 

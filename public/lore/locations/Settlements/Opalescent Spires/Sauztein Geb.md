@@ -13,13 +13,13 @@ community:
 ---
 ## Table of Contents
 
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene Economy and Industries|Economy and Industries]]
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene Geography and Layout|Geography and Layout]]
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene Governance and Power|Governance and Power]]
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene Mysticism and Threats|Mysticism and Threats]]
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene NPC Directory|NPC Directory]]
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene Relations and Neighbours|Relations and Neighbours]]
-### ~ [[locations/Settlements/Opalescent Spires/Subpages/Hausztiene Society and Culture|Society and Culture]]
+### ~ [[Hausztiene Economy and Industries|Economy and Industries]]
+### ~ [[Hausztiene Geography and Layout|Geography and Layout]]
+### ~ [[Hausztiene Governance and Power|Governance and Power]]
+### ~ [[Hausztiene Mysticism and Threats|Mysticism and Threats]]
+### ~ [[Hausztiene NPC Directory|NPC Directory]]
+### ~ [[Hausztiene Relations and Neighbours|Relations and Neighbours]]
+### ~ [[Hausztiene Society and Culture|Society and Culture]]
 
 > Perched between mountain shadow and sea-glow, Sauztein Geb is a fractured marvel—a city that dances on the bones of old tectonics, scavenges from the sky, and sings through spindled glass and lattice. Suspended across terraces, lifted platforms, and partially restored aerial shards, it thrives by salvaging, inventing, and reimagining. Mnemonic magic flows through its infrastructure, infusing memory with matter, craft with cognition. A haven for flight-specialists, scavenger guilds, and memorysmiths, Sauztein Geb is known as much for its ingenuity as for its volatility.
 
