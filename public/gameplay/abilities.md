@@ -119,11 +119,11 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 
 | Tier | Levels | Max Enhancements on one Ability | Total Enhancements per character |
 | ---- | ------ | ------------------------------- | -------------------------------- |
-| I    | 1–4    | 1                               | 2                                |
-| II   | 5-8    | 2                               | 4                                |
-| III  | 9-12   | 3                               | 7                                |
-| IV   | 13-16  | 4                               | 12                               |
-| V    | 17-20  | 5                               | 21                               |
+| I    | 1–4    | 1                               | 3                                |
+| II   | 5-8    | 2                               | 7                                |
+| III  | 9-12   | 3                               | 13                               |
+| IV   | 13-16  | 4                               | 22                               |
+| V    | 17-20  | 5                               | 36                               |
 Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.
 
 ### Buying Enhancements
@@ -303,17 +303,17 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 #### Durations
 
-| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                                 |
-| ------------------------- | ------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                                     |
-| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                                    |
-| 1 hour                    | +2      | 1            | Travel / downtime impact                                                                                                                                                                                              |
-| Until Long Rest           | +4      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                                     |
-| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                                            |
-| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                             |
-| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                                  |
-| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                       |
-| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the duration you chose only has a String cost, you may halve the number of Strings for that Duration, otherwise you may subtract 1 Enhancement. |
+| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                              |
+| ------------------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                                  |
+| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                                 |
+| 1 hour                    | +2      | 1            | Travel / downtime impact                                                                                                                                                                                           |
+| Until Long Rest           | +4      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                                  |
+| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                                         |
+| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                          |
+| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                               |
+| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                    |
+| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. |
 \* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]].
 
 ---
@@ -324,7 +324,7 @@ Upgrading the capability of your bond with your Companion gives them more ways t
 | Modification    | Description                                                                                                      | Strings | Enhancements |
 | --------------- | ---------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
 | Agency          | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself. | 1       | 0            |
-| Synchronization | When you activate this ability, your companion may also take this action as a reaction.                          | 2       | 1            |
+| Synchronization | When you activate this ability, your companion may also take this action as a reaction.                          | 0       | 1            |
 
 ### General Companion Abilities
 
