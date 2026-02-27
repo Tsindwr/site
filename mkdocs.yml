@@ -96,28 +96,30 @@ nav:
       - The Essence of Truth: index.md
       - The Arras: lore/arras.md
   - Ruleset:
-      - Core Rules:
+      - Rolling:
           - Resolution System: core/resolution-system.md
           - Volatility Dice: core/volatility-and-perks.md
-          - Stress & Fallout: core/stress-and-fallout.md
           - Countdown Dice: core/countdown-dice.md
-          - Equipment: core/equipment.md
-          - Spirit Tokens: core/tokens.md
-      - Characters:
-          - Archetypes: characters/archetypes.md
-          - Attributes: characters/potentials-and-resistance.md
-          - Origin: characters/origin.md
-          - Experience: characters/experience.md
-          - Levels: characters/leveling.md
-          - Spellcasting: characters/spellcasting.md
+      - Stats:
+          - Potentials: characters/potentials-and-resistance.md
           - Proficiency: characters/proficiencies.md
+          - Stress & Fallout: core/stress-and-fallout.md
+          - Spirit Tokens: core/tokens.md
       - Gameplay:
-          - Abilities: gameplay/abilities.md
+          - Experience Market: gameplay/abilities.md
           - Actions: gameplay/actions.md
-          - Conditions: gameplay/conditions.md
-          - Damage: gameplay/damage.md
-          - Resting: gameplay/resting.md
+          - Spellcasting: characters/spellcasting.md
           - Scenes: gameplay/scenes.md
+          - Resting: gameplay/resting.md
+      - Characters:
+          - Levels: characters/leveling.md
+          - Archetypes: characters/archetypes.md
+          - Origin: characters/origin.md
+          - Equipment: core/equipment.md
+          - Experience: characters/experience.md
+      - Miscellaneous:
+          - Damage: gameplay/damage.md
+          - Conditions: gameplay/conditions.md
   - About:
       - About Sunder: meta/about-sunder.md
       - Guides: meta/guides.md
