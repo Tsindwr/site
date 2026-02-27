@@ -39,6 +39,9 @@ The budget for purchasing the Flipside of an Action Card is calculated by *half*
 **Trait Cards** are displayed as horizontal cards that stay faceup throughout gameplay. These [[scenes|Traits]] are the constant affects and capabilities of a creature, and can either improve the Stats of a creature, or give them an opportunity for [[scenes|reactions]]. 
 
 [[scenes|Reactions]] defined in a Trait are given a defined Trigger, which determines when a player may activate that reaction. There is no limit to the number of times a reaction can be activated, but oftentimes they are bound be certain Caveats (see below) to reduce the cost of such an Ability.
+### Option Cards
+
+**Option Cards** are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability, and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.
 ### Taking Your Turn
 
 There are a few status tracking activities that need to be kept in mind when in a scene or combat that requires tracking the reset conditions of turn-based Abilities. 
@@ -240,12 +243,12 @@ If Movement is being added to an Attack Action, it requires an extra String.
 | Minor Conditions | String | Enhancements |
 | ---------------- | ------ | ------------ |
 | Single Target    | +1     | 0            |
-| AOE or multiple  | +2     | 1            |
+| AOE or multiple  | +3     | 0            |
 
 | Major Conditions | String | Enhancements |
 | ---------------- | ------ | ------------ |
 | Single target    | +3     | 1            |
-| AOE or multiple  | +5     | 2            |
+| AOE or multiple  | +5     | 1            |
 
 ### Temporary Increases
 Increase your stat by 1 for the Ability's duration.
@@ -316,15 +319,34 @@ Durations are priced by how long they remain active. Durations can either refer 
 ---
 ## Companion Abilities
 
-Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring.
+Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. This can be done through modifiers to your custom Abilities, or through standalone Abilities that enhance your bond. All modifiers require that you first have the Companion Ability.
 
-| Modification   | Description                                                                                                                                                                                                                                                                                                                                                                                               | Strings | Enhancements |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
-| Agency         | This ability, when taken by your Companion, can replace any Movement Action on your turn. Use your chosen Potential for any Tests.                                                                                                                                                                                                                                                                        | 3       | 1            |
-| Presence       | Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead. | 5       | 0            |
-| Mount          | You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.                                                                                                                                                                                                                                                                  | 3       | 0            |
-| Specialization | Assign 2 Skills and a Knack to your Companion (requires Presence).                                                                                                                                                                                                                                                                                                                                        | 2       | 0            |
-| Coordination   | Give your Companion access to a shared Discipline Pool (requires Discipline Pool).                                                                                                                                                                                                                                                                                                                        | 3       | 0            |
+| Modification    | Description                                                                                                      | Strings | Enhancements |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
+| Agency          | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself. | 1       | 0            |
+| Synchronization | When you activate this ability, your companion may also take this action as a reaction.                          | 2       | 1            |
+
+### General Companion Abilities
+
+<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
+**Cost: 3 Strings**
+**Prerequisite: Companion**
+You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.
+
+<div class="domain"><p>Presence<span class="subtext"> - Stat</span></p></div>
+**Cost: 5 Strings**
+**Prerequisite: Companion**
+Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.
+
+<div class="domain"><p>Specialization<span class="subtext"> - Stat</span></p></div>
+**Cost: 2 Strings**
+**Prerequisite: Presence**
+Assign 2 Skills and a Knack to your Companion (requires Presence).
+
+<div class="domain"><p>Coordination<span class="subtext"> - Stat</span></p></div>
+**Cost: 3 Strings**
+**Prerequisite: Presence/Discipline Pool**
+Give your Companion access to a shared Discipline Pool.
 
 
 ---

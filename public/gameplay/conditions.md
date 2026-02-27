@@ -33,19 +33,20 @@ aliases:
 **Conditions** are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or [[stress-and-fallout|Situational Fallout]]. These Conditions are separated between Major and Minor effects:
 #### Major Conditions
 
-| Name          | Effect                                                                                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bleeding (P)  | Suffer 1 Stress in a given Potential (P) at the beginning of each of your turns.                                                                  |
-| Cursed        | A Cursed creature cannot regain Stress, Resistances, or Marks.                                                                                    |
-| Dazed         | A Dazed creature cannot take Reactions.                                                                                                           |
-| Distracted    | A Distracted creature cannot Concentrate and has Disadvantage on Mental Tests.                                                                    |
-| Fortified (X) | A Fortified creature reduces X amount of incoming Mental Stress.                                                                                  |
-| Frenzied      | A Frenzied creature is not constrained by the number of turns it can take in one round, though each turn cannot directly follow one of its turns. |
-| Invisible     | An Invisible creature cannot be targeted by attacks.                                                                                              |
-| Petrified     | A Petrified creature is considered Physically Vulnerable, and cannot move or take [[Actions]], Surges, or reactions.                              |
-| Pinned        | A Pinned creature is also Rooted, Held, and Bound.                                                                                                |
-| Spirited      | An ally to a Spirited creature recovers a Stress point when succeeding on a Test while within Near range of the ally.                             |
-| Warded (X)    | A Warded creature reduces X amount of incoming Physical Stress.                                                                                   |
+| Name          | Effect                                                                                                                                                                                                                                                               |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bleeding (P)  | Suffer 1 Stress in a given Potential (P) at the beginning of each of your turns.                                                                                                                                                                                     |
+| Blinded       | A Blinded creature cannot see, and attacks made on this creature while they are not Unseen have Advantage.                                                                                                                                                           |
+| Cursed        | A Cursed creature cannot regain Stress, Resistances, or Marks.                                                                                                                                                                                                       |
+| Dazed         | A Dazed creature cannot take Reactions.                                                                                                                                                                                                                              |
+| Distracted    | A Distracted creature cannot Concentrate and has Disadvantage on Mental Tests.                                                                                                                                                                                       |
+| Fortified (X) | A Fortified creature reduces X amount of incoming Mental Stress.                                                                                                                                                                                                     |
+| Frenzied      | A Frenzied creature is not constrained by the pairing rules of Direct and Indirect (or Attack and Movement) Actions when they take a turn. Alternatively, they may instead play a third Action Card when taking a turn, only choosing its Indirect or Movement side. |
+| Invisible     | An Invisible creature cannot be targeted by attacks.                                                                                                                                                                                                                 |
+| Petrified     | A Petrified creature is considered Physically Vulnerable, and cannot move or take [[Actions]], Surges, or reactions.                                                                                                                                                 |
+| Pinned        | A Pinned creature is also Rooted, Held, and Bound.                                                                                                                                                                                                                   |
+| Spirited      | An ally to a Spirited creature recovers a Stress point when succeeding on a Test while within Near range of the ally.                                                                                                                                                |
+| Warded (X)    | A Warded creature reduces X amount of incoming Physical Stress.                                                                                                                                                                                                      |
 
 #### Minor Conditions
 
