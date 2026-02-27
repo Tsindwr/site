@@ -1205,6 +1205,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#option-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#taking-your-turn" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1495,6 +1506,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Companion Abilities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-companion-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Companion Abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1938,6 +1966,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#option-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#taking-your-turn" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2229,6 +2268,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Companion Abilities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-companion-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Companion Abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2380,6 +2436,8 @@
 <h3 id="trait-cards">Trait Cards</h3>
 <p><strong>Trait Cards</strong> are displayed as horizontal cards that stay faceup throughout gameplay. These <a href="../scenes/">Traits</a> are the constant affects and capabilities of a creature, and can either improve the Stats of a creature, or give them an opportunity for <a href="../scenes/">reactions</a>. </p>
 <p><a href="../scenes/">Reactions</a> defined in a Trait are given a defined Trigger, which determines when a player may activate that reaction. There is no limit to the number of times a reaction can be activated, but oftentimes they are bound be certain Caveats (see below) to reduce the cost of such an Ability.</p>
+<h3 id="option-cards">Option Cards</h3>
+<p><strong>Option Cards</strong> are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability, and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.</p>
 <h3 id="taking-your-turn">Taking Your Turn</h3>
 <p>There are a few status tracking activities that need to be kept in mind when in a scene or combat that requires tracking the reset conditions of turn-based Abilities. </p>
 <ul>
@@ -2835,8 +2893,8 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tr>
 <tr>
 <td>AOE or multiple</td>
-<td>+2</td>
-<td>1</td>
+<td>+3</td>
+<td>0</td>
 </tr>
 </tbody>
 </table>
@@ -2857,7 +2915,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>AOE or multiple</td>
 <td>+5</td>
-<td>2</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -3058,7 +3116,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </table>
 <hr />
 <h2 id="companion-abilities">Companion Abilities</h2>
-<p>Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring.</p>
+<p>Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. This can be done through modifiers to your custom Abilities, or through standalone Abilities that enhance your bond. All modifiers require that you first have the Companion Ability.</p>
 <table>
 <thead>
 <tr>
@@ -3071,36 +3129,35 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tbody>
 <tr>
 <td>Agency</td>
-<td>This ability, when taken by your Companion, can replace any Movement Action on your turn. Use your chosen Potential for any Tests.</td>
-<td>3</td>
+<td>When you activate this ability, you may choose to have your Companion activate this ability instead of yourself.</td>
 <td>1</td>
-</tr>
-<tr>
-<td>Presence</td>
-<td>Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.</td>
-<td>5</td>
 <td>0</td>
 </tr>
 <tr>
-<td>Mount</td>
-<td>You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.</td>
-<td>3</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Specialization</td>
-<td>Assign 2 Skills and a Knack to your Companion (requires Presence).</td>
+<td>Synchronization</td>
+<td>When you activate this ability, your companion may also take this action as a reaction.</td>
 <td>2</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Coordination</td>
-<td>Give your Companion access to a shared Discipline Pool (requires Discipline Pool).</td>
-<td>3</td>
-<td>0</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
+<h3 id="general-companion-abilities">General Companion Abilities</h3>
+<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
+<p><strong>Cost: 3 Strings</strong><br />
+<strong>Prerequisite: Companion</strong><br />
+You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.</p>
+<div class="domain"><p>Presence<span class="subtext"> - Stat</span></p></div>
+<p><strong>Cost: 5 Strings</strong><br />
+<strong>Prerequisite: Companion</strong><br />
+Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.</p>
+<div class="domain"><p>Specialization<span class="subtext"> - Stat</span></p></div>
+<p><strong>Cost: 2 Strings</strong><br />
+<strong>Prerequisite: Presence</strong><br />
+Assign 2 Skills and a Knack to your Companion (requires Presence).</p>
+<div class="domain"><p>Coordination<span class="subtext"> - Stat</span></p></div>
+<p><strong>Cost: 3 Strings</strong><br />
+<strong>Prerequisite: Presence/Discipline Pool</strong><br />
+Give your Companion access to a shared Discipline Pool.</p>
 <hr />
 <h2 id="caveats">Caveats</h2>
 <p>Caveats reduce cost by making an Ability narrower, riskier, or more mechanically-bound.</p>
@@ -3369,7 +3426,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.5.9";
+            window.SUNDER_VERSION = "1.5.11";
         </script>
     
 
