@@ -61,7 +61,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Until the start of your next turn, reduce incoming Might Stress by your Might [[volatility-and-perks|Volatility Die]] while armed. If unarmed, spend 1 Might Resistance to gain this benefit.
+        Until the start of your next turn, reduce incoming Might Stress by your Might Volatility Die while armed. If unarmed, spend 1 Might Resistance to gain this benefit.
       </p>
     </div>
   </section>
@@ -183,7 +183,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Give a <em>Near</em> creature [[resolution-system|Advantage]] on a Test regarding a specified course of action.
+        Give a <em>Near</em> creature Advantage on a Test regarding a specified course of action.
       </p>
 
       <div class="gh-runes">
@@ -211,7 +211,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Attack</p>
       <p class="gh-text">
-        Until the start of your next turn, [[resolution-system|Tests]] made against you using Physical Potentials have [[resolution-system|Disadvantage]].
+        Until the start of your next turn, Tests made against you using Physical Potentials have Disadvantage.
       </p>
     </div>
   </section>
@@ -347,7 +347,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Center your mind against Warp and the Arcane. Until the start of your next turn, you have [[resolution-system|Advantage]] on [[resolution-system|Tests]] made to resist Magick effects targeting Mental Potentials.
+        Center your mind against Warp and the Arcane. Until the start of your next turn, you have Advantage on Tests made to resist Magick effects targeting Mental Potentials.
       </p>
     </div>
   </section>
