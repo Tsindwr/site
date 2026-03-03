@@ -13,8 +13,8 @@
 
   <!-- GitHub & Repo Buttons -->
   <div class="sunder-btn-group">
-    <a href="https://github.com/mullburrower" target="_blank" rel="noopener" class="sunder-btn sunder-btn-primary">
-      <i class="fa-brands fa-github"></i> GitHub Profile
+    <a href="https://github.com/Tsindwr" target="_blank" rel="noopener" class="sunder-btn sunder-btn-primary">
+      <i class="fa-brands fa-github"></i> GitHub Organization
     </a>
     <a href="https://github.com/Tsindwr/site" target="_blank" rel="noopener" class="sunder-btn sunder-btn-secondary">
       <i class="fa-solid fa-code-branch"></i> View Repository
