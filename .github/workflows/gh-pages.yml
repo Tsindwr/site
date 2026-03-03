@@ -96,7 +96,7 @@ jobs:
           set -euo pipefail
           
           TAG="${{ steps.version.outputs.tag_feature }}"
-          NOTES_FILE="release-notes/${TAG}.json"
+          NOTES_FILE="public/release-notes/${TAG}.json"
           
           if [ ! -f "$NOTES_FILE" ]; then
             echo "No release notes file found for ${TAG} at ${NOTES_FILE}, skipping announcement."
