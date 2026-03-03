@@ -76,6 +76,7 @@ extra_javascript:
   - js/header-auth.js
   - js/header-version.js
   - js/highlight-popup.js
+  - js/image-lightbox.js
   - js/profile.js
 
 extra_css:
@@ -127,5 +128,6 @@ nav:
       - Contributors:
           - mullburrower: meta/contributors/mullburrower.md
           - luminoxity: meta/contributors/luminoxity.md
+          - msasterisk: meta/contributors/msasterisk.md
   - Resources:
       - Character Sheets: resources/character-sheet.md

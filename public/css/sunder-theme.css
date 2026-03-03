@@ -653,7 +653,7 @@ h3 {
     background: linear-gradient(135deg, rgba(90, 45, 130, 0.08), rgba(90, 45, 130, 0.02));
     border: 1px solid rgba(90, 45, 130, 0.15);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2.25rem 2.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
 }
@@ -667,42 +667,100 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    gap: 1.2rem;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto 1.75rem;
 }
 
 @media (min-width: 600px) {
     .sunder-author-header {
         flex-direction: row;
         justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
         text-align: left;
     }
 }
 
 .sunder-author-avatar {
-    width: 100px;
-    height: 100px;
+    width: 132px;
+    height: 132px;
+    display: block;
+    flex-shrink: 0;
     border-radius: 50%;
     border: 3px solid var(--md-primary-fg-color);
-    box-shadow: 0 6px 20px rgba(90, 45, 130, 0.35);
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 10px 26px rgba(90, 45, 130, 0.35);
+}
+
+.sunder-author-avatar.sunder-lightbox-trigger {
+    cursor: zoom-in;
+    transition:
+        transform 0.16s ease,
+        box-shadow 0.16s ease,
+        border-color 0.16s ease;
+}
+
+.sunder-author-avatar.sunder-lightbox-trigger:hover,
+.sunder-author-avatar.sunder-lightbox-trigger:focus-visible {
+    transform: translateY(-2px) scale(1.02);
+    border-color: var(--md-accent-fg-color);
+    box-shadow: 0 14px 32px rgba(90, 45, 130, 0.42);
+    outline: none;
 }
 
 .sunder-author-info {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.35rem;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .sunder-author-info {
+        align-items: flex-start;
+        text-align: left;
+    }
 }
 
 .sunder-author-name {
-    margin: 0;
-    font-size: 1.5rem;
+    margin: 0.6em 0 !important;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    font-size: 1.7rem;
     font-weight: 700;
+    line-height: 1.12;
     color: var(--md-default-fg-color);
+}
+
+@media (min-width: 600px) {
+    .sunder-author-name {
+        justify-content: flex-start;
+    }
+}
+
+.sunder-author-pronouns {
+    font-size: 0.58em;
+    font-weight: 500;
+    color: var(--md-default-fg-color--lighter);
+    letter-spacing: 0.02em;
+}
+
+.sunder-author-pronouns:empty {
+    display: none;
 }
 
 .sunder-author-handle {
     margin: 0;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    line-height: 1.2;
     color: var(--md-default-fg-color--light);
     font-family: "JetBrains Mono", monospace;
 }

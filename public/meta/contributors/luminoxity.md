@@ -1,9 +1,9 @@
 <div class="sunder-author-card">
   <div class="sunder-author-header">
     <!-- Use absolute path including repository base so the image resolves correctly on GitHub Pages -->
-    <img src="/site/assets/art/luminoxity_pfp.webp" alt="luminoxity artist profile picture" class="sunder-author-avatar" />
+    <img src="/site/assets/art/luminoxity_pfp.webp" alt="luminoxity artist profile picture" class="sunder-author-avatar" data-sunder-lightbox="on" />
     <div class="sunder-author-info">
-      <h2 class="sunder-author-name">Vyx A. Ray</h2>
+      <h2 class="sunder-author-name">Vyx A. Ray<span class="sunder-author-pronouns">they/she</span></h2>
       <p class="sunder-author-handle">@lum1n0x1ty</p>
     </div>
   </div>
