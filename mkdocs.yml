@@ -124,3 +124,8 @@ nav:
       - About Sunder: meta/about-sunder.md
       - Guides: meta/guides.md
       - Report an Issue: meta/report-issue.md
+      - Contributors:
+          - mullburrower: meta/contributors/mullburrower.md
+          - luminoxity: meta/contributors/luminoxity.md
+  - Resources:
+      - Character Sheets: resources/character-sheet.md
