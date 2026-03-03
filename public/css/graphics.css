@@ -220,3 +220,472 @@ p.description {
     color: darkgray;
     font-size: small;
 }
+
+/* ===== Content Images ===== */
+
+.md-typeset {
+    --sunder-image-border: rgba(90, 45, 130, 0.24);
+    --sunder-image-rim: rgba(249, 199, 79, 0.22);
+    --sunder-image-shadow: rgba(28, 16, 41, 0.24);
+    --sunder-image-backdrop: rgba(255, 255, 255, 0.78);
+}
+
+[data-md-color-scheme="slate"] .md-typeset {
+    --sunder-image-border: rgba(157, 107, 255, 0.34);
+    --sunder-image-rim: rgba(249, 199, 79, 0.18);
+    --sunder-image-shadow: rgba(0, 0, 0, 0.45);
+    --sunder-image-backdrop: rgba(14, 18, 27, 0.84);
+}
+
+.md-typeset img.sunder-content-image,
+.md-typeset img.sunder-image,
+.md-typeset img[class*="sunder-image--"] {
+    --sunder-image-max: 32rem;
+    display: block;
+    inline-size: min(100%, var(--sunder-image-max));
+    max-inline-size: 100%;
+    block-size: auto;
+    margin: 1.35rem auto;
+    padding: 0.4rem;
+    border: 1px solid var(--sunder-image-border);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background:
+        linear-gradient(135deg, var(--sunder-image-rim), rgba(255, 255, 255, 0.02)),
+        var(--sunder-image-backdrop);
+    box-shadow:
+        0 16px 34px var(--sunder-image-shadow),
+        0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img.sunder-content-image,
+[data-md-color-scheme="slate"] .md-typeset img.sunder-image,
+[data-md-color-scheme="slate"] .md-typeset img[class*="sunder-image--"] {
+    box-shadow:
+        0 20px 40px var(--sunder-image-shadow),
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+}
+
+.md-typeset img.sunder-content-image.sunder-image--interactive,
+.md-typeset img.sunder-image.sunder-image--interactive,
+.md-typeset img[class*="sunder-image--"].sunder-image--interactive {
+    cursor: zoom-in;
+    transition:
+        transform 0.16s ease,
+        box-shadow 0.16s ease,
+        border-color 0.16s ease;
+}
+
+.md-typeset img.sunder-content-image.sunder-image--interactive:hover,
+.md-typeset img.sunder-content-image.sunder-image--interactive:focus-visible,
+.md-typeset img.sunder-image.sunder-image--interactive:hover,
+.md-typeset img.sunder-image.sunder-image--interactive:focus-visible,
+.md-typeset img[class*="sunder-image--"].sunder-image--interactive:hover,
+.md-typeset img[class*="sunder-image--"].sunder-image--interactive:focus-visible {
+    transform: translateY(-2px);
+    border-color: rgba(249, 199, 79, 0.45);
+    box-shadow:
+        0 20px 36px rgba(28, 16, 41, 0.28),
+        0 0 0 1px rgba(249, 199, 79, 0.18) inset;
+    outline: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img.sunder-content-image.sunder-image--interactive:hover,
+[data-md-color-scheme="slate"] .md-typeset img.sunder-content-image.sunder-image--interactive:focus-visible,
+[data-md-color-scheme="slate"] .md-typeset img.sunder-image.sunder-image--interactive:hover,
+[data-md-color-scheme="slate"] .md-typeset img.sunder-image.sunder-image--interactive:focus-visible,
+[data-md-color-scheme="slate"] .md-typeset img[class*="sunder-image--"].sunder-image--interactive:hover,
+[data-md-color-scheme="slate"] .md-typeset img[class*="sunder-image--"].sunder-image--interactive:focus-visible {
+    box-shadow:
+        0 22px 44px rgba(0, 0, 0, 0.55),
+        0 0 0 1px rgba(249, 199, 79, 0.16) inset;
+}
+
+.md-typeset img.sunder-image--small {
+    --sunder-image-max: 20rem;
+}
+
+.md-typeset img.sunder-image--medium {
+    --sunder-image-max: 32rem;
+}
+
+.md-typeset img.sunder-image--large {
+    --sunder-image-max: 46rem;
+}
+
+.md-typeset img.sunder-image--full {
+    --sunder-image-max: 100%;
+}
+
+.md-typeset img.sunder-image--left,
+.md-typeset img.sunder-image--right {
+    inline-size: min(46%, var(--sunder-image-max));
+    max-inline-size: min(100%, 24rem);
+    margin-top: 0.55rem;
+}
+
+.md-typeset img.sunder-image--left {
+    float: left;
+    margin-right: 1.25rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0;
+}
+
+.md-typeset img.sunder-image--right {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 0.8rem;
+    margin-left: 1.25rem;
+}
+
+.md-typeset img.sunder-image--center {
+    clear: both;
+}
+
+.md-typeset img.sunder-image--plain {
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    border-radius: 0.5rem;
+}
+
+.md-typeset figure.sunder-content-figure {
+    --sunder-image-max: 32rem;
+    display: block;
+    width: min(100%, var(--sunder-image-max));
+    max-width: 100%;
+    margin: 1.35rem auto;
+    text-align: center;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--small {
+    --sunder-image-max: 20rem;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--medium {
+    --sunder-image-max: 32rem;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--large {
+    --sunder-image-max: 46rem;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--full {
+    --sunder-image-max: 100%;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--left,
+.md-typeset figure.sunder-content-figure.sunder-image--right {
+    width: min(46%, var(--sunder-image-max));
+    max-width: min(100%, 24rem);
+    margin-top: 0.55rem;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--left {
+    float: left;
+    margin-right: 1.25rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0;
+    text-align: left;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--right {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 0.8rem;
+    margin-left: 1.25rem;
+    text-align: right;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--center {
+    clear: both;
+    text-align: center;
+}
+
+.md-typeset figure.sunder-content-figure > img.sunder-content-image,
+.md-typeset figure.sunder-content-figure > img.sunder-image,
+.md-typeset figure.sunder-content-figure > img[class*="sunder-image--"] {
+    display: block;
+    inline-size: 100%;
+    max-inline-size: none;
+    margin: 0;
+    float: none;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--plain > img.sunder-content-image,
+.md-typeset figure.sunder-content-figure.sunder-image--plain > img.sunder-image,
+.md-typeset figure.sunder-content-figure.sunder-image--plain > img[class*="sunder-image--"] {
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    border-radius: 0.5rem;
+}
+
+.md-typeset .sunder-image-credit {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    margin: 0.45rem 0 0;
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.4;
+    color: var(--md-default-fg-color--lighter);
+    text-align: center;
+}
+
+.md-typeset .sunder-image-credit a {
+    color: inherit;
+    font-style: inherit;
+    font-weight: 500;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 0.06em;
+}
+
+.md-typeset .sunder-image-credit a:hover,
+.md-typeset .sunder-image-credit a:focus-visible {
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--left .sunder-image-credit {
+    text-align: left;
+}
+
+.md-typeset figure.sunder-content-figure.sunder-image--right .sunder-image-credit {
+    text-align: right;
+}
+
+@media (max-width: 900px) {
+    .md-typeset img.sunder-image--left,
+    .md-typeset img.sunder-image--right {
+        float: none;
+        inline-size: min(100%, var(--sunder-image-max));
+        max-inline-size: 100%;
+        margin: 1rem auto;
+    }
+
+    .md-typeset figure.sunder-content-figure.sunder-image--left,
+    .md-typeset figure.sunder-content-figure.sunder-image--right {
+        float: none;
+        width: min(100%, var(--sunder-image-max));
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+
+    .md-typeset figure.sunder-content-figure.sunder-image--left .sunder-image-credit,
+    .md-typeset figure.sunder-content-figure.sunder-image--right .sunder-image-credit {
+        text-align: center;
+    }
+}
+
+/* ===== Image Viewer ===== */
+
+body.sunder-image-viewer-open {
+    overflow: hidden;
+}
+
+.sunder-image-viewer {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10020;
+}
+
+.sunder-image-viewer.is-open {
+    display: block;
+}
+
+.sunder-image-viewer__backdrop {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at top, rgba(157, 107, 255, 0.14), transparent 42%),
+        radial-gradient(circle at bottom, rgba(249, 199, 79, 0.08), transparent 38%),
+        rgba(7, 9, 14, 0.88);
+    backdrop-filter: blur(10px);
+}
+
+.sunder-image-viewer__shell {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 1rem;
+    inline-size: min(100vw - 2rem, 78rem);
+    block-size: min(100vh - 2rem, 52rem);
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background:
+        linear-gradient(145deg, rgba(17, 20, 28, 0.96), rgba(10, 12, 18, 0.98));
+    box-shadow: 0 28px 60px rgba(0, 0, 0, 0.5);
+}
+
+.sunder-image-viewer__toolbar {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.sunder-image-viewer__meta {
+    display: grid;
+    gap: 0.35rem;
+    min-inline-size: 0;
+}
+
+.sunder-image-viewer__count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.sunder-image-viewer__caption {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sunder-image-viewer__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 0.55rem;
+    flex-shrink: 0;
+}
+
+.sunder-image-viewer__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    min-inline-size: 2.5rem;
+    min-block-size: 2.5rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+    transition:
+        background-color 0.16s ease,
+        border-color 0.16s ease,
+        transform 0.16s ease;
+}
+
+.sunder-image-viewer__btn:hover,
+.sunder-image-viewer__btn:focus-visible {
+    background: rgba(157, 107, 255, 0.18);
+    border-color: rgba(249, 199, 79, 0.28);
+    transform: translateY(-1px);
+    outline: none;
+}
+
+.sunder-image-viewer__btn[hidden] {
+    display: none;
+}
+
+.sunder-image-viewer__zoom {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.sunder-image-viewer__stage {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.18));
+}
+
+.sunder-image-viewer__viewport {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.sunder-image-viewer__image {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+    object-fit: contain;
+    user-select: none;
+    transform-origin: center center;
+    transition: transform 0.08s ease-out;
+    will-change: transform;
+}
+
+.sunder-image-viewer__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.sunder-image-viewer__nav--prev {
+    left: 1rem;
+}
+
+.sunder-image-viewer__nav--next {
+    right: 1rem;
+}
+
+.sunder-image-viewer__hint {
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(7, 9, 14, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.75rem;
+    text-align: center;
+    pointer-events: none;
+}
+
+.sunder-image-viewer__stage.is-zoomed {
+    cursor: grab;
+}
+
+.sunder-image-viewer__stage.is-panning {
+    cursor: grabbing;
+}
+
+@media (max-width: 900px) {
+    .sunder-image-viewer__shell {
+        inline-size: calc(100vw - 1rem);
+        block-size: calc(100vh - 1rem);
+        margin: 0.5rem auto;
+        padding: 0.75rem;
+    }
+
+    .sunder-image-viewer__toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .sunder-image-viewer__controls {
+        justify-content: start;
+    }
+
+    .sunder-image-viewer__nav--prev {
+        left: 0.5rem;
+    }
+
+    .sunder-image-viewer__nav--next {
+        right: 0.5rem;
+    }
+
+    .sunder-image-viewer__hint {
+        inline-size: calc(100% - 1rem);
+        border-radius: 0.8rem;
+    }
+}

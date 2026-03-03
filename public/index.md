@@ -116,3 +116,5 @@ This sphere is in flux. That which has been recounted here is no different. A co
 Very few are those who are aware of the changes made during The Dread, The Convergence, whatever you like to call it. Those who do are the ones with potential to lessen this world of its grievances. The Luxichron is yet to be defined by its events, nor those who live in its era. An equilibrium benefits those who settle for constance, yet it neglects that which still plagues its roots. Agents of change: those willing to step back and reconsider their world are those who we must rely on now.
 
 The outlook is grim, but perhaps you are enough to change that.
+
+![[fellsaire sepia.png]]{ data-sunder-author="msasterisk" }
