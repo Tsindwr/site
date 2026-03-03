@@ -626,6 +626,27 @@ h3 {
     padding: 0;
 }
 
+.sunder-character-sheet-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 1.2rem;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.sunder-btn-primary {
+    color: white !important;
+}
+
+.sunder-btn-primary:hover {
+    color: var(--md-accent-fg-color) !important;
+}
+
 /* === Author Card === */
 
 .sunder-author-card {
