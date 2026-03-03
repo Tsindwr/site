@@ -1,8 +1,8 @@
 <div class="sunder-author-card">
   <div class="sunder-author-header">
-    <img src="https://github.com/mullburrower.png" alt="mullburrower GitHub profile picture" class="sunder-author-avatar" />
+    <img src="https://github.com/mullburrower.png" alt="mullburrower GitHub profile picture" class="sunder-author-avatar" data-sunder-lightbox="on" />
     <div class="sunder-author-info">
-      <h2 class="sunder-author-name">Faye M. Woods</h2>
+      <h2 class="sunder-author-name">Faye M. Woods<span class="sunder-author-pronouns">fae/they/she</span></h2>
       <p class="sunder-author-handle">@mullburrower</p>
     </div>
   </div>
