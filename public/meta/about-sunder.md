@@ -5,39 +5,6 @@
 <p>Sunder was created with the intent to give TTRPG players a storytelling framework that accommodates for creative choice. In this system, tasteful storytelling is rewarded in a quantifiable manner, and there are little to no limits to the kind of character you can play. Ease of use has been prioritized to cultivate a storytelling space that needs not be hindered by rules when unnecessary. This system encourages players to lean into their strengths, giving a natural blueprint for how to roleplay their character. Anything should be possible in Sunder, as long as a player is willing to pay the price to the story or to Magick itself.</p>
 
 <!-- Author Profile Section -->
-<div class="sunder-author-card">
-  <div class="sunder-author-header">
-    <img src="https://github.com/mullburrower.png" alt="mullburrower GitHub profile picture" class="sunder-author-avatar" />
-    <div class="sunder-author-info">
-      <h2 class="sunder-author-name">Faye M. Woods</h2>
-      <p class="sunder-author-handle">@mullburrower</p>
-    </div>
-  </div>
-  
-  <div class="sunder-author-bio">
-    <p>Creator of Sunder TTRPG, a tabletop roleplaying game set in the volatile world of Umbrea. Passionate about storytelling, world-building, and creating accessible systems for collaborative gameplay.</p>
-  </div>
-
-  <!-- GitHub & Repo Buttons -->
-  <div class="sunder-btn-group">
-    <a href="https://github.com/mullburrower" target="_blank" rel="noopener" class="sunder-btn sunder-btn-primary">
-      <i class="fa-brands fa-github"></i> GitHub Profile
-    </a>
-    <a href="https://github.com/Tsindwr/site" target="_blank" rel="noopener" class="sunder-btn sunder-btn-secondary">
-      <i class="fa-solid fa-code-branch"></i> View Repository
-    </a>
-  </div>
-
-  <!-- Contact Links - Discord is the primary community link -->
-  <div class="sunder-contact-links" aria-label="Contact and social links">
-    <a href="https://discord.gg/zJEdEy4xtm" target="_blank" rel="noopener" class="sunder-contact-btn" title="Discord" aria-label="Join Discord server">
-      <i class="fa-brands fa-discord"></i>
-    </a>
-    <a href="https://github.com/mullburrower" target="_blank" rel="noopener" class="sunder-contact-btn" title="GitHub" aria-label="Visit GitHub profile">
-      <i class="fa-brands fa-github"></i>
-    </a>
-  </div>
-</div>
 
 <!-- Features History Section -->
 <div class="sunder-features-history">
