@@ -41,7 +41,9 @@ The budget for purchasing the Flipside of an Action Card is calculated by *half*
 [[scenes|Reactions]] defined in a Trait are given a defined Trigger, which determines when a player may activate that reaction. There is no limit to the number of times a reaction can be activated, but oftentimes they are bound be certain Caveats (see below) to reduce the cost of such an Ability.
 ### Option Cards
 
-**Option Cards** are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability, and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.
+**Option Cards** are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.
+
+Option Cards are considered having their Parent Ability as a prerequisite, but do not benefit from a reduction in String cost.
 ### Taking Your Turn
 
 There are a few status tracking activities that need to be kept in mind when in a scene or combat that requires tracking the reset conditions of turn-based Abilities. 
@@ -279,8 +281,8 @@ Increase your stat by 1 for the Ability's duration.
 
 Applying a Narrative Effect to an Ability is required when you are looking for a specific effect that is not represented within the Sunder rule system. The magnitude of this effect will be determined by its Narrative Weight:
 
-1. Aesthetic $\rightarrow$ Visual/sensational effects, utility effect up to a Here-sized sphere in Here range.
-2. Utility $\rightarrow$ Minor magickal effects, can be physical, up to a Near-sized sphere in Close range.
+1. Aesthetic $\rightarrow$ Visual/sensational effects, utility effect up to a Here-sized sphere in Here range. Can be used to provide a Flavor Token Goal.
+2. Utility $\rightarrow$ Minor magickal effects, can be physical, up to a Near-sized sphere in Close range. Can be used to apply your Tier to one aspect of an Effect Package Modifier.
 3. Interpretable $\rightarrow$ Represents an affinity or attunement to a specific topic, no range constraints.
 
 When deciding on a Narrative Ability's cost, always choose the cost of the most expensive relative Narrative Weight (you do not need to purchase multiple for each effect).
@@ -364,7 +366,7 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | Mechanical consequence                                 | -1      |
 | Severe narrative consequence                           | -2      |
 | Prerequisite                                           | -2      |
-\* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.
+\* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite. A prerequisite is only considered used when it decreases the String cost of an Ability.
 
 ### Beat-Level Caveats
 
@@ -381,12 +383,13 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 
 Spells must always have a Consequence. If the Consequence is more severe, it reduces the purchase cost more.
 
-| Consequence       | Cost Reduction |
-| ----------------- | -------------- |
-| Narrative Fallout | -1 Beat        |
-| Minor Fallout     | -5 Beats       |
-| Major Fallout     | -2 Strings     |
-| Severe Fallout    | -5 Strings     |
+| Consequence             | Cost Reduction |
+| ----------------------- | -------------- |
+| Narrative Fallout       | -1 Beat        |
+| Minor Fallout           | -5 Beats       |
+| Major Fallout           | -2 Strings     |
+| Severe Fallout          | -5 Strings     |
+| Test required of target | No reduction   |
 
 ---
 
