@@ -6,7 +6,7 @@ final:
 ---
 ## Invention
 
-Sauztein is one of the most innovation-forward cities in the Council due to its access to lightfract, a living crystal network that amplifies mnemonic and temporal magics. Invention here is not just mechanical—it is psycho-arcane. Artificers, scribe-smiths, and echo-forgers work in experimental harmony with memory-sourced blueprints, often creating devices that already _remember_ how they should function.
+Sauztein is one of the most innovation-forward cities in the Council due to its access to lightfract, a living crystal network that amplifies mnemonic and temporal magics. Invention here is not just mechanical, it is psycho-arcane. Artificers, scribe-smiths, and echo-forgers work in experimental harmony with memory-sourced blueprints, often creating devices that already _remember_ how they should function.
 
 The Chronoscribes regulate dangerous invention by locking volatile designs behind Mnemonic Seals, which require synchronized minds to access. Smuggled blueprints are often encrypted in dreamscapes.
 
@@ -31,7 +31,7 @@ The Chronoscribes regulate dangerous invention by locking volatile designs behin
     
 - **Soulglass Components** from Drosvenna’s arcane salvage.
     
-- **Fresh Minds**—conscripted or “volunteered” individuals for memory-labor.
+- **Fresh Minds**, conscripted or “volunteered” individuals for memory-labor.
     
 
 ### Income
@@ -62,7 +62,7 @@ The Chronoscribes regulate dangerous invention by locking volatile designs behin
 > Arcane-construction based on sound, harmonics, and memorywave attunement. Used to grow buildings, machines, and even sentient architectures.
 
 > [!abstract]- **Mind-Sculpting & Dreamsmithing**  
-> A luxury and blackmarket art—crafting or rewriting memories and personality shards for clients. Technically illegal unless licensed.
+> A luxury and blackmarket art, crafting or rewriting memories and personality shards for clients. Technically illegal unless licensed.
 
 ---
 
@@ -136,4 +136,4 @@ Producers of memory prosthetics and narrative healing kits. Works with the Counc
 
 **5. Choir of Iridescent Scar**  
 _Logo: A cracked mirror wrapped in luminescent thorns._  
-A front-company for the Hollow Choir’s mind-distribution wing. Officially distributes filtered lightfract and chant-infused talismans.
+A front-company for the Hollow Choir’s mind-distribution wing. Officially distributes filtered lightfract and chant-infused talismans., 

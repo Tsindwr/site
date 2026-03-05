@@ -10,7 +10,7 @@ final:
 > A fractured prism set within a stylized eye, ringed by thirteen concentric lines (each representing a failed collapse prevented by Council intervention).
 
 > [!important]+ **Mascot**  
-> _“The Whisperwren”_ — a small, glass-winged bird believed to nest in harmonic flares. Its song is used to detect unstable memory pockets before they rupture.
+> _“The Whisperwren”_,  a small, glass-winged bird believed to nest in harmonic flares. Its song is used to detect unstable memory pockets before they rupture.
 
 ---
 
@@ -66,7 +66,7 @@ final:
 > > [!quote]- _Amendment 13-C: The Public Echo Curfew_
 > > Establishes a nightly curfew during which memory dredgers and resonance technicians must halt all operations.  
 > > Why?  
-> > Because during twilight and night hours, crystal matrices become volatile — leading to a higher chance of phantom projections (unintentional memory specters) and temporal bleed.
+> > Because during twilight and night hours, crystal matrices become volatile,  leading to a higher chance of phantom projections (unintentional memory specters) and temporal bleed.
 >
 >#### **Memory Regulation Doctrine** _(governs dredging, scribing, memory-trading, and identity preservation)_
 >

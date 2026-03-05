@@ -8,7 +8,7 @@ final:
 
 ### Planning
 
-Sauztein Geb was not built in a traditional fashion—it grew, much like the resonant crystal that pulses through its foundations. Original settlements were small mining alcoves, later interlinked by harmonic scaffolding grown from Spirehand designs. Over centuries, neighborhoods emerged around resonance nodes, forming an uneven but reactive sprawl.
+Sauztein Geb was not built in a traditional fashion, it grew, much like the resonant crystal that pulses through its foundations. Original settlements were small mining alcoves, later interlinked by harmonic scaffolding grown from Spirehand designs. Over centuries, neighborhoods emerged around resonance nodes, forming an uneven but reactive sprawl.
 
 The city is semi-subterranean, tiered into crystalline hollows, shaft-cities, and resonance chambers, most of which follow the natural flow of the lightfract veins. Above ground, shattered crystal towers glimmer under dim skylight, while the true life of the city pulses deeper within.
 
@@ -37,7 +37,7 @@ The city is semi-subterranean, tiered into crystalline hollows, shaft-cities, an
 
 ### Modes of Travel
 
-- **Latticerails** – Thin levitating tramways that “slide” via attuned harmonic pulses. Dangerous if mistuned—can trigger memory echoes.
+- **Latticerails** – Thin levitating tramways that “slide” via attuned harmonic pulses. Dangerous if mistuned, can trigger memory echoes.
     
 - **Crystaspires** – Vertical lifts powered by vibrational tuning forks. Sometimes fall into feedback loops during city-wide resonance flux.
     
@@ -50,7 +50,7 @@ The city is semi-subterranean, tiered into crystalline hollows, shaft-cities, an
 
 ### Travel in the City
 
-Navigating Sauztein means avoiding zones of high echo saturation, where time distorts or fractures may occur. Citizens carry memory tags—inscribed talismans tied to their current moment—to anchor their consciousness in linear flow.
+Navigating Sauztein means avoiding zones of high echo saturation, where time distorts or fractures may occur. Citizens carry memory tags, inscribed talismans tied to their current moment, to anchor their consciousness in linear flow.
 
 Certain paths shift when the city re-harmonizes weekly, meaning maps must be updated constantly by the Spirehands and Chronoscribes.
 
@@ -88,7 +88,7 @@ Structures are partially sung into form by choir-architects or molded through vi
 
 ### Development
 
-Each building evolves with the needs of its inhabitants—walls bend subtly over time to accommodate emotional frequencies, and “echo doors” may open only when specific memories are thought of.
+Each building evolves with the needs of its inhabitants, walls bend subtly over time to accommodate emotional frequencies, and “echo doors” may open only when specific memories are thought of.
 
 Districts sometimes shift their boundaries overnight during harmonic tremors. These events are called Veinbursts.
 
@@ -111,7 +111,7 @@ Districts sometimes shift their boundaries overnight during harmonic tremors. Th
 
 ## Climate
 
-Sauztein Geb exists within a filtered geoluminal basin—light does not behave normally here. There is no traditional day-night cycle, but rather pulses of photonic bloom and luminous decay, both of which affect memory coherence.
+Sauztein Geb exists within a filtered geoluminal basin, light does not behave normally here. There is no traditional day-night cycle, but rather pulses of photonic bloom and luminous decay, both of which affect memory coherence.
 
 Air is dry but thick with particulate resonance. Winds hum. Echostorms occasionally tear through sectors, leaving behind memory-slick surfaces and spectral afterimages.
 

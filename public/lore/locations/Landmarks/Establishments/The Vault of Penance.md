@@ -43,4 +43,4 @@ aliases:
 
 - Some imprisoned mages and scholars work in secret to escape or overthrow their captors.
 - Smugglers and rogue clerics leak information from within, offering a glimpse into the church’s darkest secrets.
-- The Vault may be more than just a prison—it could be a ticking time bomb of suppressed knowledge and rising dissent.
+- The Vault may be more than just a prison, it could be a ticking time bomb of suppressed knowledge and rising dissent.

@@ -4,7 +4,7 @@ tags:
   - meta
 ---
 ## Invention
-Hellhaven thrives on arcano-mechanical advancements, blending etheric technology, imported [[Locations/Settlements/TO BE FLESHED/Vergrenzig]] engineering, and its own unique resources, such as [[petrolune]]—a volatile, semi-organic mineral that can store and release arcane power in controlled bursts.
+Hellhaven thrives on arcano-mechanical advancements, blending etheric technology, imported [[Locations/Settlements/TO BE FLESHED/Vergrenzig]] engineering, and its own unique resources, such as [[petrolune]], a volatile, semi-organic mineral that can store and release arcane power in controlled bursts.
 
 #### **Creosmark Tokens** – The Soulbound Permits
 
