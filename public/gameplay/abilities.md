@@ -30,7 +30,7 @@ With Abilities come Ability Cards, which give a player their options during game
 
 In Sunder, [[Actions]] come in two parts: an **[[actions|Attack]]** and a **[[actions|Movement]]**[^1].  Attack and Movement may also be referred to as your Direct and Indirect Actions, respectively. When creating new Actions, one side of the Action card is the Focus. A **Focus** will be defined and purchased using the Experience Market, and its cost defines the budget for its Flipside. A **Flipside** is whichever part of an Action is not its **Focus**, so if an Action is built primarily around its [[actions|Attack]], then that Action's Flipside is its [[actions|Movement]].
 
-The budget for purchasing the Flipside of an Action Card is calculated by *half* of the cost of its Focus (rounded down). Once a player has purchased a Focus, they need not spend any more [[Experience]] on its Flipside, as the budget is a complementary amount of [[Experience]] to spend on that Ability.
+The budget for purchasing the Flipside of an Action Card is calculated by *half* of the cost of its Focus (rounded down). Once a player has purchased a Focus, they need not spend any more [[Experience]] on its Flipside, as the budget is a complementary amount of [[Experience]] to spend on that Ability. The Flipside may also be assigned up to the same amount of Enhancements used in the Focus, however purchasing Enhancements still reduces the amount of Strings used in the budget, and Flipside Enhancements do not count against the player's max Enhancement limit.
 ### Surge Cards
 
 [[scenes|Surges]] come as simple descriptions on one side of a card, and can be flipped over facedown to show when a player has taken a Surge between [[scenes|turns]] or not. **Surge Cards** are activated at any time during combat, but are limited to once per turn, which is defined as the time between two [[Actions]] of a player character. Once a Surge Card has been activated on a turn, a player cannot activate another Surge Card until they have played another turn, as defined by playing two Action Cards at once ([[actions|Attack]] and [[actions|Movement]]).
@@ -384,12 +384,12 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 Spells must always have a Consequence. If the Consequence is more severe, it reduces the purchase cost more.
 
 | Consequence             | Cost Reduction |
-| ----------------------- | -------------- |
+| ----------------------- |----------------|
 | Narrative Fallout       | -1 Beat        |
 | Minor Fallout           | -5 Beats       |
 | Major Fallout           | -2 Strings     |
 | Severe Fallout          | -5 Strings     |
-| Test required of target | No reduction   |
+| Test required of target | *No reduction* |
 
 ---
 
