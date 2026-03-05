@@ -2807,14 +2807,15 @@
 <p>With Abilities come Ability Cards, which give a player their options during gameplay and combat. Both Action Cards and Surge Cards are held upright or vertically, whereas Trait Cards are displayed horizontally. This allows players to organize their Hand in any way they wish, and have all of their options displayed in front of them.</p>
 <h3 id="action-cards">Action Cards</h3>
 <p>In Sunder, <a href="../actions/">Actions</a> come in two parts: an <strong><a href="../actions/">Attack</a></strong> and a <strong><a href="../actions/">Movement</a></strong><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.  Attack and Movement may also be referred to as your Direct and Indirect Actions, respectively. When creating new Actions, one side of the Action card is the Focus. A <strong>Focus</strong> will be defined and purchased using the Experience Market, and its cost defines the budget for its Flipside. A <strong>Flipside</strong> is whichever part of an Action is not its <strong>Focus</strong>, so if an Action is built primarily around its <a href="../actions/">Attack</a>, then that Action's Flipside is its <a href="../actions/">Movement</a>.</p>
-<p>The budget for purchasing the Flipside of an Action Card is calculated by <em>half</em> of the cost of its Focus (rounded down). Once a player has purchased a Focus, they need not spend any more <a href="../../characters/experience/">Experience</a> on its Flipside, as the budget is a complementary amount of <a href="../../characters/experience/">Experience</a> to spend on that Ability.</p>
+<p>The budget for purchasing the Flipside of an Action Card is calculated by <em>half</em> of the cost of its Focus (rounded down). Once a player has purchased a Focus, they need not spend any more <a href="../../characters/experience/">Experience</a> on its Flipside, as the budget is a complementary amount of <a href="../../characters/experience/">Experience</a> to spend on that Ability. The Flipside may also be assigned up to the same amount of Enhancements used in the Focus, however purchasing Enhancements still reduces the amount of Strings used in the budget, and Flipside Enhancements do not count against the player's max Enhancement limit.</p>
 <h3 id="surge-cards">Surge Cards</h3>
 <p><a href="../scenes/">Surges</a> come as simple descriptions on one side of a card, and can be flipped over facedown to show when a player has taken a Surge between <a href="../scenes/">turns</a> or not. <strong>Surge Cards</strong> are activated at any time during combat, but are limited to once per turn, which is defined as the time between two <a href="../actions/">Actions</a> of a player character. Once a Surge Card has been activated on a turn, a player cannot activate another Surge Card until they have played another turn, as defined by playing two Action Cards at once (<a href="../actions/">Attack</a> and <a href="../actions/">Movement</a>).</p>
 <h3 id="trait-cards">Trait Cards</h3>
 <p><strong>Trait Cards</strong> are displayed as horizontal cards that stay faceup throughout gameplay. These <a href="../scenes/">Traits</a> are the constant affects and capabilities of a creature, and can either improve the Stats of a creature, or give them an opportunity for <a href="../scenes/">reactions</a>. </p>
 <p><a href="../scenes/">Reactions</a> defined in a Trait are given a defined Trigger, which determines when a player may activate that reaction. There is no limit to the number of times a reaction can be activated, but oftentimes they are bound be certain Caveats (see below) to reduce the cost of such an Ability.</p>
 <h3 id="option-cards">Option Cards</h3>
-<p><strong>Option Cards</strong> are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability, and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.</p>
+<p><strong>Option Cards</strong> are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.</p>
+<p>Option Cards are considered having their Parent Ability as a prerequisite, but do not benefit from a reduction in String cost.</p>
 <h3 id="taking-your-turn">Taking Your Turn</h3>
 <p>There are a few status tracking activities that need to be kept in mind when in a scene or combat that requires tracking the reset conditions of turn-based Abilities. </p>
 <ul>
@@ -3379,8 +3380,8 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <h2 id="narrative-effect">Narrative Effect</h2>
 <p>Applying a Narrative Effect to an Ability is required when you are looking for a specific effect that is not represented within the Sunder rule system. The magnitude of this effect will be determined by its Narrative Weight:</p>
 <ol>
-<li>Aesthetic <span class="arithmatex">\(\rightarrow\)</span> Visual/sensational effects, utility effect up to a Here-sized sphere in Here range.</li>
-<li>Utility <span class="arithmatex">\(\rightarrow\)</span> Minor magickal effects, can be physical, up to a Near-sized sphere in Close range.</li>
+<li>Aesthetic <span class="arithmatex">\(\rightarrow\)</span> Visual/sensational effects, utility effect up to a Here-sized sphere in Here range. Can be used to provide a Flavor Token Goal.</li>
+<li>Utility <span class="arithmatex">\(\rightarrow\)</span> Minor magickal effects, can be physical, up to a Near-sized sphere in Close range. Can be used to apply your Tier to one aspect of an Effect Package Modifier.</li>
 <li>Interpretable <span class="arithmatex">\(\rightarrow\)</span> Represents an affinity or attunement to a specific topic, no range constraints.</li>
 </ol>
 <p>When deciding on a Narrative Ability's cost, always choose the cost of the most expensive relative Narrative Weight (you do not need to purchase multiple for each effect).</p>
@@ -3572,7 +3573,7 @@ Give your Companion access to a shared Discipline Pool.</p>
 <td>-2</td>
 </tr>
 <tr>
-<td>* Prerequisites can be Abilities, Archetype <a href="../../characters/leveling/">Levels</a>, or <a href="../../characters/origin/">Origin</a> choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite.</td>
+<td>* Prerequisites can be Abilities, Archetype <a href="../../characters/leveling/">Levels</a>, or <a href="../../characters/origin/">Origin</a> choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite. A prerequisite is only considered used when it decreases the String cost of an Ability.</td>
 <td></td>
 </tr>
 </tbody>
@@ -3637,6 +3638,10 @@ Give your Companion access to a shared Discipline Pool.</p>
 <tr>
 <td>Severe Fallout</td>
 <td>-5 Strings</td>
+</tr>
+<tr>
+<td>Test required of target</td>
+<td><em>No reduction</em></td>
 </tr>
 </tbody>
 </table>
@@ -3805,7 +3810,7 @@ Give your Companion access to a shared Discipline Pool.</p>
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.6.19";
+            window.SUNDER_VERSION = "1.6.24";
         </script>
     
 
