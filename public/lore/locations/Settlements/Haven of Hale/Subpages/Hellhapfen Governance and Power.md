@@ -9,7 +9,7 @@ tags:
 >A black sunburst behind a gilded balance scale, encircled by a ring of broken chains.
 >
 >- The sunburst represents [[The Lord]]’s divine authority shining upon the city.
->- The scales signify justice, law, and balance—the foundation of Hellhaven’s governance.
+>- The scales signify justice, law, and balance, the foundation of Hellhaven’s governance.
 >- The chains, once whole, symbolize the city’s past as a refuge before it was brought under control.
 
 >[!important]+ Mascot: The Everbound Stag
@@ -64,7 +64,7 @@ A grand clergy led by tribunal of seven archprelates, each overseeing different 
 >>- The legal standard for crime, sentencing, and civic discipline.
 >
 >## The Gellhafn Codex
->A remnant from Hellhaven’s past as Gellhafn, before the rise of the clergy, this body of law governs the foundational civic structures of the city—property rights, inheritance, and the classification of citizens. Though much of it has been rewritten to fit [[Concordat of Chains|The Concordat of Chains]]' doctrine, some old maritime and trade laws remain in effect.
+>A remnant from Hellhaven’s past as Gellhafn, before the rise of the clergy, this body of law governs the foundational civic structures of the city, property rights, inheritance, and the classification of citizens. Though much of it has been rewritten to fit [[Concordat of Chains|The Concordat of Chains]]' doctrine, some old maritime and trade laws remain in effect.
 >
 >>[!quote]- The Charter of Harbormasters
 >>An ancient decree that regulates docking fees, ship registrations, and the division of waterfront properties. It is one of the few pre-theocracy laws still honored by both secular traders and the clergy.

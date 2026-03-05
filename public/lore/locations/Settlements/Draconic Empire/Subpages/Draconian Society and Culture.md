@@ -18,7 +18,7 @@ Empir Draconi boasted a rich linguistic tradition, with Draconic serving as the 
 
 ## Developmental Impacts
 
-The expansion of floating cities and subterranean enclaves influenced every aspect of Empir Draconi’s social structure. The wealthy and powerful resided in elevated cities, looking down—both literally and figuratively—on those in the docking settlements below. Meanwhile, the island kingdom, which served as the heart of the empire, became a highly stratified society where proximity to the emperor often dictated political influence.
+The expansion of floating cities and subterranean enclaves influenced every aspect of Empir Draconi’s social structure. The wealthy and powerful resided in elevated cities, looking down, both literally and figuratively, on those in the docking settlements below. Meanwhile, the island kingdom, which served as the heart of the empire, became a highly stratified society where proximity to the emperor often dictated political influence.
 
 With the fall of the empire, the survivors’ adaptations led to further divergence in culture and daily life. Those in the wastes maintained vestiges of imperial grandeur, while the Kagecombs’ denizens developed a pragmatic and secretive society, valuing adaptability and communal survival over status and tradition.
 
@@ -36,7 +36,7 @@ With the fall of the empire, the survivors’ adaptations led to further diverge
 
 ### Rich/Poor Gap
 
-Wealth disparity in Empir Draconi was pronounced. The aristocracy resided in floating palaces of aetherstone, removed from the struggles of common laborers. The merchant class, while influential, still relied on imperial favor to maintain their status. Below them, dock workers, farmers, and artisans lived under strict economic hierarchies. Following the empire’s fall, the survivors saw a forced equalization—those who retained knowledge of imperial technology or arcane secrets held an advantage, while former elites struggled to adjust to the new world order.
+Wealth disparity in Empir Draconi was pronounced. The aristocracy resided in floating palaces of aetherstone, removed from the struggles of common laborers. The merchant class, while influential, still relied on imperial favor to maintain their status. Below them, dock workers, farmers, and artisans lived under strict economic hierarchies. Following the empire’s fall, the survivors saw a forced equalization, those who retained knowledge of imperial technology or arcane secrets held an advantage, while former elites struggled to adjust to the new world order.
 
 ### Outsiders
 

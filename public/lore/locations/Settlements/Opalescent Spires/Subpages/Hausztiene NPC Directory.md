@@ -29,7 +29,7 @@ tags:
 
 - **[[Scribe-Lieutenant Jome Aethern'e]]** – Oversees Echoquake containment; rumored to be experimenting with illegal mnemonic grafting tech to predict future fractures.
 
-- **[[Memorist Vel Curneaux]]** – A low-ranking scribe who illegally sells memory-snippets to black market artisans and memory dens. He seeks redemption—or at least escape.
+- **[[Memorist Vel Curneaux]]** – A low-ranking scribe who illegally sells memory-snippets to black market artisans and memory dens. He seeks redemption, or at least escape.
 
 
 ---
@@ -91,7 +91,7 @@ tags:
 
 ## **Temple of the Crystalline Veil**
 
-- [[High Resonant Tellun Sartre]] – Beloved spiritual leader who once sang a resonance so pure it stalled an entire collapse. Now fading, literally—phasing in and out of the moment.
+- [[High Resonant Tellun Sartre]] – Beloved spiritual leader who once sang a resonance so pure it stalled an entire collapse. Now fading, literally, phasing in and out of the moment.
     
 - [[Echo Sister Pryll]] – Enforces doctrine with unsettling serenity. Believes silence is sacred and often speaks through lightfract-script or gesture.
     

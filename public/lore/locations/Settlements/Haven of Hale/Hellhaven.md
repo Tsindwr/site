@@ -35,7 +35,7 @@ tags:
 >#### Populace
 >
 >**Devout and Subjugated:** The citizens of Hellhaven live under a strict theocracy, their lives governed by [[The Lord]]’s will. Religion and governance are inseparable, and almost every aspect of daily life is influenced by the city’s devout clergy. Despite this, there are murmurs of dissent among the more oppressed and disenfranchised groups, though open rebellion is rare due to the constant surveillance and control of the Inquisitors. 
->**Resilient but Fearful:** The people of Hellhaven have learned to live with fear and reverence, constantly watching their actions, thoughts, and words. The deep piety instilled by the church is a double-edged sword—while it provides a sense of purpose and unity, it also stifles any attempts at self-expression or deviation from the divine law. 
+>**Resilient but Fearful:** The people of Hellhaven have learned to live with fear and reverence, constantly watching their actions, thoughts, and words. The deep piety instilled by the church is a double-edged sword, while it provides a sense of purpose and unity, it also stifles any attempts at self-expression or deviation from the divine law. 
 >**Class Divisions:** The city is deeply divided into classes, with the clergy and military occupying the highest echelons, while the common folk serve in subjugation to [[The Lord]]'s divine will. The lower classes are relegated to menial tasks, working the factories and serving the wealthy, while the elite enjoy the privileges of power and influence.
 >#### Rapport
 >
@@ -48,7 +48,7 @@ tags:
 > 
 > Hellhaven is a city of devout followers and those desperate enough to seek refuge within its walls. Its population is primarily composed of humans, with a significant number of military personnel, clergy, and administrative officials. [[Concordat of Chains|The Concordat of Chains]] holds the most power, serving as both enforcers of divine law and elite military agents. The lower classes often live in fear, working in the factories or serving the clergy in menial ways.
 > 
-> Some come to Hellhaven out of necessity—many by birth, others by the will of [[Concordat of Chains|The Concordat]], and some seeking salvation or answers from [[The Lord]]. However, dissent is brewing beneath the surface. Underground movements and secret alliances work to resist the city’s divine control, though they are largely unsuccessful due to the ever-watchful eye of the [[Creosmagi]].
+> Some come to Hellhaven out of necessity, many by birth, others by the will of [[Concordat of Chains|The Concordat]], and some seeking salvation or answers from [[The Lord]]. However, dissent is brewing beneath the surface. Underground movements and secret alliances work to resist the city’s divine control, though they are largely unsuccessful due to the ever-watchful eye of the [[Creosmagi]].
 > 
 > While Hellhaven is a city of faith, it is also a place of secrecy, danger, and political intrigue, where the line between devotion and manipulation is often blurred.
 > 
@@ -97,7 +97,7 @@ tags:
 
 #### **The Broken Concord**
 
-- **Current Event:** A diplomatic envoy from outside Hellhaven has arrived to negotiate with the ruling clergy, seeking to challenge [[The Lord]]’s absolute control over nearby territories. The clergy publicly welcomes them, but behind closed doors, plots are being made to ensure the negotiations fail—permanently.
+- **Current Event:** A diplomatic envoy from outside Hellhaven has arrived to negotiate with the ruling clergy, seeking to challenge [[The Lord]]’s absolute control over nearby territories. The clergy publicly welcomes them, but behind closed doors, plots are being made to ensure the negotiations fail, permanently.
 - **Story Hook:** The envoy needs protection from potential assassins, while the Church is offering generous rewards for those willing to ensure the "right" outcome. Which side will you take?
 
 #### **Ashes of the Reforged**
@@ -107,7 +107,7 @@ tags:
 
 #### **The Gilded Chains**
 
-- **Current Event:** A group of high-ranking noble families within Hellhaven have been implicated in a heretical conspiracy, accused of hoarding forbidden knowledge and wealth. Their estates have been seized, and their family members dragged to public trials—yet some claim this is nothing more than a political power play by rival clergy.
+- **Current Event:** A group of high-ranking noble families within Hellhaven have been implicated in a heretical conspiracy, accused of hoarding forbidden knowledge and wealth. Their estates have been seized, and their family members dragged to public trials, yet some claim this is nothing more than a political power play by rival clergy.
 - **Story Hook:** A hidden document reveals the location of evidence that could either clear the accused or damn them further. Who benefits from the truth, and who is willing to kill to keep it buried?
 
 %%
@@ -116,6 +116,6 @@ tags:
 
 ### Prompt Summary
 
-Hellhaven is a theocratic coastal city-state built atop of ancient astral elven ruins, where a once-thriving free northern city of Gellhafn fell to the iron grasp of the theocratic leadership of the Concordat of Chains during The Dread. In 1932, subterranean settlers arrived after years in the caves of the Kagecombs below, reshaping the ruins into a center of naval and mercantile dominance after the fallout of the elemental storms of the Tenechron era. The Dread occurred in 2020, sending the arcane Fabric into chaos, where newly arriving humans stepped in and established a new order under the clergy of The Lord. Now, in 2114, Hellhaven is a rigid theocracy where the clergy wields absolute power, enforcing divine law through a brutal Inquisition. The upper city is dark but industrial with the remaining grandeur of Gellhafn's strong trade partners, however the lower districts are rife with dissent, magus' and thieves' guilds, black-market dealings, and whispers of rebellion. Beneath the surface, ancient secrets lurk in the ruins of the past, challenging the church’s divine narrative of a new order in the absence of the "old gods". Hellhaven stands as a beacon of control in a fractured world, its influence extending far beyond its walls—whether through faith, fear, or force.
+Hellhaven is a theocratic coastal city-state built atop of ancient astral elven ruins, where a once-thriving free northern city of Gellhafn fell to the iron grasp of the theocratic leadership of the Concordat of Chains during The Dread. In 1932, subterranean settlers arrived after years in the caves of the Kagecombs below, reshaping the ruins into a center of naval and mercantile dominance after the fallout of the elemental storms of the Tenechron era. The Dread occurred in 2020, sending the arcane Fabric into chaos, where newly arriving humans stepped in and established a new order under the clergy of The Lord. Now, in 2114, Hellhaven is a rigid theocracy where the clergy wields absolute power, enforcing divine law through a brutal Inquisition. The upper city is dark but industrial with the remaining grandeur of Gellhafn's strong trade partners, however the lower districts are rife with dissent, magus' and thieves' guilds, black-market dealings, and whispers of rebellion. Beneath the surface, ancient secrets lurk in the ruins of the past, challenging the church’s divine narrative of a new order in the absence of the "old gods". Hellhaven stands as a beacon of control in a fractured world, its influence extending far beyond its walls, whether through faith, fear, or force.
 
 %%

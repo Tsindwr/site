@@ -9,7 +9,7 @@ tags:
 
 >[!important]+ Overview
 >- **Location**: Nestled in a dimly lit alley of the [[Locations/Settlements/Haven of Hale/Subpages/Hellhapfen Geography and Layout#**Chainmoor Brine Yards** _(Docks & Industrial Shipping)_|Chainmoor Brine Yards]], squeezed between a rotting sailmaker’s loft and a derelict spice warehouse. The constant clatter of gears and hissing steam conceal hushed conversations.
->- **Access**: Customers seeking more than mechanical repairs must use the coded phrase: _“I need a tune-up for my arcane conductor.”_—only then will Brighton lead them into the hidden chamber below the shop.
+>- **Access**: Customers seeking more than mechanical repairs must use the coded phrase: _“I need a tune-up for my arcane conductor.”_, only then will Brighton lead them into the hidden chamber below the shop.
 >- **Hidden Chamber**: A vaulted, sea-sprayed cavern beneath the shop, where arcane trinkets float weightlessly in lantern-lit glass cases. Some items still hum with residual magic, while others seem eager to be held.
 
 > [!example]+ NPCs

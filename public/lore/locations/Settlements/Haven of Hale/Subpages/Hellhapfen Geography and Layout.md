@@ -65,7 +65,7 @@ Hellhaven’s architecture is built with a mix of local stone, imported steel, a
 ### Development
 #### 1st Era: The Refuge of the Mist (Founding of Gellhafn, 1354)
 
-- Hellhaven, originally Gellhafn, was founded as a sanctuary for refugees fleeing the devastation of the elemental storms of the [[Tenechron]]—a catastrophic event that left arcane-laden mist lingering along the coastline.
+- Hellhaven, originally Gellhafn, was founded as a sanctuary for refugees fleeing the devastation of the elemental storms of the [[Tenechron]], a catastrophic event that left arcane-laden mist lingering along the coastline.
 - The city’s first settlers were survivors, building atop the ruins of a preexisting civilization, remnants of which still exist in Wraithmire Quarter.
 #### 2nd Era: The Industrial Reform (Trade with Vergrenzig, 1970s)
 
@@ -83,7 +83,7 @@ Hellhaven’s architecture is built with a mix of local stone, imported steel, a
 
 - Hellhaven is at a crossroads, torn between its theocratic law and the technological advancements reshaping society.
 - [[Concordat of Chains|The Concordat]] fears losing control over the population as innovation challenges their monopoly on power.
-- The Wraithmire Quarter’s mist has begun to shift unpredictably, with reports of strange figures emerging from its depths—an omen of past forces stirring once more…
+- The Wraithmire Quarter’s mist has begun to shift unpredictably, with reports of strange figures emerging from its depths, an omen of past forces stirring once more…
 ### Landmarks
 - **[[Locations/Landmarks/Establishments/The Bastion of Judgment]]** – A towering, fortress-like structure where criminals are sentenced and divine law is upheld. Public trials are held in the Forum of Redress before being carried out here.
 - **[[Locations/Landmarks/Establishments/The Codexorium]]** – A grand, heavily fortified archive where [[The Lord]]’s decrees are recorded. Some say the deepest vaults contain knowledge of [[The Lord]]’s true origins, though access is near impossible.

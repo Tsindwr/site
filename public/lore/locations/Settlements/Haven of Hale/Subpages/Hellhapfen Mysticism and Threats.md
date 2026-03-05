@@ -17,7 +17,7 @@ Hellhaven has endured centuries of external assaults and internal upheaval, shap
 While magic is heavily regulated under the Concordat’s rule, it remains deeply embedded in Hellhaven’s infrastructure, industries, and daily life.
 
 - **Petrolune Refinement** – Though too unstable for construction, [[petrolune]] is refined into controlled arcane conductors that power Hellhaven’s ether-lamps, heating systems, and automated machinery.
-- **Bound Constructs** – Sentient golems are outlawed, but restricted automata—arcane-powered machines bound to predefined tasks—are commonly used in industry and enforcement. The [[Creosmagi]] employ Chain-Sentinels, armored constructs designed to apprehend criminals and suppress uprisings.
+- **Bound Constructs** – Sentient golems are outlawed, but restricted automata, arcane-powered machines bound to predefined tasks, are commonly used in industry and enforcement. The [[Creosmagi]] employ Chain-Sentinels, armored constructs designed to apprehend criminals and suppress uprisings.
 - **Blood-Bound Tokens** – Each citizen carries a [[locations/Settlements/Haven of Hale/Subpages/Hellhapfen Economy and Industries#^3c24dc|Creosmark]], imbued with their blood sacrifice and ensuring their movement through the city remains traceable. Unauthorized modification or tampering with these sigils is punishable by exile or execution.
 - **The Sigil Veil** – A massive, citywide ward system created in collaboration with [[Locations/Settlements/TO BE FLESHED/Vergrenzig]]’s artificers. This etheric lattice prevents large-scale teleportation within Hellhaven and detects unregistered magical activity.
 ---
