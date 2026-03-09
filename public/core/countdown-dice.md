@@ -10,7 +10,7 @@ aliases:
 
 # Countdown Dice
 ## A Doomsday Clock
-###### Using Countdown Dice for Risky Scenes
+<h6>Using Countdown Dice for Risky Scenes</h6>
 
 Countdown Dice can be used by the GM to represent environmental events, or [[scenes]] that tip on the balance between victory and catastrophe. In a typical countdown, there are two counters corresponding to a victorious outcome and a catastrophic outcome: Hope and Dread, respectively. Each of the two dice starts at its maximum value. Successes on the party's side and failures on the adversary's side can cause the Hope counter to spin down, whereas failures on the party's side and successes on the adversary's side can cause the Dread counter to spin down. If Hope reaches 1 first, the party is victorious, but if the Dread counter reaches 1 first, then they face catastrophe.
 

@@ -18,7 +18,7 @@ aliases:
 ---
 # Potentials and Resistance
 ## You have much potential, Adventurer
-###### Potential Scores
+<h6>Potential Scores</h6>
 
 Each creature is made up of a set of 8 scores called **Potentials**. Each of these Potentials represent a character's capacity to success relating to a given category. Potentials are split between Physical and Mental: Physical Potentials relate to a creature's bodily and physical capabilities, whereas Mental Potentials relate to a creature's intellectual and mental capabilities. The 8 different Potentials are as follows:
 
@@ -41,8 +41,16 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 >    ***Heart:*** A creature's ability to maintain spirit in the face of dread and navigating social exchanges is represented by its Heart score. This score determines a player's ability to convey messages nonverbally, haggle for a better price at the bazaar, or remain unfazed in the presence of horrific otherworldly entities.
 >     
 >    ***Tether:*** A creature's ability to keep ahold of their sanity and manipulate dark powers is represented by its Tether score. This score determines a player's ability to resist mental arcane assaults, grasp the nature of ancient dwoemers, and wield the energies of the universe. 
+
+### Resistance Points
+Some [[abilities]] or [[volatility-and-perks|perks]] may call for expending a Resistance point. Each Potential is considered to be a pool of Resistance Points equal to the Potential Score. Expending Resistance Points causes the Mixed success level threshold to increase during [[resolution-system|tests]][^1]. However, the Resistance pool shares the same threshold of strain on a character as a Potential's Stress track. Given a certain Potential, a Potential track can only hold a total number of [[stress-and-fallout|Stress]] and Resistance points equal to the Potential Score.
+
+In the example below, a player has 5 [[stress-and-fallout|Stress]] points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by [[stress-and-fallout|Stress]]), and if they take any additional [[stress-and-fallout|Stress]], it will trigger [[stress-and-fallout|Fallout]] since the player cannot hold any more [[stress-and-fallout|Stress]] (the slots are taken by Resistance Drain).
+
+![[../assets/potential-resistance-example.png]]
+
 ## The meat and potatoes of gameplay
-###### Skills
+<h6>Skills</h6>
 
 When a player takes an action that requires a certain amount of skill or luck, it often requires a Skill Test. A **Skill Test** is a [[resolution-system|Test]] associated with a particular Skill. Each Potential Score has three subcategories called Skills. Skill [[resolution-system|Tests]] are unique due to their potential for a creature to be [[proficiencies|proficient]] in the roll. 
 
@@ -79,12 +87,5 @@ Hope - *Inspiring others, resisting fear*
 Anchor - *Resisting the effects of insanity, staying spiritually grounded*
 Grasp - *Understanding the indecipherable, drawing from the powers that be*
 Weave - *Conducting rituals, channeling raw warp*
-
-###### Resistance Points
-Some [[abilities]] or [[volatility-and-perks|perks]] may call for expending a Resistance point. Each Potential is considered to be a pool of Resistance Points equal to the Potential Score. Expending Resistance Points causes the Mixed success level threshold to increase during [[resolution-system|tests]][^1]. However, the Resistance pool shares the same threshold of strain on a character as a Potential's Stress track. Given a certain Potential, a Potential track can only hold a total number of [[stress-and-fallout|Stress]] and Resistance points equal to the Potential Score. 
-
-In the example below, a player has 5 [[stress-and-fallout|Stress]] points in an example Potential, and has expended 3 Resistance points. This makes a total of 8, which is equal to their Potential Score. This means a player cannot expend any more Resistance points (they are taken over by [[stress-and-fallout|Stress]]), and if they take any additional [[stress-and-fallout|Stress]], it will trigger [[stress-and-fallout|Fallout]] since the player cannot hold any more [[stress-and-fallout|Stress]] (the slots are taken by Resistance Drain).
-
-![[../assets/potential-resistance-example.png]]
 
 [^1]: See Sunder's [[resolution-system|Resolution System]]

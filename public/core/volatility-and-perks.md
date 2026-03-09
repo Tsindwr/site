@@ -10,7 +10,7 @@ aliases:
 ---
 # Volatility and Perks
 ## Modifying Success Levels
-###### *Volatility*
+<h6>Volatility</h6>
 
 The **Volatility Die** is a special modifier to a Test roll, but only applies under certain conditions. In order to add a Volatility Die or Volatility Dice to a Test, a player must satisfy one or more of the following scenarios:
 
@@ -34,7 +34,7 @@ Like in [[resolution-system|Tests]], the thresholds of Volatility Dice are impac
 A Volatility die's **jinx threshold** is determined by the amount of [[stress-and-fallout|Stress]] a player has in the respective [[potentials-and-resistance|Potential]]. The jinx threshold can only be less than the maximum value on a Volatility Die. After rolling their Volatility Pool, if a player's chosen Volatility Die results as within the jinx threshold, the overall success level is decreased by 1. Otherwise, the success level is increased by 1.
 
 ## Perks of the Profession
-###### Perks
+<h6>Perks</h6>
 
 **Perks** allow all players, including the GM, to level up their Volatility rolls and tips the odds in their favor. Perks give Volatility results a secondary effect, which can turn the tides in an integral Test. Perks are bought using the [[experience|Experience Points]] system, oftentimes only costing a few [[experience|Beats]] (these are low-cost [[abilities]]).
 

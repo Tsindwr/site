@@ -9,7 +9,7 @@ aliases:
 ---
 # Stress and Fallout
 ## Success Comes at a Price
-###### Stress
+<h6>Stress</h6>
 
 **[[damage|Stress]]** affects not only the results of [[volatility-and-perks|Volatility Dice]], but also a creature's defensive capabilities. As the representation of the strain a creature has accumulated during gameplay, [[damage|Stress]] builds up in each of your [[potentials-and-resistance|Potential]] tracks and overflows if it exceeds the maximum value, so the more [[potentials-and-resistance|Potential]] a player has, the more defense they have against the setbacks of [[damage|Stress]]. 
 
@@ -19,7 +19,7 @@ The more [[damage|Stress]] a player accumulates, the more likely they are to fal
 2. Rolling a [[resolution-system|Crit]] on a Test does not cause any [[damage|Stress]], whether it is due to a [[volatility-and-perks|Volatility]] modification or a natural roll of the D20.
 
 ## Better Luck Next Time...
-###### Fallout
+<h6>Fallout</h6>
 
 **Fallout** is an accumulation of misfortune and heroic strain, providing an extra risk to initiating [[resolution-system|Tests]]. Fallout can be triggered in a few ways, including sources of damage and the rolling of [[resolution-system|Tests]]:
 
