@@ -9,9 +9,8 @@ aliases:
   - Death
   - Critical Damage
 ---
-
 # Damage, Stress, Marks, & Scars
-###### Oh my!
+<h6>Oh my!</h6>
 
 Throughout the events of an adventurer's career there are plenty of opportunities to accumulate wounds of myriad forms, from exposure to deadly environments, to the scars of war, to the consequences of mere accidents.
 
@@ -42,6 +41,6 @@ In the case of a dying character, they may recover through any ability that rest
 
 When a player's character recovers from incapacitation, they take a Scar. This prompts a player to consider the circumstances of their incapacitation, and decide how the lasting effect of the damage affects their character. Mechanically, this involves moving a point from one [[potentials-and-resistance|Potential]] to another. For example, if a character is knocked out from Finesse [[stress-and-fallout|Stress]] dealt by a fireball attack, a player may choose to move a point from Finesse (previously 4) to Nerve (previously 3) with the rationale that their character has become more dulled to the sensation of damage, switching their Finesse score to 3 and their Nerve score to 4. Alternatively, they could rationalize that their character has become more wary of incoming attacks, increasing their Instinct score (previously 5) to 6 and reducing their Finesse to 3.
 ## Crit Hit!
-###### Calculating Critical Damage
+<h6>Calculating Critical Damage</h6>
 
 When a character rolls a [[resolution-system|Crit]] on a Test made to attack another creature, or a defending creature rolls a [[resolution-system|Miff]] on a Test to avoid a damaging affect, that damage becomes critical. Dice rolled as Critical Damage are considered Exploding Dice, and invoke 1 extra [[stress-and-fallout|stress]] when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -> D8, D12 -> D12). If the increased die rolls another max value, another [[stress-and-fallout|Stress]] is added, but otherwise its result value is not added to the damage roll.
