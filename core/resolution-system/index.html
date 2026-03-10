@@ -2275,16 +2275,18 @@
 <p>Crits and Miffs will always be final and determine the outcome of the initial roll (unless otherwise stated). This means <a href="../volatility-and-perks/">Volatility</a> cannot change the success level of a D20 that has rolled a Crit or Miff. Sunder uses a variant "Roll Under" system, so Crits occur when a player's <a href="../../characters/potentials-and-resistance/">Potential</a> score value is rolled on the D20, and Miffs occur when a 20 is rolled on the D20.</p>
 <p>A player will receive different base success levels based on the <a href="../../characters/potentials-and-resistance/">Potential</a> they are rolling the Test under. <a href="../../characters/potentials-and-resistance/">Potentials</a> are both representations of a creature's capabilities, as well as a resource to be managed. Spending resources from a <a href="../../characters/potentials-and-resistance/">Potential</a> is called expending a <strong><a href="../../characters/potentials-and-resistance/">Resistance</a></strong>, or Resistance Drain. <a href="../../characters/potentials-and-resistance/">Resistance</a> points can be used to fuel ability features and can be restored through <a href="../../gameplay/resting/">resting</a> and healing.</p>
 <p>Initial success levels are decided as follows:</p>
-<div class="arithmatex">\[
+<!--
+$$
 \text{Outcome}(x_{D20};P_{potential},R_{resistance})=
 \begin{cases}
-\textbf{Crit} &amp; x\in\{P\},\\[2pt]
-\textbf{Success} &amp; x\in\bigl(R,\;P\bigr),\\[2pt]
-\textbf{Mixed} &amp; x\in\bigl[1,\;R\bigr],\\[2pt]
-\textbf{Failure} &amp; x\in\bigl(P,\;20\bigr),\\[2pt]
-\textbf{Miff} &amp; x\in\{20\}.
+\textbf{Crit} & x\in\{P\},\\[2pt]
+\textbf{Success} & x\in\bigl(R,\;P\bigr),\\[2pt]
+\textbf{Mixed} & x\in\bigl[1,\;R\bigr],\\[2pt]
+\textbf{Failure} & x\in\bigl(P,\;20\bigr),\\[2pt]
+\textbf{Miff} & x\in\{20\}.
 \end{cases}
-\]</div>
+$$
+-->
 <p><img alt="../assets/Sunder Resolution (Usability Variant).png" src="../../assets/Sunder%20Resolution%20%28Usability%20Variant%29.png" /></p>
 <details class="warning" open="open">
 <summary>The Rule of Narrative Ease</summary>
@@ -2521,7 +2523,7 @@
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.7.14";
+            window.SUNDER_VERSION = "1.7.17";
         </script>
     
 
