@@ -43,6 +43,7 @@ A player will receive different base success levels based on the [[potentials-an
 
 Initial success levels are decided as follows:
 
+%%
 $$
 \text{Outcome}(x_{D20};P_{potential},R_{resistance})=
 \begin{cases}
@@ -53,7 +54,7 @@ $$
 \textbf{Miff} & x\in\{20\}.
 \end{cases}
 $$
-
+%%
 ![[../assets/Sunder Resolution (Usability Variant).png]]
 
 > [!warning]+ The Rule of Narrative Ease
