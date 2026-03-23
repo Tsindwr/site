@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "discord_announcement_sent": false,
+  "summary": "New Web Tool!",
+  "sections": [
+    {
+      "title": "Desktop Chatbot Assistant",
+      "description": "You can now ask questions to a chatbot on the desktop website. Please be patient with the bot, downloading the local language model takes some time, and all the processing occurs on your own device."
+    }
+  ]
+}
