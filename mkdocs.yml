@@ -78,6 +78,7 @@ extra_javascript:
   - js/highlight-popup.js
   - js/image-lightbox.js
   - js/profile.js
+  - js/sunder-chatbot.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
@@ -86,6 +87,7 @@ extra_css:
   - css/bookmarks.css
   - css/header-auth.css
   - css/graphics.css
+  - css/sunder-chatbot.css
 
 plugins:
   - search

@@ -35,7 +35,7 @@ The more [[damage|Stress]] a player accumulates, the more likely they are to fal
 >- *Natural Crit*: Regain a Resistance of your choice (best plausible outcome)
 >- *Crit*: Take no Stress (best plausible outcome)
 >- *Success*: Take 1 Stress (intended outcome)
->- *Mixed Success*: Narrative Fallout + 1 Beat (positive and negative outcome)
+>- *Mixed Success*: Narrative Fallout + take 1 Stress + 1 Beat (positive and negative outcome)
 >- *Failure*: Situational Fallout + 1 Beat (negative outcome)
 >- *Miff*: Increased Situational Fallout + 1 Beat (worst plausible outcome)
 >- *Natural Miff*: Increased Situational Fallout + 1 Beat - 1 Resistance (worst plausible outcome)

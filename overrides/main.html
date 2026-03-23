@@ -23,6 +23,99 @@
 {# extend the footer block to add your links #}
 {% block footer %}
     {{ super() }}
+    <div id="sunder-chatbot-root" aria-live="polite">
+        <button
+                id="sunder-chatbot-launcher"
+                class="sunder-chatbot-launcher"
+                type="button"
+                aria-label="Open Sunder Assistant"
+                aria-expanded="false"
+                aria-controls="sunder-chatbot-panel"
+        >
+            <img
+                    src="{{ base_url }}/assets/favicon/sunder-logo.png"
+                    alt=""
+                    class="sunder-chatbot-launcher__logo"
+            />
+            <span class="sunder-chatbot-launcher__label">Assistant</span>
+        </button>
+
+        <section
+                id="sunder-chatbot-panel"
+                class="sunder-chatbot-panel"
+                aria-label="Sunder Assistant"
+                hidden
+        >
+            <header class="sunder-chatbot-panel__header">
+                <div class="sunder-chatbot-panel__brand">
+                    <img
+                            src="{{ base_url }}/assets/favicon/sunder-logo.png"
+                            alt=""
+                            class="sunder-chatbot-panel__logo"
+                    />
+                    <div>
+                        <div class="sunder-chatbot-panel__title">Sunder Assistant</div>
+                        <div class="sunder-chatbot-panel__subtitle">Rules • Builder • Lore</div>
+                    </div>
+                </div>
+                <button
+                        id="sunder-chatbot-close"
+                        class="sunder-chatbot-iconbtn"
+                        type="button"
+                        aria-label="Close assistant"
+                >
+                    ✕
+                </button>
+            </header>
+
+            <div id="sunder-chatbot-messages" class="sunder-chatbot-messages">
+                <div class="sunder-chatbot-welcome">
+                    <p><strong>Ask about rules, ability building, or lore.</strong></p>
+                    <div class="sunder-chatbot-chips">
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="How does a risky test work?">Risky tests</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What is the jinx threshold?">Jinx threshold</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="Build me a shadow leap ability">Shadow leap</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What are Domains?">Domains</button>
+                    </div>
+                </div>
+            </div>
+
+            <form id="sunder-chatbot-form" class="sunder-chatbot-input" autocomplete="off">
+            <textarea
+                    id="sunder-chatbot-textarea"
+                    class="sunder-chatbot-textarea"
+                    rows="3"
+                    placeholder="Ask a Sunder question..."
+            ></textarea>
+
+                <div class="sunder-chatbot-input__footer">
+                    <div class="sunder-chatbot-modepicker">
+                        <button
+                                id="sunder-chatbot-modebutton"
+                                class="sunder-chatbot-modebutton"
+                                type="button"
+                                aria-haspopup="listbox"
+                                aria-expanded="false"
+                        >
+                            <span id="sunder-chatbot-mode-label">Rules</span>
+                            <span>▾</span>
+                        </button>
+
+                        <div id="sunder-chatbot-mode-menu" class="sunder-chatbot-mode-menu" hidden>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="rules">Rules</button>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="builder">Ability Builder</button>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="lore">Lore</button>
+                        </div>
+                    </div>
+
+                    <button id="sunder-chatbot-send" class="sunder-btn sunder-btn-primary" type="submit">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+
     <div class="sunder-footer-extra md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
         <div class="sunder-footer-links">
@@ -42,6 +135,7 @@
     {{ super() }}
     <script>
         window.SUNDER_BASE_URL = "{{ base_url }}";
+        window.SUNDER_CHAT_BASE = "{{ base_url }}/chat";
     </script>
     {% if config.extra.sunder_version %}
         <script>
