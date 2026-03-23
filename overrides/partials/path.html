@@ -1,4 +1,4 @@
-{#- Override of partials/path.html – adds a back button next to the breadcrumbs -#}
+{#- Override of partials/path.html – breadcrumbs only -#}
 {% import "partials/path-item.html" as item with context %}
 {% if page.meta and page.meta.hide %}
   {% set hidden = "hidden" if "path" in page.meta.hide %}
@@ -8,19 +8,14 @@
   {% set depth = depth + 1 %}
 {% endif %}
 {% if depth > 1 %}
-  <div class="sunder-path-wrapper">
-    <button type="button" class="sunder-back-button" onclick="history.back()" aria-label="Go back">
-      <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
-    </button>
-    <nav class="md-path" aria-label="{{ lang.t('nav') }}" {{ hidden }}>
-      <ol class="md-path__list">
-        {% if nav.homepage %}
-          {{ item.render(nav.homepage) }}
-        {% endif %}
-        {% for nav_item in page.ancestors | reverse %}
-          {{ item.render(nav_item) }}
-        {% endfor %}
-      </ol>
-    </nav>
-  </div>
+  <nav class="md-path" aria-label="{{ lang.t('nav') }}" {{ hidden }}>
+    <ol class="md-path__list">
+      {% if nav.homepage %}
+        {{ item.render(nav.homepage) }}
+      {% endif %}
+      {% for nav_item in page.ancestors | reverse %}
+        {{ item.render(nav_item) }}
+      {% endfor %}
+    </ol>
+  </nav>
 {% endif %}
