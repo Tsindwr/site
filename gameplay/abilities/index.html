@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../assets/favicon/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -62,6 +62,8 @@
       <link rel="stylesheet" href="../../css/header-auth.css">
     
       <link rel="stylesheet" href="../../css/graphics.css">
+    
+      <link rel="stylesheet" href="../../css/sunder-chatbot.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -2814,7 +2816,7 @@
 <p><strong>Trait Cards</strong> are displayed as horizontal cards that stay faceup throughout gameplay. These <a href="../scenes/">Traits</a> are the constant affects and capabilities of a creature, and can either improve the Stats of a creature, or give them an opportunity for <a href="../scenes/">reactions</a>. </p>
 <p><a href="../scenes/">Reactions</a> defined in a Trait are given a defined Trigger, which determines when a player may activate that reaction. There is no limit to the number of times a reaction can be activated, but oftentimes they are bound be certain Caveats (see below) to reduce the cost of such an Ability.</p>
 <h3 id="option-cards">Option Cards</h3>
-<p><strong>Option Cards</strong> are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.</p>
+<p><strong>Option Cards</strong> are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability) (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.</p>
 <p>Option Cards are considered having their Parent Ability as a prerequisite, but do not benefit from a reduction in String cost.</p>
 <h3 id="taking-your-turn">Taking Your Turn</h3>
 <p>There are a few status tracking activities that need to be kept in mind when in a scene or combat that requires tracking the reset conditions of turn-based Abilities. </p>
@@ -3036,12 +3038,12 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>Trait</td>
 <td>+1</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>Surge*</td>
 <td>0</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>Action</td>
@@ -3084,12 +3086,12 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tbody>
 <tr>
 <td>Weapon</td>
-<td>1</td>
+<td>+1</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Initial*</td>
-<td>1</td>
+<td>+1</td>
 <td>0</td>
 </tr>
 <tr>
@@ -3111,16 +3113,16 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>Primed for increase</td>
 <td>0</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>+1dX to Single Target*</td>
-<td>1</td>
+<td>+1</td>
 <td>0</td>
 </tr>
 <tr>
 <td>+1dX to AOE*</td>
-<td>2</td>
+<td>+2</td>
 <td>0</td>
 </tr>
 <tr>
@@ -3235,22 +3237,22 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>+1 Additional Target</td>
 <td>+1</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>Near AOE</td>
 <td>+2</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>Close AOE</td>
 <td>+4</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>Far AOE</td>
 <td>+6</td>
-<td>2</td>
+<td>+2</td>
 </tr>
 </tbody>
 </table>
@@ -3288,12 +3290,12 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>Single target</td>
 <td>+3</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>AOE or multiple</td>
 <td>+5</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 </tbody>
 </table>
@@ -3309,19 +3311,19 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tbody>
 <tr>
 <td>Mark</td>
-<td>2 Strings</td>
+<td>+2 Strings</td>
 </tr>
 <tr>
 <td>Potential</td>
-<td>2 Strings</td>
+<td>+2 Strings</td>
 </tr>
 <tr>
 <td>Proficiency</td>
-<td>1 String</td>
+<td>+1 String</td>
 </tr>
 <tr>
 <td>1 Test's Success Level</td>
-<td>5 Beats</td>
+<td>+5 Beats</td>
 </tr>
 </tbody>
 </table>
@@ -3335,23 +3337,23 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tbody>
 <tr>
 <td>Stress</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 <tr>
 <td>Resistance</td>
-<td>2</td>
+<td>+2</td>
 </tr>
 <tr>
 <td>Minor Condition</td>
-<td>2</td>
+<td>+2</td>
 </tr>
 <tr>
 <td>Major Condition</td>
-<td>3</td>
+<td>+3</td>
 </tr>
 <tr>
 <td>Mark</td>
-<td>4</td>
+<td>+4</td>
 </tr>
 </tbody>
 </table>
@@ -3366,13 +3368,13 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tbody>
 <tr>
 <td>Potential's Stress</td>
-<td>2</td>
+<td>+2</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Potential's Resistances</td>
-<td>4</td>
-<td>1</td>
+<td>+4</td>
+<td>+1</td>
 </tr>
 </tbody>
 </table>
@@ -3407,7 +3409,7 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>Interpretable</td>
 <td>+3-7 Strings</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 </tbody>
 </table>
@@ -3445,25 +3447,25 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>1 hour</td>
 <td>+2</td>
-<td>1</td>
+<td>+1</td>
 <td>Travel / downtime impact</td>
 </tr>
 <tr>
 <td>Until Long Rest</td>
 <td>+4</td>
-<td>1</td>
+<td>+1</td>
 <td>Lasts until you begin a Long Rest</td>
 </tr>
 <tr>
 <td>Until Dispelled</td>
-<td>+0</td>
-<td>2</td>
+<td>0</td>
+<td>+2</td>
 <td>Until Successful action is taken by another creature to end the condition.</td>
 </tr>
 <tr>
 <td>Sequence Die (Volatility)</td>
 <td>+2</td>
-<td>1</td>
+<td>+1</td>
 <td>Use the user's Volatility Die in the relevant Potential for the Sequence.</td>
 </tr>
 <tr>
@@ -3480,8 +3482,8 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tr>
 <tr>
 <td>Concentration*</td>
-<td>X</td>
-<td>Y</td>
+<td>-X</td>
+<td>-Y</td>
 <td>Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement.</td>
 </tr>
 <tr>
@@ -3508,14 +3510,14 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <tr>
 <td>Agency</td>
 <td>When you activate this ability, you may choose to have your Companion activate this ability instead of yourself.</td>
-<td>1</td>
+<td>+1</td>
 <td>0</td>
 </tr>
 <tr>
 <td>Synchronization</td>
 <td>When you activate this ability, your companion may also take this action as a reaction.</td>
 <td>0</td>
-<td>1</td>
+<td>+1</td>
 </tr>
 </tbody>
 </table>
@@ -3608,7 +3610,7 @@ Give your Companion access to a shared Discipline Pool.</p>
 <td>-5</td>
 </tr>
 <tr>
-<td>* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing <a href="../../core/resolution-system/">Riskiness</a> on a Test to activate the Ability can only be applied when there is a Test required, either by default or through the purchased Caveat.</td>
+<td>* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing <a href="../../core/resolution-system/">Riskiness</a> on a Test to activate the Ability can only be applied when there is a Test requiredof either by default or through the purchased Caveat.</td>
 <td></td>
 </tr>
 </tbody>
@@ -3752,6 +3754,100 @@ Give your Companion access to a shared Discipline Pool.</p>
   </div>
 </footer>
       
+    <div id="sunder-chatbot-root" aria-live="polite">
+        <button
+                id="sunder-chatbot-launcher"
+                class="sunder-chatbot-launcher"
+                type="button"
+                aria-label="Open Sunder Assistant"
+                aria-expanded="false"
+                aria-controls="sunder-chatbot-panel"
+        >
+            <img
+                    src="../../assets/favicon/sunder-logo.png"
+                    alt=""
+                    class="sunder-chatbot-launcher__logo"
+            />
+            <span class="sunder-chatbot-launcher__label">Assistant</span>
+        </button>
+
+        <section
+                id="sunder-chatbot-panel"
+                class="sunder-chatbot-panel"
+                aria-label="Sunder Assistant"
+                hidden
+        >
+            <header class="sunder-chatbot-panel__header">
+                <div class="sunder-chatbot-panel__brand">
+                    <img
+                            src="../../assets/favicon/sunder-logo.png"
+                            alt=""
+                            class="sunder-chatbot-panel__logo"
+                    />
+                    <div>
+                        <div class="sunder-chatbot-panel__title">Sunder Assistant</div>
+                        <div class="sunder-chatbot-panel__subtitle">Rules • Builder • Lore</div>
+<!--                        <div id="sunder-chatbot-llm-status" class="sunder-chatbot-panel__meta">Local model: off</div>-->
+                    </div>
+                </div>
+                <button
+                        id="sunder-chatbot-close"
+                        class="sunder-chatbot-iconbtn"
+                        type="button"
+                        aria-label="Close assistant"
+                >
+                    ✕
+                </button>
+            </header>
+
+            <div id="sunder-chatbot-messages" class="sunder-chatbot-messages">
+                <div class="sunder-chatbot-welcome">
+                    <p><strong>Ask about rules, ability building, or lore.</strong></p>
+                    <div class="sunder-chatbot-chips">
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="How does a risky test work?">Risky tests</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What is the jinx threshold?">Jinx threshold</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="Build me a shadow leap ability">Shadow leap</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What are Domains?">Domains</button>
+                    </div>
+                </div>
+            </div>
+
+            <form id="sunder-chatbot-form" class="sunder-chatbot-input" autocomplete="off">
+            <textarea
+                    id="sunder-chatbot-textarea"
+                    class="sunder-chatbot-textarea"
+                    rows="3"
+                    placeholder="Ask a Sunder question..."
+            ></textarea>
+
+                <div class="sunder-chatbot-input__footer">
+                    <div class="sunder-chatbot-modepicker">
+                        <button
+                                id="sunder-chatbot-modebutton"
+                                class="sunder-chatbot-modebutton"
+                                type="button"
+                                aria-haspopup="listbox"
+                                aria-expanded="false"
+                        >
+                            <span id="sunder-chatbot-mode-label">Rules</span>
+                            <span>▾</span>
+                        </button>
+
+                        <div id="sunder-chatbot-mode-menu" class="sunder-chatbot-mode-menu" hidden>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="rules">Rules</button>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="builder">Ability Builder</button>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="lore">Lore</button>
+                        </div>
+                    </div>
+
+                    <button id="sunder-chatbot-send" class="sunder-btn sunder-btn-primary" type="submit">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+
     <div class="sunder-footer-extra md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
         <div class="sunder-footer-links">
@@ -3804,13 +3900,20 @@ Give your Companion access to a shared Discipline Pool.</p>
       
         <script src="../../js/profile.js"></script>
       
+        <script src="../../js/sunder-chatbot.js"></script>
+      
+        <script src="../../js/sunder-llm.js"></script>
+      
     
     <script>
         window.SUNDER_BASE_URL = "../..";
+        window.SUNDER_CHAT_BASE = "../../chat";
+        // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
+        window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.7.17";
+            window.SUNDER_VERSION = "2.0.16";
         </script>
     
 

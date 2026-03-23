@@ -17,7 +17,7 @@
       
       
       <link rel="icon" href="../../../../../../assets/favicon/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -58,6 +58,8 @@
       <link rel="stylesheet" href="../../../../../../css/header-auth.css">
     
       <link rel="stylesheet" href="../../../../../../css/graphics.css">
+    
+      <link rel="stylesheet" href="../../../../../../css/sunder-chatbot.css">
     
     <script>__md_scope=new URL("../../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1959,6 +1961,100 @@
   </div>
 </footer>
       
+    <div id="sunder-chatbot-root" aria-live="polite">
+        <button
+                id="sunder-chatbot-launcher"
+                class="sunder-chatbot-launcher"
+                type="button"
+                aria-label="Open Sunder Assistant"
+                aria-expanded="false"
+                aria-controls="sunder-chatbot-panel"
+        >
+            <img
+                    src="../../../../../../assets/favicon/sunder-logo.png"
+                    alt=""
+                    class="sunder-chatbot-launcher__logo"
+            />
+            <span class="sunder-chatbot-launcher__label">Assistant</span>
+        </button>
+
+        <section
+                id="sunder-chatbot-panel"
+                class="sunder-chatbot-panel"
+                aria-label="Sunder Assistant"
+                hidden
+        >
+            <header class="sunder-chatbot-panel__header">
+                <div class="sunder-chatbot-panel__brand">
+                    <img
+                            src="../../../../../../assets/favicon/sunder-logo.png"
+                            alt=""
+                            class="sunder-chatbot-panel__logo"
+                    />
+                    <div>
+                        <div class="sunder-chatbot-panel__title">Sunder Assistant</div>
+                        <div class="sunder-chatbot-panel__subtitle">Rules • Builder • Lore</div>
+<!--                        <div id="sunder-chatbot-llm-status" class="sunder-chatbot-panel__meta">Local model: off</div>-->
+                    </div>
+                </div>
+                <button
+                        id="sunder-chatbot-close"
+                        class="sunder-chatbot-iconbtn"
+                        type="button"
+                        aria-label="Close assistant"
+                >
+                    ✕
+                </button>
+            </header>
+
+            <div id="sunder-chatbot-messages" class="sunder-chatbot-messages">
+                <div class="sunder-chatbot-welcome">
+                    <p><strong>Ask about rules, ability building, or lore.</strong></p>
+                    <div class="sunder-chatbot-chips">
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="How does a risky test work?">Risky tests</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What is the jinx threshold?">Jinx threshold</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="Build me a shadow leap ability">Shadow leap</button>
+                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What are Domains?">Domains</button>
+                    </div>
+                </div>
+            </div>
+
+            <form id="sunder-chatbot-form" class="sunder-chatbot-input" autocomplete="off">
+            <textarea
+                    id="sunder-chatbot-textarea"
+                    class="sunder-chatbot-textarea"
+                    rows="3"
+                    placeholder="Ask a Sunder question..."
+            ></textarea>
+
+                <div class="sunder-chatbot-input__footer">
+                    <div class="sunder-chatbot-modepicker">
+                        <button
+                                id="sunder-chatbot-modebutton"
+                                class="sunder-chatbot-modebutton"
+                                type="button"
+                                aria-haspopup="listbox"
+                                aria-expanded="false"
+                        >
+                            <span id="sunder-chatbot-mode-label">Rules</span>
+                            <span>▾</span>
+                        </button>
+
+                        <div id="sunder-chatbot-mode-menu" class="sunder-chatbot-mode-menu" hidden>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="rules">Rules</button>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="builder">Ability Builder</button>
+                            <button type="button" class="sunder-chatbot-mode-option" data-mode="lore">Lore</button>
+                        </div>
+                    </div>
+
+                    <button id="sunder-chatbot-send" class="sunder-btn sunder-btn-primary" type="submit">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+
     <div class="sunder-footer-extra md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
         <div class="sunder-footer-links">
@@ -2011,13 +2107,20 @@
       
         <script src="../../../../../../js/profile.js"></script>
       
+        <script src="../../../../../../js/sunder-chatbot.js"></script>
+      
+        <script src="../../../../../../js/sunder-llm.js"></script>
+      
     
     <script>
         window.SUNDER_BASE_URL = "../../../../../..";
+        window.SUNDER_CHAT_BASE = "../../../../../../chat";
+        // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
+        window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
     </script>
     
         <script>
-            window.SUNDER_VERSION = "1.7.17";
+            window.SUNDER_VERSION = "2.0.16";
         </script>
     
 
