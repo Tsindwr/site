@@ -30,7 +30,7 @@
         ]);
         state.index = await indexRes.json();
         state.chunks = await chunksRes.json();
-        state.glossary = await glossaryRest.json();
+        state.glossary = await glossaryRes.json();
         state.loaded = true;
     }
 
@@ -176,6 +176,7 @@
         state.open = true;
         els.panel.hidden = false;
         els.launcher.setAttribute('aria-expanded', 'true');
+        document.documentElement.classList.add("sunder-chatbot-open");
         requestAnimationFrame(() => els.textarea.focus());
     }
 
@@ -183,6 +184,7 @@
         state.open = false;
         els.panel.hidden = true;
         els.launcher.setAttribute('aria-expanded', 'false');
+        document.documentElement.classList.remove("sunder-chatbot-open");
     }
 
     function init() {
@@ -197,6 +199,8 @@
         els.modeMenu = document.getElementById("sunder-chatbot-mode-menu");
 
         if (!els.launcher || !els.panel) return;
+
+        closePanel();
 
         els.launcher.addEventListener("click", () => state.open ? closePanel() : openPanel());
         els.close.addEventListener("click", closePanel);

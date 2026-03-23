@@ -39,6 +39,10 @@
     box-shadow: 0 22px 54px rgba(0,0,0,0.42);
 }
 
+.sunder-chatbot-panel[hidden] {
+    display: none !important;
+}
+
 .sunder-chatbot-panel__header {
     display: flex;
     align-items: center;
