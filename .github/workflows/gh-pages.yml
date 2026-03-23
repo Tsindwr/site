@@ -68,7 +68,7 @@ jobs:
           fi
 
       # Runs a single command using the runners shell
-      - name: Install MkDocs and plugins
+      - name: Install MkDocs, plugins, and chatbot build deps
         run: |
           pip install --upgrade pip
           pip install \
@@ -76,7 +76,13 @@ jobs:
             mkdocs-material \
             pymdown-extensions \
             mkdocs-obsidian-support-plugin \
-            mkdocs-roamlinks-plugin
+            mkdocs-roamlinks-plugin \
+            pyyaml
+
+      - name: Build chatbot knowledge bundle
+        run: |
+          python tools/chatbot/build_chatbot_index.py
+          ls -R public/chat
 
       - name: Build site
         run: mkdocs build
