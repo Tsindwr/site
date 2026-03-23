@@ -56,6 +56,7 @@
                     <div>
                         <div class="sunder-chatbot-panel__title">Sunder Assistant</div>
                         <div class="sunder-chatbot-panel__subtitle">Rules • Builder • Lore</div>
+<!--                        <div id="sunder-chatbot-llm-status" class="sunder-chatbot-panel__meta">Local model: off</div>-->
                     </div>
                 </div>
                 <button
@@ -136,6 +137,8 @@
     <script>
         window.SUNDER_BASE_URL = "{{ base_url }}";
         window.SUNDER_CHAT_BASE = "{{ base_url }}/chat";
+        // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
+        window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
     </script>
     {% if config.extra.sunder_version %}
         <script>

@@ -79,6 +79,7 @@ extra_javascript:
   - js/image-lightbox.js
   - js/profile.js
   - js/sunder-chatbot.js
+  - js/sunder-llm.js
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css

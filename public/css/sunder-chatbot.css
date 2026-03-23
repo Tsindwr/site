@@ -6,7 +6,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.55rem;
-    padding: 0.7rem 1rem;
+    padding: 0.3rem 0.5rem;
     border: none;
     border-radius: 999px;
     cursor: pointer;
@@ -18,18 +18,18 @@
 
 .sunder-chatbot-launcher__logo,
 .sunder-chatbot-panel__logo {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
 }
 
 .sunder-chatbot-panel {
     position: fixed;
     right: 1rem;
-    bottom: 5.2rem;
+    bottom: 4.2rem;
     z-index: 10021;
     width: min(420px, calc(100vw - 1rem));
-    height: min(72vh, 760px);
+    height: min(78vh, 760px);
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.9rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     background: linear-gradient(135deg, rgba(90,45,130,0.22), rgba(249,199,79,0.08));
 }
@@ -106,18 +106,26 @@
     margin-top: 0.55rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 0.35rem;
 }
 
 .sunder-chatbot-source {
     display: inline-flex;
     align-items: center;
-    padding: 0.15rem 0.55rem;
+    padding: 0.10rem 0.25rem;
     border-radius: 999px;
-    background: rgba(249,199,79,0.12);
+    background: rgba(249,199,79,0.42);
     color: var(--md-accent-fg-color);
-    font-size: 0.75rem;
+    font-size: 0.52rem;
+    line-height: 0.9;
     text-decoration: none;
+    white-space: normal;
+    text-wrap: balance;
+}
+
+.sunder-chatbot-source:hover {
+    background: rgba(249,199,79,0.47);
+    border: 1px solid rgba(249,199,79,0.67);
 }
 
 .sunder-chatbot-input {
@@ -204,16 +212,120 @@
     cursor: pointer;
 }
 
+.sunder-chatbot-msg--thinking {
+    position: relative;
+    overflow: hidden;
+}
+
+.sunder-chatbot-thinking {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    letter-spacing: 0.01em;
+}
+
+.sunder-chatbot-thinking::after {
+    content: "";
+    position: absolute;
+    top: -0.08rem;
+    bottom: -0.08rem;
+    left: -1.6rem;
+    width: 3.4rem;
+    transform: translateX(-120%);
+    background: linear-gradient(
+        90deg,
+        rgba(8, 12, 18, 0) 0%,
+        rgba(8, 12, 18, 0.42) 18%,
+        rgba(8, 12, 18, 0.82) 45%,
+        rgba(8, 12, 18, 0.96) 55%,
+        rgba(8, 12, 18, 0.82) 65%,
+        rgba(8, 12, 18, 0.42) 82%,
+        rgba(8, 12, 18, 0) 100%
+    );
+    animation: sunder-thinking-sweep 1.1s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes sunder-thinking-sweep {
+    0% {
+        transform: translateX(-0.6rem);
+    }
+    100% {
+        transform: translateX(4.6rem);
+    }
+}
+
+@media (max-width: 900px), (pointer: coarse) {
+    #sunder-chatbot-root {
+        display: none !important;
+    }
+}
+
 @media (max-width: 900px) {
-    .sunder-chatbot-panel {
-        left: 0.5rem;
-        right: 0.5rem;
-        bottom: 0.5rem;
-        width: auto;
-        height: min(82vh, 760px);
+    .sunder-chatbot-launcher {
+        right: 0.75rem;
+        bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+        padding: 0.35rem 0.45rem;
     }
 
-    .sunder-chatbot-launcher__label {
-        display: none;
+    .sunder-chatbot-panel {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: min(88dvh, 100dvh);
+        max-height: 100dvh;
+        border-radius: 1rem 1rem 0 0 ;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .sunder-chatbot-panel__header {
+        padding: 0.65rem 0.75rem;
+    }
+
+    .sunder-chatbot-messages {
+        padding: 0.75rem;
+        gap: 0.75rem;
+    }
+
+    .sunder-chatbot-msg {
+        max-width: 100%;
+        padding: 0.7rem 0.8rem;
+    }
+
+    .sunder-chatbot-input {
+        padding: 0.75rem 0.75rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    }
+
+    .sunder-chatbot-input__footer {
+        gap: 0.5rem;
+    }
+
+    .sunder-chatbot-modebutton {
+        padding: 0.4rem 0.65rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .sunder-chatbot-input__footer {
+        align-items: center;
+    }
+
+    .sunder-chatbot-textarea {
+        min-height: 5.25rem;
+        font-size: 16px; /* avoids iOS zoom */
+    }
+
+    #sunder-chatbot-send {
+        min-width: 6.25rem;
+        padding-inline: 1rem;
+    }
+
+    .sunder-chatbot-chip {
+        padding: 0.3rem 0.55rem;
+        font-size: 0.82rem;
     }
 }
