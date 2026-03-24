@@ -34,7 +34,7 @@ PUBLIC = ROOT / "public"
 CHAT = PUBLIC / "chat"
 CHAT.mkdir(parents=True, exist_ok=True)
 
-DOC_FOLDERS = ["core", "gameplay", "characters", "lore", "meta"]
+DOC_FOLDERS = ["core", "gameplay", "characters", "meta"]
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?(.*)\Z", re.DOTALL)
 MD_HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
@@ -49,8 +49,7 @@ HTML_TAG_RE = re.compile(r"</?[a-zA-Z0-9:-]+[^>]*>")
 MODE_BY_TOP_FOLDER = {
     "core": ["rules"],
     "gameplay": ["rules", "builder"],
-    "characters": ["rules", "builder", "lore"],
-    "lore": ["lore"],
+    "characters": ["rules", "builder"],
     "meta": []
 }
 

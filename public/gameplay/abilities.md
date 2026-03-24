@@ -228,8 +228,7 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | There    | +2     |
 | Far      | +3     |
 | Yonder   | +5     |
-If Movement is being added to an Attack Action, it requires an extra String. 
-
+If Movement is being added to a damaging Action, it requires an extra Enhancement. 
 ### Targets and Area
 
 | Targeting            | Strings | Enhancements |
