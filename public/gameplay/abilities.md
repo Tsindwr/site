@@ -77,7 +77,7 @@ When taking this Ability, choose one of your current [[Archetypes]]: this is you
 
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
 **Cost: 5 Strings**
-Taking an Upgrade allows a character to increment one of the following Stats by 1: +1 Mark, +1 to a [[potentials-and-resistance|Potential]] Score, +1 Knack, +1 Domain, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or [[resting|Long Rest]] Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.
+Taking an Upgrade allows a character to increment any of, but not limited to, the following Stats by 1: +1 Mark, +1 to a [[potentials-and-resistance|Potential]] Score, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or [[resting|Long Rest]] Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.
 
 <div class="domain"><p>Driven<span class="subtext"> - Stat</span></p></div>
 **Base Cost: 1 String** (1 Enhancement)
@@ -99,6 +99,14 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 - *Connect*: The bond between you and your Companion allows you to understand each other even if you do not share a language. You may also use a Surge to perceive through your Companion's senses. While perceiving in this way, you are insensate to your own body's senses.
 
 You may give this Ability a prerequisite of the [[archetypes|Summoner]] archetype (-2 [[experience|Strings]]).
+
+<div class="domain"><p>Extra Attack <span class="subtext">- Trait</span></p></div>
+**Cost**: 6 Strings (1 Enhancement)
+**Prerequisite**: Tier 2
+
+*General Trait*
+
+Once per turn, when you take a weapon or unarmed attack, you may take a reaction and make one additional weapon or unarmed attack.
 
 ### Anatomy of Custom Abilities
 
@@ -236,9 +244,9 @@ If Movement is being added to a damaging Action, it requires an extra Enhancemen
 | -------------------- | ------- | ------------ |
 | Single Target        | 0       | 0            |
 | +1 Additional Target | +1      | +1           |
-| Near AOE             | +2      | +1           |
-| Close AOE            | +4      | +1           |
-| Far AOE              | +6      | +2           |
+| Near AOE             | +1.5    | +1           |
+| Close AOE            | +2      | +1           |
+| Far AOE              | +3      | +2           |
 
 ### Conditions
 
@@ -381,7 +389,7 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 | One use per scene     | -5    |
 | Spend Stress          | -5    |
 | Narrative consequence | -5    |
-\* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing [[resolution-system|Riskiness]] on a Test to activate the Ability can only be applied when there is a Test requiredof either by default or through the purchased Caveat.
+\* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing [[resolution-system|Riskiness]] on a Test to activate the Ability can only be applied when there is a Test required of either by default or through the purchased Caveat.
 
 ### Spell Consequences
 

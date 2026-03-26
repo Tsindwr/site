@@ -24,7 +24,7 @@ The more [[damage|Stress]] a player accumulates, the more likely they are to fal
 **Fallout** is an accumulation of misfortune and heroic strain, providing an extra risk to initiating [[resolution-system|Tests]]. Fallout can be triggered in a few ways, including sources of damage and the rolling of [[resolution-system|Tests]]:
 
 1. When a character would take [[damage|Stress]] in a [[potentials-and-resistance|Potential Track]] that does not contain enough free slots and would result in an overflow, this triggers Fallout.
-2. If a character would spend a Resistance in a [[potentials-and-resistance|Potential Track]] that does not contain enough free slots and would result in an overflow, this triggers Severe Fallout as the character attempts to push past their own limits. Doing this grants [[resolution-system|Advantage]] on their next roll and allows them to gain a Beat.
+2. If a character would spend a Resistance in a [[potentials-and-resistance|Potential Track]] that does not contain enough free slots and would result in an overflow, this triggers Severe Fallout[^1] as the character attempts to push past their own limits. Doing this grants [[resolution-system|Advantage]] on their next roll and allows them to gain a Beat.
 3. Rolling a Mixed Success on a Test results in Narrative Fallout.
 4. Rolling a Failure results in Situational Fallout.
 5. Rolling a [[resolution-system|Miff]] results in one Fallout level higher than the default Situational Fallout.
@@ -55,3 +55,8 @@ Depending on the context of the Fallout, Fallout can take different forms or int
 **Major Fallout** can be a result of a [[resolution-system|Miff]], and causes either [[equipment|Equipment Fallout]], 3 [[damage|Marks]], Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant [[potentials-and-resistance|Stress Track]]. 
 
 **Severe Fallout** can only be caused by [[Abilities]], and often causes a Major Condition with 3 [[damage|Marks]] or a number of [[damage|Marks]] equal to the number of [[damage|Stress]] points applied, then resetting the relevant [[potentials-and-resistance|Stress Track]].
+
+> [!important]+ GM Discretion
+> Determining the exact outcome of Fallout can be interpreted by the GM based on the narrative situation. Your GM may be open to increasing the duration of a Condition applied in a lower Fallout outcome, thus considering it as a higher level of Fallout (e.g. a Major Condition that lasts Until a Long Rest or even Until Dispelled may be considered Severe Fallout instead of Major Fallout).
+
+[^1]: Since there is no Stress overflow, triggering Severe Fallout in this way only allows for the option that causes the character to take 3 Marks and a Major Condition, or another option determined by GM discretion.

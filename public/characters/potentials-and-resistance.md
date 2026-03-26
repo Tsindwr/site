@@ -18,7 +18,7 @@ aliases:
 ---
 # Potentials and Resistance
 ## You have much potential, Adventurer
-<h6>Potential Scores</h6></h6>
+<h6>Potential Scores</h6>
 
 Each creature is made up of a set of 8 scores called **Potentials**. Each of these Potentials represent a character's capacity to success relating to a given category. Potentials are split between Physical and Mental: Physical Potentials relate to a creature's bodily and physical capabilities, whereas Mental Potentials relate to a creature's intellectual and mental capabilities. The 8 different Potentials are as follows:
 
