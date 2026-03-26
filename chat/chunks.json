@@ -2262,7 +2262,7 @@
       "Temporary Increases"
     ],
     "anchor": "temporary-increases",
-    "text": "Increase your stat by 1 for the Ability's duration. | Stat | Cost | | ---------------------- | ---------- | | Mark | +2 Strings | | Potential | +2 Strings | | Proficiency | +1 String | | 1 Test's Success Level | +5 Beats | | Recover | String | | --------------- | ------ | | Stress | +1 | | Resistance | +2 | | Minor Condition | +2 | | Major Condition | +3 | | Mark | +4 | | Clear | String | Enhancements | | ----------------------- | ------ | ------------ | | Potential's Stress | +2 | 0 | | Potential's Resistances | +4 | +1 | ---",
+    "text": "Increase your stat by 1 for the Ability's duration. | Stat | Cost | | ---------------------- | ---------- | | Mark | +2 Strings | | Potential | +2 Strings | | Proficiency/Advantage | +1 String | | 1 Test's Success Level | +5 Beats | | Recover | String | | --------------- | ------ | | Stress | +1 | | Resistance | +2 | | Minor Condition | +2 | | Major Condition | +3 | | Mark | +4 | | Clear | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Potential's Stress | +4 | 0 | | Potential's Resistances | +6 | +1 | ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2441,7 +2441,7 @@
       "Durations"
     ],
     "anchor": "durations",
-    "text": "If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. | \\* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it. You may spend a Resistance point in the relevant Potential to maintain concentration after Fallout. ---",
+    "text": "If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. | \\* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it. You may spend a Resistance point in the relevant Potential to maintain concentration after Fallout. If you have the option to Concentrate on multiple different Abilities, you can only Concentrate on 1 at a time. Ending Concentration means cutting the Ability's duration short, unless the Ability is a Trait or the duration is Until Dispelled. ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2584,7 +2584,7 @@
       "String-Level Caveats"
     ],
     "anchor": "string-level-caveats",
-    "text": "| Constraint | Strings | | ------------------------------------------------------ | ------- | | Narrow trigger or Components required | -1 | | Primarily narrative ability | -1 | | Spend Resistance | -1 | | Mechanical consequence | -1 | | Severe narrative consequence | -2 | | Prerequisite | -2 | \\* Prerequisites can be Abilities, Archetype Levels, or Origin choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite. A prerequisite is only considered used when it decreases the String cost of an Ability.",
+    "text": "| Constraint | Strings | | ---------------------------- | ------- | | Narrow trigger | -1 | | Components required | -1 | | Primarily narrative ability | -1 | | Spend Resistance | -1 | | Mechanical consequence | -1 | | Severe narrative consequence | -2 | | Prerequisite | -2 | \\* Prerequisites can be Abilities, Archetype Levels, or Origin choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite. A prerequisite is only considered used when it decreases the String cost of an Ability.",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -5128,7 +5128,7 @@
       "Knacks"
     ],
     "anchor": "knacks",
-    "text": "A character may also be further experienced in an activity more specific than one of the 24 Skills. These are represented by Knacks, and allow players to add an additional Volatility Die for each Knack that is applicable to the current D20 Test. **Knacks** are unique subcategories of skills or subjects that a character specializes in. There is not a defined list of available Knacks in Sunder, but some examples may be: *acrobatics, Draconian history, horseback riding, or woodcarving.* If a Test has more than one Knack pertinent to its goal (e.g. determining the original purpose of a wood-carved statue from the Gnosichron era), then the player adds a Volatility Die to their Volatility Pool per Knack applicable to the Test.",
+    "text": "A character may also be further experienced in an activity more specific than one of the 24 Skills. These are represented by Knacks, and allow players to add an additional Volatility Die for each Knack that is applicable to the current D20 Test. **Knacks** are unique subcategories of skills or subjects that a character specializes in. There is not a defined list of available Knacks in Sunder, but some topics may include: *acrobatics, Draconian history, horseback riding, or woodcarving.* Naming a Knack is an important part of its application. Knack titles are intended to be idiomatic If a Test has more than one Knack pertinent to its goal (e.g. determining the original purpose of a wood-carved statue from the Gnosichron era), then the player adds a Volatility Die to their Volatility Pool per Knack applicable to the Test.",
     "aliases": [
       "Proficiency",
       "Knacks",
