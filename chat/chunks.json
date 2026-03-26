@@ -814,7 +814,7 @@
       "Levels of Fallout"
     ],
     "anchor": "levels-of-fallout",
-    "text": "1. Narrative Fallout - immediate consequences of failing to succeed in a certain task. 2. Minor Fallout - consequence of a Risky Test, or the overflow result of 1-2 Stress applied 3. Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 Stress applied 4. Severe Fallout - consequence of a Desperate Test, or the overflow result 6+ Stress applied Minor Fallout is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, Equipment Stress, or 1 Mark, then resetting the relevant Stress Track. Major Fallout can be a result of a Miff, and causes either Equipment Fallout, 3 Marks, Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant Stress Track. Severe Fallout can only be caused by Abilities, and often causes a Major Condition with 3 Marks or a number of Marks equal to the number of Stress points applied, then resetting the relevant Stress Track.",
+    "text": "1. Narrative Fallout - immediate consequences of failing to succeed in a certain task. 2. Minor Fallout - consequence of a Risky Test, or the overflow result of 1-2 Stress applied 3. Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 Stress applied 4. Severe Fallout - consequence of a Desperate Test, or the overflow result 6+ Stress applied **Minor Fallout** is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, Equipment Stress, or 1 Mark, then resetting the relevant Stress Track. **Major Fallout** can be a result of a Miff, and causes either Equipment Fallout, 3 Marks, Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant Stress Track. **Severe Fallout** can only be caused by Abilities, and often causes a Major Condition with 3 Marks or a number of Marks equal to the number of Stress points applied, then resetting the relevant Stress Track.",
     "aliases": [
       "Stress",
       "Fallout",
@@ -2262,7 +2262,7 @@
       "Temporary Increases"
     ],
     "anchor": "temporary-increases",
-    "text": "Increase your stat by 1 for the Ability's duration. | Stat | Cost | | ---------------------- | ---------- | | Mark | +2 Strings | | Potential | +2 Strings | | Proficiency/Advantage | +1 String | | 1 Test's Success Level | +5 Beats | | Recover | String | | --------------- | ------ | | Stress | +1 | | Resistance | +2 | | Minor Condition | +2 | | Major Condition | +3 | | Mark | +4 | | Clear | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Potential's Stress | +4 | 0 | | Potential's Resistances | +6 | +1 | ---",
+    "text": "Increase your stat by 1 for the Ability's duration. | Stat | Cost | | ---------------------- | ---------- | | Mark | +2 Strings | | Potential | +2 Strings | | Skill Proficiency | +1 String | | Advantage | +1 String | | Knack | +2 Strings | | Domain | +4 Strings | | 1 Test's Success Level | +5 Beats | | Recover | Strings | | --------------- | ------- | | Stress | +1 | | Resistance | +2 | | Minor Condition | +2 | | Major Condition | +3 | | Mark | +4 | | Clear | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Potential's Stress | +4 | 0 | | Potential's Resistances | +6 | +1 | ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2656,7 +2656,7 @@
       "Spell Consequences"
     ],
     "anchor": "spell-consequences",
-    "text": "Spells must always have a Consequence. If the Consequence is more severe, it reduces the purchase cost more. | Consequence | Cost Reduction | | ----------------------- |----------------| | Narrative Fallout | -1 Beat | | Minor Fallout | -5 Beats | | Major Fallout | -2 Strings | | Severe Fallout | -5 Strings | | Test required of target | *No reduction* | ---",
+    "text": "Spells must always have a Consequence. If the Consequence is more severe, it reduces the purchase cost more. | Consequence | Cost Reduction | | ----------------------- |----------------| | Narrative Fallout | -1 Beat | | Minor Fallout | -5 Beats | | Major Fallout | -2 Strings | | Severe Fallout | -4 Strings | | Test required of target | *No reduction* | ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2747,7 +2747,7 @@
       "Action Tests"
     ],
     "anchor": "action-tests",
-    "text": "If an Action requires a test from the character or its target, then the success levels are defined as follows: - On a Test made by the character against the target, any Test that result in Mixed or higher is a success. On a fail, take a Stress instead of Minor Fallout. - On a Test made by the target to resist a character, any Test that does results in Success or higher is a success. - Making a ranged attack at a target while a conscious adversary is within Here of you is considered to have Disadvantage.",
+    "text": "If an Action requires a test from the character or its target, then the success levels are defined as follows: - On a Test made by the character against the target, any Test that result in Mixed or higher is a success. - On a Test made by the target to resist a character, any Test that does results in Success or higher is a success. - Making a ranged attack at a target while a conscious adversary is within Here of you is considered to have Disadvantage.",
     "aliases": [
       "General Actions",
       "Movement",
