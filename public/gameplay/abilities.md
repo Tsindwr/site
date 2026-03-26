@@ -392,7 +392,7 @@ Spells must always have a Consequence. If the Consequence is more severe, it red
 | Narrative Fallout       | -1 Beat        |
 | Minor Fallout           | -5 Beats       |
 | Major Fallout           | -2 Strings     |
-| Severe Fallout          | -5 Strings     |
+| Severe Fallout          | -4 Strings     |
 | Test required of target | *No reduction* |
 
 ---
