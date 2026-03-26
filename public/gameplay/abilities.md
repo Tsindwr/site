@@ -258,7 +258,7 @@ Increase your stat by 1 for the Ability's duration.
 | ---------------------- | ---------- |
 | Mark                   | +2 Strings |
 | Potential              | +2 Strings |
-| Proficiency            | +1 String  |
+| Proficiency/Advantage  | +1 String  |
 | 1 Test's Success Level | +5 Beats   |
 
 | Recover         | String |
@@ -269,10 +269,10 @@ Increase your stat by 1 for the Ability's duration.
 | Major Condition | +3     |
 | Mark            | +4     |
 
-| Clear                   | String | Enhancements |
-| ----------------------- | ------ | ------------ |
-| Potential's Stress      | +2     | 0            |
-| Potential's Resistances | +4     | +1           |
+| Clear                   | Strings | Enhancements |
+| ----------------------- | ------- | ------------ |
+| Potential's Stress      | +4      | 0            |
+| Potential's Resistances | +6      | +1           |
 
 
 ---
@@ -315,7 +315,7 @@ Durations are priced by how long they remain active. Durations can either refer 
 | Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                               |
 | Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                    |
 | Concentration\*           | -X      | -Y           | Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. |
-\* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]].
+\* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]]. If you have the option to Concentrate on multiple different Abilities, you can only Concentrate on 1 at a time. Ending Concentration means cutting the Ability's duration short, unless the Ability is a Trait or the duration is Until Dispelled.
 
 ---
 ## Companion Abilities
@@ -357,14 +357,15 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 
 ### String-Level Caveats
 
-| Constraint                                             | Strings |
-| ------------------------------------------------------ | ------- |
-| Narrow trigger <strong>or</strong> Components required | -1      |
-| Primarily narrative ability                            | -1      |
-| Spend Resistance                                       | -1      |
-| Mechanical consequence                                 | -1      |
-| Severe narrative consequence                           | -2      |
-| Prerequisite                                           | -2      |
+| Constraint                   | Strings |
+| ---------------------------- | ------- |
+| Narrow trigger               | -1      |
+| Components required          | -1      |
+| Primarily narrative ability  | -1      |
+| Spend Resistance             | -1      |
+| Mechanical consequence       | -1      |
+| Severe narrative consequence | -2      |
+| Prerequisite                 | -2      |
 \* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite. A prerequisite is only considered used when it decreases the String cost of an Ability.
 
 ### Beat-Level Caveats
