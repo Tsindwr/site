@@ -50,4 +50,8 @@ Depending on the context of the Fallout, Fallout can take different forms or int
 3. Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 [[damage|Stress]] applied
 4. Severe Fallout - consequence of a Desperate Test, or the overflow result 6+ [[damage|Stress]] applied
 
-Minor Fallout is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, [[equipment|Equipment Stress]], or 1 Mark, then resetting the relevant [[potentials-and-resistance|Stress Track]]. Major Fallout can be a result of a [[resolution-system|Miff]], and causes either [[equipment|Equipment Fallout]], 3 [[damage|Marks]], Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant [[potentials-and-resistance|Stress Track]]. Severe Fallout can only be caused by [[Abilities]], and often causes a Major Condition with 3 [[damage|Marks]] or a number of [[damage|Marks]] equal to the number of [[damage|Stress]] points applied, then resetting the relevant [[potentials-and-resistance|Stress Track]].
+**Minor Fallout** is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, [[equipment|Equipment Stress]], or 1 Mark, then resetting the relevant [[potentials-and-resistance|Stress Track]]. 
+
+**Major Fallout** can be a result of a [[resolution-system|Miff]], and causes either [[equipment|Equipment Fallout]], 3 [[damage|Marks]], Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant [[potentials-and-resistance|Stress Track]]. 
+
+**Severe Fallout** can only be caused by [[Abilities]], and often causes a Major Condition with 3 [[damage|Marks]] or a number of [[damage|Marks]] equal to the number of [[damage|Stress]] points applied, then resetting the relevant [[potentials-and-resistance|Stress Track]].

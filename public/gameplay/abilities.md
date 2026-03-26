@@ -229,6 +229,7 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | Far      | +3     |
 | Yonder   | +5     |
 If Movement is being added to a damaging Action, it requires an extra Enhancement. 
+
 ### Targets and Area
 
 | Targeting            | Strings | Enhancements |
@@ -258,16 +259,19 @@ Increase your stat by 1 for the Ability's duration.
 | ---------------------- | ---------- |
 | Mark                   | +2 Strings |
 | Potential              | +2 Strings |
-| Proficiency/Advantage  | +1 String  |
+| Skill Proficiency      | +1 String  |
+| Advantage              | +1 String  |
+| Knack                  | +2 Strings |
+| Domain                 | +4 Strings |
 | 1 Test's Success Level | +5 Beats   |
 
-| Recover         | String |
-| --------------- | ------ |
-| Stress          | +1     |
-| Resistance      | +2     |
-| Minor Condition | +2     |
-| Major Condition | +3     |
-| Mark            | +4     |
+| Recover         | Strings |
+| --------------- | ------- |
+| Stress          | +1      |
+| Resistance      | +2      |
+| Minor Condition | +2      |
+| Major Condition | +3      |
+| Mark            | +4      |
 
 | Clear                   | Strings | Enhancements |
 | ----------------------- | ------- | ------------ |
@@ -388,7 +392,7 @@ Spells must always have a Consequence. If the Consequence is more severe, it red
 | Narrative Fallout       | -1 Beat        |
 | Minor Fallout           | -5 Beats       |
 | Major Fallout           | -2 Strings     |
-| Severe Fallout          | -5 Strings     |
+| Severe Fallout          | -4 Strings     |
 | Test required of target | *No reduction* |
 
 ---
