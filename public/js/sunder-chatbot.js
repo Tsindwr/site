@@ -606,7 +606,7 @@
     function synthesizeAnswer(query, results, mode) {
         if (!results.length) {
             return {
-                text: "I couldn't find a strong match in the current Sunder docs for that. Try a more specific rule term, action name, or lore noun.",
+                text: "I couldn't find a strong match in the current Sunder docs for that. Try a more specific rule term or action name.",
                 sources: []
             };
         }
