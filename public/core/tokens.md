@@ -36,18 +36,20 @@ Other ways of earning Flavor Tokens include ways you can interact with the world
 
 Spending Flavor Tokens allows players to take guided storytelling actions and even bring other players into the storytelling moment. These are just a few ways to spend Flavor Tokens; you may receive alternative ways to do so when purchasing new [[Abilities]] in the [[abilities|Experience Market]]. You are also allowed to offer a number of Flavor Tokens to another player to propose a turn in the story. Tokens given in this way are transferred to the recipient player.
 
-| Cost (Tokens) | Name     | Effect                                                                                                                             |
-| ------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1             | Drive    | Increase the success level of a failed roll by flavoring the cost.                                                                 |
-| 1             | Realize  | Add an element of the scene, describing in detail the object or characteristic.                                                    |
-| 1             | Inspire  | Give someone within Yonder advantage as a reaction by describing how you helped previously or how they find strength to do well\*. |
-| 3             | Listen   | Reveal something hidden about a person, and ask them what it is\*.                                                                 |
-| 3             | Bond     | Offer someone the chance to connect with you on a personal level, explain what they see in you\*.                                  |
-| 3             | Remember | Know something important about the place you're in, and tell it to the table.                                                      |
-| 5             | Strain   | Take an entire short rest's worth of downtime (no other actions) to stretch the limits of an Ability.                              |
-| 5             | Pry      | Find what someone needs to give them a chance to change fundamentally, ask them what it is\*.                                      |
-| 5             | Pray     | Listen to the shared wisdom of the spirits, and ask the table what they tell you.                                                  |
-\* Any player involved in the roleplay during the moments of this Flavor ability gains a Beat.
+Any player involved in the roleplay during the moments of this Flavor ability gains a Beat.
+
+| Cost (Tokens) | Name     | Effect                                                                                                                                                             |
+| ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1             | Drive    | Grant yourself a Reroll as a reaction by flavoring the cost.\*                                                                                                     |
+| 1             | Realize  | Add an element of the scene, describing in detail the object or characteristic. You may **Reroll** your next Test relevant to the new element.\*                   |
+| 1             | Inspire  | Give someone within Yonder a **Reroll** as a reaction by describing how you helped previously or how they find strength to do well\*.                              |
+| 3             | Listen   | Reveal something hidden about a person, and ask them what it is. You may **Reroll** your next Test relevant to the given response.\*                               |
+| 3             | Bond     | Offer someone the chance to connect with you on a personal level, explain what they see in you.                                                                    |
+| 3             | Remember | Know something important about the place you're in, and tell it to the table. You may **Reroll** your next Test relevant to the information.\*                     |
+| 5             | Strain   | Take an entire short rest's worth of downtime (no other actions) to stretch the limits of an Ability. You may **Reroll** your next Test relevant to the Ability.\* |
+| 5             | Pry      | Find what someone needs to give them a chance to change fundamentally, ask them what it is.                                                                        |
+| 5             | Pray     | Listen to the shared wisdom of the spirits, and ask the table what they tell you. You may **Reroll** your next Test relevant to the given advice.\*                |
+\*Some Flavor Actions call for a **Reroll**, which can be done by rerolling the initial D20 or by rolling an additional D20 and keeping the more successful result.
 
 ## The Party Loom
 
