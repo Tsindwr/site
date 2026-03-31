@@ -76,8 +76,19 @@ The Dexterity Ability allows a character to use their Finesse [[potentials-and-r
 When taking this Ability, choose one of your current [[Archetypes]]: this is your prerequisite. Create a name for your *Discipline* (e.g. Chi, Psionics, Vis, etc.). You have a number of *Discipline* Points (a special kind of [[potentials-and-resistance|Resistance]]) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a [[potentials-and-resistance|Resistance]] (-1 String) and having a prerequisite (-2 [[experience|Strings]]). Your number of *Discipline* Points is considered a permanent Stat.
 
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
-**Cost: 5 Strings**
-Taking an Upgrade allows a character to increment any of, but not limited to, the following Stats by 1: +1 Mark, +1 to a [[potentials-and-resistance|Potential]] Score, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or [[resting|Long Rest]] Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.
+**Cost: 4 Strings**
+Taking an Upgrade allows a character to increase different Stat values. Different types of Stats have varying costs. Choose any of, but not limited to, the following stats to increase and pay the additional cost dictated by the following table:
+
+| Stat                           | Cost (Strings) |
+| ------------------------------ | -------------- |
+| Ability Uses/Charges           | 1              |
+| Discipline Pool                | 1              |
+| Potential Score                | 2              |
+| Spell Limits                   | 2              |
+| Enhancement Limit, Total       | 2              |
+| Enhancement Limit, Per Ability | 3              |
+| Marks                          | 3              |
+
 
 <div class="domain"><p>Driven<span class="subtext"> - Stat</span></p></div>
 **Base Cost: 1 String** (1 Enhancement)
@@ -196,6 +207,8 @@ When altering the Reset Condition of the Flipside of a custom Ability, pay the d
 | Weapon    | +1      | 0            |
 | Initial\* | +1      | 0            |
 \* The initial amount of damage will always be the [[volatility-and-perks|Volatility Die]] that corresponds to the Spellcasting or Skill Test's [[potentials-and-resistance|Potential]]. If it is an AOE effect, it associates with either the [[Spellcasting]] [[potentials-and-resistance|Potential]] if it is a spell, or the primary [[potentials-and-resistance|Potential]] chosen when acquiring the Archetype this Ability is for. 
+
+Initial damage and base weapon damage can only ever be equal to 1DX. You may allow for an increase to the number of dice rolled for the total effect using the Primed effect, but this increase will be limited to a number of dice equal to your Tier. To actually increase the damage of an Ability, you must purchase additional damage dice. To increase the additional damage beyond your Tier, you must purchase an additional Primed effect.
 
 | Increasing Damage       | Strings | Enhancements |
 | ----------------------- | ------- | ------------ |
@@ -316,17 +329,17 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 #### Durations
 
-| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                              |
-| ------------------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                                  |
-| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                                 |
-| 1 hour                    | +2      | +1           | Travel / downtime impact                                                                                                                                                                                           |
-| Until Long Rest           | +4      | +1           | Lasts until you begin a Long Rest                                                                                                                                                                                  |
-| Until Dispelled           | 0       | +2           | Until Successful action is taken by another creature to end the condition.                                                                                                                                         |
-| Sequence Die (Volatility) | +2      | +1           | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                          |
-| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                               |
-| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                    |
-| Concentration\*           | -X      | -Y           | Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. |
+| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                     |
+| ------------------------- | ------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                         |
+| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                        |
+| 1 hour                    | +2      | +1           | Travel / downtime impact                                                                                                                                                                                  |
+| Until Long Rest           | +4      | +1           | Lasts until you begin a Long Rest                                                                                                                                                                         |
+| Until Dispelled           | 0       | +2           | Until Successful action is taken by another creature to end the condition.                                                                                                                                |
+| Sequence Die (Volatility) | +2      | +1           | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                 |
+| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                      |
+| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                           |
+| Concentration\*           | -X      | -Y           | Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may subtract 2 Strings spent on its Duration, otherwise you may subtract 1 Enhancement. |
 \* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]]. If you have the option to Concentrate on multiple different Abilities, you can only Concentrate on 1 at a time. Ending Concentration means cutting the Ability's duration short, unless the Ability is a Trait or the duration is Until Dispelled. Switching Concentrations counts as a Surge.
 
 ---
@@ -334,10 +347,10 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. This can be done through modifiers to your custom Abilities, or through standalone Abilities that enhance your bond. All modifiers require that you first have the Companion Ability.
 
-| Modification    | Description                                                                                                      | Strings | Enhancements |
-| --------------- | ---------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
-| Agency          | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself. | +1      | 0            |
-| Synchronization | When you activate this ability, your companion may also take this action as a reaction.                          | 0       | +1           |
+| Modification    | Description                                                                                                                                                                                                     | Strings | Enhancements |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
+| Agency          | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself.                                                                                                | +1      | 0            |
+| Synchronization | When you activate this ability, your companion may also take this action as a reaction. You may also choose not to activate this ability through yourself narratively, but instead just through your Companion. | 0       | +1           |
 
 ### General Companion Abilities
 
@@ -349,7 +362,7 @@ You may mount your companion if it is a size larger than you. While mounted, you
 <div class="domain"><p>Presence<span class="subtext"> - Stat</span></p></div>
 **Cost: 5 Strings**
 **Prerequisite: Companion**
-Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.
+Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Your Familiar has separate Volatility Dice from you, and must be assigned Perks of its own. It starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.
 
 <div class="domain"><p>Specialization<span class="subtext"> - Stat</span></p></div>
 **Cost: 2 Strings**
