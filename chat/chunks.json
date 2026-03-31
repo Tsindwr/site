@@ -173,7 +173,7 @@
       "Equipment Properties"
     ],
     "anchor": "equipment-properties",
-    "text": "Some pieces of equipment have unique properties that alter their stats. | Property | Description | | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | Durability *X* | This equipment can take *X* Stress before triggering Fallout on an overflow. | | Tough | This equipment is not effected by Equipment Fallout that was triggered by Minor Fallout. | | Fragile | When this equipment takes Fallout, it is destroyed, and requires new materials and crafting time to be restored in any way. | | **Weapons** | | | Damage *DX*/*P* | Attacks made with this weapon deal a *DX* of damage in the targets *P* Potential. | | Ranged (*Distance*) | Attacks with this weapon have a range specified by *Distance*. Attacks made against creatures outside of this range have disadvantage.",
+    "text": "Some pieces of equipment have unique properties that alter their stats. | Property | Description | | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | Durability *X* | This equipment can take *X* Stress before triggering Fallout on an overflow. | | Tough | This equipment is not effected by Equipment Fallout that was triggered by Minor Fallout. | | Fragile | When this equipment takes Fallout, it is destroyed, and requires new materials and crafting time to be restored in any way. | | **Weapons** | | | Damage *DX*/*P* | Attacks made with this weapon deal a *DX* of damage in the target's *P* Potential. | | Ranged (*Distance*) | Attacks with this weapon have a range specified by *Distance*. Attacks made against creatures outside of this range have disadvantage.",
     "aliases": [
       "Weapons",
       "Armor",
@@ -912,7 +912,7 @@
       "Token Spending Options"
     ],
     "anchor": "token-spending-options",
-    "text": "Spending Flavor Tokens allows players to take guided storytelling actions and even bring other players into the storytelling moment. These are just a few ways to spend Flavor Tokens; you may receive alternative ways to do so when purchasing new Abilities in the Experience Market. You are also allowed to offer a number of Flavor Tokens to another player to propose a turn in the story. Tokens given in this way are transferred to the recipient player. | Cost (Tokens) | Name | Effect | | ------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- | | 1 | Drive | Increase the success level of a failed roll by flavoring the cost. | | 1 | Realize | Add an element of the scene, describing in detail the object or characteristic. | | 1 | Inspire | Give someone within Yonder advantage as a reaction by describing how you helped previously or how they find strength to do well\\*. | | 3 | Listen | Reveal something hidden about a person, and ask them what it is\\*.",
+    "text": "Spending Flavor Tokens allows players to take guided storytelling actions and even bring other players into the storytelling moment. These are just a few ways to spend Flavor Tokens; you may receive alternative ways to do so when purchasing new Abilities in the Experience Market. You are also allowed to offer a number of Flavor Tokens to another player to propose a turn in the story. Tokens given in this way are transferred to the recipient player. Any player involved in the roleplay during the moments of this Flavor ability gains a Beat. | Cost (Tokens) | Name | Effect | | ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | | 1 | Drive | Grant yourself a Reroll as a reaction by flavoring the cost.\\* | | 1 | Realize | Add an element of the scene, describing in detail the object or characteristic.",
     "aliases": [
       "Flavor Tokens",
       "Flavor Actions",
@@ -938,7 +938,33 @@
       "Token Spending Options"
     ],
     "anchor": "token-spending-options",
-    "text": "| | 3 | Bond | Offer someone the chance to connect with you on a personal level, explain what they see in you\\*. | | 3 | Remember | Know something important about the place you're in, and tell it to the table. | | 5 | Strain | Take an entire short rest's worth of downtime (no other actions) to stretch the limits of an Ability. | | 5 | Pry | Find what someone needs to give them a chance to change fundamentally, ask them what it is\\*. | | 5 | Pray | Listen to the shared wisdom of the spirits, and ask the table what they tell you. | \\* Any player involved in the roleplay during the moments of this Flavor ability gains a Beat.",
+    "text": "You may **Reroll** your next Test relevant to the new element.\\* | | 1 | Inspire | Give someone within Yonder a **Reroll** as a reaction by describing how you helped previously or how they find strength to do well\\*. | | 3 | Listen | Reveal something hidden about a person, and ask them what it is. You may **Reroll** your next Test relevant to the given response.\\* | | 3 | Bond | Offer someone the chance to connect with you on a personal level, explain what they see in you. | | 3 | Remember | Know something important about the place you're in, and tell it to the table. You may **Reroll** your next Test relevant to the information.\\* | | 5 | Strain | Take an entire short rest's worth of downtime (no other actions) to stretch the limits of an Ability. You may **Reroll** your next Test relevant to the Ability.\\* | | 5 | Pry | Find what someone needs to give them a chance to change fundamentally, ask them what it is. | | 5 | Pray | Listen to the shared wisdom of the spirits, and ask the table what they tell you.",
+    "aliases": [
+      "Flavor Tokens",
+      "Flavor Actions",
+      "Spirit Tokens",
+      "Loom",
+      "Party Level",
+      "Story Checkpoints",
+      "Loom Boons",
+      "Tokens & The Loom",
+      "Token Spending Options"
+    ],
+    "tags": [
+      "rules"
+    ]
+  },
+  "core/tokens::2:2": {
+    "pageTitle": "Tokens & The Loom",
+    "url": "/site/core/tokens/#token-spending-options",
+    "heading": "Token Spending Options",
+    "headingPath": [
+      "Tokens & The Loom",
+      "Flavor Tokens",
+      "Token Spending Options"
+    ],
+    "anchor": "token-spending-options",
+    "text": "You may **Reroll** your next Test relevant to the given advice.\\* | \\*Some Flavor Actions call for a **Reroll**, which can be done by rerolling the initial D20 or by rolling an additional D20 and keeping the more successful result.",
     "aliases": [
       "Flavor Tokens",
       "Flavor Actions",
@@ -1698,7 +1724,7 @@
       "General Abilities"
     ],
     "anchor": "general-abilities",
-    "text": "You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a Resistance (-1 String) and having a prerequisite (-2 Strings). Your number of *Discipline* Points is considered a permanent Stat. Upgrade - Stat **Cost: 5 Strings** Taking an Upgrade allows a character to increment any of, but not limited to, the following Stats by 1: +1 Mark, +1 to a Potential Score, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or Long Rest Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit. Driven - Stat **Base Cost: 1 String** (1 Enhancement) Purchasing new Goals allows a character to have new sources of Experience Points, but these Goals must have a narrative connection to your character's story.",
+    "text": "You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a Resistance (-1 String) and having a prerequisite (-2 Strings). Your number of *Discipline* Points is considered a permanent Stat. Upgrade - Stat **Cost: 4 Strings** Taking an Upgrade allows a character to increase different Stat values. Different types of Stats have varying costs. Choose any of, but not limited to, the following stats to increase and pay the additional cost dictated by the following table: | Stat | Cost (Strings) | | ------------------------------ | -------------- | | Ability Uses/Charges | 1 | | Discipline Pool | 1 | | Potential Score | 2 | | Spell Limits | 2 | | Enhancement Limit, Total | 2 | | Enhancement Limit, Per Ability | 3 | | Marks | 3 | Driven - Stat **Base Cost: 1 String** (1 Enhancement) Purchasing new Goals allows a character to have new sources of Experience Points, but these Goals must have a narrative connection to your character's story.",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2062,7 +2088,44 @@
       "Damage"
     ],
     "anchor": "damage",
-    "text": "| Damage | Strings | Enhancements | | --------- | ------- | ------------ | | Weapon | +1 | 0 | | Initial\\* | +1 | 0 | \\* The initial amount of damage will always be the Volatility Die that corresponds to the Spellcasting or Skill Test's Potential. If it is an AOE effect, it associates with either the Spellcasting Potential if it is a spell, or the primary Potential chosen when acquiring the Archetype this Ability is for. | Increasing Damage | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Primed for increase | 0 | +1 | | +1dX to Single Target\\* | +1 | 0 | | +1dX to AOE\\* | +2 | 0 | \\* X is the Die type decided by the Initial damage or the weapon damage Die.",
+    "text": "| Damage | Strings | Enhancements | | --------- | ------- | ------------ | | Weapon | +1 | 0 | | Initial\\* | +1 | 0 | \\* The initial amount of damage will always be the Volatility Die that corresponds to the Spellcasting or Skill Test's Potential. If it is an AOE effect, it associates with either the Spellcasting Potential if it is a spell, or the primary Potential chosen when acquiring the Archetype this Ability is for. Initial damage and base weapon damage can only ever be equal to 1DX. You may allow for an increase to the number of dice rolled for the total effect using the Primed effect, but this increase will be limited to a number of dice equal to your Tier. To actually increase the damage of an Ability, you must purchase additional damage dice. To increase the additional damage beyond your Tier, you must purchase an additional Primed effect.",
+    "aliases": [
+      "Experience Market",
+      "Stats",
+      "Abilities",
+      "Focus",
+      "Flipside",
+      "Cards",
+      "Enhancements",
+      "Caveats",
+      "Range",
+      "Base Mode",
+      "Amplified Mode",
+      "Distance",
+      "Narrative Weight",
+      "Duration",
+      "Action Cards",
+      "Action Card",
+      "Character Abilities and Stats",
+      "Effect Package Costs",
+      "Damage"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/abilities::16:1": {
+    "pageTitle": "Character Abilities and Stats",
+    "url": "/site/gameplay/abilities/#damage",
+    "heading": "Damage",
+    "headingPath": [
+      "Character Abilities and Stats",
+      "Effect Package Costs",
+      "Damage"
+    ],
+    "anchor": "damage",
+    "text": "| Increasing Damage | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Primed for increase | 0 | +1 | | +1dX to Single Target\\* | +1 | 0 | | +1dX to AOE\\* | +2 | 0 | \\* X is the Die type decided by the Initial damage or the weapon damage Die.",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2429,7 +2492,7 @@
       "Durations"
     ],
     "anchor": "durations",
-    "text": "| Duration | Strings | Enhancements | Notes | | ------------------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | | 1 round | 0 | 0 | Until the start of your next turn | | 1 minute/Scene | +2 | 0 | Scene-level impact | | 1 hour | +2 | +1 | Travel / downtime impact | | Until Long Rest | +4 | +1 | Lasts until you begin a Long Rest | | Until Dispelled | 0 | +2 | Until Successful action is taken by another creature to end the condition. | | Sequence Die (Volatility) | +2 | +1 | Use the user's Volatility Die in the relevant Potential for the Sequence. | | Sequence Die (1d4) | +2 | 0 | Default Sequence die | | Add Sequence Experience | +1 | 0 | Only able to be added to Sequence abilities. This does not count as a Duration. | | Concentration\\* | -X | -Y | Discount; can only be bought in combination with another duration.",
+    "text": "| Duration | Strings | Enhancements | Notes | | ------------------------- | ------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | 1 round | 0 | 0 | Until the start of your next turn | | 1 minute/Scene | +2 | 0 | Scene-level impact | | 1 hour | +2 | +1 | Travel / downtime impact | | Until Long Rest | +4 | +1 | Lasts until you begin a Long Rest | | Until Dispelled | 0 | +2 | Until Successful action is taken by another creature to end the condition. | | Sequence Die (Volatility) | +2 | +1 | Use the user's Volatility Die in the relevant Potential for the Sequence. | | Sequence Die (1d4) | +2 | 0 | Default Sequence die | | Add Sequence Experience | +1 | 0 | Only able to be added to Sequence abilities. This does not count as a Duration. | | Concentration\\* | -X | -Y | Discount; can only be bought in combination with another duration.",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2466,7 +2529,7 @@
       "Durations"
     ],
     "anchor": "durations",
-    "text": "If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. | \\* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it. You may spend a Resistance point in the relevant Potential to maintain concentration after Fallout. If you have the option to Concentrate on multiple different Abilities, you can only Concentrate on 1 at a time. Ending Concentration means cutting the Ability's duration short, unless the Ability is a Trait or the duration is Until Dispelled. Switching Concentrations counts as a Surge. ---",
+    "text": "If the overall action has no Enhancements, you may subtract 2 Strings spent on its Duration, otherwise you may subtract 1 Enhancement. | \\* Concentration means the effect ends if you take Fallout that causes a Stress refresh, or if you willingly drop it. You may spend a Resistance point in the relevant Potential to maintain concentration after Fallout. If you have the option to Concentrate on multiple different Abilities, you can only Concentrate on 1 at a time. Ending Concentration means cutting the Ability's duration short, unless the Ability is a Trait or the duration is Until Dispelled. Switching Concentrations counts as a Surge. ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2502,7 +2565,7 @@
       "Companion Abilities"
     ],
     "anchor": "companion-abilities",
-    "text": "Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. This can be done through modifiers to your custom Abilities, or through standalone Abilities that enhance your bond. All modifiers require that you first have the Companion Ability. | Modification | Description | Strings | Enhancements | | --------------- | ---------------------------------------------------------------------------------------------------------------- | ------- | ------------ | | Agency | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself. | +1 | 0 | | Synchronization | When you activate this ability, your companion may also take this action as a reaction. | 0 | +1 |",
+    "text": "Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. This can be done through modifiers to your custom Abilities, or through standalone Abilities that enhance your bond. All modifiers require that you first have the Companion Ability. | Modification | Description | Strings | Enhancements | | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ | | Agency | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself. | +1 | 0 | | Synchronization | When you activate this ability, your companion may also take this action as a reaction. You may also choose not to activate this ability through yourself narratively, but instead just through your Companion. | 0 | +1 |",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -2538,7 +2601,7 @@
       "General Companion Abilities"
     ],
     "anchor": "general-companion-abilities",
-    "text": "Mount - Stat **Cost: 3 Strings** **Prerequisite: Companion** You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category. Presence - Stat **Cost: 5 Strings** **Prerequisite: Companion** Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead. Specialization - Stat **Cost: 2 Strings** **Prerequisite: Presence** Assign 2 Skills and a Knack to your Companion (requires Presence). Coordination - Stat **Cost: 3 Strings** **Prerequisite: Presence/Discipline Pool** Give your Companion access to a shared Discipline Pool. ---",
+    "text": "Mount - Stat **Cost: 3 Strings** **Prerequisite: Companion** You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category. Presence - Stat **Cost: 5 Strings** **Prerequisite: Companion** Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Your Familiar has separate Volatility Dice from you, and must be assigned Perks of its own. It starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead. Specialization - Stat **Cost: 2 Strings** **Prerequisite: Presence** Assign 2 Skills and a Knack to your Companion (requires Presence). Coordination - Stat **Cost: 3 Strings** **Prerequisite: Presence/Discipline Pool** Give your Companion access to a shared Discipline Pool. ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -3813,7 +3876,7 @@
       "Surges and Traits"
     ],
     "anchor": "surges-and-traits",
-    "text": "A **Trait** is akin to a passive ability or a reaction; it defines an additional feature about the player's character and provides them with special actions that can be taken under specific circumstances. **Traits** can increase any stat on a player's character sheet, or alter it in ways fitting the mechanics of Sunder. They can also provide definitions of specific circumstances (e.g. \"when an ally within **Close** range is targeted with an attack dealing physical damage\") where the **Trait**-bearing character can take an action outside of their turn (e.g. \"take a point of Stress in Wit to switch places with the targeted ally and become the new target of the attack\"). There is no limit to how often these special actions can be taken, just know that special actions like these will always come with a small, repeatable cost. When a creature activates a **Trait** in response to its defined circumstances, it is called taking a Reaction.",
+    "text": "Once an action has been announced in combat, a Surge cannot be activated temporally prior to the announced action. A **Trait** is akin to a passive ability or a reaction; it defines an additional feature about the player's character and provides them with special actions that can be taken under specific circumstances. **Traits** can increase any stat on a player's character sheet, or alter it in ways fitting the mechanics of Sunder. They can also provide definitions of specific circumstances (e.g. \"when an ally within **Close** range is targeted with an attack dealing physical damage\") where the **Trait**-bearing character can take an action outside of their turn (e.g. \"take a point of Stress in Wit to switch places with the targeted ally and become the new target of the attack\"). There is no limit to how often these special actions can be taken, just know that special actions like these will always come with a small, repeatable cost. When a creature activates a **Trait** in response to its defined circumstances, it is called taking a Reaction.",
     "aliases": [
       "initiative",
       "scenes",
