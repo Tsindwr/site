@@ -173,7 +173,9 @@ You can build an Ability with a real-time cost that expands the effect of the Ab
 
 ### Reset Condition
 
-An Ability's reset condition should by default be the same for each side of the Action Card, otherwise the player must pay the difference in their Flipside. If there is a difference in an Action Card's reset condition on either side, whichever reset period is longer takes precedence. Meaning, if you have a [[resting|Short Rest]] Attack and a General Movement you can use the [[actions|Movement]] side of the Action Card as much as you like, until you use the [[actions|Attack]] side, in which case you need to wait until a [[resting|Short Rest]] until you can use either side of the Action Card.
+An Ability's reset condition defines how often the Ability can be used. Once an Ability has been activated, it cannot be used (a.k.a be considered [[abilities#Durations|Active]]) until the reset condition is satisfied. **General** Abilities cannot be Activated again until your next turn. **Spell** Abilities are similar to General Abilities as they also cannot be Activated again until your next turn, but also require a successful Test before each Activation. **Short Rest** Abilities cannot be Activated again until you finish a [[resting|Short Rest]], and **Long Rest** Abilities cannot be Activated again until you finish a [[resting|Long Rest]].
+
+An Action's reset condition by default is the same for each side of the Action Card, otherwise the player must pay the difference in their Flipside. If there is a difference in an Action Card's reset condition on either side, whichever reset period is longer takes precedence. Meaning, if you have a [[resting|Short Rest]] Attack and a General Movement you can use the [[actions|Movement]] side of the Action Card as much as you like, until you use the [[actions|Attack]] side, in which case you need to wait until a [[resting|Short Rest]] until you can use either side of the Action Card.
 
 When altering the Reset Condition of the Flipside of a custom Ability, pay the difference in cost between the new Reset Condition and the already-purchased base Reset Condition.
 
@@ -213,8 +215,8 @@ Initial damage and base weapon damage can only ever be equal to 1DX. You may all
 | Increasing Damage       | Strings | Enhancements |
 | ----------------------- | ------- | ------------ |
 | Primed for increase     | 0       | +1           |
-| +1dX to Single Target\* | +1      | 0            |
-| +1dX to AOE\*           | +2      | 0            |
+| +1DX to Single Target\* | +1      | 0            |
+| +1DX to AOE\*           | +2      | 0            |
 \* X is the Die type decided by the Initial damage or the weapon damage Die.
 
 ### Distances
@@ -273,6 +275,12 @@ If Movement is being added to a damaging Action, it requires an extra Enhancemen
 | Single target    | +3     | +1           |
 | AOE or multiple  | +5     | +1           |
 
+| Exhaustion      | String | Enhancements |
+| --------------- | ------ | ------------ |
+| Single target   | +1     | +3           |
+| AOE or multiple | +3     | +3           |
+
+
 ### Temporary Increases
 Increase your stat by 1 for the Ability's duration.
 
@@ -320,7 +328,10 @@ When deciding on a Narrative Ability's cost, always choose the cost of the most 
 ---
 ## Ability Durations
 
-Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.
+Durations are priced by how long they remain active. If the effect of an Ability refers to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.
+
+When an Ability Card with a Duration has been played, and the Duration has not yet expired, the Ability Card is considered **Active**. Active Cards cannot be played again until the Duration expires, or until the owner of the Ability Card takes a reaction to an event they can perceive to drop the effect.
+
 
 >[!important] Sequence Experience
 >Sequence Tracks allow for opportunities to increase a player's [[Experience]] pool through gaining [[experience|Beats]]. The length of a Sequence Track is determined by the maximum value on the Sequence Die. This Track can be decreased in length in exchange for marking one of the Sequence Nodes on the Track as an [[Experience]] Node. When a player expends a use of a Sequence Ability whose current slot was an Experience Slot before expenditure, the player gains a Beat (e.g. if a D4 Sequence Ability which has been decreased to 3 Nodes, and the Experience Node was assigned to the 2nd slot, once the player activates the Ability for the second time, they gain a Beat).
@@ -354,15 +365,15 @@ Upgrading the capability of your bond with your Companion gives them more ways t
 
 ### General Companion Abilities
 
-<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
-**Cost: 3 Strings**
-**Prerequisite: Companion**
-You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.
-
 <div class="domain"><p>Presence<span class="subtext"> - Stat</span></p></div>
 **Cost: 5 Strings**
 **Prerequisite: Companion**
 Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Your Familiar has separate Volatility Dice from you, and must be assigned Perks of its own. It starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.
+
+<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
+**Cost: 3 Strings**
+**Prerequisite: Presence**
+You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.
 
 <div class="domain"><p>Specialization<span class="subtext"> - Stat</span></p></div>
 **Cost: 2 Strings**
