@@ -3752,7 +3752,7 @@
       "Calculating Critical Damage"
     ],
     "anchor": "calculating-critical-damage",
-    "text": "When a character rolls a Crit on a Test made to attack another creature, or a defending creature rolls a Miff on a Test to avoid a damaging affect, that damage becomes critical. Dice rolled as Critical Damage are considered Exploding Dice, and invoke 1 extra stress when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -> D8, D12 -> D12). If the increased die rolls another max value, another Stress is added, but otherwise its result value is not added to the damage roll.",
+    "text": "When a character rolls a Crit on a Test made to attack another creature, or a defending creature rolls a Miff on a Test to avoid a damaging affect, that effect's base damage becomes critical. Dice rolled as Critical Damage[^1] are considered Exploding Dice, and invoke 1 extra Stress when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -> D8, D12 -> D12). If the increased die rolls another max value, another Stress is added, but its resulting value is not added to the damage of the roll. [^1]: Damage dice can only be considered under Critical Damage if they are part of the effect's base damage. This includes the Initial or Weapon damage defined by the effect, as well as any damage added to the effect using the Primed Ability Modifier. Any damage added to the roll that was not purchased using the Primed Ability Modifier cannot be considered Exploding Dice.",
     "aliases": [
       "Damage",
       "Marks",
