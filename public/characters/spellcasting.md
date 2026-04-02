@@ -23,4 +23,6 @@ The maximum number of Stored Spells a character may have is equal to their Poten
 
 Harnessing the Arras is a difficult task, and comes with risk. Casting a spell will always require a Test to be made, as specified by the spell description: any success level of Failure or lower will activate the spell's consequences, otherwise it is successfully cast. There is no limit to the number of times a spell can be cast, but balancing [[stress-and-fallout|Stress]] and risk of consequences will prevent spellcasters from casting safely indefinitely.
 
+Spellcasting requires a free hand. If this hand is Bound, the spellcasting Test is made with Disadvantage.
+
 Adventurers will be able to choose and switch out their Prepared Spells from their Stored Spells throughout their adventuring. This can be done at the end of a [[resting|Long Rest]]. Newly purchased spells start as Stored Spells and are not automatically assigned in a slot within a character's Prepared Spells. 

@@ -19,11 +19,11 @@ Throughout the events of an adventurer's career there are plenty of opportunitie
 Damage in Sunder is a raw measurement of an attack’s power. This is the value rolled initially for the effects of an attack or ability. When damage is taken, the resolution flow goes as follows:
 
 1. Reduce any damage due to any Proofs.
-2. Convert to [[stress-and-fallout|Stress]] (see below).
+2. Convert to [[stress-and-fallout|Stress]] (see below*).
 3. Apply the [[stress-and-fallout|Stress]] to the relevant [[potentials-and-resistance|Potential Track]].
 4. Resolve any [[stress-and-fallout|Fallout]] on an overflow.
 
-*Damage is converted to [[stress-and-fallout|Stress]] on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 [[stress-and-fallout|stress]]).* 
+\**Damage is converted to [[stress-and-fallout|Stress]] on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 [[stress-and-fallout|stress]]).* 
 
 This rule applies for healing as well, removing Stress on 5:1 ratio, and is always applied in a target Potential.
 ### Proof and Bane
