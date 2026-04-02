@@ -1481,6 +1481,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#special-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Conditions
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1944,6 +1955,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#special-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Conditions
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2069,6 +2091,10 @@
 <td>An Invisible creature cannot be targeted by attacks.</td>
 </tr>
 <tr>
+<td>Mentally Vulnerable</td>
+<td>A Mentally Vulnerable creature is Vulnerable (<em>I, W, H, &amp; T</em>).</td>
+</tr>
+<tr>
 <td>Petrified</td>
 <td>A Petrified creature is considered Physically Vulnerable, and cannot move or take Actions, Surges, or physical reactions that affect targets other than itself.</td>
 </tr>
@@ -2077,8 +2103,8 @@
 <td>A Pinned creature is also Rooted, Held, and Bound.</td>
 </tr>
 <tr>
-<td>Retaliate (X)</td>
-<td>A creature with the Retaliate condition deals X Stress to creatures within Here when they successfully deal damage to the Retaliating creature.</td>
+<td>Retaliate (P/Q)</td>
+<td>A creature with the Retaliate condition deals 1PDV of damage to a creature within Here to their Q Potential when they successfully deal damage to the Retaliating creature.</td>
 </tr>
 <tr>
 <td>Slowed</td>
@@ -2091,6 +2117,10 @@
 <tr>
 <td>Warded (X)</td>
 <td>A Warded creature reduces X amount of incoming Physical Stress.</td>
+</tr>
+<tr>
+<td>Physically Vulnerable</td>
+<td>A Physically Vulnerable creature is Vulnerable (<em>M, F, N, &amp; S</em>).</td>
 </tr>
 </tbody>
 </table>
@@ -2157,11 +2187,47 @@
 </tr>
 <tr>
 <td>Unseen</td>
-<td>A creature that is Unseen by a target creature has Advantage on Attack Tests against the target and the target creature has Disadvantage on Sense Tests made to detect the Unseen creature.</td>
+<td>A creature that is Unseen by a target creature has Advantage on Attack Tests against the target and the target creature has Disadvantage on Sense Tests made to detect the Unseen creature. After making a weapon or unarmed attack while Unseen, the attacking creature loses the Unseen Condition.</td>
 </tr>
 <tr>
-<td>Vulnerable</td>
-<td>Attacks made against a Vulnerable creature are made with Advantage, and Tests made by a Vulnerable creature against damaging effects are made with Disadvantage. A creature can be Mentally, Physically, or Completely Vulnerable, which dictates which Tests are given Advantage and Disadvantage based on what Stress Tracks they target. Creatures may also be Specifically Vulnerable, which triggers the Advantage and Disadvantage</td>
+<td>Vulnerable (<em>P</em>)</td>
+<td>Attacks made against a Vulnerable creature targeting Potential <em>P</em> are made with Advantage, and Tests made in Potential <em>P</em> by a Vulnerable creature against damaging effects are made with Disadvantage.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="special-conditions">Special Conditions</h4>
+<p><strong><em>Exhaustion.</em></strong> An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level.</p>
+<table>
+<thead>
+<tr>
+<th>Exhaustion Level</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>The Exhausted creature immediately dies.</td>
 </tr>
 </tbody>
 </table>
@@ -2486,7 +2552,7 @@
     </script>
     
         <script>
-            window.SUNDER_VERSION = "2.0.36";
+            window.SUNDER_VERSION = "2.0.38";
         </script>
     
 

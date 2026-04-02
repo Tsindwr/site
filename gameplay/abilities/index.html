@@ -3032,7 +3032,8 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <hr />
 <h2 id="base-profile">Base Profile</h2>
 <h3 id="reset-condition">Reset Condition</h3>
-<p>An Ability's reset condition should by default be the same for each side of the Action Card, otherwise the player must pay the difference in their Flipside. If there is a difference in an Action Card's reset condition on either side, whichever reset period is longer takes precedence. Meaning, if you have a <a href="../resting/">Short Rest</a> Attack and a General Movement you can use the <a href="../actions/">Movement</a> side of the Action Card as much as you like, until you use the <a href="../actions/">Attack</a> side, in which case you need to wait until a <a href="../resting/">Short Rest</a> until you can use either side of the Action Card.</p>
+<p>An Ability's reset condition defines how often the Ability can be used. Once an Ability has been activated, it cannot be used (a.k.a be considered <a href="./#durations">Active</a>) until the reset condition is satisfied. <strong>General</strong> Abilities cannot be Activated again until your next turn. <strong>Spell</strong> Abilities are similar to General Abilities as they also cannot be Activated again until your next turn, but also require a successful Test before each Activation. <strong>Short Rest</strong> Abilities cannot be Activated again until you finish a <a href="../resting/">Short Rest</a>, and <strong>Long Rest</strong> Abilities cannot be Activated again until you finish a <a href="../resting/">Long Rest</a>.</p>
+<p>An Action's reset condition by default is the same for each side of the Action Card, otherwise the player must pay the difference in their Flipside. If there is a difference in an Action Card's reset condition on either side, whichever reset period is longer takes precedence. Meaning, if you have a <a href="../resting/">Short Rest</a> Attack and a General Movement you can use the <a href="../actions/">Movement</a> side of the Action Card as much as you like, until you use the <a href="../actions/">Attack</a> side, in which case you need to wait until a <a href="../resting/">Short Rest</a> until you can use either side of the Action Card.</p>
 <p>When altering the Reset Condition of the Flipside of a custom Ability, pay the difference in cost between the new Reset Condition and the already-purchased base Reset Condition.</p>
 <table>
 <thead>
@@ -3160,12 +3161,12 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 <td>+1</td>
 </tr>
 <tr>
-<td>+1dX to Single Target*</td>
+<td>+1DX to Single Target*</td>
 <td>+1</td>
 <td>0</td>
 </tr>
 <tr>
-<td>+1dX to AOE*</td>
+<td>+1DX to AOE*</td>
 <td>+2</td>
 <td>0</td>
 </tr>
@@ -3343,6 +3344,27 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tr>
 </tbody>
 </table>
+<table>
+<thead>
+<tr>
+<th>Exhaustion</th>
+<th>String</th>
+<th>Enhancements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single target</td>
+<td>+1</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>AOE or multiple</td>
+<td>+3</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
 <h3 id="temporary-increases">Temporary Increases</h3>
 <p>Increase your stat by 1 for the Ability's duration.</p>
 <table>
@@ -3471,7 +3493,8 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </table>
 <hr />
 <h2 id="ability-durations">Ability Durations</h2>
-<p>Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.</p>
+<p>Durations are priced by how long they remain active. If the effect of an Ability refers to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.</p>
+<p>When an Ability Card with a Duration has been played, and the Duration has not yet expired, the Ability Card is considered <strong>Active</strong>. Active Cards cannot be played again until the Duration expires, or until the owner of the Ability Card takes a reaction to an event they can perceive to drop the effect.</p>
 <div class="admonition important">
 <p class="admonition-title">Sequence Experience</p>
 <p>Sequence Tracks allow for opportunities to increase a player's <a href="../../characters/experience/">Experience</a> pool through gaining <a href="../../characters/experience/">Beats</a>. The length of a Sequence Track is determined by the maximum value on the Sequence Die. This Track can be decreased in length in exchange for marking one of the Sequence Nodes on the Track as an <a href="../../characters/experience/">Experience</a> Node. When a player expends a use of a Sequence Ability whose current slot was an Experience Slot before expenditure, the player gains a Beat (e.g. if a D4 Sequence Ability which has been decreased to 3 Nodes, and the Experience Node was assigned to the 2nd slot, once the player activates the Ability for the second time, they gain a Beat).</p>
@@ -3578,14 +3601,14 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 </tbody>
 </table>
 <h3 id="general-companion-abilities">General Companion Abilities</h3>
-<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
-<p><strong>Cost: 3 Strings</strong><br />
-<strong>Prerequisite: Companion</strong><br />
-You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.</p>
 <div class="domain"><p>Presence<span class="subtext"> - Stat</span></p></div>
 <p><strong>Cost: 5 Strings</strong><br />
 <strong>Prerequisite: Companion</strong><br />
 Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Your Familiar has separate Volatility Dice from you, and must be assigned Perks of its own. It starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.</p>
+<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
+<p><strong>Cost: 3 Strings</strong><br />
+<strong>Prerequisite: Presence</strong><br />
+You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.</p>
 <div class="domain"><p>Specialization<span class="subtext"> - Stat</span></p></div>
 <p><strong>Cost: 2 Strings</strong><br />
 <strong>Prerequisite: Presence</strong><br />
@@ -4052,7 +4075,7 @@ Give your Companion access to a shared Discipline Pool.</p>
     </script>
     
         <script>
-            window.SUNDER_VERSION = "2.0.36";
+            window.SUNDER_VERSION = "2.0.38";
         </script>
     
 
