@@ -61,7 +61,7 @@ When creating an Ability, always assume a mechanical effect needs to be purchase
 >[!note] Rule of Too Cool For School
 >If you want a quick rule for using this system, decide on an [[Experience]] budget, then describe to your GM what you want your Ability to do or present as during gameplay. Your GM will be able to give you options for a finished Ability so you don't have to deal with the math. Just don't ask them to do so mid-session.
 
-### General Abilities
+### Common Abilities
 
  <div class="domain"><p>Redirect (P/P)<span class="subtext"> - Trait</span></p></div>
 **Cost: 5 Strings** (1 Enhancement)

@@ -372,7 +372,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Attack</p>
       <p class="gh-text">
-        Spend Spirit Tokens to activate a Loom Boon. Gain a Beat.
+        Play this Action when you are making a Group Action with allies on the same turn. When you play this Action, you cannot take an Indirect/Movement Action on the same turn. This counts as adding 1 person to the Group Action.
       </p>
       </div>
   </section>
@@ -386,7 +386,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Spend Flavor Tokens to activate a Flavor Ability. Gain a Beat.
+        Spend Flavor Tokens to activate a Flavor Ability.
       </p>
       </div>
   </section>
