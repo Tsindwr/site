@@ -41,7 +41,7 @@ The budget for purchasing the Flipside of an Action Card is calculated by *half*
 [[scenes|Reactions]] defined in a Trait are given a defined Trigger, which determines when a player may activate that reaction. There is no limit to the number of times a reaction can be activated, but oftentimes they are bound be certain Caveats (see below) to reduce the cost of such an Ability.
 ### Option Cards
 
-**Option Cards** are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.
+**Option Cards** are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability) (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.
 
 Option Cards are considered having their Parent Ability as a prerequisite, but do not benefit from a reduction in String cost.
 ### Taking Your Turn
@@ -61,7 +61,7 @@ When creating an Ability, always assume a mechanical effect needs to be purchase
 >[!note] Rule of Too Cool For School
 >If you want a quick rule for using this system, decide on an [[Experience]] budget, then describe to your GM what you want your Ability to do or present as during gameplay. Your GM will be able to give you options for a finished Ability so you don't have to deal with the math. Just don't ask them to do so mid-session.
 
-### General Abilities
+### Common Abilities
 
  <div class="domain"><p>Redirect (P/P)<span class="subtext"> - Trait</span></p></div>
 **Cost: 5 Strings** (1 Enhancement)
@@ -76,8 +76,19 @@ The Dexterity Ability allows a character to use their Finesse [[potentials-and-r
 When taking this Ability, choose one of your current [[Archetypes]]: this is your prerequisite. Create a name for your *Discipline* (e.g. Chi, Psionics, Vis, etc.). You have a number of *Discipline* Points (a special kind of [[potentials-and-resistance|Resistance]]) equal to your level in the chosen prerequisite Archetype. You may now create Abilities that expend *Discipline* Points instead of Resistances, but still have the discount to cost of spending a [[potentials-and-resistance|Resistance]] (-1 String) and having a prerequisite (-2 [[experience|Strings]]). Your number of *Discipline* Points is considered a permanent Stat.
 
 <div class="domain"><p>Upgrade<span class="subtext"> - Stat</span></p></div>
-**Cost: 5 Strings**
-Taking an Upgrade allows a character to increment one of the following Stats by 1: +1 Mark, +1 to a [[potentials-and-resistance|Potential]] Score, +1 Knack, +1 Domain, +1 to a Discipline Pool's total Points, +1 to the number of uses for a Short or [[resting|Long Rest]] Ability, +1 to the Prepared Spell Limit, or +1 to the Total Enhancement Limit.
+**Cost: 4 Strings**
+Taking an Upgrade allows a character to increase different Stat values. Different types of Stats have varying costs. Choose any of, but not limited to, the following stats to increase and pay the additional cost dictated by the following table:
+
+| Stat                           | Cost (Strings) |
+| ------------------------------ | -------------- |
+| Ability Uses/Charges           | 1              |
+| Discipline Pool                | 1              |
+| Potential Score                | 2              |
+| Spell Limits                   | 2              |
+| Enhancement Limit, Total       | 2              |
+| Enhancement Limit, Per Ability | 3              |
+| Marks                          | 3              |
+
 
 <div class="domain"><p>Driven<span class="subtext"> - Stat</span></p></div>
 **Base Cost: 1 String** (1 Enhancement)
@@ -99,6 +110,14 @@ Purchasing a Companion allows characters to give mechanical purpose to an existi
 - *Connect*: The bond between you and your Companion allows you to understand each other even if you do not share a language. You may also use a Surge to perceive through your Companion's senses. While perceiving in this way, you are insensate to your own body's senses.
 
 You may give this Ability a prerequisite of the [[archetypes|Summoner]] archetype (-2 [[experience|Strings]]).
+
+<div class="domain"><p>Extra Attack <span class="subtext">- Trait</span></p></div>
+**Cost**: 6 Strings (1 Enhancement)
+**Prerequisite**: Tier 2
+
+*General Trait*
+
+Once per turn, when you take a weapon or unarmed attack, you may take a reaction and make one additional weapon or unarmed attack.
 
 ### Anatomy of Custom Abilities
 
@@ -154,7 +173,9 @@ You can build an Ability with a real-time cost that expands the effect of the Ab
 
 ### Reset Condition
 
-An Ability's reset condition should by default be the same for each side of the Action Card, otherwise the player must pay the difference in their Flipside. If there is a difference in an Action Card's reset condition on either side, whichever reset period is longer takes precedence. Meaning, if you have a [[resting|Short Rest]] Attack and a General Movement you can use the [[actions|Movement]] side of the Action Card as much as you like, until you use the [[actions|Attack]] side, in which case you need to wait until a [[resting|Short Rest]] until you can use either side of the Action Card.
+An Ability's reset condition defines how often the Ability can be used. Once an Ability has been activated, it cannot be used (a.k.a be considered [[abilities#Durations|Active]]) until the reset condition is satisfied. **General** Abilities cannot be Activated again until your next turn. **Spell** Abilities are similar to General Abilities as they also cannot be Activated again until your next turn, but also require a successful Test before each Activation. **Short Rest** Abilities cannot be Activated again until you finish a [[resting|Short Rest]], and **Long Rest** Abilities cannot be Activated again until you finish a [[resting|Long Rest]].
+
+An Action's reset condition by default is the same for each side of the Action Card, otherwise the player must pay the difference in their Flipside. If there is a difference in an Action Card's reset condition on either side, whichever reset period is longer takes precedence. Meaning, if you have a [[resting|Short Rest]] Attack and a General Movement you can use the [[actions|Movement]] side of the Action Card as much as you like, until you use the [[actions|Attack]] side, in which case you need to wait until a [[resting|Short Rest]] until you can use either side of the Action Card.
 
 When altering the Reset Condition of the Flipside of a custom Ability, pay the difference in cost between the new Reset Condition and the already-purchased base Reset Condition.
 
@@ -171,8 +192,8 @@ When altering the Reset Condition of the Flipside of a custom Ability, pay the d
 
 | Activation | Strings | Enhancements |
 | ---------- | ------- | ------------ |
-| Trait      | +1      | 1            |
-| Surge\*    | 0       | 1            |
+| Trait      | +1      | +1           |
+| Surge\*    | 0       | +1           |
 | Action     | 0       | 0            |
 | 2 Actions  | -1      | 0            |
 | 1 Minute   | -2      | 0            |
@@ -185,15 +206,17 @@ When altering the Reset Condition of the Flipside of a custom Ability, pay the d
 
 | Damage    | Strings | Enhancements |
 | --------- | ------- | ------------ |
-| Weapon    | 1       | 0            |
-| Initial\* | 1       | 0            |
+| Weapon    | +1      | 0            |
+| Initial\* | +1      | 0            |
 \* The initial amount of damage will always be the [[volatility-and-perks|Volatility Die]] that corresponds to the Spellcasting or Skill Test's [[potentials-and-resistance|Potential]]. If it is an AOE effect, it associates with either the [[Spellcasting]] [[potentials-and-resistance|Potential]] if it is a spell, or the primary [[potentials-and-resistance|Potential]] chosen when acquiring the Archetype this Ability is for. 
+
+Initial damage and base weapon damage can only ever be equal to 1DX. You may allow for an increase to the number of dice rolled for the total effect using the Primed effect, but this increase will be limited to a number of dice equal to your Tier. To actually increase the damage of an Ability, you must purchase additional damage dice. To increase the additional damage beyond your Tier, you must purchase an additional Primed effect.
 
 | Increasing Damage       | Strings | Enhancements |
 | ----------------------- | ------- | ------------ |
-| Primed for increase     | 0       | 1            |
-| +1dX to Single Target\* | 1       | 0            |
-| +1dX to AOE\*           | 2       | 0            |
+| Primed for increase     | 0       | +1           |
+| +1DX to Single Target\* | +1      | 0            |
+| +1DX to AOE\*           | +2      | 0            |
 \* X is the Die type decided by the Initial damage or the weapon damage Die.
 
 ### Distances
@@ -228,17 +251,17 @@ In Sunder, distances are defined in intervals, which are well-translated to thea
 | There    | +2     |
 | Far      | +3     |
 | Yonder   | +5     |
-If Movement is being added to an Attack Action, it requires an extra String. 
+If Movement is being added to a damaging Action, it requires an extra Enhancement. 
 
 ### Targets and Area
 
 | Targeting            | Strings | Enhancements |
 | -------------------- | ------- | ------------ |
 | Single Target        | 0       | 0            |
-| +1 Additional Target | +1      | 1            |
-| Near AOE             | +2      | 1            |
-| Close AOE            | +4      | 1            |
-| Far AOE              | +6      | 2            |
+| +1 Additional Target | +1      | +1           |
+| Near AOE             | +1.5    | +1           |
+| Close AOE            | +2      | +1           |
+| Far AOE              | +3      | +2           |
 
 ### Conditions
 
@@ -249,31 +272,40 @@ If Movement is being added to an Attack Action, it requires an extra String.
 
 | Major Conditions | String | Enhancements |
 | ---------------- | ------ | ------------ |
-| Single target    | +3     | 1            |
-| AOE or multiple  | +5     | 1            |
+| Single target    | +3     | +1           |
+| AOE or multiple  | +5     | +1           |
+
+| Exhaustion      | String | Enhancements |
+| --------------- | ------ | ------------ |
+| Single target   | +1     | +3           |
+| AOE or multiple | +3     | +3           |
+
 
 ### Temporary Increases
 Increase your stat by 1 for the Ability's duration.
 
-| Stat                   | Cost      |
-| ---------------------- | --------- |
-| Mark                   | 2 Strings |
-| Potential              | 2 Strings |
-| Proficiency            | 1 String  |
-| 1 Test's Success Level | 5 Beats   |
+| Stat                   | Cost       |
+| ---------------------- | ---------- |
+| Mark                   | +2 Strings |
+| Potential              | +2 Strings |
+| Skill Proficiency      | +1 String  |
+| Advantage              | +1 String  |
+| Knack                  | +2 Strings |
+| Domain                 | +4 Strings |
+| 1 Test's Success Level | +5 Beats   |
 
-| Recover         | String |
-| --------------- | ------ |
-| Stress          | 1      |
-| Resistance      | 2      |
-| Minor Condition | 2      |
-| Major Condition | 3      |
-| Mark            | 4      |
+| Recover         | Strings |
+| --------------- | ------- |
+| Stress          | +1      |
+| Resistance      | +2      |
+| Minor Condition | +2      |
+| Major Condition | +3      |
+| Mark            | +4      |
 
-| Clear                   | String | Enhancements |
-| ----------------------- | ------ | ------------ |
-| Potential's Stress      | 2      | 0            |
-| Potential's Resistances | 4      | 1            |
+| Clear                   | Strings | Enhancements |
+| ----------------------- | ------- | ------------ |
+| Potential's Stress      | +4      | 0            |
+| Potential's Resistances | +6      | +1           |
 
 
 ---
@@ -291,12 +323,15 @@ When deciding on a Narrative Ability's cost, always choose the cost of the most 
 | ---------------- | ------------ | ------------ |
 | Aesthetic        | +1 Beat      | 0            |
 | Utility          | +1 String    | 0            |
-| Interpretable    | +3-7 Strings | 1            |
+| Interpretable    | +3-7 Strings | +1           |
 
 ---
 ## Ability Durations
 
-Durations are priced by how long they remain active. Durations can either refer to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.
+Durations are priced by how long they remain active. If the effect of an Ability refers to how long a modification to a creature's Stats is active, it is measured in time. If the effect of the Ability is being activated several times to alter the effect of another Ability, then it is measured in Sequence Dice.
+
+When an Ability Card with a Duration has been played, and the Duration has not yet expired, the Ability Card is considered **Active**. Active Cards cannot be played again until the Duration expires, or until the owner of the Ability Card takes a reaction to an event they can perceive to drop the effect.
+
 
 >[!important] Sequence Experience
 >Sequence Tracks allow for opportunities to increase a player's [[Experience]] pool through gaining [[experience|Beats]]. The length of a Sequence Track is determined by the maximum value on the Sequence Die. This Track can be decreased in length in exchange for marking one of the Sequence Nodes on the Track as an [[Experience]] Node. When a player expends a use of a Sequence Ability whose current slot was an Experience Slot before expenditure, the player gains a Beat (e.g. if a D4 Sequence Ability which has been decreased to 3 Nodes, and the Experience Node was assigned to the 2nd slot, once the player activates the Ability for the second time, they gain a Beat).
@@ -305,40 +340,40 @@ Durations are priced by how long they remain active. Durations can either refer 
 
 #### Durations
 
-| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                              |
-| ------------------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                                  |
-| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                                 |
-| 1 hour                    | +2      | 1            | Travel / downtime impact                                                                                                                                                                                           |
-| Until Long Rest           | +4      | 1            | Lasts until you begin a Long Rest                                                                                                                                                                                  |
-| Until Dispelled           | +0      | 2            | Until Successful action is taken by another creature to end the condition.                                                                                                                                         |
-| Sequence Die (Volatility) | +2      | 1            | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                          |
-| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                               |
-| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                                    |
-| Concentration\*           | X       | Y            | Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may halve the number of Strings spent on its Duration, otherwise you may subtract 1 Enhancement. |
-\* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]].
+| Duration                  | Strings | Enhancements | Notes                                                                                                                                                                                                     |
+| ------------------------- | ------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 round                   | 0       | 0            | Until the start of your next turn                                                                                                                                                                         |
+| 1 minute/Scene            | +2      | 0            | Scene-level impact                                                                                                                                                                                        |
+| 1 hour                    | +2      | +1           | Travel / downtime impact                                                                                                                                                                                  |
+| Until Long Rest           | +4      | +1           | Lasts until you begin a Long Rest                                                                                                                                                                         |
+| Until Dispelled           | 0       | +2           | Until Successful action is taken by another creature to end the condition.                                                                                                                                |
+| Sequence Die (Volatility) | +2      | +1           | Use the user's Volatility Die in the relevant Potential for the Sequence.                                                                                                                                 |
+| Sequence Die (1d4)        | +2      | 0            | Default Sequence die                                                                                                                                                                                      |
+| Add Sequence Experience   | +1      | 0            | Only able to be added to Sequence abilities. This does not count as a Duration.                                                                                                                           |
+| Concentration\*           | -X      | -Y           | Discount; can only be bought in combination with another duration. If the overall action has no Enhancements, you may subtract 2 Strings spent on its Duration, otherwise you may subtract 1 Enhancement. |
+\* Concentration means the effect ends if you take [[stress-and-fallout|Fallout]] that causes a [[stress-and-fallout|Stress]] refresh, or if you willingly drop it. You may spend a [[potentials-and-resistance|Resistance]] point in the relevant [[potentials-and-resistance|Potential]] to maintain concentration after [[stress-and-fallout|Fallout]]. If you have the option to Concentrate on multiple different Abilities, you can only Concentrate on 1 at a time. Ending Concentration means cutting the Ability's duration short, unless the Ability is a Trait or the duration is Until Dispelled. Switching Concentrations counts as a Surge.
 
 ---
 ## Companion Abilities
 
 Upgrading the capability of your bond with your Companion gives them more ways to support you during your adventuring. This can be done through modifiers to your custom Abilities, or through standalone Abilities that enhance your bond. All modifiers require that you first have the Companion Ability.
 
-| Modification    | Description                                                                                                      | Strings | Enhancements |
-| --------------- | ---------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
-| Agency          | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself. | 1       | 0            |
-| Synchronization | When you activate this ability, your companion may also take this action as a reaction.                          | 0       | 1            |
+| Modification    | Description                                                                                                                                                                                                     | Strings | Enhancements |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
+| Agency          | When you activate this ability, you may choose to have your Companion activate this ability instead of yourself.                                                                                                | +1      | 0            |
+| Synchronization | When you activate this ability, your companion may also take this action as a reaction. You may also choose not to activate this ability through yourself narratively, but instead just through your Companion. | 0       | +1           |
 
 ### General Companion Abilities
-
-<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
-**Cost: 3 Strings**
-**Prerequisite: Companion**
-You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.
 
 <div class="domain"><p>Presence<span class="subtext"> - Stat</span></p></div>
 **Cost: 5 Strings**
 **Prerequisite: Companion**
-Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Its Volatility Dice are the same as yours, and it starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.
+Assign Potential Scores to your Companion (1d6 each). This allows your Companion to interact with the world independently, and have its own defenses. Your Familiar has separate Volatility Dice from you, and must be assigned Perks of its own. It starts with a number of Marks equal to the starting Marks in the archetype that grants you the Companion Ability. When you level up, you may apply chosen Stat bonuses to your Companion instead.
+
+<div class="domain"><p>Mount<span class="subtext"> - Stat</span></p></div>
+**Cost: 3 Strings**
+**Prerequisite: Presence**
+You may mount your companion if it is a size larger than you. While mounted, you may increase nonmagical movement by one Range category.
 
 <div class="domain"><p>Specialization<span class="subtext"> - Stat</span></p></div>
 **Cost: 2 Strings**
@@ -358,26 +393,27 @@ Caveats reduce cost by making an Ability narrower, riskier, or more mechanically
 
 ### String-Level Caveats
 
-| Constraint                                             | Strings |
-| ------------------------------------------------------ | ------- |
-| Narrow trigger <strong>or</strong> Components required | -1      |
-| Primarily narrative ability                            | -1      |
-| Spend Resistance                                       | -1      |
-| Mechanical consequence                                 | -1      |
-| Severe narrative consequence                           | -2      |
-| Prerequisite                                           | -2      |
+| Constraint                   | Strings |
+| ---------------------------- | ------- |
+| Narrow trigger               | -1      |
+| Components required          | -1      |
+| Primarily narrative ability  | -1      |
+| Spend Resistance             | -1      |
+| Mechanical consequence       | -1      |
+| Severe narrative consequence | -2      |
+| Prerequisite                 | -2      |
 \* Prerequisites can be Abilities, Archetype [[leveling|Levels]], or [[Origin]] choices. Each prerequisite can only be used 2 times (ex. you need to choose a new prerequisite after using an Archetype twice, such as choosing one of the previous Abilities as a prerequisite that used the Archetype as a prerequisite). Combining prerequisites counts as 1 distinct prerequisite. A prerequisite is only considered used when it decreases the String cost of an Ability.
 
 ### Beat-Level Caveats
 
 | Constraint            | Beats |
-| --------------------- | ----- |
+| ----------------------- | ----- |
 | Test required\*       | -5    |
 | Increase Riskiness    | -5    |
 | One use per scene     | -5    |
 | Spend Stress          | -5    |
 | Narrative consequence | -5    |
-\* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing [[resolution-system|Riskiness]] on a Test to activate the Ability can only be applied when there is a Test required, either by default or through the purchased Caveat.
+\* Requiring a test is baked into some Ability types like Attacks and Spells, so making a Test Required can only reduce cost when it's not necessary. Likewise, increasing [[resolution-system|Riskiness]] on a Test to activate the Ability can only be applied when there is a Test required of either by default or through the purchased Caveat.
 
 ### Spell Consequences
 
@@ -388,7 +424,7 @@ Spells must always have a Consequence. If the Consequence is more severe, it red
 | Narrative Fallout       | -1 Beat        |
 | Minor Fallout           | -5 Beats       |
 | Major Fallout           | -2 Strings     |
-| Severe Fallout          | -5 Strings     |
+| Severe Fallout          | -4 Strings     |
 | Test required of target | *No reduction* |
 
 ---

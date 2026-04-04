@@ -43,6 +43,7 @@ A player will receive different base success levels based on the [[potentials-an
 
 Initial success levels are decided as follows:
 
+%%
 $$
 \text{Outcome}(x_{D20};P_{potential},R_{resistance})=
 \begin{cases}
@@ -53,11 +54,11 @@ $$
 \textbf{Miff} & x\in\{20\}.
 \end{cases}
 $$
-
+%%
 ![[../assets/Sunder Resolution (Usability Variant).png]]
 
 > [!warning]+ The Rule of Narrative Ease
-> During gameplay, there are many situations where taking action may not require a test of a character's ability, and can be resolved purely narratively. As long as the situation is low-risk, players shouldn't need to make a Test toll at all as long as they have the time to do it unhurriedly. Remember your heroes are capable! Be sure not to bog down the narrative flow with excessive Skill Tests, and allow players to tell the story they want to build.
+> During gameplay, there are many situations where taking action may not require a test of a character's ability, and can be resolved purely narratively. As long as the situation is low-risk, players shouldn't need to make a Test roll at all as long as they have the time to do it unhurriedly. Remember your heroes are capable! Be sure not to bog down the narrative flow with excessive Skill Tests, and allow players to tell the story they want to build.
 
 ==Note:== When a player's Test results in a success level of 3 or below (Mixed, Failure, Miff), they gain a Beat. 
 

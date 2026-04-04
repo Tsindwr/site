@@ -19,11 +19,11 @@ Throughout the events of an adventurer's career there are plenty of opportunitie
 Damage in Sunder is a raw measurement of an attack’s power. This is the value rolled initially for the effects of an attack or ability. When damage is taken, the resolution flow goes as follows:
 
 1. Reduce any damage due to any Proofs.
-2. Convert to [[stress-and-fallout|Stress]] (see below).
+2. Convert to [[stress-and-fallout|Stress]] (see below*).
 3. Apply the [[stress-and-fallout|Stress]] to the relevant [[potentials-and-resistance|Potential Track]].
 4. Resolve any [[stress-and-fallout|Fallout]] on an overflow.
 
-*Damage is converted to [[stress-and-fallout|Stress]] on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 [[stress-and-fallout|stress]]).* 
+\**Damage is converted to [[stress-and-fallout|Stress]] on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 [[stress-and-fallout|stress]]).* 
 
 This rule applies for healing as well, removing Stress on 5:1 ratio, and is always applied in a target Potential.
 ### Proof and Bane
@@ -43,4 +43,6 @@ When a player's character recovers from incapacitation, they take a Scar. This p
 ## Crit Hit!
 <h6>Calculating Critical Damage</h6>
 
-When a character rolls a [[resolution-system|Crit]] on a Test made to attack another creature, or a defending creature rolls a [[resolution-system|Miff]] on a Test to avoid a damaging affect, that damage becomes critical. Dice rolled as Critical Damage are considered Exploding Dice, and invoke 1 extra [[stress-and-fallout|stress]] when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -> D8, D12 -> D12). If the increased die rolls another max value, another [[stress-and-fallout|Stress]] is added, but otherwise its result value is not added to the damage roll.
+When a character rolls a [[resolution-system|Crit]] on a Test made to attack another creature, or a defending creature rolls a [[resolution-system|Miff]] on a Test to avoid a damaging affect, that effect's base damage becomes critical. Dice rolled as Critical Damage[^1] are considered Exploding Dice, and invoke 1 extra [[stress-and-fallout|Stress]] when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -> D8, D12 -> D12). If the increased die rolls another max value, another [[stress-and-fallout|Stress]] is added, but its resulting value is not added to the damage of the roll.
+
+[^1]: Damage dice can only be considered under Critical Damage if they are part of the effect's base damage. This includes the Initial or Weapon damage defined by the effect, as well as any damage added to the effect using the [[abilities#Damage|Primed Ability Modifier]]. Any damage added to the roll that was not purchased using the Primed Ability Modifier cannot be considered Exploding Dice.

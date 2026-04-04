@@ -22,7 +22,7 @@ A player will receive new [[abilities|Action Cards]] whenever they purchase the 
 
 If an Action requires a test from the character or its target, then the [[resolution-system|success levels]] are defined as follows:
 
-- On a Test made by the character against the target, any Test that result in Mixed or higher is a success. On a fail, take a [[stress-and-fallout|Stress]] instead of Minor [[stress-and-fallout|Fallout]].
+- On a Test made by the character against the target, any Test that result in Mixed or higher is a success.
 - On a Test made by the target to resist a character, any Test that does results in Success or higher is a success.
 - Making a ranged attack at a target while a conscious adversary is within Here of you is considered to have Disadvantage.
 ## General Actions
@@ -372,7 +372,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Attack</p>
       <p class="gh-text">
-        Spend Spirit Tokens to activate a Loom Boon. Gain a Beat.
+        Play this Action when you are making a Group Action with allies on the same turn. When you play this Action, you cannot take an Indirect/Movement Action on the same turn. This counts as adding 1 person to the Group Action.
       </p>
       </div>
   </section>
@@ -386,7 +386,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Movement</p>
       <p class="gh-text">
-        Spend Flavor Tokens to activate a Flavor Ability. Gain a Beat.
+        Spend Flavor Tokens to activate a Flavor Ability.
       </p>
       </div>
   </section>

@@ -62,7 +62,7 @@ Exploding a Volatility Die during a Test causes an automatic [[resolution-system
 > When used, this action causes the creature to regain a number of Special [[experience|Beats]] equal to the Previous Die's number of Perk Slots. These Special [[experience|Beats]] can only be used during this action. The creature may immediately spend these [[experience|Beats]] to reassign their purchased Perks to the new Volatility Die. 
 ### Purchasable Perks
 
-Perks' effects activate after a player has rolled their Volatility Pool and choose the highest value.
+Perks' effects activate after a player has rolled their Volatility Pool and choose the highest value. Each Perk can only be applied once per Potential (e.g. you cannot purchase two Sparks and apply them both to your Wit Volatility Die, they must be placed on two different Volatility Dice).
 
 | Cost (Beats) | Name         | Description                                                                                                                                                                                                        |
 | ------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
