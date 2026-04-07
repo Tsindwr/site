@@ -28,9 +28,9 @@ Each creature is made up of a set of 8 scores called **Potentials**. Each of the
 > 
 > ***Finesse:*** A creature's quickness and flexibility is represented by its Finesse score. This score may determine a player's ability to navigate quickly through a market chase, tie a knot, or evade someone's grasp.
 >  
->  ***Nerve:*** A creature's heartiness and stamina is represented by its Nerve score. This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. 
+>  ***Nerve:*** A creature's physical tolerance to exertion and pain is represented by its Nerve score. This score may determine a player's ability to ride a horse nonstop, keep ahold of their senses, or stay Concentrating while suffering from damage. 
 >   
->   ***Seep:*** A creature's ability to manifest and maintain their physical form is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist physical arcane effects.
+>   ***Seep:*** A creature's ability to manifest and maintain their physical form and condition is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist the effects of poisons.
 
 > [!info]+ **Mental Potentials**
 >  
@@ -64,11 +64,11 @@ Sleight - *Moving stealthily, ranged accuracy, manual deftness*
 Grace - *Steadiness and balance, moving quickly*
 Squirm - *Escaping restraint, avoiding anticipated threats*
 <h5>Nerve</h5>
-Bear - *Resisting physical effects of damage, continuing unfettered*
-Steel - *Enduring strenuous wear unphased, resisting natural bodily response*
-Grit - *Mind over body, maintaining clarity in moments of pain*
+Bear - *Resisting exhaustion, continuing through strenuous activity unfettered*
+Steel - *Powering through anticipated pain, resisting natural bodily response*
+Grit - *Mind over body, maintaining mental clarity in stressful moments*
 <h5>Seep</h5>
-Frame - *Resisting arcane alteration, maintaining appearance*
+Frame - *Resisting arcane alteration, maintaining composure against sickness*
 Draw - *Adapting to surroundings, letting in warp*
 Form - *Actuating physical change, becoming something new*
 <h5>Instinct</h5>

@@ -145,7 +145,7 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 | III  | 9-12   | 3                               | 13                               |
 | IV   | 13-16  | 4                               | 22                               |
 | V    | 17-20  | 5                               | 36                               |
-Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.
+Only Abilities with Tier 2 or above as a Prerequisite can increase a character's Enhancement limits as a Stat increase.
 
 ### Buying Enhancements
 

@@ -37,9 +37,11 @@ extra:
   sunder_version: "1.0.0" # overridden during GitHub Actions
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/woodsave03/tsindwr
+      link: https://github.com/Tsindwr/site
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zJEdEy4xtm
+    - icon: fontawesome/brands/kofi
+      link: https://ko-fi.com/sunderttrpg
 
 copyright: >
   &copy; 2025 Sintobhe M. Woods -
@@ -122,6 +124,7 @@ nav:
           - Equipment: core/equipment.md
           - Experience: characters/experience.md
       - Miscellaneous:
+          - Adversaries: gameplay/adversaries.md
           - Damage: gameplay/damage.md
           - Conditions: gameplay/conditions.md
   - About:

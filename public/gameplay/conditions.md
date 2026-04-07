@@ -25,6 +25,11 @@ aliases:
   - Silenced
   - Slowed
   - Unseen
+  - Vulnerable
+  - Exhaustion
+  - Cursed
+  - Retaliate
+  - Armored
 ---
 
 # Conditions
@@ -74,14 +79,14 @@ aliases:
 
 #### Special Conditions
 
-***Exhaustion.*** An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level.
+***Exhaustion.*** An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The effects of Exhaustion Levels are cumulative, so any creature suffering from an Exhaustion Level is also effected by the effects of the Exhaustion Levels less than their current one. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level.
 
 
-| Exhaustion Level | Effect                                   |
-| ---------------- | ---------------------------------------- |
-| 1                |                                          |
-| 2                |                                          |
-| 3                |                                          |
-| 4                |                                          |
-| 5                |                                          |
-| 6                | The Exhausted creature immediately dies. |
+| Exhaustion Level | Effect                                                           |
+| ---------------- | ---------------------------------------------------------------- |
+| 1                | All actions require a Test, up to GM discretion.                 |
+| 2                | Any Movement taken is considered to be one Range category lower. |
+| 3                | You are Mentally and Physically Vulnerable.                      |
+| 4                | You cannot move farther than Near on a turn.                     |
+| 5                | Your Mark Pool maximum is halved.                                |
+| 6                | The Exhausted creature immediately dies.                         |

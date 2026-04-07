@@ -1,0 +1,19 @@
+{
+  "version": "2.1.0",
+  "discord_announcement_sent": false,
+  "summary": "The Play Content Update!",
+  "sections": [
+    {
+      "title": "Equipment",
+      "description": "We now have equipment items ready to be wielded by characters! This includes melee weapons, ranged weapons, and armor, as well as a slew of new item properties to pair with them."
+    },
+    {
+      "title": "Funding",
+      "description": "We now have a Ko-Fi page! If you like what we're doing and want to support us, please consider donating. Funds will be put towards efforts to create sourcebooks, playable web tools, and production value for the upcoming YouTube let's play series!"
+    },
+    {
+      "title": "GM Tools",
+      "description": "The adversaries page is now available for GMs, allowing for an easy way of building special enemy abilities that takes advantage of the loose nature of the Scene system. This will greatly decrease the time needed to be developing new monsters for every encounter."
+    }
+  ]
+}
