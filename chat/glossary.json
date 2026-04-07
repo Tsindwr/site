@@ -1090,7 +1090,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "minor conditions": [
     "conditions",
@@ -1117,7 +1122,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "major conditions": [
     "conditions",
@@ -1144,7 +1154,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "bleeding": [
     "conditions",
@@ -1171,7 +1186,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "fortified": [
     "conditions",
@@ -1198,7 +1218,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "frenzied": [
     "conditions",
@@ -1225,7 +1250,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "dazed": [
     "conditions",
@@ -1252,7 +1282,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "invisible": [
     "conditions",
@@ -1279,7 +1314,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "petrified": [
     "conditions",
@@ -1306,7 +1346,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "pinned": [
     "conditions",
@@ -1333,7 +1378,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "muddled": [
     "conditions",
@@ -1360,7 +1410,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "spirited": [
     "conditions",
@@ -1387,7 +1442,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "warded": [
     "conditions",
@@ -1414,7 +1474,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "afraid": [
     "conditions",
@@ -1441,7 +1506,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "armed": [
     "conditions",
@@ -1468,7 +1538,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "bound": [
     "conditions",
@@ -1495,7 +1570,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "charmed": [
     "conditions",
@@ -1522,7 +1602,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "deafened": [
     "conditions",
@@ -1549,7 +1634,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "distracted": [
     "conditions",
@@ -1576,7 +1666,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "empowered": [
     "conditions",
@@ -1603,7 +1698,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "enraptured": [
     "conditions",
@@ -1630,7 +1730,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "held": [
     "conditions",
@@ -1657,7 +1762,12 @@
     "rooted",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "rooted": [
     "conditions",
@@ -1684,7 +1794,12 @@
     "held",
     "silenced",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "silenced": [
     "conditions",
@@ -1711,7 +1826,12 @@
     "held",
     "rooted",
     "slowed",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "slowed": [
     "conditions",
@@ -1738,7 +1858,12 @@
     "held",
     "rooted",
     "silenced",
-    "unseen"
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
   ],
   "unseen": [
     "conditions",
@@ -1765,7 +1890,172 @@
     "held",
     "rooted",
     "silenced",
-    "slowed"
+    "slowed",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
+  ],
+  "vulnerable": [
+    "conditions",
+    "minor conditions",
+    "major conditions",
+    "bleeding",
+    "fortified",
+    "frenzied",
+    "dazed",
+    "invisible",
+    "petrified",
+    "pinned",
+    "muddled",
+    "spirited",
+    "warded",
+    "afraid",
+    "armed",
+    "bound",
+    "charmed",
+    "deafened",
+    "distracted",
+    "empowered",
+    "enraptured",
+    "held",
+    "rooted",
+    "silenced",
+    "slowed",
+    "unseen",
+    "exhaustion",
+    "cursed",
+    "retaliate",
+    "armored"
+  ],
+  "exhaustion": [
+    "conditions",
+    "minor conditions",
+    "major conditions",
+    "bleeding",
+    "fortified",
+    "frenzied",
+    "dazed",
+    "invisible",
+    "petrified",
+    "pinned",
+    "muddled",
+    "spirited",
+    "warded",
+    "afraid",
+    "armed",
+    "bound",
+    "charmed",
+    "deafened",
+    "distracted",
+    "empowered",
+    "enraptured",
+    "held",
+    "rooted",
+    "silenced",
+    "slowed",
+    "unseen",
+    "vulnerable",
+    "cursed",
+    "retaliate",
+    "armored"
+  ],
+  "cursed": [
+    "conditions",
+    "minor conditions",
+    "major conditions",
+    "bleeding",
+    "fortified",
+    "frenzied",
+    "dazed",
+    "invisible",
+    "petrified",
+    "pinned",
+    "muddled",
+    "spirited",
+    "warded",
+    "afraid",
+    "armed",
+    "bound",
+    "charmed",
+    "deafened",
+    "distracted",
+    "empowered",
+    "enraptured",
+    "held",
+    "rooted",
+    "silenced",
+    "slowed",
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "retaliate",
+    "armored"
+  ],
+  "retaliate": [
+    "conditions",
+    "minor conditions",
+    "major conditions",
+    "bleeding",
+    "fortified",
+    "frenzied",
+    "dazed",
+    "invisible",
+    "petrified",
+    "pinned",
+    "muddled",
+    "spirited",
+    "warded",
+    "afraid",
+    "armed",
+    "bound",
+    "charmed",
+    "deafened",
+    "distracted",
+    "empowered",
+    "enraptured",
+    "held",
+    "rooted",
+    "silenced",
+    "slowed",
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "armored"
+  ],
+  "armored": [
+    "conditions",
+    "minor conditions",
+    "major conditions",
+    "bleeding",
+    "fortified",
+    "frenzied",
+    "dazed",
+    "invisible",
+    "petrified",
+    "pinned",
+    "muddled",
+    "spirited",
+    "warded",
+    "afraid",
+    "armed",
+    "bound",
+    "charmed",
+    "deafened",
+    "distracted",
+    "empowered",
+    "enraptured",
+    "held",
+    "rooted",
+    "silenced",
+    "slowed",
+    "unseen",
+    "vulnerable",
+    "exhaustion",
+    "cursed",
+    "retaliate"
   ],
   "damage, stress, marks, & scars": [
     "damage",

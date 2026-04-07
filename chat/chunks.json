@@ -138,7 +138,7 @@
       "Handhelds and Wearables"
     ],
     "anchor": "handhelds-and-wearables",
-    "text": "Like Potentials, equipment can also become stressed and eventually experience deterioration. Experiencing Fallout has the possibility of applying Equipment Stress or Equipment Fallout to your equipped items. When this happens, you or the GM will decide which of your equipped items is the target of aforementioned Stress or Fallout. Weapons are assigned a damage die and target Potential. Attacks made with weapons require a successful Test to have any effect. Armor is assigned a number of **Protection Slots** that can be used to store incoming physical Stress instead of applying it directly to the wearer's Stress Track. These reset each scene. Taking Fallout in a weapon or tool increases the Riskiness of Tests used to use that piece of equipment. Taking Fallout in armor causes the number of protection slots available to be decreased. These debuff effects can be removed when taking the Repair Rest Action.",
+    "text": "Like Potentials, equipment can also become stressed and eventually experience deterioration. Experiencing Fallout has the possibility of applying Equipment Stress or Equipment Fallout to your equipped items. When this happens, you or the GM will decide which of your equipped items is the target of aforementioned Stress or Fallout. Weapons are assigned a damage die and target Potential. Attacks made with weapons require a successful Test to have any effect. Armor is assigned a number of **Protection Slots** that can be used to store incoming physical Stress instead of applying it directly to the wearer's Stress Track. Doing so requires a reaction. These reset each scene. Taking Fallout in a weapon or tool increases the Riskiness of Tests used to use that piece of equipment. Taking Fallout in armor causes the number of protection slots available to be decreased. These debuff effects can be removed when taking the Repair Rest Action.",
     "aliases": [
       "Weapons",
       "Armor",
@@ -173,7 +173,7 @@
       "Weapon Stats"
     ],
     "anchor": "weapon-stats",
-    "text": "Here is a list of weapons players may wield, with their damage target, Dice, and Equipment Properties. A weapon's damage target determines which Potential the resulting Stress is applied to on a hit.",
+    "text": "Here is a list of weapons players may wield, with their damage target, Dice, and Equipment Properties. A weapon's damage target determines which Potential the resulting Stress is applied to on a hit. These weapons are considered to have the *Damage DX|P* property where *DX* is determined by the Damage column and *P* is determined by the Target column.",
     "aliases": [
       "Weapons",
       "Armor",
@@ -210,7 +210,7 @@
       "Melee Weapons"
     ],
     "anchor": "melee-weapons",
-    "text": "| Weapon | Damage | Target | Equipment Properties | | ------------- | ------ | ------- | ------------------------------------ | | Bastard Sword | D8 | Might | *Half-Hand* | | Battleaxe | D8 | Might | *Half-Hand, Durability (1)* | | Cutlass | D6 | Might | | | Falchion | D6 | Might | *Half-Hand* | | Greataxe | D12 | Might | *Heavy, Durability (1), Unwieldy* | | Halberd | D10 | Might | *Reach, Unwieldy* | | Handaxe | D6 | Might | *Thrown (Close)* | | Longsword | D10 | Might | *Unwieldy* | | Sickle | D4 | Might | *Entangling* | | War Axe | D8 | Might | *Durability (1)* | | Dagger | D4 | Finesse | *Thrown (Close), Discreet* | | Dart | D4 | Finesse | *Thrown (There), Brittle* | | Greatsword | D6 | Finesse | *Heavy, Brutal, Unwieldy* | | Javelin | D4 | Finesse | *Thrown (There), Fragile* | | Morningstar | D6 | Finesse | *Tough* | | Net | D4 | Finesse | *Thrown (Near), Entangling, Brittle* | | Pike | D10 | Finesse | *Unwieldy, Reach* | | Rapier | D8 | Finesse | | | Spear | D6 | Finesse | *Fragile, Half-Hand, Thrown (Close)* | | Shortsword | D6 | Finesse | | | Trident | D8 | Finesse | *Half-H",
+    "text": "| Weapon | Damage | Target | Equipment Properties | | ------------- | ------ | ------- | ----------------------------------------- | | Bastard Sword | D8 | Might | *Half-Hand* | | Battleaxe | D8 | Might | *Half-Hand, Durability (1)* | | Cutlass | D6 | Might | | | Falchion | D6 | Might | *Half-Hand* | | Greataxe | D12 | Might | *Heavy, Durability (1), Unwieldy* | | Halberd | D10 | Might | *Reach, Unwieldy* | | Handaxe | D6 | Might | *Thrown (Close)* | | Longsword | D10 | Might | *Unwieldy* | | Sickle | D4 | Might | *Entangling* | | War Axe | D8 | Might | *Durability (1)* | | Dagger | D4 | Finesse | *Thrown (Close), Discreet* | | Dart | D4 | Finesse | *Thrown (There), Brittle* | | Greatsword | D6 | Finesse | *Heavy, Brutal, Unwieldy* | | Javelin | D4 | Finesse | *Thrown (There), Fragile* | | Morningstar | D6 | Finesse | *Tough* | | Net | D4 | Finesse | *Thrown (Near), Entangling, Brittle* | | Pike | D10 | Finesse | *Unwieldy, Reach* | | Rapier | D8 | Finesse | | | Spear | D6 | Finesse | *Fragile, Half-Hand, Thrown (Close)* | | Shortsword | D6 | Finesse | | | Trident | D8 | Finesse | *H",
     "aliases": [
       "Weapons",
       "Armor",
@@ -248,7 +248,7 @@
       "Melee Weapons"
     ],
     "anchor": "melee-weapons",
-    "text": "and, Thrown (Close)* | | Club | D4 | Nerve | *Thrown (Close), Durability (1)* | | Greatstaff | D8 | Nerve | *Unwieldy, Durability (1), Reach* | | Hammer | D4 | Nerve | *Thrown (Close), Tough* | | Lance | D10 | Nerve | *Brittle, Half-Hand* | | Maul | D6 | Nerve | *Brutal, Tough* | | Quarterstaff | D6 | Nerve | *Half-Hand, Durability (1)* | | Mace | D6 | Nerve | *Tough* | | Whip | D4 | Nerve | *Reach, Entangling* | | Warhammer | D10 | Nerve | *Unwieldy, Tough* | | War Pick | D6 | Seep | *Brutal, Tough, Durability (1)* |",
+    "text": "alf-Hand, Thrown (Close)* | | Club | D4 | Nerve | *Thrown (Close), Durability (1)* | | Greatstaff | D8 | Nerve | *Unwieldy, Durability (1), Reach* | | Hammer | D4 | Nerve | *Thrown (Close), Tough* | | Lance | D10 | Nerve | *Brittle, Half-Hand* | | Maul | D6 | Nerve | *Brutal, Tough* | | Quarterstaff | D6 | Nerve | *Half-Hand, Durability (1)* | | Mace | D6 | Nerve | *Tough* | | Whip | D4 | Nerve | *Reach, Entangling* | | Warhammer | D10 | Nerve | *Unwieldy, Tough* | | War Pick | D6 | Seep | *Brutal, Unwieldy, Tough, Durability (1)* |",
     "aliases": [
       "Weapons",
       "Armor",
@@ -286,7 +286,7 @@
       "Ranged Weapons"
     ],
     "anchor": "ranged-weapons",
-    "text": "All ranged weapons are considered to have the *Ranged (X)* property, where the distance, *X*, is defined under the Range column below: | Weapon | Dice | Target | Range | Equipment Properties | | ----------- | ---- | ------- | ----- | -------------------------------- | | Blowgun | 1D4 | Finesse | There | *Loading, Fragile, Discreet* | | Crossbow | 1D6 | Finesse | Far | *Fragile, Loading (1)* | | Longbow | 1D8 | Finesse | Far | *Fragile, Two-Handed* | | Shortbow | 1D6 | Finesse | There | *Fragile, Two-Handed* | | Wristbow | 1D4 | Finesse | Close | *Fragile, Discreet, Loading (1)* | | Sling | 1D4 | Nerve | There | *Discreet* | | Pepperbox | 2D6 | Seep | There | *Fragile, Loading (6)* | | Hand Cannon | 2D8 | Seep | Close | *Fragile, Loading (2)* | | Rifle | 2D8 | Seep | Far | *Fragile, Loading (1)* |",
+    "text": "All ranged weapons are considered to have the *Ranged (X)* property, where the distance, *X*, is defined under the Range column below: | Weapon | Dice | Target | Range | Equipment Properties | | ------------ | ---- | ------- | ----- | -------------------------------- | | Blowgun | 1D4 | Finesse | There | *Loading, Fragile, Discreet* | | Crossbow | 1D6 | Finesse | Far | *Fragile, Loading (1)* | | Longbow | 1D8 | Finesse | Far | *Fragile, Two-Handed* | | Shortbow | 1D6 | Finesse | There | *Fragile, Two-Handed* | | Wristbow | 1D4 | Finesse | Close | *Fragile, Discreet, Loading (1)* | | Sling | 1D4 | Nerve | There | *Discreet* | | Pepperbox | 1D6 | Seep | There | *Brutal, Fragile, Loading (6)* | | Hand Cannon | 1D8 | Seep | Close | *Brutal, Fragile, Loading (2)* | | Rifle | 1D8 | Seep | Far | *Brutal, Fragile, Loading (1)* | | Wrist Cannon | 1D4 | Seep | Close | *Fragile, Loading (2), Discreet* |",
     "aliases": [
       "Weapons",
       "Armor",
@@ -323,7 +323,7 @@
       "Armor Stats"
     ],
     "anchor": "armor-stats",
-    "text": "Here is a list of armors players might wear, with their number of Protection Slots and Armor Properties. | Name | Protection Slots | Armor Properties | | ----------- | ---------------- | ------------------- | | Scale Mail | 2 | | | Chain Shirt | 3 | | | Leather | 1 | *Light* | | Padded | 1 | *Light, Discreet* | | Half-Plate | 4 | *Heavy, Indiscreet* | | Plate | 5 | *Heavy, Indiscreet* | | Ringmail | 3 | *Heavy* | | Oak | 1 | *Shield (F)* | | Steel | 2 | *Shield (M)* |",
+    "text": "Here is a list of armors players might wear, with their number of Protection Slots and Armor Properties. | Name | Protection Slots | Armor Properties | | ------------ | ---------------- | ------------------- | | Breastplate | 3 | | | Chain Shirt | 2 | | | Half-Plate | 4 | *Indiscreet* | | Scale Mail | 3 | *Durability (1)* | | Leather | 1 | *Light* | | Padded | 1 | *Light, Discreet* | | Hide | 2 | *Light* | | Chainmail | 4 | *Heavy, Indiscreet* | | Plate | 5 | *Heavy, Indiscreet* | | Ringmail | 3 | *Heavy, Indiscreet* | | Splint | 4 | *Heavy* | | Oak Shield | 1 | *Shield (F)* | | Steel Shield | 2 | *Shield (M)* | | Splint | 4 | *Heavy* |",
     "aliases": [
       "Weapons",
       "Armor",
@@ -467,7 +467,7 @@
       "Equipment Properties"
     ],
     "anchor": "equipment-properties",
-    "text": "| | Unwieldly | Tests made with this weapon while wielding it with only one hand are made with Disadvantage. | | **Armor** | | | Protection (*X*) | This armor provides *X* Protection Slots. | | Light | Protection slots grant Disadvantage on incoming physical attacks instead of Stress storage. These Slots replenish after moving on your turn. | | Heavy | As long as you have protection slots left open, you may reduce incoming physical damage by 1 roll of your Might Volatility Die. You have Disadvantage on Finesse Tests. | | Indiscreet | Tests made to avoid perception while wearing this armor are rolled with Disadvantage. | | Shield (*P*) | This armor provides a maximum of 2 Protection Slots. You may spend a Resistance from the given *Potential* to refresh the Protection Slots provided by this armor. |",
+    "text": "| | Unwieldly | Tests made with this weapon while wielding it with only one hand are made with Disadvantage. | | **Armor** | | | Protection (*X*) | This armor provides *X* Protection Slots. | | Light | Protection slots grant Disadvantage on incoming physical attacks instead of Stress storage. These Slots replenish after moving on your turn. | | Heavy | Whenever you expend a Protection Slot, you may reduce incoming physical damage by 1 roll of your Might Volatility Die. You have Disadvantage on Finesse Tests. | | Indiscreet | Tests made to avoid perception while wearing this armor are rolled with Disadvantage. | | Shield (*P*) | This armor provides a maximum of 2 Protection Slots. You may spend a Resistance from the given *Potential* to refresh the Protection Slots provided by this armor. |",
     "aliases": [
       "Weapons",
       "Armor",
@@ -1237,7 +1237,7 @@
       "Party Leveling"
     ],
     "anchor": "party-leveling",
-    "text": "Leveling up a party requires a certain amount of story points. This number is determined by the following equation: $$ U=(2N+NL) \\\\ U=\\mathrm{level-up~requirement} \\\\ L=\\mathrm{current~party~level~(minimum~of~1)} \\\\ N=\\mathrm{number~of~players} $$ >[!example] >*Number of players*: 4 >#### Story Points needed for a Level-Up: > >*Initial (Level 0 to 1)*: 8 >*Level 2*: 12 >*Level 3*: 16 >*Level 4*: 20 >*Level 5*: 24 A party gains Story points whenever a player gains a String, Milestone, or Zenith (from a source other than the Loom). At the beginning of a party's adventure, it is given 1 Loom Boon. The cost for Loom Boon Abilities is limited to a number of Strings equal to the upcoming Party Level (i.e. initial = 1 String, leveling up from level 1 = 2 Strings). Each Loom Boon is considered to be a **Group Action**. Group Actions cannot be activated unless an additional player has thrown in the gauntlet at the same time as the player activating the Group Action. The additional player must take the Narrate General Action to successfully activate the Group Action.",
+    "text": "Leveling up a party requires a certain amount of story points. This number is determined by the following equation: $$ U=(2N+NL) \\\\ U=\\mathrm{level-up~requirement} \\\\ L=\\mathrm{current~party~level~(minimum~of~1)} \\\\ N=\\mathrm{number~of~players} $$ >[!example] >*Number of players*: 4 >#### Story Points needed for a Level-Up: > >*Initial (Level 0 to 1)*: 8 >*Level 2*: 12 >*Level 3*: 16 >*Level 4*: 20 >*Level 5*: 24 A party gains story points whenever a player gains a String, Milestone, or Zenith (from a source other than the Loom). At the beginning of a party's adventure, it is given 1 Loom Boon. The cost for Loom Boon Abilities is limited to a number of Strings equal to the upcoming Party Level (i.e. initial = 1 String, leveling up from level 1 = 2 Strings). Each Loom Boon is considered to be a **Group Action**. Group Actions cannot be activated unless an additional player has thrown in the gauntlet at the same time as the player activating the Group Action. The additional player must take the Narrate General Action to successfully activate the Group Action.",
     "aliases": [
       "Flavor Tokens",
       "Flavor Actions",
@@ -1264,7 +1264,7 @@
       "Party Leveling"
     ],
     "anchor": "party-leveling",
-    "text": "This gives each Loom Boon a -2 String discount when building the Ability. Spending a Spirit Token for an Ability counts as the same cost reduction as spending a Resistance. When a party levels up, each character gains a String. In addition, they gain a Loom Boon (see below), as well as refresh all Spirit Tokens.",
+    "text": "This gives each Loom Boon a -2 String discount when building the Ability. **Spirit Tokens** are a representation of the party's capability to work together towards a shared goal. These can be expended to satisfy an Ability's spending of a Resistance, but you must narrate how the party has helped your character into bringing this moment of success into fruition. Spending a Spirit Token for an Ability counts as the same cost reduction as spending a Resistance, and some Loom Boons will require the expenditure of a Spirit Token specifically. When a party levels up, each character gains a String. In addition, they gain a Loom Boon (see below), as well as refresh all Spirit Tokens.",
     "aliases": [
       "Flavor Tokens",
       "Flavor Actions",
@@ -1316,7 +1316,7 @@
       "Using the Loom"
     ],
     "anchor": "using-the-loom",
-    "text": "An adventuring party as access to a communal pool of Spirit Tokens, representing the heroic resolve of our story. The number of tokens is determined by the number of players plus the current party level (minimum of 1).",
+    "text": "An adventuring party as access to a communal pool of Spirit Tokens, representing the heroic resolve of our story. The initial number of tokens is determined by the number of players plus the current party level (minimum of 1).",
     "aliases": [
       "Flavor Tokens",
       "Flavor Actions",
@@ -2155,7 +2155,7 @@
       "Enhancement Limits"
     ],
     "anchor": "enhancement-limits",
-    "text": "| Tier | Levels | Max Enhancements on one Ability | Total Enhancements per character | | ---- | ------ | ------------------------------- | -------------------------------- | | I | 1–4 | 1 | 3 | | II | 5-8 | 2 | 7 | | III | 9-12 | 3 | 13 | | IV | 13-16 | 4 | 22 | | V | 17-20 | 5 | 36 | Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.",
+    "text": "| Tier | Levels | Max Enhancements on one Ability | Total Enhancements per character | | ---- | ------ | ------------------------------- | -------------------------------- | | I | 1–4 | 1 | 3 | | II | 5-8 | 2 | 7 | | III | 9-12 | 3 | 13 | | IV | 13-16 | 4 | 22 | | V | 17-20 | 5 | 36 | Only Abilities with Tier 2 or above as a Prerequisite can increase a character's Enhancement limits as a Stat increase.",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -3392,18 +3392,18 @@
   },
   "gameplay/adversaries::1:0": {
     "pageTitle": "Monsters",
-    "url": "/site/gameplay/adversaries/#party-tiers",
-    "heading": "Party Tiers",
+    "url": "/site/gameplay/adversaries/#difficulty",
+    "heading": "Difficulty",
     "headingPath": [
       "Monsters",
-      "Party Tiers"
+      "Difficulty"
     ],
-    "anchor": "party-tiers",
-    "text": "To make a judgement about what your adventuring party can handle, calculate the average party Tier. To do this, take each character's Tier, add them together, and divide by the number of characters (rounded up). Then, add the players' Party Level. $$ \\left\\lceil\\frac{T_{\\text{\\:1st PC Tier}}\\:+\\:T_{\\text{\\:2nd PC Tier}}\\:+\\:...\\:+\\:T_{C\\text{th PC Tier}}}{C_{\\text{Number of characters}}}\\right\\rceil\\:+\\:P_{\\text{\\:Party Loom Level}}\\:=\\:D_{\\text{\\:Difficulty}} $$ This results in a value called **Difficulty**. Difficulty can be spend in various ways, including the purchasing of Interventions. Different levels of Interventions are associated with the different levels of Fallout.",
+    "anchor": "difficulty",
+    "text": "To make a judgement about what your adventuring party can handle, calculate the average party Tier. To do this, take each character's Tier, add them together, and divide by the number of characters (rounded up) to get the average character Tier. Then, add the players' Party Level. $$ \\left\\lceil\\frac{T_{\\text{\\:1st PC Tier}}\\:+\\:T_{\\text{\\:2nd PC Tier}}\\:+\\:...\\:+\\:T_{C\\text{th PC Tier}}}{C_{\\text{Number of characters}}}\\right\\rceil\\:+\\:P_{\\text{\\:Party Loom Level}}\\:=\\:D_{\\text{\\:Difficulty}} $$ This results in a value called **Difficulty**. Difficulty can be spend in various ways, including the purchasing of Interventions. Different levels of Interventions are associated with the different levels of Fallout.",
     "aliases": [
       "monsters",
       "Monsters",
-      "Party Tiers"
+      "Difficulty"
     ],
     "tags": [
       "rules",
@@ -3416,16 +3416,678 @@
     "heading": "Intervention Trigger Table",
     "headingPath": [
       "Monsters",
-      "Party Tiers",
+      "Difficulty",
       "Intervention Trigger Table"
     ],
     "anchor": "intervention-trigger-table",
-    "text": "| Fallout Type | Difficulty Cost | | ------------------ | --------------- | | Mechanical Fallout | 1 | | Minor Fallout | 2 | | Major Fallout | 3 | | Severe Fallout | 4 |",
+    "text": "| Fallout Type | Difficulty Cost | | ------------------ | --------------- | | Mechanical Fallout | 1 | | Minor Fallout | 2 | | Major Fallout | 3 | | Severe Fallout | 4 | Choosing an Intervention's Fallout Type determines what kind of Fallout the adversary is able to \"intervene\" upon. For example, say you have created an adversary with a Minor Fallout Intervention that causes the Muddled (N) Condition as alien paralytic excretions start to numb the player on contact. If a player would have a Stress Overflow due to an adversary's attack, and that Stress Overflow would result in Minor Fallout (see Levels of Fallout), then you may choose to immediately apply the adversary's Minor Fallout Intervention effect instead of coming up with an appropriate type of Fallout based on the narrative context. *Interventions cannot be activated on Fallout triggered by an Intervention.* Additionally, Interventions can be used to define the outcome of Narrative and Situational Fallout. This oftentimes occurs when a player rolls a Test that results in Mixed or lower.",
     "aliases": [
       "monsters",
       "Monsters",
-      "Party Tiers",
+      "Difficulty",
       "Intervention Trigger Table"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::2:1": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#intervention-trigger-table",
+    "heading": "Intervention Trigger Table",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Intervention Trigger Table"
+    ],
+    "anchor": "intervention-trigger-table",
+    "text": "Different kinds of Interventions can affect different success levels that would incur Fallout (see below). | Success Level | Intervention Level | | ------------- | ------------------ | | Mixed | Mechanical | | Failure | Minor | | Miff | Major | | Natural Miff | Severe | \\* Certain Interventions could be given increased durations to accommodate for higher levels of Fallout than what an adversary's Interventions cover. This only applies to Interventions that inflict a Condition, and is up to GM discretion. The Difficulty of an adversary manifests in its ability to increase the Fallout Level taken by a target creature, though the effect is restricted to what is predetermined in the definition of that adversary's Intervention. To increase the Fallout Level, the original Fallout Level must be Narrative, Minor, or Major, and the adversary must succeed on a Test determined in the Intervention's definition. Increasing the Fallout Level taken by a target creature causes the GM to skip their next turn.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Intervention Trigger Table"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::3:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#intervention-templates",
+    "heading": "Intervention Templates",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates"
+    ],
+    "anchor": "intervention-templates",
+    "text": "Different levels of Interventions call for different effects, which can vary per the adversary's narrative capabilities. Here are a list of potential Intervention effects that correspond with their Fallout Types:",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::4:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#mechanical-interventions",
+    "heading": "Mechanical Interventions",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Mechanical Interventions"
+    ],
+    "anchor": "mechanical-interventions",
+    "text": "- Apply Disadvantage on the target's next Test in a specific Skill. - Grant Advantage on the next attack against the target.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Mechanical Interventions"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::5:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#minor-interventions",
+    "heading": "Minor Interventions",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Minor Interventions"
+    ],
+    "anchor": "minor-interventions",
+    "text": "- Apply a Minor Condition to the target until the beginning of the adversary's next turn. - Apply 1DV Equipment Damage to a target's equipped item. - Prevent the Stress Track from overflowing, and instead move the overflow Stress to another specific Potential Track.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Minor Interventions"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::6:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#major-interventions",
+    "heading": "Major Interventions",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Major Interventions"
+    ],
+    "anchor": "major-interventions",
+    "text": "- Apply a Minor Condition to the target until the end of the current Scene. - Apply a Minor Condition to the target until the beginning of the adversary's next turn, and the target takes a Mark. - Apply a Major Condition to the target until the beginning of the adversary's next turn. - Cause Equipment Fallout to a target's equipped item.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Major Interventions"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::7:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#severe-interventions",
+    "heading": "Severe Interventions",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Severe Interventions"
+    ],
+    "anchor": "severe-interventions",
+    "text": "- Apply a Minor Condition to the target Until Dispelled. - Apply a Minor Condition to the target until the end of the current Scene, and the target takes 2 Marks. - Apply a Major Condition to the target until the end of the current Scene. - Apply a Major Condition to the target until the beginning of the adversary's next turn, and the target takes 3 Marks.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Intervention Templates",
+      "Severe Interventions"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::8:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#example-interventions",
+    "heading": "Example Interventions",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions"
+    ],
+    "anchor": "example-interventions",
+    "text": "Sometimes you need to have some quick monsters in the back of your pocket when you find yourself in a Scene you hadn't prepared for. This is where **Adversary Archetypes** become useful. Each Adversary Archetype is associated with particular Potentials that the adversary excels in, making these archetypes narrower than Character Archetypes. These excellence profiles will be referred to as their Potential Contour.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::9:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#breaker",
+    "heading": "Breaker",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Breaker"
+    ],
+    "anchor": "breaker",
+    "text": "The Breaker Archetype is for adversaries whose Potential Contour excels in Might. > [!info]- Mechanical Intervention > **Ringing Blow.** The target has Disadvantage on their next **Brace** Test. > [!important]- Minor Intervention > ***Crushing Opening.*** The target becomes Vulnerable (Might) until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Bone-Shaking Impact.*** The target becomes Held until the beginning of the adversary’s next turn and takes **1 Mark**. > [!danger]- Severe Intervention > ***Pulverize.*** The target becomes Pinned until the beginning of the adversary’s next turn and takes **3 Marks**.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Breaker"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::10:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#prowler",
+    "heading": "Prowler",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Prowler"
+    ],
+    "anchor": "prowler",
+    "text": "The Prowler Archetype is for adversaries whose Potential Contour excels in Finesse. > [!info]- Mechanical Intervention > ***Feint and Slip.*** The next attack made against the target has Advantage. > [!important]- Minor Intervention > ***Hamstring.*** The target becomes Vulnerable (Finesse) until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Shadow Bind.*** The target becomes Bound until the end of the current Scene. > [!danger]- Severe Intervention > ***Ghosted Quarry.*** The adversary becomes Unseen against creatures **Until Dispelled**.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Prowler"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::11:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#survivor",
+    "heading": "Survivor",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Survivor"
+    ],
+    "anchor": "survivor",
+    "text": "The Survivor Archetype is for adversaries whose Potential Contour excels in Nerve. > [!info]- Mechanical Intervention > ***Unyielding Pressure.*** The target has Disadvantage on their next Grit Test. > [!important]- Minor Intervention > ***Attrition.*** Prevent the target’s Stress Track from overflowing; instead, move the overflow Stress to Nerve. > [!warning]- Major Intervention > ***Wear Down.*** The target becomes Dazed until the beginning of the adversary’s next turn. > [!danger]- Severe Intervention > ***Break Their Stamina.*** The target is Bleeding (Nerve) until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Survivor"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::12:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#shifter",
+    "heading": "Shifter",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Shifter"
+    ],
+    "anchor": "shifter",
+    "text": "The Shifter Archetype is for adversaries whose Potential Contour excels in Seep. > [!info]- Mechanical Intervention > ***Warped Reflex.*** The target has Disadvantage on their next Sleight Test. > [!important]- Minor Intervention > ***Mutagenic Splash.*** The target becomes Muddled (Seep) until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Malformed Flesh.*** The target becomes Physically Vulnerable until the beginning of the adversary’s next turn. > [!danger]- Severe Intervention > ***Transmuting Seizure.*** The target becomes Petrified until the beginning of the adversary’s next turn and takes **3 Marks**.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Shifter"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::13:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#hunter",
+    "heading": "Hunter",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Hunter"
+    ],
+    "anchor": "hunter",
+    "text": "The Hunter Archetype is for adversaries whose Potential Contour excels in Instinct. > [!info]- Mechanical Intervention > ***Read the Motion.*** The next attack made against the target has Advantage. > [!important]- Minor Intervention > ***Cornered.*** The target gains Afraid until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Run to Ground.*** The target becomes Rooted (Here) until the end of the current Scene. > [!danger]- Severe Intervention > ***Prey Locked.*** The target becomes Slowed until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Hunter"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::14:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#schemer",
+    "heading": "Schemer",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Schemer"
+    ],
+    "anchor": "schemer",
+    "text": "The Schemer Archetype is for adversaries whose Potential Contour excels in Wit. > [!info]- Mechanical Intervention > ***Calculated Disruption.*** The target has Disadvantage on their next Sense Test. > [!important]- Minor Intervention > ***False Step.*** The target becomes Muddled (Wit) until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Engineered Collapse.*** Cause Equipment Fallout to one equipped item of the target. > [!danger]- Severe Intervention > ***System Shock.*** The target becomes Distracted until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Schemer"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::15:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#zealot",
+    "heading": "Zealot",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Zealot"
+    ],
+    "anchor": "zealot",
+    "text": "The Zealot Archetype is for adversaries whose Potential Contour excels in Heart. > [!info]- Mechanical Intervention > ***Overwhelming Presence.*** The target has Disadvantage on their next Hope Test. > [!important]- Minor Intervention > ***Intimidating Cry.*** The target becomes Afraid until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Ruinous Conviction.*** The target becomes Enraptured by the adversary until the end of the current Scene. > [!danger]- Severe Intervention > ***Spirit Break.*** The target becomes Mentally Vulnerable until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Zealot"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::16:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#hexer",
+    "heading": "Hexer",
+    "headingPath": [
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Hexer"
+    ],
+    "anchor": "hexer",
+    "text": "The Hexer Archetype is for adversaries whose Potential Contour excels in Tether. > [!info]- Mechanical Intervention > ***Eldritch Static.*** The target has Disadvantage on their next Reason Test. > [!important]- Minor Intervention > ***Whispered Blight.*** The target becomes Silenced until the beginning of the adversary’s next turn. > [!warning]- Major Intervention > ***Soul Hook.*** The target becomes Dazed until the beginning of the adversary’s next turn. > [!danger]- Severe Intervention > ***Malison.*** The target becomes Cursed until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Difficulty",
+      "Example Interventions",
+      "Hexer"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::17:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#escalations",
+    "heading": "Escalations",
+    "headingPath": [
+      "Monsters",
+      "Escalations"
+    ],
+    "anchor": "escalations",
+    "text": "Adversaries are already formidable opponents through upscaling Fallout by taking dynamic action to apply Interventions, but any old adversary can find an opportunity during combat. It takes an elite form of adversary to adapt completely to a challenge mid-Scene. This is where Escalations come in. Escalations are Surges available to adversaries that can be activated at any time, as long as it's not before a narrative event that has already been announced as happening. Just like Surges, Escalations cannot be activated more than once per turn. Generally, mundane adversaries do not have access to Escalations, but adversaries that could be considered unique, elite, or otherwise boss-level encounters may have access to Escalations. Escalations can be purchased using Difficulty points as follows: | Escalation Level | Difficulty Cost | | --------------------- | --------------- | | Mechanical Escalation | 2 | | Minor Escalation | 3 | | Major Escalation | 4 | | Severe Escalation | 5 |",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::18:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#mechanical-escalations",
+    "heading": "Mechanical Escalations",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Mechanical Escalations"
+    ],
+    "anchor": "mechanical-escalations",
+    "text": "- Gain Advantage on the adversary’s next attack. - Gain Advantage on the adversary’s next Test in a specific Skill. - Gain a one-use temporary Reaction. - Clear 1 Stress from a specific Potential.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Mechanical Escalations"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::19:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#minor-escalations",
+    "heading": "Minor Escalations",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Minor Escalations"
+    ],
+    "anchor": "minor-escalations",
+    "text": "- Gain a beneficial Minor Condition until the end of the adversary's next turn. - Regain 1 spent Resistance in a specific Potential. - Activate a D4 Sequence effect that grants one specific Reaction that creates an instantaneous effect of 1DV damage, a Minor Condition, Close movement, or Utility Narrative Weight.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Minor Escalations"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::20:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#major-escalations",
+    "heading": "Major Escalations",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Major Escalations"
+    ],
+    "anchor": "major-escalations",
+    "text": "- Gain a beneficial Major Condition until the end of the adversary’s next turn. - Gain a beneficial Minor Condition until the end of the current Scene. - Gain a Trait effect that grants one specific Reaction that creates an instantaneous effect of 1DV damage, a Minor Condition, Close movement, or Utility Narrative Weight. - Begin a DV Sequence effect that grants one specific Reaction that creates an instantaneous effect of XDV damage where X is the average character Tier, a Major Condition, Far movement, or Interpretable Narrative Weight.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Major Escalations"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::21:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#severe-escalations",
+    "heading": "Severe Escalations",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Severe Escalations"
+    ],
+    "anchor": "severe-escalations",
+    "text": "- Gain a beneficial Major Condition until the end of the current Scene. - Gain a Trait effect that grants one specific Reaction that creates an instantaneous effect of XDV damage where X is the average character Tier, a Major Condition, Far movement, or Interpretable Narrative Weight.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Escalation Templates",
+      "Severe Escalations"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::22:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#breaker",
+    "heading": "Breaker",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Breaker"
+    ],
+    "anchor": "breaker",
+    "text": "> [!info]- Mechanical Escalation > ***Wind-Up.*** Gain Advantage on the adversary’s next attack. > [!important]- Minor Escalation > ***Shoulder Through.*** Activate a D4 Sequence effect. The adversary gains the following Reaction until the Sequence expires: once per turn, when a creature impedes its movement or closes to challenge it, deal 1MDV of Nerve damage to that creature. > [!warning]- Major Escalation > ***Punishing Mass.*** Gain Retaliate (Might/Nerve) until the end of the adversary’s next turn. > [!danger]- Severe Escalation > ***Rampage.*** Become Frenzied until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Breaker"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::23:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#prowler",
+    "heading": "Prowler",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Prowler"
+    ],
+    "anchor": "prowler",
+    "text": "> [!info]- Mechanical Escalation > ***Slip Aside.*** Gain a one-use temporary Reaction: after the adversary is targeted by an attack, it may immediately move Close. > [!important]- Minor Escalation > ***Fade from Sight.*** Gain Unseen until the end of the adversary’s next turn. > [!warning]- Major Escalation > ***Cut on the Turn.*** Gain a Trait effect until the end of the adversary’s next turn: once per round, when a creature misses the adversary, the adversary may apply Vulnerable (Finesse) to that creature, which lasts until the end of the adversary's next turn. > [!danger]- Severe Escalation > ***Execution Window.*** Gain a Trait effect until the end of the current Scene: once per round, when the adversary attacks from hiding or from a superior position, it may also deal XFDV of Might damage to the target.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Prowler"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::24:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#survivor",
+    "heading": "Survivor",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Survivor"
+    ],
+    "anchor": "survivor",
+    "text": "> [!info]- Mechanical Escalation > ***Catch Breath.*** Clear 1 Stress from Nerve. > [!important]- Minor Escalation > ***Dig Deep.*** Regain 1 spent Nerve Resistance. > [!warning]- Major Escalation > ***Pain Answered.*** Gain Retaliate (Nerve/Finesse) until the end of the adversary’s next turn. > [!danger]- Severe Escalation > ***Refuse to Fall.*** Become Warded (1) until the end of the current Scene.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Survivor"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::25:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#shifter",
+    "heading": "Shifter",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Shifter"
+    ],
+    "anchor": "shifter",
+    "text": "> [!info]- Mechanical Escalation > ***Reform.*** Gain Advantage on the adversary’s next Grace or Feat Test. > [!important]- Minor Escalation > ***Mutable Hide.*** Become Armored by a Seep Shield until the end of the adversary’s next turn. > [!warning]- Major Escalation > ***Slip the Shape.*** Gain a Trait effect until the end of the adversary’s next turn: once per round, when the adversary is targeted by an attack, it may immediately move Close to avoid the effect. > [!danger]- Severe Escalation > ***Contagious Form.*** Gain a Trait effect until the end of the current Scene: once per round, when a creature makes direct contact with the adversary, that creature becomes Physically Vulnerable until the end of the adversary's next turn.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Shifter"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::26:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#hunter",
+    "heading": "Hunter",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Hunter"
+    ],
+    "anchor": "hunter",
+    "text": "> [!info]- Mechanical Escalation > ***Read the Trail.*** Gain Advantage on the adversary’s next Read or Sense Test. > [!important]- Minor Escalation > ***Relentless Pursuit.*** Activate a D4 Sequence effect. The adversary gains the following Reaction until the Sequence expires: when a creature attempts to flee, hide, or widen the gap, the adversary may immediately move Close to keep pressure on it. > [!warning]- Major Escalation > ***Predator’s Focus.*** Become Empowered (Instinct) until the end of the current Scene. > [!danger]- Severe Escalation > ***Run Them Down.*** Gain a Trait effect until the end of the current Scene: once per round, when a creature attempts to escape the adversary’s pursuit, that creature becomes Slowed until the end of the adversary's next turn.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Hunter"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::27:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#schemer",
+    "heading": "Schemer",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Schemer"
+    ],
+    "anchor": "schemer",
+    "text": "> [!info]- Mechanical Escalation > ***Contingency.*** Gain Advantage on the adversary’s next Reason or Reflex Test. > [!important]- Minor Escalation > ***Prepared Snag.*** Activate a D4 Sequence effect. The adversary gains the following Reaction until the Sequence expires: when a creature commits to an obvious course of action, the adversary becomes Empowered (Wit) to until the end of its next turn. > [!warning]- Major Escalation > ***Cold Calculation.*** Become Fortified (1) until the end of the adversary’s next turn. > [!danger]- Severe Escalation > ***Perfect Countermeasure.*** Gain a Trait effect until the end of the current Scene: once per round, when a creature activates an ability, manipulates a mechanism, or follows an anticipated plan, the adversary may move Close.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Schemer"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::28:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#zealot",
+    "heading": "Zealot",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Zealot"
+    ],
+    "anchor": "zealot",
+    "text": "> [!info]- Mechanical Escalation > ***Rallying Cry.*** Gain Advantage on the adversary’s or one of the adversary's allies' next Hope or Sway Test. > [!important]- Minor Escalation > ***Fanatic Fervor.*** Become Empowered (Heart) until the end of the adversary’s next turn. > [!warning]- Major Escalation > ***Rousing Presence.*** Become Spirited until the end of the adversary’s next turn. > [!danger]- Severe Escalation > ***Break the Will.*** Gain a Trait effect until the end of the current Scene: once per round, when a creature fails a Test against the adversary, that creature becomes Distracted until the end of the adversary's next turn.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Zealot"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::29:0": {
+    "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#breaker",
+    "heading": "Breaker",
+    "headingPath": [
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Breaker"
+    ],
+    "anchor": "breaker",
+    "text": "> [!info]- Mechanical Escalation > ***Gather the Warp.*** Gain Advantage on the adversary’s next Weave or Grasp Test. > [!important]- Minor Escalation > ***Dark Reserve.*** Regain 1 spent Tether Resistance. > [!warning]- Major Escalation > ***Occult Aegis.*** Become Fortified (1) until the end of the adversary’s next turn. > [!danger]- Severe Escalation > ***Hexbound Reflex.*** Gain a Trait effect until the end of the current Scene: once per round, when a creature targets the adversary with a hostile effect or successfully resists one of its effects, that creature becomes Cursed until the end of the adversary's next turn.",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Escalations",
+      "Example Escalations",
+      "Breaker"
     ],
     "tags": [
       "rules",
@@ -3468,6 +4130,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3513,6 +4180,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3558,6 +4230,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3603,6 +4280,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3649,6 +4331,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3695,6 +4382,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3741,6 +4433,11 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects"
     ],
@@ -3760,7 +4457,7 @@
       "Special Conditions"
     ],
     "anchor": "special-conditions",
-    "text": "***Exhaustion.*** An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level. | Exhaustion Level | Effect | | ---------------- | ---------------------------------------- | | 1 | | | 2 | | | 3 | | | 4 | | | 5 | | | 6 | The Exhausted creature immediately dies. |",
+    "text": "***Exhaustion.*** An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The effects of Exhaustion Levels are cumulative, so any creature suffering from an Exhaustion Level is also effected by the effects of the Exhaustion Levels less than their current one. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level. | Exhaustion Level | Effect | | ---------------- | ---------------------------------------------------------------- | | 1 | All actions require a Test, up to GM discretion. | | 2 | Any Movement taken is considered to be one Range category lower. | | 3 | You are Mentally and Physically Vulnerable. | | 4 | You cannot move farther than Near on a turn. | | 5 | Your Mark Pool maximum is halved.",
     "aliases": [
       "Minor Conditions",
       "Major Conditions",
@@ -3787,6 +4484,63 @@
       "Silenced",
       "Slowed",
       "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
+      "Conditions",
+      "An Exhaustive Guide to Status Effects",
+      "Special Conditions"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/conditions::3:1": {
+    "pageTitle": "Conditions",
+    "url": "/site/gameplay/conditions/#special-conditions",
+    "heading": "Special Conditions",
+    "headingPath": [
+      "Conditions",
+      "An Exhaustive Guide to Status Effects",
+      "Major Conditions",
+      "Special Conditions"
+    ],
+    "anchor": "special-conditions",
+    "text": "| | 6 | The Exhausted creature immediately dies. |",
+    "aliases": [
+      "Minor Conditions",
+      "Major Conditions",
+      "Bleeding",
+      "Fortified",
+      "Frenzied",
+      "Dazed",
+      "Invisible",
+      "Petrified",
+      "Pinned",
+      "Muddled",
+      "Spirited",
+      "Warded",
+      "Afraid",
+      "Armed",
+      "Bound",
+      "Charmed",
+      "Deafened",
+      "Distracted",
+      "Empowered",
+      "Enraptured",
+      "Held",
+      "Rooted",
+      "Silenced",
+      "Slowed",
+      "Unseen",
+      "Vulnerable",
+      "Exhaustion",
+      "Cursed",
+      "Retaliate",
+      "Armored",
       "Conditions",
       "An Exhaustive Guide to Status Effects",
       "Special Conditions"
@@ -4683,7 +5437,7 @@
       "Creating a New Character"
     ],
     "anchor": "creating-a-new-character",
-    "text": "\\* *Individual Potentials can only be increased once per Tier.* >[!important] 1st-Level Stats >When you choose your first archetype level as a new adventurer, you gain the following benefits instead of the usual level-up benefits: >- Starting Marks determined in Archetypes >- 1 Domain >- 2 Skills >- 1 Heroic Goal",
+    "text": "\\* *Individual Potentials can only be increased once per Tier.* >[!important] 1st-Level Stats >When you choose your first archetype level as a new adventurer, you gain the following benefits in addition to the usual level-up benefits: >- Starting Marks determined in Archetypes >- 1 Domain >- 2 Skills >- 1 Heroic Goal",
     "aliases": [
       "Tiers",
       "Levels",
@@ -5141,7 +5895,7 @@
       "Potential Scores"
     ],
     "anchor": "potential-scores",
-    "text": "Each creature is made up of a set of 8 scores called **Potentials**. Each of these Potentials represent a character's capacity to success relating to a given category. Potentials are split between Physical and Mental: Physical Potentials relate to a creature's bodily and physical capabilities, whereas Mental Potentials relate to a creature's intellectual and mental capabilities. The 8 different Potentials are as follows: > [!info]+ **Physical Potentials** > > ***Might:*** A creature's strength and athleticism is represented by its Might score. This score may determine a player's ability to move large objects, scale a wall, or grab ahold of a ledge while falling. > > ***Finesse:*** A creature's quickness and flexibility is represented by its Finesse score. This score may determine a player's ability to navigate quickly through a market chase, tie a knot, or evade someone's grasp. > > ***Nerve:*** A creature's heartiness and stamina is represented by its Nerve score.",
+    "text": "Each creature is made up of a set of 8 scores called **Potentials**. Each of these Potentials represent a character's capacity to success relating to a given category. Potentials are split between Physical and Mental: Physical Potentials relate to a creature's bodily and physical capabilities, whereas Mental Potentials relate to a creature's intellectual and mental capabilities. The 8 different Potentials are as follows: > [!info]+ **Physical Potentials** > > ***Might:*** A creature's strength and athleticism is represented by its Might score. This score may determine a player's ability to move large objects, scale a wall, or grab ahold of a ledge while falling. > > ***Finesse:*** A creature's quickness and flexibility is represented by its Finesse score. This score may determine a player's ability to navigate quickly through a market chase, tie a knot, or evade someone's grasp. > > ***Nerve:*** A creature's physical tolerance to exertion and pain is represented by its Nerve score.",
     "aliases": [
       "Potential",
       "Potentials",
@@ -5176,7 +5930,7 @@
       "Potential Scores"
     ],
     "anchor": "potential-scores",
-    "text": "This score may determine a player's ability to ride a horse nonstop, recover from illness, or remain clear-headed while partaking in substances. > > ***Seep:*** A creature's ability to manifest and maintain their physical form is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist physical arcane effects. > [!info]+ **Mental Potentials** > > ***Instinct:*** A creature's ability to be aware of their surroundings and others' emotions is represented by its Instinct score. This score determines a player's ability to spot a target from far away, determine if someone is lying, or dodge a sudden incoming attack. > > ***Wit:*** A creature's ability to quickly discern patterns and remember information is represented by its Wit score. This score determines a player's ability to recall details about history, glean an understanding of a mechanism, or understand the workings of synthetic arcane enchantments.",
+    "text": "This score may determine a player's ability to ride a horse nonstop, keep ahold of their senses, or stay Concentrating while suffering from damage. > > ***Seep:*** A creature's ability to manifest and maintain their physical form and condition is represented by its Seep score. This score determines a player's ability to physically incorporate the arcane without harm, call upon form-altering magic, or resist the effects of poisons. > [!info]+ **Mental Potentials** > > ***Instinct:*** A creature's ability to be aware of their surroundings and others' emotions is represented by its Instinct score. This score determines a player's ability to spot a target from far away, determine if someone is lying, or dodge a sudden incoming attack. > > ***Wit:*** A creature's ability to quickly discern patterns and remember information is represented by its Wit score. This score determines a player's ability to recall details about history, glean an understanding of a mechanism, or understand the workings of synthetic arcane enchantments.",
     "aliases": [
       "Potential",
       "Potentials",
@@ -5388,7 +6142,7 @@
       "Nerve"
     ],
     "anchor": "nerve",
-    "text": "Bear - *Resisting physical effects of damage, continuing unfettered* Steel - *Enduring strenuous wear unphased, resisting natural bodily response* Grit - *Mind over body, maintaining clarity in moments of pain*",
+    "text": "Bear - *Resisting exhaustion, continuing through strenuous activity unfettered* Steel - *Powering through anticipated pain, resisting natural bodily response* Grit - *Mind over body, maintaining mental clarity in stressful moments*",
     "aliases": [
       "Potential",
       "Potentials",
@@ -5424,7 +6178,7 @@
       "Seep"
     ],
     "anchor": "seep",
-    "text": "Frame - *Resisting arcane alteration, maintaining appearance* Draw - *Adapting to surroundings, letting in warp* Form - *Actuating physical change, becoming something new*",
+    "text": "Frame - *Resisting arcane alteration, maintaining composure against sickness* Draw - *Adapting to surroundings, letting in warp* Form - *Actuating physical change, becoming something new*",
     "aliases": [
       "Potential",
       "Potentials",
@@ -5793,7 +6547,23 @@
       "Sunder's Vision Statement"
     ],
     "anchor": "sunders-vision-statement",
-    "text": "Sunder was created by @mullburrower with the intent to give TTRPG players a storytelling framework that accommodates for creative choice. In this system, tasteful storytelling is rewarded in a quantifiable manner, and there are little to no limits to the kind of character you can play. Ease of use has been prioritized to cultivate a storytelling space that needs not be hindered by rules when unnecessary. This system encourages players to lean into their strengths, giving a natural blueprint for how to roleplay their character. Anything should be possible in Sunder, as long as a player is willing to pay the price to the story or to Magick itself. Features & Release History Explore the development history of Sunder TTRPG. Each release brings new features, improvements, and fixes. Loading release notes... Helpful Resources Guides & Tutorials Learn how to use site features Report an Issue Found a problem? Let us know Join the Community Chat with other players",
+    "text": "Sunder was created by @mullburrower with the intent to give TTRPG players a storytelling framework that accommodates for creative choice. In this system, tasteful storytelling is rewarded in a quantifiable manner, and there are little to no limits to the kind of character you can play. Ease of use has been prioritized to cultivate a storytelling space that needs not be hindered by rules when unnecessary. This system encourages players to lean into their strengths, giving a natural blueprint for how to roleplay their character. Anything should be possible in Sunder, as long as a player is willing to pay the price to the story or to Magick itself. Want to help Sunder grow? If you enjoy the project and want to support future development, consider backing Sunder on Ko-Fi. Support Sunder Features & Release History Explore the development history of Sunder TTRPG. Each release brings new features, improvements, and fixes. Loading release notes... Helpful Resources Guides & Tutorials Learn how to use site features Report an Issue Found a problem?",
+    "aliases": [
+      "About Sunder TTRPG",
+      "Sunder's Vision Statement"
+    ],
+    "tags": []
+  },
+  "meta/about-sunder::0:1": {
+    "pageTitle": "About Sunder TTRPG",
+    "url": "/site/meta/about-sunder/#sunders-vision-statement",
+    "heading": "Sunder's Vision Statement",
+    "headingPath": [
+      "About Sunder TTRPG",
+      "Sunder's Vision Statement"
+    ],
+    "anchor": "sunders-vision-statement",
+    "text": "Let us know Join the Community Chat with other players",
     "aliases": [
       "About Sunder TTRPG",
       "Sunder's Vision Statement"
