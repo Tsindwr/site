@@ -42,6 +42,8 @@ extra:
       link: https://discord.gg/zJEdEy4xtm
     - icon: fontawesome/brands/kofi
       link: https://ko-fi.com/sunderttrpg
+  analytics:
+    provider: custom
 
 copyright: >
   &copy; 2025 Sintobhe M. Woods -
