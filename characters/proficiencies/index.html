@@ -68,6 +68,29 @@
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  <!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5LB6T98H');
+</script>
+<!-- End Google Tag Manager -->
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -76,7 +99,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T50NCFK632"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-T50NCFK632');
@@ -2045,7 +2072,7 @@
               
               <article class="md-content__inner md-typeset">
                 
-    
+
                   
 
 
@@ -2161,6 +2188,8 @@
 
 
 
+  
+
 
 
 
@@ -2181,7 +2210,7 @@
         
       </main>
       
-    
+
         <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
@@ -2243,75 +2272,80 @@
   </div>
 </footer>
       
+<button
+        id="sunder-global-back"
+        class="sunder-global-back"
+        type="button"
+        aria-label="Go back"
+>
+    <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+    <span>Back</span>
+</button>
+
+<div id="sunder-chatbot-root" aria-live="polite">
     <button
-            id="sunder-global-back"
-            class="sunder-global-back"
+            id="sunder-chatbot-launcher"
+            class="sunder-chatbot-launcher"
             type="button"
-            aria-label="Go back"
+            aria-label="Open Sunder Assistant"
+            aria-expanded="false"
+            aria-controls="sunder-chatbot-panel"
     >
-        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
-        <span>Back</span>
+        <img
+                src="../../assets/favicon/sunder-logo.png"
+                alt=""
+                class="sunder-chatbot-launcher__logo"
+        />
+        <span class="sunder-chatbot-launcher__label">Assistant</span>
     </button>
 
-    <div id="sunder-chatbot-root" aria-live="polite">
-        <button
-                id="sunder-chatbot-launcher"
-                class="sunder-chatbot-launcher"
-                type="button"
-                aria-label="Open Sunder Assistant"
-                aria-expanded="false"
-                aria-controls="sunder-chatbot-panel"
-        >
-            <img
-                    src="../../assets/favicon/sunder-logo.png"
-                    alt=""
-                    class="sunder-chatbot-launcher__logo"
-            />
-            <span class="sunder-chatbot-launcher__label">Assistant</span>
-        </button>
-
-        <section
-                id="sunder-chatbot-panel"
-                class="sunder-chatbot-panel"
-                aria-label="Sunder Assistant"
-                hidden
-        >
-            <header class="sunder-chatbot-panel__header">
-                <div class="sunder-chatbot-panel__brand">
-                    <img
-                            src="../../assets/favicon/sunder-logo.png"
-                            alt=""
-                            class="sunder-chatbot-panel__logo"
-                    />
-                    <div>
-                        <div class="sunder-chatbot-panel__title">Sunder Assistant</div>
-                        <div class="sunder-chatbot-panel__subtitle">Rules • Builder</div>
-<!--                        <div id="sunder-chatbot-llm-status" class="sunder-chatbot-panel__meta">Local model: off</div>-->
-                    </div>
-                </div>
-                <button
-                        id="sunder-chatbot-close"
-                        class="sunder-chatbot-iconbtn"
-                        type="button"
-                        aria-label="Close assistant"
-                >
-                    ✕
-                </button>
-            </header>
-
-            <div id="sunder-chatbot-messages" class="sunder-chatbot-messages">
-                <div class="sunder-chatbot-welcome">
-                    <p><strong>Ask about rules or ability building.</strong></p>
-                    <div class="sunder-chatbot-chips">
-                        <button class="sunder-chatbot-chip" data-chatbot-prompt="How does a risky test work?">Risky tests</button>
-                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What is the jinx threshold?">Jinx threshold</button>
-                        <button class="sunder-chatbot-chip" data-chatbot-prompt="Build me a shadow leap ability">Shadow leap</button>
-                        <button class="sunder-chatbot-chip" data-chatbot-prompt="What are Domains?">Domains</button>
-                    </div>
+    <section
+            id="sunder-chatbot-panel"
+            class="sunder-chatbot-panel"
+            aria-label="Sunder Assistant"
+            hidden
+    >
+        <header class="sunder-chatbot-panel__header">
+            <div class="sunder-chatbot-panel__brand">
+                <img
+                        src="../../assets/favicon/sunder-logo.png"
+                        alt=""
+                        class="sunder-chatbot-panel__logo"
+                />
+                <div>
+                    <div class="sunder-chatbot-panel__title">Sunder Assistant</div>
+                    <div class="sunder-chatbot-panel__subtitle">Rules • Builder</div>
+                    <!--                        <div id="sunder-chatbot-llm-status" class="sunder-chatbot-panel__meta">Local model: off</div>-->
                 </div>
             </div>
+            <button
+                    id="sunder-chatbot-close"
+                    class="sunder-chatbot-iconbtn"
+                    type="button"
+                    aria-label="Close assistant"
+            >
+                ✕
+            </button>
+        </header>
 
-            <form id="sunder-chatbot-form" class="sunder-chatbot-input" autocomplete="off">
+        <div id="sunder-chatbot-messages" class="sunder-chatbot-messages">
+            <div class="sunder-chatbot-welcome">
+                <p><strong>Ask about rules or ability building.</strong></p>
+                <div class="sunder-chatbot-chips">
+                    <button class="sunder-chatbot-chip" data-chatbot-prompt="How does a risky test work?">Risky tests
+                    </button>
+                    <button class="sunder-chatbot-chip" data-chatbot-prompt="What is the jinx threshold?">Jinx
+                        threshold
+                    </button>
+                    <button class="sunder-chatbot-chip" data-chatbot-prompt="Build me a shadow leap ability">Shadow
+                        leap
+                    </button>
+                    <button class="sunder-chatbot-chip" data-chatbot-prompt="What are Domains?">Domains</button>
+                </div>
+            </div>
+        </div>
+
+        <form id="sunder-chatbot-form" class="sunder-chatbot-input" autocomplete="off">
             <textarea
                     id="sunder-chatbot-textarea"
                     class="sunder-chatbot-textarea"
@@ -2319,87 +2353,88 @@
                     placeholder="Ask a Sunder question..."
             ></textarea>
 
-                <div class="sunder-chatbot-input__footer">
-                    <div class="sunder-chatbot-modepicker">
-                        <button
-                                id="sunder-chatbot-modebutton"
-                                class="sunder-chatbot-modebutton"
-                                type="button"
-                                aria-haspopup="listbox"
-                                aria-expanded="false"
-                        >
-                            <span id="sunder-chatbot-mode-label">Rules</span>
-                            <span>▾</span>
-                        </button>
-
-                        <div id="sunder-chatbot-mode-menu" class="sunder-chatbot-mode-menu" hidden>
-                            <button type="button" class="sunder-chatbot-mode-option" data-mode="rules">Rules</button>
-                            <button type="button" class="sunder-chatbot-mode-option" data-mode="builder">Ability Builder</button>
-                        </div>
-                    </div>
-
-                    <button id="sunder-chatbot-send" class="sunder-btn sunder-btn-primary" type="submit">
-                        Send
+            <div class="sunder-chatbot-input__footer">
+                <div class="sunder-chatbot-modepicker">
+                    <button
+                            id="sunder-chatbot-modebutton"
+                            class="sunder-chatbot-modebutton"
+                            type="button"
+                            aria-haspopup="listbox"
+                            aria-expanded="false"
+                    >
+                        <span id="sunder-chatbot-mode-label">Rules</span>
+                        <span>▾</span>
                     </button>
+
+                    <div id="sunder-chatbot-mode-menu" class="sunder-chatbot-mode-menu" hidden>
+                        <button type="button" class="sunder-chatbot-mode-option" data-mode="rules">Rules</button>
+                        <button type="button" class="sunder-chatbot-mode-option" data-mode="builder">Ability Builder
+                        </button>
+                    </div>
                 </div>
-            </form>
-        </section>
+
+                <button id="sunder-chatbot-send" class="sunder-btn sunder-btn-primary" type="submit">
+                    Send
+                </button>
+            </div>
+        </form>
+    </section>
+</div>
+
+<aside
+        id="sunder-support-toast"
+        class="sunder-support-toast"
+        aria-label="Support Sunder"
+        hidden
+>
+    <div class="sunder-support-toast__main">
+        <div class="sunder-support-toast__icon sunder-kofi-icon" aria-hidden="true">
+            <svg viewBox="0 0 640 640" role="img" focusable="false" aria-hidden="true">
+                <path d="M313.8 139C403.6 139 426.8 140.1 460.1 143.4C538.2 151.2 583.7 199.4 583.7 268.6L583.7 277.5C583.7 341.8 536.6 394.4 472.9 399.9C467.9 416.5 460.1 433.1 449.6 449.8C425.2 487.5 376.5 535.1 286.7 535.1L269 535.1C195.9 535.1 139.3 503.5 105.5 445.9C75.6 395.5 71.7 339.5 71.7 264.7C71.7 191 116.1 151.1 168.1 144.5C207.4 139.5 256.2 139 313.8 139zM313.8 180.6C253.4 180.6 210.2 181.1 177.5 186.1C131.5 192.8 113.2 218.8 113.2 265.3L113.4 291C114.6 348.3 120.5 388.1 140.9 425.5C167.5 474.8 215.7 493.7 270.6 493.7L287.8 493.7C359.8 493.7 394.8 458.8 414.1 428.3C423.5 412.8 431.8 395.6 436.3 374L439.6 360.2L459.5 360.2C503.8 360.2 542.1 324.2 542.1 278.2L542.1 269.9C542.1 218.4 509.9 191.2 454 184.6C422.4 181.8 403.6 180.7 313.8 180.7zM331 233.2C369.2 233.2 395.8 264.8 395.8 300.2C395.8 332.9 377.5 361.2 353.7 383.3C338.7 398.3 314.4 413.8 297.8 423.8C293.4 426.6 287.8 428.2 281.1 428.2C275.6 428.2 270.6 426.5 265.6 423.8C249 413.8 224.6 398.3 209.1 383.3C187.3 362.5 169.9 336.4 167.8 306.3L167.6 300.2C167.6 264.7 193.1 233.2 231.9 233.2C254.6 233.2 270.7 244.8 281.2 260.9C292.8 244.8 308.4 233.2 331.1 233.2zM453.5 229.3C481.8 229.3 497.3 245.9 497.3 272.5C497.3 299.1 481.8 315.2 453.5 315.2C444.6 315.2 439.7 310.2 439.7 303.5L439.7 240.9C439.7 234.2 444.7 229.3 453.5 229.3z"/>
+            </svg>
+        </div>
+
+        <div class="sunder-support-toast__content">
+            <div class="sunder-support-toast__eyebrow">Support Sunder</div>
+            <p class="sunder-support-toast__text">
+                Enjoying the project? Help support future development on Ko-Fi.
+            </p>
+        </div>
     </div>
 
-    <aside
-            id="sunder-support-toast"
-            class="sunder-support-toast"
-            aria-label="Support Sunder"
-            hidden
-    >
-        <div class="sunder-support-toast__main">
-            <div class="sunder-support-toast__icon sunder-kofi-icon" aria-hidden="true">
-                <svg viewBox="0 0 640 640" role="img" focusable="false" aria-hidden="true">
-                    <path d="M313.8 139C403.6 139 426.8 140.1 460.1 143.4C538.2 151.2 583.7 199.4 583.7 268.6L583.7 277.5C583.7 341.8 536.6 394.4 472.9 399.9C467.9 416.5 460.1 433.1 449.6 449.8C425.2 487.5 376.5 535.1 286.7 535.1L269 535.1C195.9 535.1 139.3 503.5 105.5 445.9C75.6 395.5 71.7 339.5 71.7 264.7C71.7 191 116.1 151.1 168.1 144.5C207.4 139.5 256.2 139 313.8 139zM313.8 180.6C253.4 180.6 210.2 181.1 177.5 186.1C131.5 192.8 113.2 218.8 113.2 265.3L113.4 291C114.6 348.3 120.5 388.1 140.9 425.5C167.5 474.8 215.7 493.7 270.6 493.7L287.8 493.7C359.8 493.7 394.8 458.8 414.1 428.3C423.5 412.8 431.8 395.6 436.3 374L439.6 360.2L459.5 360.2C503.8 360.2 542.1 324.2 542.1 278.2L542.1 269.9C542.1 218.4 509.9 191.2 454 184.6C422.4 181.8 403.6 180.7 313.8 180.7zM331 233.2C369.2 233.2 395.8 264.8 395.8 300.2C395.8 332.9 377.5 361.2 353.7 383.3C338.7 398.3 314.4 413.8 297.8 423.8C293.4 426.6 287.8 428.2 281.1 428.2C275.6 428.2 270.6 426.5 265.6 423.8C249 413.8 224.6 398.3 209.1 383.3C187.3 362.5 169.9 336.4 167.8 306.3L167.6 300.2C167.6 264.7 193.1 233.2 231.9 233.2C254.6 233.2 270.7 244.8 281.2 260.9C292.8 244.8 308.4 233.2 331.1 233.2zM453.5 229.3C481.8 229.3 497.3 245.9 497.3 272.5C497.3 299.1 481.8 315.2 453.5 315.2C444.6 315.2 439.7 310.2 439.7 303.5L439.7 240.9C439.7 234.2 444.7 229.3 453.5 229.3z"/>
-                </svg>
-            </div>
+    <div class="sunder-support-toast__actions">
+        <a
+                class="sunder-support-toast__link sunder-btn"
+                href="https://ko-fi.com/sunderttrpg"
+                target="_blank"
+                rel="noopener"
+        >
+            Visit Ko-Fi
+        </a>
 
-            <div class="sunder-support-toast__content">
-                <div class="sunder-support-toast__eyebrow">Support Sunder</div>
-                <p class="sunder-support-toast__text">
-                    Enjoying the project? Help support future development on Ko-Fi.
-                </p>
-            </div>
-        </div>
+        <button
+                id="sunder-support-toast-dismiss"
+                class="sunder-support-toast__dismiss"
+                type="button"
+                aria-label="Dismiss support banner"
+        >
+            Dismiss
+        </button>
+    </div>
+</aside>
 
-        <div class="sunder-support-toast__actions">
-            <a
-                    class="sunder-support-toast__link sunder-btn"
-                    href="https://ko-fi.com/sunderttrpg"
-                    target="_blank"
-                    rel="noopener"
-            >
-                Visit Ko-Fi
-            </a>
-
-            <button
-                    id="sunder-support-toast-dismiss"
-                    class="sunder-support-toast__dismiss"
-                    type="button"
-                    aria-label="Dismiss support banner"
-            >
-                Dismiss
-            </button>
-        </div>
-    </aside>
-
-    <div class="sunder-footer-extra md-footer-meta md-typeset">
-      <div class="md-footer-meta__inner md-grid">
+<div class="sunder-footer-extra md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
         <div class="sunder-footer-links">
-          <span class="sunder-footer-label">Sunder site</span>
-          <a href="../../meta/about-sunder/">About</a>
-          <span>.</span>
-          <a href="../../meta/report-issue/">Report an issue</a>
-          <span>.</span>
-          <a href="../../meta/bookmarks/">Bookmarks</a>
+            <span class="sunder-footer-label">Sunder site</span>
+            <a href="../../meta/about-sunder/">About</a>
+            <span>.</span>
+            <a href="../../meta/report-issue/">Report an issue</a>
+            <span>.</span>
+            <a href="../../meta/bookmarks/">Bookmarks</a>
         </div>
-      </div>
     </div>
+</div>
 
     </div>
     <div class="md-dialog" data-md-component="dialog">
@@ -2413,7 +2448,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.tracking", "content.code.copy", "navigation.tabs", "navigation.path", "header.autohide"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-    
+
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -2445,161 +2480,165 @@
         <script src="../../js/sunder-llm.js"></script>
       
     
-    <script>
-        window.SUNDER_BASE_URL = "../..";
-        window.SUNDER_CHAT_BASE = "../../chat";
-        // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
-        window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var toast = document.getElementById("sunder-support-toast");
-            var dismissBtn = document.getElementById("sunder-support-toast-dismiss");
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LB6T98H"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+    window.SUNDER_BASE_URL = "../..";
+    window.SUNDER_CHAT_BASE = "../../chat";
+    // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
+    window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var toast = document.getElementById("sunder-support-toast");
+        var dismissBtn = document.getElementById("sunder-support-toast-dismiss");
 
-            // bump version whenever you want the toast to reappear for everyone
-            var storageKey = "sunder-kofi-toast-dismissed-v2";
+        // bump version whenever you want the toast to reappear for everyone
+        var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-            // optional debug override:
-            // /site/.../?debugToast=1
-            var debugForced = false;
-            try {
-                var params = new URLSearchParams(window.location.search);
-                debugForced = params.get("debugToast") === "1";
-            } catch (err) {
-                console.warn("[sunder toast] could not read URL params", err);
-            }
+        // optional debug override:
+        // /site/.../?debugToast=1
+        var debugForced = false;
+        try {
+            var params = new URLSearchParams(window.location.search);
+            debugForced = params.get("debugToast") === "1";
+        } catch (err) {
+            console.warn("[sunder toast] could not read URL params", err);
+        }
 
-            console.log("[sunder toast] init");
-            console.log("[sunder toast] toast found:", !!toast);
-            console.log("[sunder toast] dismiss button found:", !!dismissBtn);
-            console.log("[sunder toast] debug forced:", debugForced);
+        console.log("[sunder toast] init");
+        console.log("[sunder toast] toast found:", !!toast);
+        console.log("[sunder toast] dismiss button found:", !!dismissBtn);
+        console.log("[sunder toast] debug forced:", debugForced);
 
-            if (!toast) {
-                console.warn("[sunder toast] aborting: toast element not found");
-                return;
-            }
+        if (!toast) {
+            console.warn("[sunder toast] aborting: toast element not found");
+            return;
+        }
 
-            var dismissed = false;
+        var dismissed = false;
 
-            try {
-                dismissed = sessionStorage.getItem(storageKey) === "true";
-                console.log("[sunder toast] dismissed state for", storageKey, "=", dismissed);
-            } catch (err) {
-                console.warn("[sunder toast] sessionStorage read failed", err);
-            }
+        try {
+            dismissed = sessionStorage.getItem(storageKey) === "true";
+            console.log("[sunder toast] dismissed state for", storageKey, "=", dismissed);
+        } catch (err) {
+            console.warn("[sunder toast] sessionStorage read failed", err);
+        }
 
-            if (dismissed && !debugForced) {
-                console.log("[sunder toast] not showing because it was previously dismissed");
-                return;
-            }
+        if (dismissed && !debugForced) {
+            console.log("[sunder toast] not showing because it was previously dismissed");
+            return;
+        }
 
-            toast.hidden = false;
-            console.log("[sunder toast] hidden removed");
+        toast.hidden = false;
+        console.log("[sunder toast] hidden removed");
 
-            requestAnimationFrame(function () {
-                toast.classList.add("is-visible");
-                console.log("[sunder toast] is-visible added");
-            });
-
-            if (!dismissBtn) {
-                console.warn("[sunder toast] dismiss button missing");
-                return;
-            }
-
-            dismissBtn.addEventListener("click", function () {
-                console.log("[sunder toast] dismiss clicked");
-
-                toast.classList.remove("is-visible");
-
-                window.setTimeout(function () {
-                    toast.hidden = true;
-                    console.log("[sunder toast] hidden reapplied after dismiss");
-                }, 180);
-
-                try {
-                    sessionStorage.setItem(storageKey, "true");
-                    console.log("[sunder toast] dismissal stored under", storageKey);
-                } catch (err) {
-                    console.warn("[sunder toast] sessionStorage write failed", err);
-                }
-            });
+        requestAnimationFrame(function () {
+            toast.classList.add("is-visible");
+            console.log("[sunder toast] is-visible added");
         });
-    </script>
-    <script>
-        (function () {
-            var backButton = document.getElementById("sunder-global-back");
-            if (!backButton) return;
 
-            var fallback = window.SUNDER_BASE_URL || "../..";
-            if (fallback && !fallback.endsWith("/")) fallback += "/";
-            var framePending = false;
+        if (!dismissBtn) {
+            console.warn("[sunder toast] dismiss button missing");
+            return;
+        }
 
-            var updateBackButtonPosition = function () {
-                var header = document.querySelector(".md-header");
-                var tabs = document.querySelector(".md-tabs");
-                var sidebar = document.querySelector(".md-sidebar--primary");
-                var firstNavItem = document.querySelector(".md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item");
-                var minTop = 12;
+        dismissBtn.addEventListener("click", function () {
+            console.log("[sunder toast] dismiss clicked");
 
-                if (tabs) {
-                    minTop = Math.round(tabs.getBoundingClientRect().bottom + 8);
-                } else if (header) {
-                    minTop = Math.round(header.getBoundingClientRect().bottom + 8);
-                }
+            toast.classList.remove("is-visible");
 
-                var top = minTop;
-                if (firstNavItem) {
-                    var firstNavTop = Math.round(firstNavItem.getBoundingClientRect().top);
-                    top = Math.max(minTop, firstNavTop - backButton.offsetHeight - 8);
-                }
-                backButton.style.top = top + "px";
+            window.setTimeout(function () {
+                toast.hidden = true;
+                console.log("[sunder toast] hidden reapplied after dismiss");
+            }, 180);
 
-                var left = 12;
-                if (sidebar) {
-                    var sidebarRect = sidebar.getBoundingClientRect();
-                    if (sidebarRect.width > 0 && sidebarRect.right > 0) {
-                        left = Math.max(12, Math.round(sidebarRect.left + 12));
-                    }
-                }
-                backButton.style.left = left + "px";
-            };
-
-            var requestPositionUpdate = function () {
-                if (framePending) return;
-                framePending = true;
-                window.requestAnimationFrame(function () {
-                    framePending = false;
-                    updateBackButtonPosition();
-                });
-            };
-
-            backButton.addEventListener("click", function () {
-                if (window.history.length > 1) {
-                    window.history.back();
-                    return;
-                }
-                if (fallback) {
-                    window.location.href = fallback;
-                }
-            });
-
-            updateBackButtonPosition();
-            window.addEventListener("resize", requestPositionUpdate);
-            window.addEventListener("scroll", requestPositionUpdate, { passive: true });
-
-            var drawerToggle = document.getElementById("__drawer");
-            if (drawerToggle) {
-                drawerToggle.addEventListener("change", function () {
-                    window.setTimeout(requestPositionUpdate, 0);
-                });
+            try {
+                sessionStorage.setItem(storageKey, "true");
+                console.log("[sunder toast] dismissal stored under", storageKey);
+            } catch (err) {
+                console.warn("[sunder toast] sessionStorage write failed", err);
             }
-        })();
-    </script>
-    
-        <script>
-            window.SUNDER_VERSION = "2.1.38";
-        </script>
-    
+        });
+    });
+</script>
+<script>
+    (function () {
+        var backButton = document.getElementById("sunder-global-back");
+        if (!backButton) return;
+
+        var fallback = window.SUNDER_BASE_URL || "../..";
+        if (fallback && !fallback.endsWith("/")) fallback += "/";
+        var framePending = false;
+
+        var updateBackButtonPosition = function () {
+            var header = document.querySelector(".md-header");
+            var tabs = document.querySelector(".md-tabs");
+            var sidebar = document.querySelector(".md-sidebar--primary");
+            var firstNavItem = document.querySelector(".md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item");
+            var minTop = 12;
+
+            if (tabs) {
+                minTop = Math.round(tabs.getBoundingClientRect().bottom + 8);
+            } else if (header) {
+                minTop = Math.round(header.getBoundingClientRect().bottom + 8);
+            }
+
+            var top = minTop;
+            if (firstNavItem) {
+                var firstNavTop = Math.round(firstNavItem.getBoundingClientRect().top);
+                top = Math.max(minTop, firstNavTop - backButton.offsetHeight - 8);
+            }
+            backButton.style.top = top + "px";
+
+            var left = 12;
+            if (sidebar) {
+                var sidebarRect = sidebar.getBoundingClientRect();
+                if (sidebarRect.width > 0 && sidebarRect.right > 0) {
+                    left = Math.max(12, Math.round(sidebarRect.left + 12));
+                }
+            }
+            backButton.style.left = left + "px";
+        };
+
+        var requestPositionUpdate = function () {
+            if (framePending) return;
+            framePending = true;
+            window.requestAnimationFrame(function () {
+                framePending = false;
+                updateBackButtonPosition();
+            });
+        };
+
+        backButton.addEventListener("click", function () {
+            if (window.history.length > 1) {
+                window.history.back();
+                return;
+            }
+            if (fallback) {
+                window.location.href = fallback;
+            }
+        });
+
+        updateBackButtonPosition();
+        window.addEventListener("resize", requestPositionUpdate);
+        window.addEventListener("scroll", requestPositionUpdate, {passive: true});
+
+        var drawerToggle = document.getElementById("__drawer");
+        if (drawerToggle) {
+            drawerToggle.addEventListener("change", function () {
+                window.setTimeout(requestPositionUpdate, 0);
+            });
+        }
+    })();
+</script>
+
+<script>
+    window.SUNDER_VERSION = "2.1.40";
+</script>
+
 
   </body>
 </html>
