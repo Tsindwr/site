@@ -61,7 +61,7 @@ When creating an Ability, always assume a mechanical effect needs to be purchase
 >[!note] Rule of Too Cool For School
 >If you want a quick rule for using this system, decide on an [[Experience]] budget, then describe to your GM what you want your Ability to do or present as during gameplay. Your GM will be able to give you options for a finished Ability so you don't have to deal with the math. Just don't ask them to do so mid-session.
 
-### General Abilities
+### Common Abilities
 
  <div class="domain"><p>Redirect (P/P)<span class="subtext"> - Trait</span></p></div>
 **Cost: 5 Strings** (1 Enhancement)
@@ -145,7 +145,7 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 | III  | 9-12   | 3                               | 13                               |
 | IV   | 13-16  | 4                               | 22                               |
 | V    | 17-20  | 5                               | 36                               |
-Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.
+Only Abilities with Tier 2 or above as a Prerequisite can increase a character's Enhancement limits as a Stat increase.
 
 ### Buying Enhancements
 

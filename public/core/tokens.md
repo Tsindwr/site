@@ -75,7 +75,11 @@ $$
 >*Level 4*: 20
 >*Level 5*: 24
 
-A party gains Story points whenever a player gains a String, Milestone, or Zenith (from a source other than the Loom). At the beginning of a party's adventure, it is given 1 Loom Boon. The cost for Loom Boon [[Abilities]] is limited to a number of [[experience|Strings]] equal to the upcoming Party Level (i.e. initial = 1 String, leveling up from level 1 = 2 [[experience|Strings]]). Spending a Spirit Token for an Ability counts as the same cost reduction as spending a [[potentials-and-resistance|Resistance]].
+A party gains story points whenever a player gains a String, Milestone, or Zenith (from a source other than the Loom). 
+
+At the beginning of a party's adventure, it is given 1 Loom Boon. The cost for Loom Boon [[Abilities]] is limited to a number of [[experience|Strings]] equal to the upcoming Party Level (i.e. initial = 1 String, leveling up from level 1 = 2 [[experience|Strings]]). Each Loom Boon is considered to be a **Group Action**. Group Actions cannot be activated unless an additional player has thrown in the gauntlet at the same time as the player activating the Group Action. The additional player must take the [[actions|Narrate]] General Action to successfully activate the Group Action. This gives each Loom Boon a -2 String discount when building the Ability. 
+
+**Spirit Tokens** are a representation of the party's capability to work together towards a shared goal. These can be expended to satisfy an Ability's spending of a Resistance, but you must narrate how the party has helped your character into bringing this moment of success into fruition. Spending a Spirit Token for an Ability counts as the same cost reduction as spending a [[potentials-and-resistance|Resistance]], and some Loom Boons will require the expenditure of a Spirit Token specifically.
 
 When a party levels up, each character gains a [[experience|String]]. In addition, they gain a Loom Boon (see below), as well as refresh all Spirit Tokens.
 
@@ -99,7 +103,7 @@ When a party reaches a checkpoint, either:
 
 ## Using the Loom
 
-An adventuring party as access to a communal pool of Spirit Tokens, representing the heroic resolve of our story. The number of tokens is determined by the number of players plus the current party level (minimum of 1).
+An adventuring party as access to a communal pool of Spirit Tokens, representing the heroic resolve of our story. The initial number of tokens is determined by the number of players plus the current party level (minimum of 1).
 
 ### Loom Boons
 
