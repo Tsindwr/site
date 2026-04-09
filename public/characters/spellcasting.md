@@ -14,7 +14,7 @@ The act of casting a spell is a considerably new concept in the grander history 
 The world of Umbrea has its own magic source called the Arras, first discovered by the Mullburrows. However, between the influence of Faerie and Gloam, and the events of the Dread, the Arras has become unstable. Those who wield Essence in this way risk experiencing the instability of Magick for themselves. Failing to cast a spell often has consequences as the spell goes awry. Mechanically, each spell learned by a character should have a consequence along with its description, and consequences lower the [[experience]] cost of learning the new spell.
 ### Spell Limits
 
-In order to learn new spells, a player must use the [[abilities|Experience Market]] to purchase them. However, there are some base limits to the amount of spells a character has access to, called their Stored Spells, and the amount of spells a character may choose from to cast at a given time, called their Prepared Spells. These limits are subject to change due to class features.
+In order to learn new spells, a player must use the [[abilities|Experience Market]] to purchase them. However, there are some base limits to the amount of spells a character has access to, called their Stored Spells, and the amount of spells a character may choose from to cast at a given time, called their Prepared Spells. These limits are subject to change due to Ability effects.
 
 *Potency.* A character's Potency is a value that influences their spellcasting limits. Potency is calculated by subtracting the initial number of [[damage|Marks]] in the spellcasting class' pool from 10. So a [[archetypes|Healer]] would have a Potency of 4, but a [[archetypes|Spellslinger]] would have a Potency of 8.
 
