@@ -35,7 +35,7 @@ aliases:
 # Conditions
 ## An Exhaustive Guide to Status Effects
 
-**Conditions** are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or [[stress-and-fallout|Situational Fallout]]. These Conditions are separated between Major and Minor effects:
+**Conditions** are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or [[stress-and-fallout|Situational Fallout]]. Being subject to the same Condition from two different sourcesThese Conditions are separated between Major and Minor effects:
 #### Major Conditions
 
 | Name                  | Effect                                                                                                                                                                                                                                                               |
