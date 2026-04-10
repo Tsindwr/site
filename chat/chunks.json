@@ -2636,7 +2636,7 @@
       "Temporary Increases"
     ],
     "anchor": "temporary-increases",
-    "text": "Increase your stat by 1 for the Ability's duration. | Stat | Cost | | ---------------------- | ---------- | | Mark | +2 Strings | | Potential | +2 Strings | | Skill Proficiency | +1 String | | Advantage | +1 String | | Knack | +2 Strings | | Domain | +4 Strings | | 1 Test's Success Level | +5 Beats | | Recover | Strings | | --------------- | ------- | | Stress | +1 | | Resistance | +2 | | Minor Condition | +2 | | Major Condition | +3 | | Mark | +4 | | Clear | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Potential's Stress | +4 | 0 | | Potential's Resistances | +6 | +1 | ---",
+    "text": "Increase your stat by 1 for the Ability's duration. | Stat | Cost | | ---------------------- | ---------- | | Mark | +2 Strings | | Potential | +2 Strings | | Skill Proficiency | +1 String | | Advantage | +1 String | | Knack | +2 Strings | | Domain | +4 Strings | | 1 Test's Success Level | +5 Beats | | Gain/Recover | Strings | | --------------- | ------- | | Stress | +1 | | Resistance | +2 | | Minor Condition | +2 | | Major Condition | +3 | | Mark | +4 | | Beat | +1 | | Clear | Strings | Enhancements | | ----------------------- | ------- | ------------ | | Potential's Stress | +4 | 0 | | Potential's Resistances | +6 | +1 | ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -3262,7 +3262,7 @@
       "Evade"
     ],
     "anchor": "evade",
-    "text": "General Action ⚔ Attack Until the start of your next turn, Tests made against you using Physical Potentials have Disadvantage. ↯ Movement Attempt to break line of sight or avoid attention. Test Sleight or Aura: on a success, you are Unseen to creatures relying on sight. Cost —",
+    "text": "General Action ⚔ Attack Until the start of your next turn, Tests made against you targeting Physical Potentials have Disadvantage. ↯ Movement Attempt to break line of sight or avoid attention. Test Sleight or Aura: on a success, you are Unseen to creatures relying on sight. Cost —",
     "aliases": [
       "General Actions",
       "Movement",
