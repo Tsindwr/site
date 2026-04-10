@@ -69,7 +69,15 @@ Rolling a Natural Crit not only counts as an automatic best plausible outcome, b
 ###### Rolling Natural Miffs
 Rolling a Natural Miff counts as an automatic worst plausible outcome, and causes an additional loss of a [[potentials-and-resistance|Resistance]] point in the [[potentials-and-resistance|Potential]] used in the triggering Test.
 
-!!! nextup "See [[volatility-and-perks|Volatility]] for modifying Test success levels!"
+### The 5 Simple Steps to Finding Success
+
+1. Determine how many dice are in your Volatility Pool\* (between Skill Proficiency, Knacks, a Domain, [[resolution-system#Risky Tests|Riskiness]], and Ability Effects).
+2. Roll your D20 and your Volatility Pool.
+3. Determine the base success level (determined by D20 and Potential Score). If it's a Natural Crit or Natural Miff, you have your answer!
+4. Determine the highest Volatility Die from your Pool, resolve Perks\*, and determine its success level modifier (+1, -1, etc.).
+5. Combine your base success level with your success level modifier to receive your overall success level!
+
+!!! nextup "See \*[[volatility-and-perks|Volatility]] for modifying Test success levels!"
 
 ### Additional Test Types
 
