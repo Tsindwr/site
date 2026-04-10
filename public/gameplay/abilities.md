@@ -294,13 +294,14 @@ Increase your stat by 1 for the Ability's duration.
 | Domain                 | +4 Strings |
 | 1 Test's Success Level | +5 Beats   |
 
-| Recover         | Strings |
+| Gain/Recover    | Strings |
 | --------------- | ------- |
 | Stress          | +1      |
 | Resistance      | +2      |
 | Minor Condition | +2      |
 | Major Condition | +3      |
 | Mark            | +4      |
+| Beat            | +1      |
 
 | Clear                   | Strings | Enhancements |
 | ----------------------- | ------- | ------------ |

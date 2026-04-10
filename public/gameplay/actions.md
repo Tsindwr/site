@@ -212,7 +212,7 @@ If an Action requires a test from the character or its target, then the [[resolu
     <div>
       <p class="gh-label">Attack</p>
       <p class="gh-text">
-        Until the start of your next turn, Tests made against you using Physical Potentials have Disadvantage.
+        Until the start of your next turn, Tests made against you targeting Physical Potentials have Disadvantage.
       </p>
     </div>
   </section>
