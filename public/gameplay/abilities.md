@@ -117,7 +117,7 @@ You may give this Ability a prerequisite of the [[archetypes|Summoner]] archetyp
 
 *General Trait*
 
-Once per turn, when you take a weapon or unarmed attack, you may take a reaction and make one additional weapon or unarmed attack.
+Once per turn, after you take a weapon or unarmed attack, you may take a reaction and make one additional weapon or unarmed attack.
 
 ### Anatomy of Custom Abilities
 

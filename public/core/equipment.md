@@ -74,18 +74,18 @@ Here is a list of weapons players may wield, with their damage target, Dice, and
 
 All ranged weapons are considered to have the *Ranged (X)* property, where the distance, *X*, is defined under the Range column below:
 
-| Weapon       | Dice | Target  | Range | Equipment Properties             |
-| ------------ | ---- | ------- | ----- | -------------------------------- |
-| Blowgun      | 1D4  | Finesse | There | *Loading, Fragile, Discreet*     |
-| Crossbow     | 1D6  | Finesse | Far   | *Fragile, Loading (1)*           |
-| Longbow      | 1D8  | Finesse | Far   | *Fragile, Two-Handed*            |
-| Shortbow     | 1D6  | Finesse | There | *Fragile, Two-Handed*            |
-| Wristbow     | 1D4  | Finesse | Close | *Fragile, Discreet, Loading (1)* |
-| Sling        | 1D4  | Nerve   | There | *Discreet*                       |
-| Pepperbox    | 1D6  | Seep    | There | *Brutal, Fragile, Loading (6)*   |
-| Hand Cannon  | 1D8  | Seep    | Close | *Brutal, Fragile, Loading (2)*   |
-| Rifle        | 1D8  | Seep    | Far   | *Brutal, Fragile, Loading (1)*   |
-| Wrist Cannon | 1D4  | Seep    | Close | *Fragile, Loading (2), Discreet* |
+| Weapon       | Dice | Target  | Range | Equipment Properties                       |
+| ------------ | ---- | ------- | ----- | ------------------------------------------ |
+| Blowgun      | 1D4  | Finesse | There | *Loading, Fragile, Discreet*               |
+| Crossbow     | 1D6  | Finesse | Far   | *Fragile, Loading (1)*                     |
+| Longbow      | 1D8  | Finesse | Far   | *Fragile, Two-Handed*                      |
+| Shortbow     | 1D6  | Finesse | There | *Fragile, Two-Handed*                      |
+| Wristbow     | 1D4  | Finesse | Close | *Fragile, Discreet, Loading (1)*           |
+| Sling        | 1D4  | Nerve   | There | *Discreet*                                 |
+| Pepperbox    | 1D6  | Seep    | There | *Brutal, Fragile, Loading (6)*             |
+| Hand Cannon  | 1D8  | Seep    | Close | *Brutal, Fragile, Loading (2)*             |
+| Rifle        | 1D8  | Seep    | Far   | *Brutal, Fragile, Loading (1), Two-Handed* |
+| Wrist Cannon | 1D4  | Seep    | Close | *Fragile, Loading (2), Discreet*           |
 
 ### Armor Stats
 
@@ -136,4 +136,4 @@ Some pieces of equipment have unique properties that alter their stats.
 | Light               | Protection slots grant Disadvantage on incoming physical attacks instead of Stress storage. These Slots replenish after moving on your turn.                                                                                                                                                                                                                     |
 | Heavy               | Whenever you expend a Protection Slot, you may reduce incoming physical damage by 1 roll of your Might Volatility Die. You have Disadvantage on Finesse Tests.                                                                                                                                                                                                   |
 | Indiscreet          | Tests made to avoid perception while wearing this armor are rolled with Disadvantage.                                                                                                                                                                                                                                                                            |
-| Shield (*P*)        | This armor provides a maximum of 2 Protection Slots. You may spend a Resistance from the given *Potential* to refresh the Protection Slots provided by this armor.                                                                                                                                                                                               |
+| Shield (*P*)        | This armor provides a maximum of 2 Protection Slots. You may spend a Resistance from the given *Potential* to refresh the Protection Slots provided by this armor. This requires an empty hand to wield and benefit from its effects.                                                                                                                            |

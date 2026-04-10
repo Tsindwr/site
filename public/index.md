@@ -95,13 +95,13 @@ The Arras was torn and frayed the day the empire fell. Magic was turbulent, and 
 
 Columns of fire raged under searing eyes glaring just behind the clouds. 
 
-Hungry vortexes swallowed boats and Colossi then whipped their remains onshore. 
+Hungry vortexes swallowed boats and Colossi then whipped their remains ashore. 
 
 Wind bore through the mountains and landscape at dizzying speeds, carving through the land and shaping it to its image. 
 
 The world cracked and strained and shifted, digging deeper and deeper into the earth, crushing paths to make way for more who harbored the whispered breathing of titanic and lurking presences.
 
-During the Tenechron, escaping to the Kagecombs below was the only path to survival. The faerfolk, Shimylv, titanblood, mulburrows, and what little Drakoni there were left retreated to the cave system below the surface, where most storms could not reach them. Lifetimes spent in the dark confines of the underworld gave rise to a shared language, and a generation of new races to claim this world as their own. The ever-moving progression of Faerie created a lineage of cave-dwellers adapted to their new home. Gnomes, dwarves, dark elves, and kobolds quickly made a home of their circumstances, carving dwellings from the host rock itself and gibing birth to the first sparks of now prosperous civilizations. 
+During the Tenechron, escaping to the Kagecombs below was the only path to survival. The faerfolk, Shimylv, titanblood, mulburrows, and what little Drakoni there were left retreated to the cave system below the surface, where most storms could not reach them. Lifetimes spent in the dark confines of the underworld gave rise to a shared language, and a generation of new races to claim this world as their own. The ever-moving progression of Faerie created a lineage of cave-dwellers adapted to their new home. Gnomes, dwarves, dark elves, and kobolds quickly made a home of their circumstances, carving dwellings from the host rock itself and giving birth to the first sparks of now prosperous civilizations. 
 ### <span class="sunder-heading">"Upon an Ark does she come, and in her hand the blazing starlight of The Lord"</span>
 Humans are visitors to this world, immigrants from a foreign land. Just like us. In Umbrea, they came on an Ark, following the steps of a brilliant arcanist. She who transported a people in search of refuge from a dying world: a prophet of possibility and a future. With them she brought the word of The Lord, a pioneer in a godless world. 
 
