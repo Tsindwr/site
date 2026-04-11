@@ -8,6 +8,14 @@ When it comes to running [[scenes|Scenes]] as a Game Master, you don't always ha
 
  The Game Master may interact with the Experience Market in a different way than players. This is to facilitate a sense of ease when creating the many adversaries characters will encounter throughout a campaign.
 
+## Natural Weapons
+
+Monsters come with many different adaptations for hunting down their prey, but making custom abilities for each variation is unreasonable. Instead, consider these physical attacks as Natural Weapons, and use the weapon properties table on the [[equipment|Equipment]] page. 
+
+You may also create small Special weapon properties from scratch, but try to restrict the String Cost to the Difficulty rating:
+
+***Special.*** \[Example\]
+When you successfully attack a target creature with this weapon, the target must make a Squirm Test or become Rooted (Here).
 ## Difficulty
 
 To make a judgement about what your adventuring party can handle, calculate the average party Tier. To do this, take each character's Tier, add them together, and divide by the number of characters (rounded up) to get the average character Tier. Then, add the players' [[tokens|Party Level]].
