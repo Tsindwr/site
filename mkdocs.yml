@@ -36,10 +36,26 @@ theme:
 extra:
   sunder_version: "1.0.0" # overridden during GitHub Actions
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/woodsave03/tsindwr
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zJEdEy4xtm
+    - icon: fontawesome/brands/kofi
+      link: https://ko-fi.com/sunderttrpg
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@sunderttrpg
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@sunderttrpg
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/sunderttrpg/
+    - icon: fontawesome/brands/threads
+      link: https://www.threads.com/@sunderttrpg
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/sunderttrpg
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/sunderttrpg.bsky.social
+    - icon: fontawesome/brands/github
+      link: https://github.com/Tsindwr/site
+  analytics:
+    provider: custom
 
 copyright: >
   &copy; 2025 Sintobhe M. Woods -
@@ -122,6 +138,7 @@ nav:
           - Equipment: core/equipment.md
           - Experience: characters/experience.md
       - Miscellaneous:
+          - Adversaries: gameplay/adversaries.md
           - Damage: gameplay/damage.md
           - Conditions: gameplay/conditions.md
   - About:
