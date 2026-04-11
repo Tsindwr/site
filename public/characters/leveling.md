@@ -23,7 +23,7 @@ Gaining a level in an Archetype gives a player the following benefits
 \* *Individual [[potentials-and-resistance|Potentials]] can only be increased once per Tier.*
 
 >[!important] 1st-Level Stats
->When you choose your first archetype level as a new adventurer, you gain the following benefits instead of the usual level-up benefits:
+>When you choose your first archetype level as a new adventurer, you gain the following benefits in addition to the usual level-up benefits:
 >- Starting [[damage|Marks]] determined in [[archetypes|Archetypes]]
 >- 1 Domain
 >- 2 [[potentials-and-resistance|Skills]]

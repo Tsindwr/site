@@ -38,5 +38,11 @@ Some Experience Points can only be achieved through narrative action. When choos
 
 **Heroic Goals** are often game-changing scenarios, a character would be lucky to complete more than one on their hero's journey. These goals grant a Zenith, the highest level of Experience Point. Oftentimes heroic goals represent the ending of a chapter of a campaign's arc, and can consist of eradicating the influence of a risen-again lich king, banishing an eldritch entity from the Material Plane, or awakening a dead god.
 
+## Once More With Feeling
+
+<h6>Taking the GM Seat</h6>
+
+There is one way to lose experience: through narrative and magickal sacrifice. You may, in an intense moment of the game, offer a deal to the GM when all else fails. Offer one or more Abilities that you have purchased from the Experience Market; the GM may decide to accept the offer, in which case you receive 1 minute of real time in the role of the Game Master. Describe the actions your character takes to overexert themselves to achieve a heroic moment to combat the challenges of the current scene. This act is called **Overchannelling**, and when a player Overchannels, they lose the Abilities they offered to the GM, as well as the Experience they spent to obtain them from the Experience Market.
+
 [^1]: See [[volatility-and-perks#Perks|Perks]].
 [^2]: To be detailed in a future update.

@@ -25,12 +25,17 @@ aliases:
   - Silenced
   - Slowed
   - Unseen
+  - Vulnerable
+  - Exhaustion
+  - Cursed
+  - Retaliate
+  - Armored
 ---
 
 # Conditions
 ## An Exhaustive Guide to Status Effects
 
-**Conditions** are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or [[stress-and-fallout|Situational Fallout]]. These Conditions are separated between Major and Minor effects:
+**Conditions** are statuses that can affect creatures for a given amount of time, oftentimes originating from targeted or [[stress-and-fallout|Situational Fallout]]. Being subject to the same Condition from two different sourcesThese Conditions are separated between Major and Minor effects:
 #### Major Conditions
 
 | Name                  | Effect                                                                                                                                                                                                                                                               |
@@ -44,7 +49,7 @@ aliases:
 | Frenzied              | A Frenzied creature is not constrained by the pairing rules of Direct and Indirect (or Attack and Movement) Actions when they take a turn. Alternatively, they may instead play a third Action Card when taking a turn, only choosing its Indirect or Movement side. |
 | Invisible             | An Invisible creature cannot be targeted by attacks.                                                                                                                                                                                                                 |
 | Mentally Vulnerable   | A Mentally Vulnerable creature is Vulnerable (*I, W, H, & T*).                                                                                                                                                                                                       |
-| Petrified             | A Petrified creature is considered Physically Vulnerable, and cannot move or take Actions, Surges, or physical reactions that affect targets other than itself.                                                                                                      |
+| Petrified             | A Petrified creature is considered Vulnerable (*F & M*), and cannot move or take Actions, Surges, or physical reactions that affect targets other than itself.                                                                                                       |
 | Pinned                | A Pinned creature is also Rooted, Held, and Bound.                                                                                                                                                                                                                   |
 | Retaliate (P/Q)       | A creature with the Retaliate condition deals 1PDV of damage to a creature within Here to their Q Potential when they successfully deal damage to the Retaliating creature.                                                                                          |
 | Slowed                | A Slowed creature cannot take any Movement Actions besides the Default Shift, which requires a successful Test to activate.                                                                                                                                          |
@@ -74,14 +79,14 @@ aliases:
 
 #### Special Conditions
 
-***Exhaustion.*** An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level.
+***Exhaustion.*** An Exhausted creature becomes subject to the effects of the Exhaustion Table (see below). A creature may accumulate this Condition multiple times, represented by Exhaustion Levels. The first time a creature becomes Exhausted, they start at Exhaustion Level 1, and further applications of this Condition increase the Exhaustion Level by 1. The effects of Exhaustion Levels are cumulative, so any creature suffering from an Exhaustion Level is also effected by the effects of the Exhaustion Levels less than their current one. The Exhaustion Condition lasts Until Dispelled. After every Long Rest, a creature may recover from 1 Exhaustion Level.
 
 
-| Exhaustion Level | Effect                                   |
-| ---------------- | ---------------------------------------- |
-| 1                |                                          |
-| 2                |                                          |
-| 3                |                                          |
-| 4                |                                          |
-| 5                |                                          |
-| 6                | The Exhausted creature immediately dies. |
+| Exhaustion Level | Effect                                                           |
+| ---------------- | ---------------------------------------------------------------- |
+| 1                | All actions require a Test, up to GM discretion.                 |
+| 2                | Any Movement taken is considered to be one Range category lower. |
+| 3                | You are Mentally and Physically Vulnerable.                      |
+| 4                | You cannot move farther than Near on a turn.                     |
+| 5                | Your Mark Pool maximum is halved.                                |
+| 6                | The Exhausted creature immediately dies.                         |

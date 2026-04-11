@@ -117,7 +117,7 @@ You may give this Ability a prerequisite of the [[archetypes|Summoner]] archetyp
 
 *General Trait*
 
-Once per turn, when you take a weapon or unarmed attack, you may take a reaction and make one additional weapon or unarmed attack.
+Once per turn, after you take a weapon or unarmed attack, you may take a reaction and make one additional weapon or unarmed attack.
 
 ### Anatomy of Custom Abilities
 
@@ -145,7 +145,7 @@ An Enhancement is a modifier you purchase for a specific Ability. Assigning cert
 | III  | 9-12   | 3                               | 13                               |
 | IV   | 13-16  | 4                               | 22                               |
 | V    | 17-20  | 5                               | 36                               |
-Only Zenith-level Abilities can increase a character's Enhancement limits as a Stat increase.
+Only Abilities with Tier 2 or above as a Prerequisite can increase a character's Enhancement limits as a Stat increase.
 
 ### Buying Enhancements
 
@@ -294,13 +294,14 @@ Increase your stat by 1 for the Ability's duration.
 | Domain                 | +4 Strings |
 | 1 Test's Success Level | +5 Beats   |
 
-| Recover         | Strings |
+| Gain/Recover    | Strings |
 | --------------- | ------- |
 | Stress          | +1      |
 | Resistance      | +2      |
 | Minor Condition | +2      |
 | Major Condition | +3      |
 | Mark            | +4      |
+| Beat            | +1      |
 
 | Clear                   | Strings | Enhancements |
 | ----------------------- | ------- | ------------ |
