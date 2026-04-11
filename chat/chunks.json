@@ -3424,6 +3424,26 @@
   },
   "gameplay/adversaries::1:0": {
     "pageTitle": "Monsters",
+    "url": "/site/gameplay/adversaries/#natural-weapons",
+    "heading": "Natural Weapons",
+    "headingPath": [
+      "Monsters",
+      "Natural Weapons"
+    ],
+    "anchor": "natural-weapons",
+    "text": "Monsters come with many different adaptations for hunting down their prey, but making custom abilities for each variation is unreasonable. Instead, consider these physical attacks as Natural Weapons, and use the weapon properties table on the Equipment page. You may also create small Special weapon properties from scratch, but try to restrict the String Cost to the Difficulty rating: ***Special.*** \\[Example\\] When you successfully attack a target creature with this weapon, the target must make a Squirm Test or become Rooted (Here).",
+    "aliases": [
+      "monsters",
+      "Monsters",
+      "Natural Weapons"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/adversaries::2:0": {
+    "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#difficulty",
     "heading": "Difficulty",
     "headingPath": [
@@ -3442,7 +3462,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::2:0": {
+  "gameplay/adversaries::3:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#intervention-trigger-table",
     "heading": "Intervention Trigger Table",
@@ -3464,7 +3484,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::2:1": {
+  "gameplay/adversaries::3:1": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#intervention-trigger-table",
     "heading": "Intervention Trigger Table",
@@ -3486,7 +3506,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::3:0": {
+  "gameplay/adversaries::4:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#intervention-templates",
     "heading": "Intervention Templates",
@@ -3508,7 +3528,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::4:0": {
+  "gameplay/adversaries::5:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#mechanical-interventions",
     "heading": "Mechanical Interventions",
@@ -3532,7 +3552,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::5:0": {
+  "gameplay/adversaries::6:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#minor-interventions",
     "heading": "Minor Interventions",
@@ -3556,7 +3576,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::6:0": {
+  "gameplay/adversaries::7:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#major-interventions",
     "heading": "Major Interventions",
@@ -3580,7 +3600,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::7:0": {
+  "gameplay/adversaries::8:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#severe-interventions",
     "heading": "Severe Interventions",
@@ -3604,7 +3624,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::8:0": {
+  "gameplay/adversaries::9:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#example-interventions",
     "heading": "Example Interventions",
@@ -3626,7 +3646,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::9:0": {
+  "gameplay/adversaries::10:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#breaker",
     "heading": "Breaker",
@@ -3650,7 +3670,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::10:0": {
+  "gameplay/adversaries::11:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#prowler",
     "heading": "Prowler",
@@ -3674,7 +3694,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::11:0": {
+  "gameplay/adversaries::12:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#survivor",
     "heading": "Survivor",
@@ -3698,7 +3718,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::12:0": {
+  "gameplay/adversaries::13:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#shifter",
     "heading": "Shifter",
@@ -3722,7 +3742,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::13:0": {
+  "gameplay/adversaries::14:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#hunter",
     "heading": "Hunter",
@@ -3746,7 +3766,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::14:0": {
+  "gameplay/adversaries::15:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#schemer",
     "heading": "Schemer",
@@ -3770,7 +3790,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::15:0": {
+  "gameplay/adversaries::16:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#zealot",
     "heading": "Zealot",
@@ -3794,7 +3814,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::16:0": {
+  "gameplay/adversaries::17:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#hexer",
     "heading": "Hexer",
@@ -3818,7 +3838,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::17:0": {
+  "gameplay/adversaries::18:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#escalations",
     "heading": "Escalations",
@@ -3838,7 +3858,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::18:0": {
+  "gameplay/adversaries::19:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#mechanical-escalations",
     "heading": "Mechanical Escalations",
@@ -3862,7 +3882,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::19:0": {
+  "gameplay/adversaries::20:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#minor-escalations",
     "heading": "Minor Escalations",
@@ -3886,7 +3906,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::20:0": {
+  "gameplay/adversaries::21:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#major-escalations",
     "heading": "Major Escalations",
@@ -3910,7 +3930,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::21:0": {
+  "gameplay/adversaries::22:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#severe-escalations",
     "heading": "Severe Escalations",
@@ -3934,7 +3954,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::22:0": {
+  "gameplay/adversaries::23:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#breaker",
     "heading": "Breaker",
@@ -3958,7 +3978,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::23:0": {
+  "gameplay/adversaries::24:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#prowler",
     "heading": "Prowler",
@@ -3982,7 +4002,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::24:0": {
+  "gameplay/adversaries::25:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#survivor",
     "heading": "Survivor",
@@ -4006,7 +4026,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::25:0": {
+  "gameplay/adversaries::26:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#shifter",
     "heading": "Shifter",
@@ -4030,7 +4050,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::26:0": {
+  "gameplay/adversaries::27:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#hunter",
     "heading": "Hunter",
@@ -4054,7 +4074,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::27:0": {
+  "gameplay/adversaries::28:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#schemer",
     "heading": "Schemer",
@@ -4078,7 +4098,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::28:0": {
+  "gameplay/adversaries::29:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#zealot",
     "heading": "Zealot",
@@ -4102,7 +4122,7 @@
       "builder"
     ]
   },
-  "gameplay/adversaries::29:0": {
+  "gameplay/adversaries::30:0": {
     "pageTitle": "Monsters",
     "url": "/site/gameplay/adversaries/#breaker",
     "heading": "Breaker",
@@ -5431,7 +5451,7 @@
       "Character Goals"
     ],
     "anchor": "character-goals",
-    "text": "These goals grant a Milestone, and should be worthy of one by assigning tasks such as slaying the wizard who killed your parents, making amends with someone you betrayed and have long since abandoned, or undergo an enchantment to absorb the power of a primordial artifact. After a player has completed a Major Goal, they may spend 5 Strings to create a single new Major Goal. **Heroic Goals** are often game-changing scenarios, a character would be lucky to complete more than one on their hero's journey. These goals grant a Zenith, the highest level of Experience Point. Oftentimes heroic goals represent the ending of a chapter of a campaign's arc, and can consist of eradicating the influence of a risen-again lich king, banishing an eldritch entity from the Material Plane, or awakening a dead god. [^1]: See Perks. [^2]: To be detailed in a future update.",
+    "text": "These goals grant a Milestone, and should be worthy of one by assigning tasks such as slaying the wizard who killed your parents, making amends with someone you betrayed and have long since abandoned, or undergo an enchantment to absorb the power of a primordial artifact. After a player has completed a Major Goal, they may spend 5 Strings to create a single new Major Goal. **Heroic Goals** are often game-changing scenarios, a character would be lucky to complete more than one on their hero's journey. These goals grant a Zenith, the highest level of Experience Point. Oftentimes heroic goals represent the ending of a chapter of a campaign's arc, and can consist of eradicating the influence of a risen-again lich king, banishing an eldritch entity from the Material Plane, or awakening a dead god.",
     "aliases": [
       "Beats",
       "Milestones",
@@ -5441,6 +5461,32 @@
       "Experience Points",
       "Narrative Beats and Where to Find Them",
       "Character Goals"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "characters/experience::2:0": {
+    "pageTitle": "Experience Points",
+    "url": "/site/characters/experience/#taking-the-gm-seat",
+    "heading": "Taking the GM Seat",
+    "headingPath": [
+      "Experience Points",
+      "Once More With Feeling",
+      "Taking the GM Seat"
+    ],
+    "anchor": "taking-the-gm-seat",
+    "text": "There is one way to lose experience: through narrative and magickal sacrifice. You may, in an intense moment of the game, offer a deal to the GM when all else fails. Offer one or more Abilities that you have purchased from the Experience Market; the GM may decide to accept the offer, in which case you receive 1 minute of real time in the role of the Game Master. Describe the actions your character takes to overexert themselves to achieve a heroic moment to combat the challenges of the current scene. This act is called **Overchannelling**, and when a player Overchannels, they lose the Abilities they offered to the GM, as well as the Experience they spent to obtain them from the Experience Market. [^1]: See Perks. [^2]: To be detailed in a future update.",
+    "aliases": [
+      "Beats",
+      "Milestones",
+      "Strings",
+      "Zeniths",
+      "Goals",
+      "Experience Points",
+      "Once More With Feeling",
+      "Taking the GM Seat"
     ],
     "tags": [
       "rules",
