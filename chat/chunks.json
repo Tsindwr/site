@@ -2152,7 +2152,44 @@
       "Anatomy of Custom Abilities"
     ],
     "anchor": "anatomy-of-custom-abilities",
-    "text": "When building a custom Ability, consider what primary effect you want to allow your character to do through this Ability: is it an attack, buff, heal, condition, or narrative effect? Then, you can address what effects the Experience Cost of the Ability: - **Activation Profile**: reset condition + action economy. - **Effect Package**: damage, range, movement, targets, area, conditions, and durations. - **Narrative Weight**: how much interpretive authority the Ability gives you. - **Enhancements**: quantifying how much you can increase the capability of your custom ability - **Caveats**: constraints that reduce cost. ---",
+    "text": "When building a custom Ability, consider what primary effect you want to allow your character to do through this Ability: is it an attack, buff, heal, condition, or narrative effect? Then, you can address what effects the Experience Cost of the Ability: - **Activation Profile**: reset condition + action economy. - **Effect Package**: damage, range, movement, targets, area, conditions, and durations. - **Narrative Weight**: how much interpretive authority the Ability gives you. - **Enhancements**: quantifying how much you can increase the capability of your custom ability - **Caveats**: constraints that reduce cost. >[!important]+ Rule of Conservation of Essence >Though adventurers may learn powerful and extraordinary techniques and capabilities throughout their experiences saving the world, their Abilities must always have a source from which their power comes from. Magick and physical exertion are always going to risk a price to pay, whether that comes from a player's Stats, a Test made to activate the Ability, or narrative action taken to facilitate its effect.",
+    "aliases": [
+      "Experience Market",
+      "Stats",
+      "Abilities",
+      "Focus",
+      "Flipside",
+      "Cards",
+      "Enhancements",
+      "Caveats",
+      "Range",
+      "Base Mode",
+      "Amplified Mode",
+      "Distance",
+      "Narrative Weight",
+      "Duration",
+      "Action Cards",
+      "Action Card",
+      "Character Abilities and Stats",
+      "The Experience Market",
+      "Anatomy of Custom Abilities"
+    ],
+    "tags": [
+      "rules",
+      "builder"
+    ]
+  },
+  "gameplay/abilities::9:1": {
+    "pageTitle": "Character Abilities and Stats",
+    "url": "/site/gameplay/abilities/#anatomy-of-custom-abilities",
+    "heading": "Anatomy of Custom Abilities",
+    "headingPath": [
+      "Character Abilities and Stats",
+      "The Experience Market",
+      "Anatomy of Custom Abilities"
+    ],
+    "anchor": "anatomy-of-custom-abilities",
+    "text": "*An Ability's effect should never come from nowhere; it must always be tied to the narrative or the mechanical ruleset.* ---",
     "aliases": [
       "Experience Market",
       "Stats",
@@ -6565,7 +6602,7 @@
       "Domains"
     ],
     "anchor": "domains",
-    "text": "A third kind of proficiency involves **Domains**, which are broad subjects that define an adventurer's natural affinities towards certain actions or topics. There are thirteen domains, each corresponding to a deity of the pantheon: Spark - The Breath Places of art, inspiration, ideation Flow - The Ebb Places in flux, cycles, healing, water Scorch - The Hunger Desolate, wasteland, fire Still - The Lurking Hunting, fear, territory Warp - The Phantom Mysticism, warped landscape, shadow Thread - The Weaver Study, knowledge, arcana Root - The Shade Earth, thriving nature, growth, development Gleam - The Glint Desire, money, temptation, fey Glare - The Light Illusion, deception, truth, exposure Crossing - The Migrant Liminal spaces, wind, travel, havens Tear - The Urge Scarred terrain, wrath, war Remnant - The Crownless Ruins, abandoned locations, forgotten knowledge Bastion - The Lord Justice, law, court, ordinance",
+    "text": "A third kind of proficiency involves **Domains**, which are broad subjects that define an adventurer's natural affinities towards certain actions or topics. There are thirteen domains, each corresponding to a deity of the pantheon: Spark - The Breath Places of art, inspiration, ideation Flow - The Ebb Places in flux, cycles, healing, water Scorch - The Hunger Desolate, wasteland, fire Still - The Lurking Hunting, fear, territory Warp - The Phantom Mysticism, warped landscape, shadow Thread - The Weaver Study, knowledge, arcana Root - The Shade Earth, thriving nature, growth, development Glimmer - The Glint Desire, money, temptation, fey Glare - The Light Illusion, deception, truth, exposure Crossing - The Migrant Liminal spaces, wind, travel, havens Tear - The Urge Scarred terrain, wrath, war Remnant - The Crownless Ruins, abandoned locations, forgotten knowledge Bastion - The Lord Justice, law, court, ordinance",
     "aliases": [
       "Proficiency",
       "Knacks",
