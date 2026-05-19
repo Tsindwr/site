@@ -1,0 +1,43 @@
+/* Give scription routes a new style. */
+.md-nav__link[href*="/scription/"],
+.md-tabs__link[href*="/scription/"] {
+    position: relative;
+    color: var(--md-accent-fg-color--light);
+    font-weight: 650;
+}
+
+/* make scription links feel distinct. */
+.md-nav__link[href*="/scription/"]::after,
+.md-tabs__link[href*="/scription/"]::after {
+    content: " ✦";
+    margin-left: 0.25rem;
+    color: var(--md-accent-fg-color);
+    font-weight: 800;
+}
+
+/* default/locked state before JS has confirmed access */
+.md-nav__link[href*="/scription/"],
+.md-tabs__link[href*="/scription/"],
+html.sunder-no-scription .md-nav__link[href*="/scription/"],
+html.sunder-no-scription .md-tabs__link[href*="/scription/"] {
+    opacity: 0.78;
+}
+
+/* entitled/unlocked state */
+html.sunder-has-scription .md-nav__link[href*="/scription/"],
+html.sunder-has-scription .md-tabs__link[href*="/scription/"] {
+    opacity: 1;
+    color: var(--md-accent-fg-color);
+}
+
+html.sunder-has-scription .md-nav__link[href*="/scription/"]::after,
+html.sunder-has-scription .md-tabs__link[href*="/scription/"]::after {
+    color: var(--md-accent-fg-color);
+    text-shadow: 0 0 8px rgba(249, 199, 79, 0.35);
+}
+
+/* active page state */
+.md-nav__link[href*="/scription/"].md-nav__link--active,
+.md-tabs__link[href*="/scription/"].md-nav__link--active {
+    color: var(--md-accent-fg-color);
+}

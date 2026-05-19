@@ -663,17 +663,23 @@
         return `
             <div class="sunder-chatbot-sources">
                 ${sources.map(
-                    (s) => `
+                    (s) => {
+                        const href = window.SUNDER_SITE?.resolvePath
+                            ? window.SUNDER_SITE.resolvePath(s.url || "/")
+                            : s.url;
+
+                        return `
                         <a 
                             class="sunder-chatbot-source" 
-                            href="${s.url}" 
+                            href="${href}" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             title="${escapeHtml(`${s.label} > ${s.heading || ""}`)}"
                         >
                             ${escapeHtml(formatSourceLabel(s))}
                         </a>
-                    `
+                    `;
+                    }
                 )
                 .join("")}
             </div>

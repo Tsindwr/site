@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://tsindwr.github.io/site/gameplay/actions/">
+        <link rel="canonical" href="https://www.sunderttrpg.world/gameplay/actions/">
       
       
-        <link rel="prev" href="../abilities/">
+        <link rel="prev" href="../scenes/">
       
       
-        <link rel="next" href="../../characters/spellcasting/">
+        <link rel="next" href="../../scription/experience-market/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Actions - Sunder</title>
+        <title>General Actions - Sunder</title>
       
     
     
@@ -64,6 +64,12 @@
       <link rel="stylesheet" href="../../css/graphics.css">
     
       <link rel="stylesheet" href="../../css/sunder-chatbot.css">
+    
+      <link rel="stylesheet" href="../../css/vault.css">
+    
+      <link rel="stylesheet" href="../../css/scription-nav.css">
+    
+      <link rel="stylesheet" href="../../css/scription.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -155,7 +161,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://tsindwr.github.io/site/"
+        <a href="https://www.sunderttrpg.world/"
            title="Sunder"
            class="md-header__button md-logo"
            aria-label="Sunder">
@@ -991,14 +997,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../abilities/" class="md-nav__link">
+      <a href="../scenes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Experience Market
+    Scenes
   
 
     
@@ -1035,7 +1041,7 @@
   <span class="md-ellipsis">
     
   
-    Actions
+    General Actions
   
 
     
@@ -1053,7 +1059,7 @@
   <span class="md-ellipsis">
     
   
-    Actions
+    General Actions
   
 
     
@@ -1090,6 +1096,73 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifiers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modifiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activating-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Activating Abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#durations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Durations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Durations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concentration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concentration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distances
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#general-actions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1116,14 +1189,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../characters/spellcasting/" class="md-nav__link">
+      <a href="../../scription/experience-market/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Spellcasting
+    Scription: Experience Market
   
 
     
@@ -1144,14 +1217,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../scenes/" class="md-nav__link">
+      <a href="../../characters/spellcasting/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Scenes
+    Spellcasting
   
 
     
@@ -1466,14 +1539,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../adversaries/" class="md-nav__link">
+      <a href="../gm-tools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Adversaries
+    GM Tools
   
 
     
@@ -1925,6 +1998,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/activate-scription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activate Scription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1966,6 +2067,73 @@
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifiers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modifiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activating-abilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Activating Abilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#durations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Durations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Durations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concentration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concentration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distances" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distances
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2032,7 +2200,7 @@
     
     
       <li class="md-path__item">
-        <a href="../abilities/" class="md-path__link">
+        <a href="../scenes/" class="md-path__link">
           
   <span class="md-ellipsis">
     Gameplay
@@ -2056,10 +2224,10 @@
 
 
 <h1 id="actions-in-sunder">Actions in Sunder</h1>
-<p>Every player starts out with a set of General <a href="../abilities/">Action Cards</a>. These are <a href="../abilities/">Abilities</a> all characters have, and can take as their Action during <a href="../scenes/">Initiative</a>.</p>
-<p>An Action during <a href="../scenes/">Initiative</a> involves the playing of two cards: one on its Attack side, and one on its Movement side. A player is not able to play two Attack cards for their action, nor are they able to play two Movement cards. Each <a href="../abilities/">Action Card</a> has an Attack and Movement side, but the two cannot be activated at the same time, since the player must play two cards per turn.</p>
-<p>A player may choose to forgo the defined Attack or Movement on an <a href="../abilities/">Action card</a> and instead use the default action. The default Attack Action is "Make a weapon or unarmed* attack (Force) against a Here target." The default Movement Action is "Move Close." </p>
-<p>A player will receive new <a href="../abilities/">Action Cards</a> whenever they purchase the corresponding Ability from the <a href="../abilities/">Experience Market</a>.</p>
+<p>Every player starts out with a set of General <strong>Action Cards</strong>. These are <a href="../scenes/">Abilities</a> all characters have, and can take as their Action during <a href="../scenes/">Initiative</a>.</p>
+<p>An Action during <a href="../scenes/">Initiative</a> involves the playing of two cards: one on its Attack side, and one on its Movement side. A player is not able to play two Attack cards for their action, nor are they able to play two Movement cards. Each <strong>Action Card</strong> has an Attack and Movement side, but the two cannot be activated at the same time, since the player must play two cards per turn.</p>
+<p>A player may choose to forgo the defined Attack or Movement on an <strong>Action Card</strong> and instead use the default action. The default Attack Action is "Make a weapon or unarmed* attack (Force) against a Here target." The default Movement Action is "Move Close." </p>
+<p>A player will receive new <strong>Action Cards</strong> whenever they purchase the corresponding Ability from the <a href="../../scription/experience-market/">Experience Market</a>.</p>
 <p>* <em>Unarmed attacks deal damage to Might equal to your Tier.</em></p>
 <h2 id="action-tests">Action Tests</h2>
 <p>If an Action requires a test from the character or its target, then the <a href="../../core/resolution-system/">success levels</a> are defined as follows:</p>
@@ -2068,6 +2236,34 @@
 <li>On a Test made by the target to resist a character, any Test that does results in Success or higher is a success.</li>
 <li>Making a ranged attack at a target while a conscious adversary is within Here of you is considered to have Disadvantage.</li>
 </ul>
+<h2 id="modifiers">Modifiers</h2>
+<p>Ability Modifiers are measurements of an Ability's mechanical and narrative effects. These determine your character's special capabilities for interacting with this world, in a guaranteed or luck-based format. </p>
+<h3 id="activating-abilities">Activating Abilities</h3>
+<p>Different abilities have different specifications for how they are activated, how often they can be activated, and under what conditions they can be activated. A lot of this can be measured by an ability's Reset Condition and Action Economy.</p>
+<p>An ability's <strong>Reset Condition</strong> determines how often an ability can be activated once all of its uses have been expended. A Reset Condition of a <strong>Long Rest</strong> means an ability's uses replenish after completing a Long Rest. A Reset Condition of a <strong>Short Rest</strong> means an ability's uses replenish after completing a Short Rest. A Reset Condition of <strong>Spell</strong> means an ability must be preceded by a successful Test before the ability's effects can be activated again. A Reset Condition of <strong>General</strong> means an ability does apply an additional limit to how often it can be activated.</p>
+<p>An ability's <strong>Action Economy</strong> determines what circumstances an ability can be activated under. This mostly refers to the time it takes to activate the ability. An Action Economy of <strong>1 Action</strong> means an ability can be activated on a turn during a scene by choosing it as one of the two Action Cards that define the turn. An Action Economy of <strong>1 Group Action</strong> means an ability can be activated by expending an Action Card of at least 2 distinct characters' turns. An Action Economy of <strong>1 Minute</strong> means a character must spend 1 Minute <a href="./#concentration">Concentrating</a> on the activation of this ability, otherwise it does not successfully activate. An Action Economy of <strong>Ritual</strong> means a character must spend 1 Hour <a href="./#concentration">Concentrating</a> on the activation of this ability, otherwise it does not successfully activate. An Action Economy of a <strong>Surge</strong> means an ability can be activated between turns, but cannot directly target any creature besides yourself. Surges can only be activated after all of the events that have been currently announced have narratively occurred. An Action Economy of a <strong>Trait</strong> gives a perpetual effect.</p>
+<details class="important" open="open">
+<summary>The Narrative Power of Reactions</summary>
+<p>Both Traits and any ability with a duration has the opportunity to provide a character with a Reaction. Reactions are the only type of Action Economy that can be narratively retroactive. Unlike Surges or Actions, which must occur narratively after all events that have been established already, Reactions can activate in the moments just before an announced event occurs in the narrative.</p>
+</details>
+<h3 id="durations">Durations</h3>
+<p>When an Ability Card with a Duration has been played, and the Duration has not yet expired, the Ability Card is considered <strong>Active</strong>. Active Cards cannot be played again until the Duration expires, or until the owner of the Ability Card takes a Reaction to an event they can perceive to cut the duration short, unless otherwise specified.</p>
+<p>Time Durations come in several different lengths: 1 round, 1 Scene, 1 Hour, Until Long Rest, and Until Dispelled. An ability with a duration of <strong>1 round</strong> that targets Self lasts until the end of the player's next turn, otherwise if the ability targets another creature, it lasts until the beginning of the player's next turn. An ability with a duration of <strong>1 Scene</strong> lasts until the end of the narrative Scene, which could either be defined by a combat, whenever the narrative progresses naturally to a distinct situation, or approximately 1 minute in-game time. An ability with a duration of <strong>1 Hour</strong> lasts either for 1 hour in-game time, the duration of a span of travel, or during a rest's downtime moments. An ability with a duration of <strong>Until Long Rest</strong> lasts until you next begin a Long Rest. An ability with a duration of <strong>Until Dispelled</strong> lasts until successful action is taken by a creature or effect to specifically end the effect of this ability.</p>
+<h4 id="concentration">Concentration</h4>
+<p>If a duration requires Concentration, a character is considered to be Concentrating while the duration is active. A character can only be Concentrating on one effect at a time, unless otherwise specified. Concentration ends when a Concentrating character takes Fallout that results in a Stress refresh, or if the character ends the Concentration willingly. A Concentrating character may take a reaction in response to taking Fallout that would end their Concentration, and instead of losing Concentration, spend a Resistance in the Potential whose Stress has been reset.</p>
+<h3 id="distances">Distances</h3>
+<p>In Sunder, distances are defined in intervals, which are well-translated to theatre-of-the-mind gameplay, but still preserve a specific measurement. If something is defined to have a distance, then it can affect anywhere up to the value correlated to the named interval. To select a target within range, you must be able to see or otherwise sense the target.  </p>
+<div class="admonition info">
+<p class="admonition-title">Distance Interval Name  </p>
+<ul>
+<li><strong>Here</strong>: 5 feet (adjacent)  </li>
+<li><strong>Near</strong>: 10 feet  </li>
+<li><strong>Close</strong>: 30 feet  </li>
+<li><strong>There</strong>: 60 feet  </li>
+<li><strong>Far</strong>: 120 feet  </li>
+<li><strong>Yonder</strong>: &gt;120 feet (Line of Sight)</li>
+</ul>
+</div>
 <h2 id="general-actions">General Actions</h2>
 <div class="gh-card-grid">
 <div class="gh-card" role="group" aria-label="Action Card">
@@ -2783,6 +2979,12 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+      
+        <script src="../../js/site.js"></script>
+      
         <script src="../../js/auth.js"></script>
       
         <script src="../../js/bookmarks.js"></script>
@@ -2801,6 +3003,18 @@
       
         <script src="../../js/profile.js"></script>
       
+        <script src="../../js/scription-access.js"></script>
+      
+        <script src="../../js/scription-nav.js"></script>
+      
+        <script src="../../js/sunder-markdown.js"></script>
+      
+        <script src="../../js/scription-page.js"></script>
+      
+        <script src="../../js/scription-slots.js"></script>
+      
+        <script src="../../js/scription-activate.js"></script>
+      
         <script src="../../js/sunder-chatbot.js"></script>
       
         <script src="../../js/sunder-llm.js"></script>
@@ -2812,7 +3026,9 @@
 <!-- End Google Tag Manager (noscript) -->
 <script>
     window.SUNDER_BASE_URL = "../..";
-    window.SUNDER_CHAT_BASE = "../../chat";
+    window.SUNDER_CHAT_BASE = window.SUNDER_SITE?.resolvePath
+        ? window.SUNDER_SITE.resolvePath("chat/")
+        : "../../chat";
     // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
     window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
 </script>
@@ -2824,8 +3040,7 @@
         // bump version whenever you want the toast to reappear for everyone
         var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-        // optional debug override:
-        // /site/.../?debugToast=1
+        // optional debug override: add ?debugToast=1 to the current page
         var debugForced = false;
         try {
             var params = new URLSearchParams(window.location.search);
@@ -2962,7 +3177,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.1.64";
+    window.SUNDER_VERSION = "2.1.74";
 </script>
 
 

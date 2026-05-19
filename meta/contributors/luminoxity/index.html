@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://tsindwr.github.io/site/meta/contributors/luminoxity/">
+        <link rel="canonical" href="https://www.sunderttrpg.world/meta/contributors/luminoxity/">
       
       
         <link rel="prev" href="../mullburrower/">
@@ -64,6 +64,12 @@
       <link rel="stylesheet" href="../../../css/graphics.css">
     
       <link rel="stylesheet" href="../../../css/sunder-chatbot.css">
+    
+      <link rel="stylesheet" href="../../../css/vault.css">
+    
+      <link rel="stylesheet" href="../../../css/scription-nav.css">
+    
+      <link rel="stylesheet" href="../../../css/scription.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -150,7 +156,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://tsindwr.github.io/site/"
+        <a href="https://www.sunderttrpg.world/"
            title="Sunder"
            class="md-header__button md-logo"
            aria-label="Sunder">
@@ -968,14 +974,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../gameplay/abilities/" class="md-nav__link">
+      <a href="../../../gameplay/scenes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Experience Market
+    Scenes
   
 
     
@@ -1003,7 +1009,35 @@
   <span class="md-ellipsis">
     
   
-    Actions
+    General Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../scription/experience-market/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scription: Experience Market
   
 
     
@@ -1032,34 +1066,6 @@
     
   
     Spellcasting
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../gameplay/scenes/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Scenes
   
 
     
@@ -1368,14 +1374,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../gameplay/adversaries/" class="md-nav__link">
+      <a href="../../../gameplay/gm-tools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Adversaries
+    GM Tools
   
 
     
@@ -1845,6 +1851,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../activate-scription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activate Scription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1940,9 +1974,9 @@
 <div class="sunder-author-card">
   <div class="sunder-author-header">
     <!-- Use absolute path including repository base so the image resolves correctly on GitHub Pages -->
-    <img src="/site/assets/art/luminoxity_pfp.webp" alt="luminoxity artist profile picture" class="sunder-author-avatar" data-sunder-lightbox="on" />
+    <img src="../../../assets/art/luminoxity_pfp.webp" alt="luminoxity artist profile picture" class="sunder-author-avatar" data-sunder-lightbox="on" />
     <div class="sunder-author-info">
-      <h2 class="sunder-author-name">Vyx A. Ray<span class="sunder-author-pronouns">they/she</span></h2>
+      <h2 class="sunder-author-name">Lumi<span class="sunder-author-pronouns">they/she</span></h2>
       <p class="sunder-author-handle">@lum1n0x1ty</p>
     </div>
   </div>
@@ -2311,6 +2345,12 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+      
+        <script src="../../../js/site.js"></script>
+      
         <script src="../../../js/auth.js"></script>
       
         <script src="../../../js/bookmarks.js"></script>
@@ -2329,6 +2369,18 @@
       
         <script src="../../../js/profile.js"></script>
       
+        <script src="../../../js/scription-access.js"></script>
+      
+        <script src="../../../js/scription-nav.js"></script>
+      
+        <script src="../../../js/sunder-markdown.js"></script>
+      
+        <script src="../../../js/scription-page.js"></script>
+      
+        <script src="../../../js/scription-slots.js"></script>
+      
+        <script src="../../../js/scription-activate.js"></script>
+      
         <script src="../../../js/sunder-chatbot.js"></script>
       
         <script src="../../../js/sunder-llm.js"></script>
@@ -2340,7 +2392,9 @@
 <!-- End Google Tag Manager (noscript) -->
 <script>
     window.SUNDER_BASE_URL = "../../..";
-    window.SUNDER_CHAT_BASE = "../../../chat";
+    window.SUNDER_CHAT_BASE = window.SUNDER_SITE?.resolvePath
+        ? window.SUNDER_SITE.resolvePath("chat/")
+        : "../../../chat";
     // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
     window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
 </script>
@@ -2352,8 +2406,7 @@
         // bump version whenever you want the toast to reappear for everyone
         var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-        // optional debug override:
-        // /site/.../?debugToast=1
+        // optional debug override: add ?debugToast=1 to the current page
         var debugForced = false;
         try {
             var params = new URLSearchParams(window.location.search);
@@ -2490,7 +2543,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.1.64";
+    window.SUNDER_VERSION = "2.1.74";
 </script>
 
 

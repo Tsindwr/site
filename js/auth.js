@@ -69,20 +69,57 @@ window.sunder = window.sunder || {};
 
     async function getCurrentUser() {
         try {
-            const { data, error } = await client.auth.getUser();
-            if (error) {
-                console.warn("getUser error:", error);
+            const { data: sessionData, error: sessionError } = await client.auth.getSession();
+
+            if (sessionError) {
+                console.warn("getSession error:", sessionError);
+                saveUserInfo(null);
+                return null;
+            }
+
+            const session = sessionData?.session || null;
+
+            if (!session) {
+                // This is a normal signed-out state, not an auth failure
+                saveUserInfo(null);
+                return null;
+            }
+
+            const user = session.user || null;
+
+            if (user) {
+                saveUserInfo(user);
+                return user;
+            }
+
+            const { data: userData, error: userError } = await client.auth.getUser();
+
+            if (userError) {
+                console.warn("getUser error with existing session:", error);
                 saveUserInfo(null); // Clear cached user on error
                 return null;
             }
-            const user = data.user || null;
-            saveUserInfo(user); // Save to localStorage
-            return user;
+
+            saveUserInfo(userData.user || null); // Save to localStorage
+            return userData.user || null;
         } catch (err) {
-            console.error("getUser threw:", err);
+            console.error("getCurrentUser threw:", err);
             saveUserInfo(null); // Clear cached user on error
             return null;
         }
+    }
+
+    async function getSession() {
+        const { data, error } = await client.auth.getSession();
+
+        if (error) {
+            console.warn("getSession error:", error);
+            return null;
+        }
+
+        const session = data.session || null;
+        saveUserInfo(session?.user || null);
+        return session;
     }
 
     // Get user info (returns cached version for quick access)
@@ -118,6 +155,14 @@ window.sunder = window.sunder || {};
         return null;
     }
 
+    function getRedirectUrl() {
+        if (window.SUNDER_SITE?.cleanCurrentUrl) {
+            return window.SUNDER_SITE.cleanCurrentUrl();
+        }
+
+        return `${window.location.origin}${window.location.pathname}`;
+    }
+
     async function requireUserOrLogin() {
         const user = await getCurrentUser();
         if (user) return user;
@@ -125,7 +170,7 @@ window.sunder = window.sunder || {};
         const { error } = await client.auth.signInWithOAuth({
             provider: "discord",
             options: {
-                redirectTo: window.location.href,
+                redirectTo: getRedirectUrl(),
             },
         });
 
@@ -148,12 +193,55 @@ window.sunder = window.sunder || {};
     }
 
     function onAuthStateChange(callback) {
-        client.auth.onAuthStateChange((_event, session) => {
+        client.auth.onAuthStateChange((event, session) => {
             const user = session?.user || null;
             saveUserInfo(user); // Keep localStorage in sync
+
+            window.dispatchEvent(
+                new CustomEvent("sunder-auth-state-change", {
+                    detail: {
+                        event,
+                        user,
+                        session,
+                    },
+                })
+            );
+
             callback(user);
         });
     }
+
+    async function syncInitialSession() {
+        try {
+            const { data, error } = await client.auth.getSession();
+
+            if (error) {
+                console.warn("[sunder auth] initial getSession error:", error);
+                saveUserInfo(null);
+                return null;
+            }
+
+            const user = data.session?.user || null;
+            saveUserInfo(user);
+
+            window.dispatchEvent(
+                new CustomEvent("sunder-auth-session-synced", {
+                    detail: {
+                        user,
+                        session: data.session || null,
+                    },
+                })
+            );
+
+            return data.session || null;
+        } catch (error) {
+            console.warn("[sunder auth] initial session sync failed:", error);
+            saveUserInfo(null);
+            return null;
+        }
+    }
+
+    syncInitialSession();
 
     // Expose a simple auth API
     window.sunder.auth = {
@@ -164,5 +252,34 @@ window.sunder = window.sunder || {};
         requireUserOrLogin,
         signOut,
         onAuthStateChange,
+        getSession,
+        getRedirectUrl,
     };
+
+    window.SUNDER_AUTH = window.sunder.auth;
+    window.sunderSupabase = client;
+    window.SUNDER_SUPABASE_CLIENT = client;
+    window.SUNDER_SUPABASE_URL = SUPABASE_URL;
+    window.SUNDER_SUPABASE_ANON_KEY = SUPABASE_ANON_KEY;
+
+    client.auth.getSession()
+        .then(({ data, error }) => {
+            if (error) {
+                console.warn("Initial auth session check failed:", error);
+                saveUserInfo(null);
+                return;
+            }
+
+            saveUserInfo(data.session?.user || null);
+        })
+        .catch((error) => {
+            console.warn("Initial auth session check threw:", error);
+            saveUserInfo(null);
+        });
+
+    window.dispatchEvent(
+        new CustomEvent("sunder-auth-ready", {
+            detail: { client },
+        })
+    );
 })();

@@ -1,0 +1,357 @@
+.sunder-scription-card,
+.sunder-scription-locked-page,
+.sunder-premium-locked,
+.sunder-premium-fragment {
+    margin: 1.25rem 0;
+    padding: 1.15rem 1.25rem;
+    border-radius: 0.95rem;
+    border: 1px solid rgba(249, 199, 79, 0.34);
+    background:
+        linear-gradient(135deg, rgba(249, 199, 79, 0.1), rgba(90, 45, 130, 0.06));
+}
+
+[data-md-color-scheme="slate"] .sunder-scription-card,
+[data-md-color-scheme="slate"] .sunder-scription-locked-page,
+[data-md-color-scheme="slate"] .sunder-premium-locked,
+[data-md-color-scheme="slate"] .sunder-premium-fragment {
+    background:
+        linear-gradient(135deg, rgba(249, 199, 79, 0.12), rgba(140, 100, 180, 0.12));
+    border-color: rgba(249, 199, 79, 0.4);
+}
+
+.sunder-scription-eyebrow {
+    display: inline-flex;
+    width: fit-content;
+    margin-bottom: 0.65rem;
+    padding: 0.18rem 0.62rem;
+    border-radius: 999px;
+    background: rgba(249, 199, 79, 0.16);
+    color: var(--md-accent-fg-color);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/*.sunder-scription-locked-page h2,*/
+/*.sunder-scription-unlocked-page h1 {*/
+/*    margin-top: 0;*/
+/*}*/
+
+.sunder-scription-support-copy {
+    margin-top: 0.85rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-scription-form {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 560px;
+    margin: 1rem 0;
+}
+
+.sunder-scription-actions,
+.sunder-premium-locked-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.sunder-scription-purchase {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(249, 199, 79, 0.25);
+}
+
+.sunder-premium-markdown {
+    white-space: pre-wrap;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: var(--md-code-bg-color);
+}
+
+.sunder-premium-nav-heading {
+    color: var(--md-accent-fg-color) !important;
+    font-weight: 700;
+}
+
+.sunder-premium-nav-link::after {
+    content: " ✦";
+    color: var(--md-accent-fg-color);
+}
+
+.sunder-help-text {
+    margin-top: 0.85rem;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+}
+
+.sunder-scription-unlocked-content {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.sunder-scription-unlocked-content > :first-child {
+    margin-top: 0;
+}
+
+.sunder-scription-unlocked-content .footnote {
+    margin-top: 2rem;
+    font-size: 0.85em;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-scription-unlocked-content .footnote hr {
+    margin: 1.5rem 0 1rem;
+    border: 0;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.sunder-scription-unlocked-content .footnote ol {
+    padding-left: 1.4rem;
+}
+
+.sunder-scription-unlocked-content .footnote li {
+    margin: 0.35rem 0;
+}
+
+.sunder-scription-unlocked-content .footnote-ref {
+    font-size: 0.72em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+.sunder-scription-unlocked-content .footnote-ref a,
+.sunder-scription-unlocked-content .footnote.backref {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sunder-scription-unlocked-content .footnote-backref {
+    margin-left: 0.25rem;
+}
+
+.sunder-scription-slot-loading-card {
+    opacity: 0.9;
+}
+
+.sunder-scription-slot-loading-card::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.35rem;
+    margin-top: 1rem;
+    border-radius: 999px;
+    background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(249, 199, 79, 0.55),
+            transparent
+    );
+    animation: sunder-scription-loading-sweep 1.2s linear infinite;
+}
+
+@keyframes sunder-scription-loading-sweep {
+    from {
+        background-position: -12rem 0;
+    }
+
+    to {
+        background-position: 12rem 0;
+    }
+}
+
+/* ============================================================
+   Scription Activate / Ko-fi Product Landing Section
+   ============================================================ */
+
+.sunder-scription-hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(88px, 132px) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+    margin: 1.25rem 0 2rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(249, 199, 79, 0.28);
+    border-radius: 1.25rem;
+    background:
+            radial-gradient(circle at 12% 15%, rgba(249, 199, 79, 0.16), transparent 28rem),
+            radial-gradient(circle at 90% 20%, rgba(157, 107, 255, 0.2), transparent 24rem),
+            linear-gradient(135deg, rgba(90, 45, 130, 0.18), rgba(11, 15, 20, 0.72));
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+    overflow: hidden;
+}
+
+.sunder-scription-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+            linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.04), transparent),
+            repeating-linear-gradient(
+                    90deg,
+                    rgba(255, 255, 255, 0.025) 0,
+                    rgba(255, 255, 255, 0.025) 1px,
+                    transparent 1px,
+                    transparent 36px
+            );
+    opacity: 0.75;
+}
+
+.sunder-scription-hero > * {
+    position: relative;
+    z-index: 1;
+}
+
+.sunder-scription-hero__mark {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+}
+
+.sunder-scription-hero__mark img {
+    width: min(76%, 96px);
+    height: auto;
+    filter: drop-shadow(0 0 16px rgba(249, 199, 79, 0.28));
+}
+
+.sunder-scription-hero__copy h2 {
+    margin: 0.15rem 0 0.6rem;
+    font-size: clamp(1.75rem, 4vw, 2.65rem);
+    line-height: 1.05;
+    color: var(--md-accent-fg-color);
+}
+
+.sunder-scription-hero__copy p {
+    max-width: 62ch;
+    margin: 0;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-scription-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.1rem;
+}
+
+.sunder-scription-unlocks {
+    margin: 2rem 0;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(157, 107, 255, 0.24);
+    background:
+            linear-gradient(180deg, rgba(90, 45, 130, 0.1), rgba(90, 45, 130, 0.035)),
+            rgba(0, 0, 0, 0.04);
+}
+
+[data-md-color-scheme="slate"] .sunder-scription-unlocks {
+    background:
+            radial-gradient(circle at top left, rgba(249, 199, 79, 0.08), transparent 24rem),
+            linear-gradient(180deg, rgba(90, 45, 130, 0.16), rgba(90, 45, 130, 0.06));
+    border-color: rgba(249, 199, 79, 0.18);
+}
+
+.sunder-scription-unlocks__header {
+    max-width: 72ch;
+    margin-bottom: 1rem;
+}
+
+.sunder-scription-unlocks__header h2 {
+    margin: 0.2rem 0 0.45rem;
+}
+
+.sunder-scription-unlocks__header p,
+.sunder-scription-unlocks__footer p {
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-scription-unlocks__grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.sunder-scription-unlock-card {
+    position: relative;
+    padding: 1.15rem 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background:
+            linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02)),
+            rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.16);
+}
+
+[data-md-color-scheme="slate"] .sunder-scription-unlock-card {
+    background:
+            linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.025)),
+            rgba(0, 0, 0, 0.18);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.sunder-scription-unlock-card--featured {
+    border-color: rgba(249, 199, 79, 0.28);
+}
+
+.sunder-scription-unlock-card__icon {
+    display: inline-grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.45rem;
+    border-radius: 999px;
+    background: rgba(249, 199, 79, 0.14);
+    color: var(--md-accent-fg-color);
+    font-weight: 800;
+}
+
+.sunder-scription-unlock-card h3 {
+    margin: 0 0 0.65rem;
+    color: var(--md-accent-fg-color);
+}
+
+.sunder-scription-unlock-card ul {
+    margin: 0;
+    padding-left: 1.05rem;
+}
+
+.sunder-scription-unlock-card li {
+    margin: 0.45rem 0;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-scription-unlocks__footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(249, 199, 79, 0.18);
+}
+
+.sunder-scription-unlocks__footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+@media screen and (max-width: 720px) {
+    .sunder-scription-hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .sunder-scription-hero__mark {
+        width: 112px;
+        justify-self: center;
+    }
+
+    .sunder-scription-hero__actions {
+        justify-content: center;
+    }
+}

@@ -1,7 +1,9 @@
 (function() {
   // Release notes configuration
   const RELEASE_NOTES_BASE = '../../release-notes/';
-  const ALT_RELEASE_NOTES_BASE = '/site/release-notes/'; // fallback for dev server root
+  const ALT_RELEASE_NOTES_BASE = window.SUNDER_SITE?.resolvePath
+    ? window.SUNDER_SITE.resolvePath('release-notes/')
+    : '/release-notes/';
   // Keep a hard-coded fallback for environments where directory listing isn't available
   const KNOWN_RELEASES = ['v0.3.0', 'v0.4.0', 'v0.5.0', 'v0.6.0', 'v0.7.0', 'v0.8.0', 'v1.0.0', 'v1.1.0', 'v1.2.0', 'v1.3.0', 'v1.4.0', 'v1.5.0', 'v1.6.0'];
 

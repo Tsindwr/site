@@ -4,6 +4,10 @@ function $(elementID) {
 
 // Helper to produce a stable URL for site assets using the optional global base URL
 function assetUrl(relPath) {
+    if (window.SUNDER_SITE?.resolvePath) {
+        return window.SUNDER_SITE.resolvePath(relPath);
+    }
+
     const base = (window.SUNDER_BASE_URL || '').replace(/\/$/, '');
     return base + '/' + String(relPath || '').replace(/^\/+/, '');
 }
@@ -16,6 +20,8 @@ function resolveAvatar(avatar) {
     if (/^(https?:)?\/\//.test(s)) return s;
     // root-absolute: prepend base without duplicating slash
     if (s.startsWith('/')) {
+        if (window.SUNDER_SITE?.resolvePath) return window.SUNDER_SITE.resolvePath(s);
+
         const base = (window.SUNDER_BASE_URL || '').replace(/\/$/, '');
         return base + s;
     }
@@ -121,14 +127,18 @@ window.addEventListener("DOMContentLoaded", async () => {
     if (profileButton) {
         profileButton.addEventListener('click', async (e) => {
             e.preventDefault();
-            window.location = window.SUNDER_BASE_URL + "/meta/profile/";
+            window.location = window.SUNDER_SITE?.resolvePath
+                ? window.SUNDER_SITE.resolvePath("meta/profile/")
+                : window.SUNDER_BASE_URL + "/meta/profile/";
         });
     }
 
     if (bookmarksButton) {
         bookmarksButton.addEventListener('click', async (e) => {
             e.preventDefault();
-            window.location = window.SUNDER_BASE_URL + "/meta/bookmarks/";
+            window.location = window.SUNDER_SITE?.resolvePath
+                ? window.SUNDER_SITE.resolvePath("meta/bookmarks/")
+                : window.SUNDER_BASE_URL + "/meta/bookmarks/";
         });
     }
 });

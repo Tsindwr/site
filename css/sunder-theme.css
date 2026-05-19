@@ -792,7 +792,7 @@ h3 {
 
 .sunder-btn-accent {
     background: linear-gradient(135deg, #F9C74F, #D9A322);
-    color: #1a1a1a;
+    color: #1a1a1a !important;
     box-shadow: 0 4px 12px rgba(249, 199, 79, 0.3);
 }
 

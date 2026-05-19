@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://tsindwr.github.io/site/gameplay/scenes/">
+        <link rel="canonical" href="https://www.sunderttrpg.world/gameplay/scenes/">
       
       
-        <link rel="prev" href="../../characters/spellcasting/">
+        <link rel="prev" href="../../core/tokens/">
       
       
-        <link rel="next" href="../resting/">
+        <link rel="next" href="../actions/">
       
       
         
@@ -64,6 +64,12 @@
       <link rel="stylesheet" href="../../css/graphics.css">
     
       <link rel="stylesheet" href="../../css/sunder-chatbot.css">
+    
+      <link rel="stylesheet" href="../../css/vault.css">
+    
+      <link rel="stylesheet" href="../../css/scription-nav.css">
+    
+      <link rel="stylesheet" href="../../css/scription.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -139,7 +145,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#initiative" class="md-skip">
+        <a href="#scenes-and-turns" class="md-skip">
           Skip to content
         </a>
       
@@ -155,7 +161,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://tsindwr.github.io/site/"
+        <a href="https://www.sunderttrpg.world/"
            title="Sunder"
            class="md-header__button md-logo"
            aria-label="Sunder">
@@ -988,90 +994,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../abilities/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Experience Market
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../actions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Actions
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../characters/spellcasting/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Spellcasting
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -1135,27 +1057,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#actions" class="md-nav__link">
+  <a href="#ability-cards" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Actions
+        Ability Cards
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Actions">
+    <nav class="md-nav" aria-label="Ability Cards">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#movement-and-attack" class="md-nav__link">
+  <a href="#action-cards" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Movement and Attack
+        Action Cards
       
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Action Cards">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#default-actions" class="md-nav__link">
@@ -1165,6 +1088,22 @@
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1179,8 +1118,30 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#option-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taking-your-turn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taking Your Turn
+      
+    </span>
+  </a>
   
 </li>
       
@@ -1188,6 +1149,90 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scription/experience-market/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scription: Experience Market
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../characters/spellcasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellcasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1494,14 +1539,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../adversaries/" class="md-nav__link">
+      <a href="../gm-tools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Adversaries
+    GM Tools
   
 
     
@@ -1953,6 +1998,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/activate-scription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activate Scription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1987,27 +2060,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#actions" class="md-nav__link">
+  <a href="#ability-cards" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Actions
+        Ability Cards
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Actions">
+    <nav class="md-nav" aria-label="Ability Cards">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#movement-and-attack" class="md-nav__link">
+  <a href="#action-cards" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Movement and Attack
+        Action Cards
       
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Action Cards">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#default-actions" class="md-nav__link">
@@ -2017,6 +2091,22 @@
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2031,8 +2121,30 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#option-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taking-your-turn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taking Your Turn
+      
+    </span>
+  </a>
   
 </li>
       
@@ -2088,7 +2200,7 @@
     
     
       <li class="md-path__item">
-        <a href="../abilities/" class="md-path__link">
+        <a href="./" class="md-path__link">
           
   <span class="md-ellipsis">
     Gameplay
@@ -2111,27 +2223,46 @@
 
 
 
-<h1 id="initiative">Initiative</h1>
-<p>In Sunder, initiative order is loose, responsive, and adaptable to player action. The GM decides who starts the initiative order, often based on actions and events leading up to the instance of combat. Initiative can be started due to combat or an intense moment requiring timing. Either one is called a scene.</p>
-<p>Generally, adversary turns happen in response to player turns, this balances combatant action while also maintaining a reactive and cohesive narrative.</p>
-<p>Players should "throw in the gauntlet" when they have something to contribute to combat. This can be represented by a physical token presented at the table, raising a hand, or claiming a spot in a queue. Typically, this would go on a first-come first-serve basis, with GM <a href="../actions/">actions</a> in between. However, players are free to withhold their turn in favor of another player that would otherwise be going after them.</p>
+<h1 id="scenes-and-turns">Scenes and Turns</h1>
+<p>In Sunder, initiative order is loose, responsive, and adaptable to player action. The GM decides who starts the initiative order, often based on actions and events leading up to the instance of combat. Initiative can be started due to combat or an intense moment requiring timing. Either one is called a Scene.</p>
+<p>Generally, adversary turns happen in response to player turns. This balances combatant action while also maintaining a reactive and cohesive narrative.</p>
+<p>Players should "throw in the gauntlet" when they have something to contribute to combat. This can be represented by a physical token presented at the table, raising a hand, or claiming a spot in a queue. Typically, this would go on a first-come first-serve basis, with GM actions in between. However, players are free to withhold their turn in favor of another player that would otherwise be going after them.</p>
 <details class="important" open="open">
 <summary>Rule of Diminishing Returns</summary>
 <p>What keeps characters from constantly taking turns is the risked <a href="../../core/stress-and-fallout/">Stress</a> accumulation when rolling <a href="../../core/resolution-system/">Tests</a> and possible adversary retaliation.</p>
 </details>
 <p>Players may coordinate to make group actions. A group action must be combined effort to a single goal. While this circumvents the need to take adversary actions between each participating member's turns, it restricts their action to one focus. Players should describe how they contribute and make a Group Test.</p>
-<h2 id="actions">Actions</h2>
-<p>Generally, a turn consists of two actions: <a href="../actions/">Movement</a> and <a href="../actions/">Attack</a>. These can occur in either order but once the next action is taken, one cannot go back to an incomplete action and continue it. This encourages strategic decisions when choosing actions on a turn.</p>
-<h3 id="movement-and-attack">Movement and Attack</h3>
-<p>When a character gains a new ability, either during character creation or by using the class feature market, they can receive an <strong>Action Card</strong>. These <a href="../abilities/">Action Cards</a> are what define the character's options during combat. Each <a href="../abilities/">Action Card</a> has two sides: an "<a href="../actions/">Attack</a>" side on the top and a "<a href="../actions/">Movement</a>" side on the bottom. During a player's turn, they play two cards. They must choose the top (or "<a href="../actions/">Attack</a>") side of one card, and the bottom (or "<a href="../actions/">Movement</a>") side of the other. During one's turn, a player cannot use the opposite side of the same card they have already chosen one side for, and they cannot choose the same side on both cards. </p>
-<p>A <a href="../actions/">Movement</a> Action does not need to be restricted to literal movement. A <a href="../actions/">Movement</a> action could contain a buff that lasts for a certain amount of usages, it could allow for a small secondary weapon strike, or it could involve a defensive effect that lasts the round. The same goes for <a href="../actions/">Attack</a> <a href="../actions/">Actions</a>: Attacks need not specifically be a direct assault against a target creature. They can involve healing targeting an ally, or the activation of a large area of effect ability that lasts for a given duration. These are meant to be interpreted and follow the flavor of a given <a href="../abilities/">Action Card</a>'s title, where the <a href="../actions/">Attack</a> half is a direct approach and the <a href="../actions/">Movement</a> half is indirect.</p>
-<h3 id="default-actions">Default Actions</h3>
-<p>Every creature is given a deck of default <a href="../abilities/">Action Cards</a> that are accessible to everyone. Some class features may alter these base cards or replace them, but otherwise one player's default <a href="../abilities/">Action Cards</a> do not differ from another player's.</p>
+<h2 id="ability-cards">Ability Cards</h2>
+<p>Abilities are the ways in which a player can translate narrative intent into mechanical effect. Abilities can come as <strong><a href="../actions/">Actions</a></strong>, <strong>Surges</strong>, and <strong>Traits</strong>. Actions are how players interact with the world and other creatures around them. Surges are minute effects that only affect the user, but can be activated at any time. Traits are constant effects that may affect a character's Stats, or provide specific triggers for reactions to be taken during gameplay.</p>
+<p>With Abilities come Ability Cards, which give a player their options during gameplay and combat. Both Action Cards and Surge Cards are held upright or vertically, whereas Trait Cards are displayed horizontally. This allows players to organize their Hand in any way they wish, and have all of their options displayed in front of them.</p>
+<h3 id="action-cards">Action Cards</h3>
+<p>Generally, a turn consists of two actions: <a href="../actions/">Movement</a> and <a href="../actions/">Attack</a>. These can occur in either order, but once the next action is taken, one cannot go back to an incomplete action and continue it. This encourages strategic decisions when choosing actions on a turn.</p>
+<p>When a character gains a new ability, either during character creation or by using the <a href="../../scription/experience-market/">Experience Market</a>, they can receive an <strong>Action Card</strong>. These Action Cards are what define the character's options during combat. Each Action Card has two sides: an "<a href="../actions/">Attack</a>" side on the top and a "<a href="../actions/">Movement</a>" side on the bottom. During a player's turn, they play two cards. They must choose the top side of one card, and the bottom side of the other. During one's turn, a player cannot use the opposite side of the same card they have already chosen one side for, and they cannot choose the same side on both cards.</p>
+<p>A <a href="../actions/">Movement</a> Action does not need to be restricted to literal movement. A Movement Action could contain a buff that lasts for a certain amount of usages, it could allow for a small secondary weapon strike, or it could involve a defensive effect that lasts the round. The same goes for <a href="../actions/">Attack</a> Actions: Attacks need not specifically be a direct assault against a target creature. They can involve healing targeting an ally, or the activation of a large area of effect ability that lasts for a given duration. These are meant to be interpreted and follow the flavor of a given Action Card's title, where the Attack half is a direct approach and the Movement half is indirect.</p>
+<h4 id="default-actions">Default Actions</h4>
+<p>Every creature is given a deck of default <a href="../actions/">General Action Cards</a> that are accessible to everyone. Some class features may alter these base cards or replace them, but otherwise one player's default Action Cards do not differ from another player's.</p>
+<h4 id="action-tests">Action Tests</h4>
+<p>If an Action requires a test from the character or its target, then the <a href="../../core/resolution-system/">success levels</a> are defined as follows:</p>
+<ul>
+<li>On a Test made by the character against the target, any Test that result in Mixed or higher is a success.</li>
+<li>On a Test made by the target to resist a character, any Test that does results in Success or higher is a success.</li>
+<li>Making a ranged attack at a target while a conscious adversary is within Here of you is considered to have Disadvantage.</li>
+</ul>
 <h3 id="surges-and-traits">Surges and Traits</h3>
-<p>There are two types of <a href="../abilities/">abilities</a> that can be activated outside of a player's turn, at any time during combat: <strong>Surges</strong> and <strong>Traits</strong>. </p>
-<p>A <strong>Surge</strong> is akin to a bonus action; it can only be taken once per turn, but is restricted in who it can effect. What gives a <strong>Surge</strong> its speed and ease is its cutting out of a third party. <strong>Surges</strong> often only affect its user or its user's possessions. Since there is no target to successfully hit or opposing force to overcome, <strong>Surges</strong> do not require a <strong>Test</strong> to be activated, and have a low or otherwise discreet impact to other creatures during combat. This means that a player can activate a <strong>Surge</strong> by tracking their "per turn" status, and notifying one of their neighbors at the play table. It is common to track <strong>Surges</strong> by tossing in a token to the center of the table or flipping a coin in front of the player, then resetting after they finish their next turn. This establishes credibility as to when the <strong>Surge</strong> was activated, as well as definition as to when another <strong>Surge</strong> can be activated. Once an action has been announced in combat, a Surge cannot be activated temporally prior to the announced action. </p>
-<p>A <strong>Trait</strong> is akin to a passive ability or a reaction; it defines an additional feature about the player's character and provides them with special actions that can be taken under specific circumstances. <strong>Traits</strong> can increase any stat on a player's character sheet, or alter it in ways fitting the mechanics of Sunder. They can also provide definitions of specific circumstances (e.g. "when an ally within <strong>Close</strong> range is targeted with an attack dealing physical damage") where the <strong>Trait</strong>-bearing character can take an action outside of their turn (e.g. "take a point of <a href="../../core/stress-and-fallout/">Stress</a> in Wit to switch places with the targeted ally and become the new target of the attack"). There is no limit to how often these special actions can be taken, just know that special actions like these will always come with a small, repeatable cost. </p>
-<p>When a creature activates the effects of a <strong>Trait</strong> or Duration Ability in response to its defined trigger circumstances, it is called taking a Reaction. Each Trait, unless otherwise stated, cannot be activated more than once per round. Additionally, multiple Reactions cannot be triggered by one event, you must choose one or the other. However, you may activate as many total Reactions as you like between turns, as long as you have distinct Reactions provided by different Traits or Durations to activate every round.</p>
+<p>There are two types of Abilities that can be activated outside of a player's turn, at any time during combat: <strong>Surges</strong> and <strong>Traits</strong>. </p>
+<p>A <strong>Surge</strong> is akin to a bonus action; it can only be taken once per turn, but is restricted in who it can effect. What gives a <strong>Surge</strong> its speed and ease is its cutting out of a third party. <strong>Surges</strong> often only affect its user or its user's possessions. Since there is no target to successfully hit or opposing force to overcome, <strong>Surges</strong> do not require a <strong>Test</strong> to be activated, and have a low or otherwise discreet impact to other creatures during combat. This means that a player can activate a <strong>Surge</strong> by tracking their "per turn" status, and notifying one of their neighbors at the play table. It is common to track <strong>Surges</strong> by tossing in a token to the center of the table or flipping a coin in front of the player, then resetting after they finish their next turn. This establishes credibility as to when the <strong>Surge</strong> was activated, as well as definition as to when another <strong>Surge</strong> can be activated. Once an action has been announced in combat, a Surge cannot be activated temporally prior to the announced action.</p>
+<p>A <strong>Trait</strong> is akin to a passive ability or a reaction; it defines an additional feature about the player's character and provides them with special actions that can be taken under specific circumstances. <strong>Traits</strong> can increase any stat on a player's character sheet, or alter it in ways fitting the mechanics of Sunder. They can also provide definitions of specific circumstances where the Trait-bearing character can take an action outside of their turn. There is no limit to how often these special actions can be taken, but special actions like these usually come with a small, repeatable cost.</p>
+<p>When a creature activates the effects of a <strong>Trait</strong> or Duration Ability in response to its defined trigger circumstances, it is called taking a Reaction. Each Trait, unless otherwise stated, cannot be activated more than once per round. Additionally, multiple Reactions cannot be triggered by one event; you must choose one or the other. However, you may activate as many total Reactions as you like between turns, as long as you have distinct Reactions provided by different Traits or Durations to activate every round.</p>
+<h3 id="option-cards">Option Cards</h3>
+<p><strong>Option Cards</strong> are plain informational vertical cards that define different ways an Ability can be used. These cards show the details of a specific use of an Ability (called the Parent Ability) (called the Parent Ability), and can only be created by Abilities that establish a format for Options. Options do not have an innate Activation Type, and instead inherit the Action of whichever Ability calls for them to be activated. Ignore the Action Economy step of the Experience Market when creating Options.</p>
+<p>Option Cards are considered having their Parent Ability as a prerequisite, but do not benefit from a reduction in String cost.</p>
+<h2 id="taking-your-turn">Taking Your Turn</h2>
+<p>There are a few status tracking activities that need to be kept in mind when in a scene or combat that requires tracking the reset conditions of turn-based Abilities. </p>
+<ul>
+<li>Before taking your turn, remove any of your own Cards from play that had a duration of 1 turn.</li>
+<li>After taking a turn, be sure to return any flipped Surge Cards form the previous round back to faceup.</li>
+<li><a href="../../core/countdown-dice/">Sequence Abilities</a>' dice should be incremented after every use.</li>
+</ul>
 
 
 
@@ -2479,6 +2610,12 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+      
+        <script src="../../js/site.js"></script>
+      
         <script src="../../js/auth.js"></script>
       
         <script src="../../js/bookmarks.js"></script>
@@ -2497,6 +2634,18 @@
       
         <script src="../../js/profile.js"></script>
       
+        <script src="../../js/scription-access.js"></script>
+      
+        <script src="../../js/scription-nav.js"></script>
+      
+        <script src="../../js/sunder-markdown.js"></script>
+      
+        <script src="../../js/scription-page.js"></script>
+      
+        <script src="../../js/scription-slots.js"></script>
+      
+        <script src="../../js/scription-activate.js"></script>
+      
         <script src="../../js/sunder-chatbot.js"></script>
       
         <script src="../../js/sunder-llm.js"></script>
@@ -2508,7 +2657,9 @@
 <!-- End Google Tag Manager (noscript) -->
 <script>
     window.SUNDER_BASE_URL = "../..";
-    window.SUNDER_CHAT_BASE = "../../chat";
+    window.SUNDER_CHAT_BASE = window.SUNDER_SITE?.resolvePath
+        ? window.SUNDER_SITE.resolvePath("chat/")
+        : "../../chat";
     // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
     window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
 </script>
@@ -2520,8 +2671,7 @@
         // bump version whenever you want the toast to reappear for everyone
         var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-        // optional debug override:
-        // /site/.../?debugToast=1
+        // optional debug override: add ?debugToast=1 to the current page
         var debugForced = false;
         try {
             var params = new URLSearchParams(window.location.search);
@@ -2658,7 +2808,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.1.64";
+    window.SUNDER_VERSION = "2.1.74";
 </script>
 
 

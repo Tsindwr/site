@@ -8,10 +8,10 @@
       
       
       
-        <link rel="canonical" href="https://tsindwr.github.io/site/gameplay/resting/">
+        <link rel="canonical" href="https://www.sunderttrpg.world/gameplay/resting/">
       
       
-        <link rel="prev" href="../scenes/">
+        <link rel="prev" href="../../characters/spellcasting/">
       
       
         <link rel="next" href="../../characters/leveling/">
@@ -64,6 +64,12 @@
       <link rel="stylesheet" href="../../css/graphics.css">
     
       <link rel="stylesheet" href="../../css/sunder-chatbot.css">
+    
+      <link rel="stylesheet" href="../../css/vault.css">
+    
+      <link rel="stylesheet" href="../../css/scription-nav.css">
+    
+      <link rel="stylesheet" href="../../css/scription.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -155,7 +161,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://tsindwr.github.io/site/"
+        <a href="https://www.sunderttrpg.world/"
            title="Sunder"
            class="md-header__button md-logo"
            aria-label="Sunder">
@@ -991,14 +997,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../abilities/" class="md-nav__link">
+      <a href="../scenes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Experience Market
+    Scenes
   
 
     
@@ -1026,7 +1032,35 @@
   <span class="md-ellipsis">
     
   
-    Actions
+    General Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scription/experience-market/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scription: Experience Market
   
 
     
@@ -1055,34 +1089,6 @@
     
   
     Spellcasting
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../scenes/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Scenes
   
 
     
@@ -1483,14 +1489,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../adversaries/" class="md-nav__link">
+      <a href="../gm-tools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Adversaries
+    GM Tools
   
 
     
@@ -1942,6 +1948,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/activate-scription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activate Scription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2066,7 +2100,7 @@
     
     
       <li class="md-path__item">
-        <a href="../abilities/" class="md-path__link">
+        <a href="../scenes/" class="md-path__link">
           
   <span class="md-ellipsis">
     Gameplay
@@ -2107,7 +2141,7 @@
 </ul>
 <h2 id="long-rests">Long Rests</h2>
 <p>Long Rests allow for most character resources to be replenished and statuses to be refreshed, and involve 10 hours of resting, 2 of which can be spent doing light activity, such as a Rest Action. </p>
-<p>During a Long Rest, players can spend any amount of <a href="../../characters/experience/">Experience</a> Points on <a href="../abilities/">Abilities</a> from the <a href="../abilities/">Experience Market</a>.</p>
+<p>During a Long Rest, players can spend any amount of <a href="../../characters/experience/">Experience</a> Points on <a href="../scenes/">Abilities</a> from the <a href="../../scription/experience-market/">Experience Market</a>.</p>
 <p><a href="../damage/">Marks</a> can also be recovered during a Long Rest, but only a portion. <a href="../damage/">Marks</a> are representations of the wounds that cut deep during adventuring, and those take time to heal. Choose Nerve or Heart: whichever your current Tier is, roll that number of the associated <a href="../../core/volatility-and-perks/">Volatility Die</a> and regain a number of <a href="../damage/">Marks</a> equal to that total.</p>
 
 
@@ -2456,6 +2490,12 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+      
+        <script src="../../js/site.js"></script>
+      
         <script src="../../js/auth.js"></script>
       
         <script src="../../js/bookmarks.js"></script>
@@ -2474,6 +2514,18 @@
       
         <script src="../../js/profile.js"></script>
       
+        <script src="../../js/scription-access.js"></script>
+      
+        <script src="../../js/scription-nav.js"></script>
+      
+        <script src="../../js/sunder-markdown.js"></script>
+      
+        <script src="../../js/scription-page.js"></script>
+      
+        <script src="../../js/scription-slots.js"></script>
+      
+        <script src="../../js/scription-activate.js"></script>
+      
         <script src="../../js/sunder-chatbot.js"></script>
       
         <script src="../../js/sunder-llm.js"></script>
@@ -2485,7 +2537,9 @@
 <!-- End Google Tag Manager (noscript) -->
 <script>
     window.SUNDER_BASE_URL = "../..";
-    window.SUNDER_CHAT_BASE = "../../chat";
+    window.SUNDER_CHAT_BASE = window.SUNDER_SITE?.resolvePath
+        ? window.SUNDER_SITE.resolvePath("chat/")
+        : "../../chat";
     // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
     window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
 </script>
@@ -2497,8 +2551,7 @@
         // bump version whenever you want the toast to reappear for everyone
         var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-        // optional debug override:
-        // /site/.../?debugToast=1
+        // optional debug override: add ?debugToast=1 to the current page
         var debugForced = false;
         try {
             var params = new URLSearchParams(window.location.search);
@@ -2635,7 +2688,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.1.64";
+    window.SUNDER_VERSION = "2.1.74";
 </script>
 
 

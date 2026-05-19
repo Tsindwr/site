@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://tsindwr.github.io/site/characters/spellcasting/">
+        <link rel="canonical" href="https://www.sunderttrpg.world/characters/spellcasting/">
       
       
-        <link rel="prev" href="../../gameplay/actions/">
+        <link rel="prev" href="../../scription/experience-market/">
       
       
-        <link rel="next" href="../../gameplay/scenes/">
+        <link rel="next" href="../../gameplay/resting/">
       
       
         
@@ -64,6 +64,12 @@
       <link rel="stylesheet" href="../../css/graphics.css">
     
       <link rel="stylesheet" href="../../css/sunder-chatbot.css">
+    
+      <link rel="stylesheet" href="../../css/vault.css">
+    
+      <link rel="stylesheet" href="../../css/scription-nav.css">
+    
+      <link rel="stylesheet" href="../../css/scription.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -155,7 +161,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://tsindwr.github.io/site/"
+        <a href="https://www.sunderttrpg.world/"
            title="Sunder"
            class="md-header__button md-logo"
            aria-label="Sunder">
@@ -991,14 +997,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gameplay/abilities/" class="md-nav__link">
+      <a href="../../gameplay/scenes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Experience Market
+    Scenes
   
 
     
@@ -1026,7 +1032,35 @@
   <span class="md-ellipsis">
     
   
-    Actions
+    General Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scription/experience-market/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scription: Experience Market
   
 
     
@@ -1149,34 +1183,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../gameplay/scenes/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Scenes
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1483,14 +1489,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gameplay/adversaries/" class="md-nav__link">
+      <a href="../../gameplay/gm-tools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Adversaries
+    GM Tools
   
 
     
@@ -1942,6 +1948,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/activate-scription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activate Scription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2066,7 +2100,7 @@
     
     
       <li class="md-path__item">
-        <a href="../../gameplay/abilities/" class="md-path__link">
+        <a href="../../gameplay/scenes/" class="md-path__link">
           
   <span class="md-ellipsis">
     Gameplay
@@ -2094,9 +2128,9 @@
 <h2 id="spellcaster-adventurers">Spellcaster Adventurers</h2>
 <p>The world of Umbrea has its own magic source called the Arras, first discovered by the Mullburrows. However, between the influence of Faerie and Gloam, and the events of the Dread, the Arras has become unstable. Those who wield Essence in this way risk experiencing the instability of Magick for themselves. Failing to cast a spell often has consequences as the spell goes awry. Mechanically, each spell learned by a character should have a consequence along with its description, and consequences lower the <a href="../experience/">experience</a> cost of learning the new spell.</p>
 <h3 id="spell-limits">Spell Limits</h3>
-<p>In order to learn new spells, a player must use the <a href="../../gameplay/abilities/">Experience Market</a> to purchase them. However, there are some base limits to the amount of spells a character has access to, called their Stored Spells, and the amount of spells a character may choose from to cast at a given time, called their Prepared Spells. These limits are subject to change due to Ability effects.</p>
+<p>In order to learn new spells, a player must use the <a href="../../scription/experience-market/">Experience Market</a> to purchase them. However, there are some base limits to the amount of spells a character has access to, called their Stored Spells, and the amount of spells a character may choose from to cast at a given time, called their Prepared Spells. These limits are subject to change due to Ability effects.</p>
 <p><em>Potency.</em> A character's Potency is a value that influences their spellcasting limits. Potency is calculated by subtracting the initial number of <a href="../../gameplay/damage/">Marks</a> in the spellcasting class' pool from 10. So a <a href="../archetypes/">Healer</a> would have a Potency of 4, but a <a href="../archetypes/">Spellslinger</a> would have a Potency of 8.</p>
-<p>The maximum number of Stored Spells a character may have is equal to their Potency score. The maximum number of Prepared Spells a character may have is equal to the maximum number on their spellcasting <a href="../potentials-and-resistance/">Potential</a>'s <a href="../../core/volatility-and-perks/">Volatility Die</a>. These are both initial values which can be increased in the <a href="../../gameplay/abilities/">Experience Market</a>.</p>
+<p>The maximum number of Stored Spells a character may have is equal to their Potency score. The maximum number of Prepared Spells a character may have is equal to the maximum number on their spellcasting <a href="../potentials-and-resistance/">Potential</a>'s <a href="../../core/volatility-and-perks/">Volatility Die</a>. These are both initial values which can be increased in the <a href="../../scription/experience-market/">Experience Market</a>.</p>
 <h3 id="the-act-of-casting">The Act of Casting</h3>
 <p>Harnessing the Arras is a difficult task, and comes with risk. Casting a spell will always require a Test to be made, as specified by the spell description: any success level of Failure or lower will activate the spell's consequences, otherwise it is successfully cast. There is no limit to the number of times a spell can be cast, but balancing <a href="../../core/stress-and-fallout/">Stress</a> and risk of consequences will prevent spellcasters from casting safely indefinitely.</p>
 <p>Spellcasting requires a free hand. If this hand is Bound, the spellcasting Test is made with Disadvantage.</p>
@@ -2448,6 +2482,12 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+      
+        <script src="../../js/site.js"></script>
+      
         <script src="../../js/auth.js"></script>
       
         <script src="../../js/bookmarks.js"></script>
@@ -2466,6 +2506,18 @@
       
         <script src="../../js/profile.js"></script>
       
+        <script src="../../js/scription-access.js"></script>
+      
+        <script src="../../js/scription-nav.js"></script>
+      
+        <script src="../../js/sunder-markdown.js"></script>
+      
+        <script src="../../js/scription-page.js"></script>
+      
+        <script src="../../js/scription-slots.js"></script>
+      
+        <script src="../../js/scription-activate.js"></script>
+      
         <script src="../../js/sunder-chatbot.js"></script>
       
         <script src="../../js/sunder-llm.js"></script>
@@ -2477,7 +2529,9 @@
 <!-- End Google Tag Manager (noscript) -->
 <script>
     window.SUNDER_BASE_URL = "../..";
-    window.SUNDER_CHAT_BASE = "../../chat";
+    window.SUNDER_CHAT_BASE = window.SUNDER_SITE?.resolvePath
+        ? window.SUNDER_SITE.resolvePath("chat/")
+        : "../../chat";
     // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
     window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
 </script>
@@ -2489,8 +2543,7 @@
         // bump version whenever you want the toast to reappear for everyone
         var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-        // optional debug override:
-        // /site/.../?debugToast=1
+        // optional debug override: add ?debugToast=1 to the current page
         var debugForced = false;
         try {
             var params = new URLSearchParams(window.location.search);
@@ -2627,7 +2680,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.1.64";
+    window.SUNDER_VERSION = "2.1.74";
 </script>
 
 

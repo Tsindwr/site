@@ -8,10 +8,10 @@
       
       
       
-        <link rel="canonical" href="https://tsindwr.github.io/site/gameplay/damage/">
+        <link rel="canonical" href="https://www.sunderttrpg.world/gameplay/damage/">
       
       
-        <link rel="prev" href="../adversaries/">
+        <link rel="prev" href="../gm-tools/">
       
       
         <link rel="next" href="../conditions/">
@@ -64,6 +64,12 @@
       <link rel="stylesheet" href="../../css/graphics.css">
     
       <link rel="stylesheet" href="../../css/sunder-chatbot.css">
+    
+      <link rel="stylesheet" href="../../css/vault.css">
+    
+      <link rel="stylesheet" href="../../css/scription-nav.css">
+    
+      <link rel="stylesheet" href="../../css/scription.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -155,7 +161,7 @@
 <header class="md-header" data-md-component="header">
     <nav class="md-header__inner md-grid" aria-label="Header">
         
-        <a href="https://tsindwr.github.io/site/"
+        <a href="https://www.sunderttrpg.world/"
            title="Sunder"
            class="md-header__button md-logo"
            aria-label="Sunder">
@@ -989,14 +995,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../abilities/" class="md-nav__link">
+      <a href="../scenes/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Experience Market
+    Scenes
   
 
     
@@ -1024,7 +1030,35 @@
   <span class="md-ellipsis">
     
   
-    Actions
+    General Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scription/experience-market/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scription: Experience Market
   
 
     
@@ -1053,34 +1087,6 @@
     
   
     Spellcasting
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../scenes/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Scenes
   
 
     
@@ -1397,14 +1403,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../adversaries/" class="md-nav__link">
+      <a href="../gm-tools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Adversaries
+    GM Tools
   
 
     
@@ -1485,6 +1491,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#oh-my" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oh my!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-damage-to-stress-ratio" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1532,23 +1549,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Marks and Scars">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#death-and-dying" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Death and Dying
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1559,6 +1559,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Crit Hit!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculating-critical-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculating Critical Damage
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1981,6 +1998,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/activate-scription/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activate Scription
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2013,6 +2058,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#oh-my" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oh my!
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#the-damage-to-stress-ratio" class="md-nav__link">
@@ -2062,23 +2118,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Marks and Scars">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#death-and-dying" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Death and Dying
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -2089,6 +2128,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Crit Hit!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calculating-critical-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculating Critical Damage
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2144,7 +2200,7 @@
     
     
       <li class="md-path__item">
-        <a href="../adversaries/" class="md-path__link">
+        <a href="../gm-tools/" class="md-path__link">
           
   <span class="md-ellipsis">
     Miscellaneous
@@ -2168,18 +2224,17 @@
 
 
 <h1 id="damage-stress-marks-scars">Damage, Stress, Marks, &amp; Scars</h1>
-<h6>Oh my!</h6>
-
+<h6 id="oh-my">Oh my!</h6>
 <p>Throughout the events of an adventurer's career there are plenty of opportunities to accumulate wounds of myriad forms, from exposure to deadly environments, to the scars of war, to the consequences of mere accidents.</p>
 <h2 id="the-damage-to-stress-ratio">The Damage to Stress Ratio</h2>
 <p>Damage in Sunder is a raw measurement of an attack’s power. This is the value rolled initially for the effects of an attack or ability. When damage is taken, the resolution flow goes as follows:</p>
 <ol>
 <li>Reduce any damage due to any Proofs.</li>
-<li>Convert to <a href="../../core/stress-and-fallout/">Stress</a> (see below*).</li>
+<li>Convert to <a href="../../core/stress-and-fallout/">Stress</a> (see below).</li>
 <li>Apply the <a href="../../core/stress-and-fallout/">Stress</a> to the relevant <a href="../../characters/potentials-and-resistance/">Potential Track</a>.</li>
 <li>Resolve any <a href="../../core/stress-and-fallout/">Fallout</a> on an overflow.</li>
 </ol>
-<p>*<em>Damage is converted to <a href="../../core/stress-and-fallout/">Stress</a> on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 <a href="../../core/stress-and-fallout/">stress</a>).</em> </p>
+<p><em>Damage is converted to <a href="../../core/stress-and-fallout/">Stress</a> on a <strong><em>5:1 ratio</em></strong> (round up) (e.g. 21 damage : 5 <a href="../../core/stress-and-fallout/">stress</a>).</em> </p>
 <p>This rule applies for healing as well, removing Stress on 5:1 ratio, and is always applied in a target Potential.</p>
 <h3 id="proof-and-bane">Proof and Bane</h3>
 <p>Some characters or creatures have a specific resistance or vulnerability to certain sources of damage. A skeleton may be susceptible to crushing attacks, and fire may be ineffective on a character with an infernal bloodline. <strong>Proof</strong> is a feature paired with a certain source of damage that gives a creature protection against damage coming from that source, effectively reducing the level of any triggered <a href="../../core/stress-and-fallout/">Fallout</a> by 1. <strong>Bane</strong> is a feature paired with a certain source of damage that causes susceptibility in a creature against damage coming from that source, effectively increasing the level of any triggered <a href="../../core/stress-and-fallout/">Fallout</a> by 1.</p>
@@ -2187,21 +2242,13 @@
 <p>Each <a href="../../characters/potentials-and-resistance/">Potential</a> Score doubles as a <a href="../../characters/potentials-and-resistance/">Stress Track</a>. When taking damage, the damage will have a target <a href="../../characters/potentials-and-resistance/">Potential</a> Score where the calculated <a href="../../core/stress-and-fallout/">Stress</a> will be applied. If the total <a href="../../core/stress-and-fallout/">Stress</a> a character would accumulate in a Track exceeds the spaces available on the track, it triggers <a href="../../core/stress-and-fallout/">Fallout</a>.</p>
 <h2 id="marks-and-scars">Marks and Scars</h2>
 <p>The final level of defense a character has is their <strong>Mark</strong> threshold. These represent a character's ability to move forward and contribute to the plot; an ability that only comes with experience such as that gained through adventuring. An adventurer takes Marks when <a href="../../core/stress-and-fallout/">Fallout</a> is triggered, and when their accumulated Marks fills their Mark threshold, they are considered incapacitated. In less serious campaigns, this could represent getting overwhelmed and leaving the scene to come back after a <a href="../resting/">Long Rest</a>, or in more intense campaigns this could represent a character's approach towards death.</p>
-<h3 id="death-and-dying">Death and Dying</h3>
-<p>In the case of a dying character, they may recover through any ability that restores Marks, but must be done before a certain amount of time. The GM starts a counter using <a href="../../core/countdown-dice/">Countdown Dice</a> to represent the progress of a character's recovery and passing. If the incapacitation of the character was caused by Minor <a href="../../core/stress-and-fallout/">Fallout</a>, the <a href="../../core/countdown-dice/">Countdown Die</a> is a D4; if it's a result of Major <a href="../../core/stress-and-fallout/">Fallout</a>, the <a href="../../core/countdown-dice/">Countdown Die</a> is a D6; if Severe <a href="../../core/stress-and-fallout/">Fallout</a> knocked the character down, the <a href="../../core/countdown-dice/">Countdown Die</a> is a D8. While a character is incapacitated, the GM has the option to use their <a href="../scenes/">initiative</a> action to have the incapacitated player make a Test, the result of which will influence the <a href="../../core/countdown-dice/">Countdown Dice</a>. If the <a href="../../core/countdown-dice/">Hope</a> Die depletes its countdown first, the character is stabilized, but if the <a href="../../core/countdown-dice/">Dread</a> Die depletes its countdown first, the character dies. A stabilized character recovers from incapacitation after a <a href="../resting/">long rest</a>. </p>
-<p>When a player's character recovers from incapacitation, they take a Scar. This prompts a player to consider the circumstances of their incapacitation, and decide how the lasting effect of the damage affects their character. Mechanically, this involves moving a point from one <a href="../../characters/potentials-and-resistance/">Potential</a> to another. For example, if a character is knocked out from Finesse <a href="../../core/stress-and-fallout/">Stress</a> dealt by a fireball attack, a player may choose to move a point from Finesse (previously 4) to Nerve (previously 3) with the rationale that their character has become more dulled to the sensation of damage, switching their Finesse score to 3 and their Nerve score to 4. Alternatively, they could rationalize that their character has become more wary of incoming attacks, increasing their Instinct score (previously 5) to 6 and reducing their Finesse to 3.</p>
-<h2 id="crit-hit">Crit Hit!</h2>
-<h6>Calculating Critical Damage</h6>
-
-<p>When a character rolls a <a href="../../core/resolution-system/">Crit</a> on a Test made to attack another creature, or a defending creature rolls a <a href="../../core/resolution-system/">Miff</a> on a Test to avoid a damaging affect, that effect's base damage becomes critical. Dice rolled as Critical Damage<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> are considered Exploding Dice, and invoke 1 extra <a href="../../core/stress-and-fallout/">Stress</a> when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -&gt; D8, D12 -&gt; D12). If the increased die rolls another max value, another <a href="../../core/stress-and-fallout/">Stress</a> is added, but its resulting value is not added to the damage of the roll.</p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>Damage dice can only be considered under Critical Damage if they are part of the effect's base damage. This includes the Initial or Weapon damage defined by the effect, as well as any damage added to the effect using the <a href="../abilities/#damage">Primed Ability Modifier</a>. Any damage added to the roll that was not purchased using the Primed Ability Modifier cannot be considered Exploding Dice.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
+<div class="sunder-premium-slot" data-premium-slot="prm_damage_death_dying_and_scars">
+  <p class="sunder-premium-lock-message">Death, dying, stabilization, and scar rules are available through the Sunder Vault.</p>
 </div>
+
+<h2 id="crit-hit">Crit Hit!</h2>
+<h6 id="calculating-critical-damage">Calculating Critical Damage</h6>
+<p>When a character rolls a <a href="../../core/resolution-system/">Crit</a> on a Test made to attack another creature, or a defending creature rolls a <a href="../../core/resolution-system/">Miff</a> on a Test to avoid a damaging affect, that damage becomes critical. Dice rolled as Critical Damage are considered Exploding Dice, and invoke 1 extra <a href="../../core/stress-and-fallout/">stress</a> when the die's result is its maximum value. A Die that explodes is then increased to the next die level and rolled again, with D12 as a maximum (D6 -&gt; D8, D12 -&gt; D12). If the increased die rolls another max value, another <a href="../../core/stress-and-fallout/">Stress</a> is added, but otherwise its result value is not added to the damage roll.</p>
 
 
 
@@ -2549,6 +2596,12 @@
       
         <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
       
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+      
+        <script src="../../js/site.js"></script>
+      
         <script src="../../js/auth.js"></script>
       
         <script src="../../js/bookmarks.js"></script>
@@ -2567,6 +2620,18 @@
       
         <script src="../../js/profile.js"></script>
       
+        <script src="../../js/scription-access.js"></script>
+      
+        <script src="../../js/scription-nav.js"></script>
+      
+        <script src="../../js/sunder-markdown.js"></script>
+      
+        <script src="../../js/scription-page.js"></script>
+      
+        <script src="../../js/scription-slots.js"></script>
+      
+        <script src="../../js/scription-activate.js"></script>
+      
         <script src="../../js/sunder-chatbot.js"></script>
       
         <script src="../../js/sunder-llm.js"></script>
@@ -2578,7 +2643,9 @@
 <!-- End Google Tag Manager (noscript) -->
 <script>
     window.SUNDER_BASE_URL = "../..";
-    window.SUNDER_CHAT_BASE = "../../chat";
+    window.SUNDER_CHAT_BASE = window.SUNDER_SITE?.resolvePath
+        ? window.SUNDER_SITE.resolvePath("chat/")
+        : "../../chat";
     // window.SUNDER_LLM_MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC"; // weak model
     window.SUNDER_LLM_MODEL = "Qwen2.5-1.5B-Instruct-q4f16_1-MLC"; // strong model
 </script>
@@ -2590,8 +2657,7 @@
         // bump version whenever you want the toast to reappear for everyone
         var storageKey = "sunder-kofi-toast-dismissed-v2";
 
-        // optional debug override:
-        // /site/.../?debugToast=1
+        // optional debug override: add ?debugToast=1 to the current page
         var debugForced = false;
         try {
             var params = new URLSearchParams(window.location.search);
@@ -2728,7 +2794,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.1.64";
+    window.SUNDER_VERSION = "2.1.74";
 </script>
 
 
