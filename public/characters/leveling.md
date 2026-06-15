@@ -27,7 +27,7 @@ Gaining a level in an Archetype gives a player the following benefits
 >- Starting [[damage|Marks]] determined in [[archetypes|Archetypes]]
 >- 1 Domain
 >- 2 [[potentials-and-resistance|Skills]]
->- 1 Heroic Goal
+>- 1 Heroic Goal or 1 Flaw
 ### Character Tiers
 
 Characters reach different Tiers of gameplay when they accumulate a certain amount of total Archetype levels. Every Tier is 4 levels apart, and increasing your Tier may effect certain [[scenes|Abilities]] that use a character's Tier as a modifier. 
