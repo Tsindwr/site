@@ -2164,8 +2164,8 @@
 <p><strong><a href="../../gameplay/damage/">Stress</a></strong> affects not only the results of <a href="../volatility-and-perks/">Volatility Dice</a>, but also a creature's defensive capabilities. As the representation of the strain a creature has accumulated during gameplay, <a href="../../gameplay/damage/">Stress</a> builds up in each of your <a href="../../characters/potentials-and-resistance/">Potential</a> tracks and overflows if it exceeds the maximum value, so the more <a href="../../characters/potentials-and-resistance/">Potential</a> a player has, the more defense they have against the setbacks of <a href="../../gameplay/damage/">Stress</a>. </p>
 <p>The more <a href="../../gameplay/damage/">Stress</a> a player accumulates, the more likely they are to fall to this strain. <a href="../../gameplay/damage/">Stress</a> can come from enemies' attacks, or the call can come from inside the house:</p>
 <ol>
-<li>Rolling a Success on a Test causes a player to take 1 <a href="../../gameplay/damage/">Stress</a> in the relative <a href="../../characters/potentials-and-resistance/">Potential Track</a>.</li>
-<li>Rolling a <a href="../resolution-system/">Crit</a> on a Test does not cause any <a href="../../gameplay/damage/">Stress</a>, whether it is due to a <a href="../volatility-and-perks/">Volatility</a> modification or a natural roll of the D20.</li>
+<li>Rolling a Mixed Success or a Success on a Test causes a player to take 1 <a href="../../gameplay/damage/">Stress</a> in the relevant <a href="../../characters/potentials-and-resistance/">Potential Track</a>. Rolling a Crit due to the modification of their Volatility Pool (not a Natural Crit), also results in taking 1 Stress in the relevant Potential Track.</li>
+<li>Rolling a <a href="../resolution-system/#emphasized-rolls">Natural Crit</a> on a Test does not cause any <a href="../../gameplay/damage/">Stress</a>, and allows a player to regain 1 Resistance in the Potential the Test was rolled in.</li>
 </ol>
 <h2 id="better-luck-next-time">Better Luck Next Time...</h2>
 <h6>Fallout</h6>
@@ -2181,8 +2181,8 @@
 <div class="admonition important">
 <p class="admonition-title">Recap!</p>
 <p>Here's a one-stop cheat sheet for Test <a href="../resolution-system/">success levels</a> and their results:<br />
-- <em>Natural Crit</em>: Regain a Resistance of your choice (best plausible outcome)<br />
-- <em>Crit</em>: Take no Stress (best plausible outcome)<br />
+- <em>Natural Crit</em>: Regain a Resistance of your choice, take no Stress (best plausible outcome)<br />
+- <em>Crit</em>: Take 1 Stress (best plausible outcome or intended outcome plus an unintended benefit)<br />
 - <em>Success</em>: Take 1 Stress (intended outcome)<br />
 - <em>Mixed Success</em>: Narrative Fallout + take 1 Stress + 1 Beat (positive and negative outcome)<br />
 - <em>Failure</em>: Situational Fallout + 1 Beat (negative outcome)<br />
@@ -2196,11 +2196,11 @@
 <li>Narrative Fallout - immediate consequences of failing to succeed in a certain task. </li>
 <li>Minor Fallout - consequence of a Risky Test, or the overflow result of 1-2 <a href="../../gameplay/damage/">Stress</a> applied</li>
 <li>Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 <a href="../../gameplay/damage/">Stress</a> applied</li>
-<li>Severe Fallout - consequence of a Desperate Test, or the overflow result 6+ <a href="../../gameplay/damage/">Stress</a> applied</li>
+<li>Severe Fallout - consequence of a Desperate Test, the overflow of Resistance, or the overflow result 6+ <a href="../../gameplay/damage/">Stress</a> applied</li>
 </ol>
-<p><strong>Minor Fallout</strong> is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, <a href="../equipment/">Equipment Stress</a>, or 1 Mark, then resetting the relevant <a href="../../characters/potentials-and-resistance/">Stress Track</a>. </p>
-<p><strong>Major Fallout</strong> can be a result of a <a href="../resolution-system/">Miff</a>, and causes either <a href="../equipment/">Equipment Fallout</a>, 3 <a href="../../gameplay/damage/">Marks</a>, Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant <a href="../../characters/potentials-and-resistance/">Stress Track</a>. </p>
-<p><strong>Severe Fallout</strong> can only be caused by <a href="../../gameplay/scenes/">Abilities</a>, and often causes a Major Condition with 3 <a href="../../gameplay/damage/">Marks</a> or a number of <a href="../../gameplay/damage/">Marks</a> equal to the number of <a href="../../gameplay/damage/">Stress</a> points applied, then resetting the relevant <a href="../../characters/potentials-and-resistance/">Stress Track</a>.</p>
+<p><strong>Minor Fallout</strong> causes either a Minor Condition, <a href="../equipment/">Equipment Stress</a>, or 1 Mark, then resets the relevant <a href="../../characters/potentials-and-resistance/">Stress Track</a><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
+<p><strong>Major Fallout</strong> causes either <a href="../equipment/">Equipment Fallout</a>, 3 <a href="../../gameplay/damage/">Marks</a>, Minor Condition with 1 Mark, or a Major Condition, then resets the relevant <a href="../../characters/potentials-and-resistance/">Stress Track</a><sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
+<p><strong>Severe Fallout</strong> causes a Major Condition with 3 <a href="../../gameplay/damage/">Marks</a> or a number of <a href="../../gameplay/damage/">Marks</a> equal to the number of <a href="../../gameplay/damage/">Stress</a> points applied, then resets the relevant <a href="../../characters/potentials-and-resistance/">Stress Track</a><sup id="fnref3:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
 <details class="important" open="open">
 <summary>GM Discretion</summary>
 <p>Determining the exact outcome of Fallout can be interpreted by the GM based on the narrative situation. Your GM may be open to increasing the duration of a Condition applied in a lower Fallout outcome, thus considering it as a higher level of Fallout (e.g. a Major Condition that lasts Until a Long Rest or even Until Dispelled may be considered Severe Fallout instead of Major Fallout).</p>
@@ -2210,6 +2210,9 @@
 <ol>
 <li id="fn:1">
 <p>Since there is no Stress overflow, triggering Severe Fallout in this way only allows for the option that causes the character to take 3 Marks and a Major Condition, or another option determined by GM discretion.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Resetting the Stress Track means all Stress accrued on the relevant Potential Track is erased. The Stress has narratively manifested in the effects of the Fallout. Unless otherwise stated, this does not clear or effect Resistance Drain in any way.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -2758,7 +2761,7 @@
 </script>
 
 <script>
-    window.SUNDER_VERSION = "2.2.20";
+    window.SUNDER_VERSION = "2.2.22";
 </script>
 
 

@@ -1,4 +1,56 @@
 {
+  "core/alternate-rules::0:0": {
+    "pageTitle": "Alternative Ways to Play!",
+    "url": "/core/alternate-rules/#alternative-ways-to-play",
+    "heading": "Alternative Ways to Play!",
+    "headingPath": [
+      "Alternative Ways to Play!"
+    ],
+    "anchor": "alternative-ways-to-play",
+    "text": "\\[Insert introduction text here]",
+    "aliases": [
+      "Alternative Ways to Play!"
+    ],
+    "tags": [
+      "rules"
+    ]
+  },
+  "core/alternate-rules::1:0": {
+    "pageTitle": "Alternative Ways to Play!",
+    "url": "/core/alternate-rules/#gm-less-play",
+    "heading": "GM-less Play",
+    "headingPath": [
+      "Alternative Ways to Play!",
+      "GM-less Play"
+    ],
+    "anchor": "gm-less-play",
+    "text": "If you do not want to play under the classical \"1 GM and many players\" format, this would be one option available to you! Playing without a GM and sharing the narrative responsibilities can allow the group to feel more like they are sharing a collaborative experience. This means there is no GM stat sheet, and any Tests initiated by a player's action would, instead of being chosen by a GM, be chosen by a second player, who tells the first player which Test to roll to complete their action. A similar practice applies to would-be GM actions; creature or environment actions that would be resolved by a stat block or the GM's stats, would instead be resolved by a player, as long as their character was not the sole receiver of the action's consequences, by stating if the action has a \"positive\" or \"negative\" outcome. Based on the player's decision, gameplay continues to the best of the table's ability to continue the story now that the action's outcome has been determined.",
+    "aliases": [
+      "Alternative Ways to Play!",
+      "GM-less Play"
+    ],
+    "tags": [
+      "rules"
+    ]
+  },
+  "core/alternate-rules::1:1": {
+    "pageTitle": "Alternative Ways to Play!",
+    "url": "/core/alternate-rules/#gm-less-play",
+    "heading": "GM-less Play",
+    "headingPath": [
+      "Alternative Ways to Play!",
+      "GM-less Play"
+    ],
+    "anchor": "gm-less-play",
+    "text": "For example, if a player were to decide that their character is going to attempt navigating a storm on boat, then another player would volunteer, and for the purposes of this example, states that the outcome is \"negative.\" The player whose character is navigating the storm would now describe how the scene turns for the worse, in whichever manner they deem fitting for the story they are telling. Some situations may require improvisation from the GM to establish the details of the world around the characters. In GM-less mode, this gives players an opportunity to chime in and establish the scene, or the features and behavior of a non-player character, or a twist in the story as something unexpected occurs. Any player taking up the role of an improvising GM in this way is eligible for a Flavor Token after the conclusion of their description or contribution.",
+    "aliases": [
+      "Alternative Ways to Play!",
+      "GM-less Play"
+    ],
+    "tags": [
+      "rules"
+    ]
+  },
   "core/countdown-dice::0:0": {
     "pageTitle": "Countdown Dice",
     "url": "/core/countdown-dice/#using-countdown-dice-for-risky-scenes",
@@ -606,7 +658,7 @@
       "Stress"
     ],
     "anchor": "stress",
-    "text": "**Stress** affects not only the results of Volatility Dice, but also a creature's defensive capabilities. As the representation of the strain a creature has accumulated during gameplay, Stress builds up in each of your Potential tracks and overflows if it exceeds the maximum value, so the more Potential a player has, the more defense they have against the setbacks of Stress. The more Stress a player accumulates, the more likely they are to fall to this strain. Stress can come from enemies' attacks, or the call can come from inside the house: 1. Rolling a Success on a Test causes a player to take 1 Stress in the relative Potential Track. 2. Rolling a Crit on a Test does not cause any Stress, whether it is due to a Volatility modification or a natural roll of the D20.",
+    "text": "**Stress** affects not only the results of Volatility Dice, but also a creature's defensive capabilities. As the representation of the strain a creature has accumulated during gameplay, Stress builds up in each of your Potential tracks and overflows if it exceeds the maximum value, so the more Potential a player has, the more defense they have against the setbacks of Stress. The more Stress a player accumulates, the more likely they are to fall to this strain. Stress can come from enemies' attacks, or the call can come from inside the house: 1. Rolling a Mixed Success or a Success on a Test causes a player to take 1 Stress in the relevant Potential Track. Rolling a Crit due to the modification of their Volatility Pool (not a Natural Crit), also results in taking 1 Stress in the relevant Potential Track. 2. Rolling a Natural Crit on a Test does not cause any Stress, and allows a player to regain 1 Resistance in the Potential the Test was rolled in.",
     "aliases": [
       "Stress",
       "Fallout",
@@ -650,7 +702,7 @@
       "Fallout"
     ],
     "anchor": "fallout",
-    "text": ">Here's a one-stop cheat sheet for Test success levels and their results: >- *Natural Crit*: Regain a Resistance of your choice (best plausible outcome) >- *Crit*: Take no Stress (best plausible outcome) >- *Success*: Take 1 Stress (intended outcome) >- *Mixed Success*: Narrative Fallout + take 1 Stress + 1 Beat (positive and negative outcome) >- *Failure*: Situational Fallout + 1 Beat (negative outcome) >- *Miff*: Increased Situational Fallout + 1 Beat (worst plausible outcome) >- *Natural Miff*: Increased Situational Fallout + 1 Beat - 1 Resistance (worst plausible outcome)",
+    "text": ">Here's a one-stop cheat sheet for Test success levels and their results: >- *Natural Crit*: Regain a Resistance of your choice, take no Stress (best plausible outcome) >- *Crit*: Take 1 Stress (best plausible outcome or intended outcome plus an unintended benefit) >- *Success*: Take 1 Stress (intended outcome) >- *Mixed Success*: Narrative Fallout + take 1 Stress + 1 Beat (positive and negative outcome) >- *Failure*: Situational Fallout + 1 Beat (negative outcome) >- *Miff*: Increased Situational Fallout + 1 Beat (worst plausible outcome) >- *Natural Miff*: Increased Situational Fallout + 1 Beat - 1 Resistance (worst plausible outcome)",
     "aliases": [
       "Stress",
       "Fallout",
@@ -697,7 +749,7 @@
       "Levels of Fallout"
     ],
     "anchor": "levels-of-fallout",
-    "text": "1. Narrative Fallout - immediate consequences of failing to succeed in a certain task. 2. Minor Fallout - consequence of a Risky Test, or the overflow result of 1-2 Stress applied 3. Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 Stress applied 4. Severe Fallout - consequence of a Desperate Test, or the overflow result 6+ Stress applied **Minor Fallout** is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, Equipment Stress, or 1 Mark, then resetting the relevant Stress Track. **Major Fallout** can be a result of a Miff, and causes either Equipment Fallout, 3 Marks, Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant Stress Track. **Severe Fallout** can only be caused by Abilities, and often causes a Major Condition with 3 Marks or a number of Marks equal to the number of Stress points applied, then resetting the relevant Stress Track. > [!important]+ GM Discretion > Determining the exact outcome of Fallout can be interpreted by the GM based on the narrative situation.",
+    "text": "1. Narrative Fallout - immediate consequences of failing to succeed in a certain task. 2. Minor Fallout - consequence of a Risky Test, or the overflow result of 1-2 Stress applied 3. Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 Stress applied 4. Severe Fallout - consequence of a Desperate Test, the overflow of Resistance, or the overflow result 6+ Stress applied **Minor Fallout** causes either a Minor Condition, Equipment Stress, or 1 Mark, then resets the relevant Stress Track[^2]. **Major Fallout** causes either Equipment Fallout, 3 Marks, Minor Condition with 1 Mark, or a Major Condition, then resets the relevant Stress Track[^2]. **Severe Fallout** causes a Major Condition with 3 Marks or a number of Marks equal to the number of Stress points applied, then resets the relevant Stress Track[^2]. > [!important]+ GM Discretion > Determining the exact outcome of Fallout can be interpreted by the GM based on the narrative situation.",
     "aliases": [
       "Stress",
       "Fallout",
@@ -722,7 +774,7 @@
       "Levels of Fallout"
     ],
     "anchor": "levels-of-fallout",
-    "text": "Your GM may be open to increasing the duration of a Condition applied in a lower Fallout outcome, thus considering it as a higher level of Fallout (e.g. a Major Condition that lasts Until a Long Rest or even Until Dispelled may be considered Severe Fallout instead of Major Fallout). [^1]: Since there is no Stress overflow, triggering Severe Fallout in this way only allows for the option that causes the character to take 3 Marks and a Major Condition, or another option determined by GM discretion.",
+    "text": "Your GM may be open to increasing the duration of a Condition applied in a lower Fallout outcome, thus considering it as a higher level of Fallout (e.g. a Major Condition that lasts Until a Long Rest or even Until Dispelled may be considered Severe Fallout instead of Major Fallout). [^1]: Since there is no Stress overflow, triggering Severe Fallout in this way only allows for the option that causes the character to take 3 Marks and a Major Condition, or another option determined by GM discretion. [^2]: Resetting the Stress Track means all Stress accrued on the relevant Potential Track is erased. The Stress has narratively manifested in the effects of the Fallout. Unless otherwise stated, this does not clear or effect Resistance Drain in any way.",
     "aliases": [
       "Stress",
       "Fallout",
@@ -1165,7 +1217,7 @@
       "Durations"
     ],
     "anchor": "durations",
-    "text": "When an Ability Card with a Duration has been played, and the Duration has not yet expired, the Ability Card is considered **Active**. Active Cards cannot be played again until the Duration expires, or until the owner of the Ability Card takes a Reaction to an event they can perceive to cut the duration short, unless otherwise specified. Time Durations come in several different lengths: 1 round, 1 Scene, 1 Hour, Until Long Rest, and Until Dispelled. An ability with a duration of **1 round** that targets Self lasts until the end of the player's next turn, otherwise if the ability targets another creature, it lasts until the beginning of the player's next turn. An ability with a duration of **1 Scene** lasts until the end of the narrative Scene, which could either be defined by a combat, whenever the narrative progresses naturally to a distinct situation, or approximately 1 minute in-game time. An ability with a duration of **1 Hour** lasts either for 1 hour in-game time, the duration of a span of travel, or during a rest's downtime moments.",
+    "text": "When an Ability Card with a Duration has been played, and the Duration has not yet expired, the Ability Card is considered **Active**. Active Cards cannot be played again until the Duration expires, or until the owner of the Ability Card takes a Reaction to an event they can perceive to cut the duration short, unless otherwise specified. Time Durations come in several different lengths: 1 round, 1 Scene, 1 Hour, Until Long Rest, and Until Dispelled. An ability activated with a duration of **1 round** that activates outside of the target's turn lasts until the end of the target's next turn, but if the effect activates during the target's turn, then it lasts until the beginning of the target's next turn. An ability with a duration of **1 Scene** lasts until the end of the narrative Scene, which could either be defined by a combat, whenever the narrative progresses naturally to a distinct situation, or approximately 1 minute in-game time. An ability with a duration of **1 Hour** lasts either for 1 hour in-game time, the duration of a span of travel, or during a rest's downtime moments.",
     "aliases": [
       "General Actions",
       "Movement",
@@ -2246,7 +2298,7 @@
       "Building a Theme"
     ],
     "anchor": "building-a-theme",
-    "text": "The GM may build this Ability as they wish, ensuring that they are abiding by the Experience Limit determined by the current party level. A **Common Fallout** is a free Intervention available to the GM, which can be used by any of the GM's controlled actors, adversaries, and creatures. Depending on the current Tier of gameplay, this Fallout can have different intensities: | Tier | Fallout Level | | ---- | ----------------- | | 1 | Narrative Fallout | | 2 | Minor Fallout | | 3 | Major Fallout | | 4 | Severe Fallout |",
+    "text": "The GM may build this Ability as they wish, ensuring that they are abiding by the Experience Limit determined by the current party level. A **Common Fallout** is a free Intervention available to the GM, which can be used by any of the GM's controlled actors, adversaries, and creatures. Depending on the current Tier of gameplay, this Fallout can have different intensities: | Tier | Fallout Level | | ---- | ----------------- | | 1 | Narrative Fallout | | 2 | Minor Fallout | | 3 | Major Fallout | | 4+ | Severe Fallout |",
     "aliases": [
       "monsters",
       "Themes & Chapters",
