@@ -40,7 +40,8 @@ A **Common Fallout** is a free Intervention available to the GM, which can be us
 | 1    | Narrative Fallout |
 | 2    | Minor Fallout     |
 | 3    | Major Fallout     |
-| 4    | Severe Fallout    |
+| 4+   | Severe Fallout    |
+
 ## Developing the Plot
 ###### Acquiring new Themes with Chapters
 

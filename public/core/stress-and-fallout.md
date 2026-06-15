@@ -15,8 +15,8 @@ aliases:
 
 The more [[damage|Stress]] a player accumulates, the more likely they are to fall to this strain. [[damage|Stress]] can come from enemies' attacks, or the call can come from inside the house:
 
-1. Rolling a Success on a Test causes a player to take 1 [[damage|Stress]] in the relative [[potentials-and-resistance|Potential Track]].
-2. Rolling a [[resolution-system|Crit]] on a Test does not cause any [[damage|Stress]], whether it is due to a [[volatility-and-perks|Volatility]] modification or a natural roll of the D20.
+1. Rolling a Mixed Success or a Success on a Test causes a player to take 1 [[damage|Stress]] in the relevant [[potentials-and-resistance|Potential Track]]. Rolling a Crit due to the modification of their Volatility Pool (not a Natural Crit), also results in taking 1 Stress in the relevant Potential Track.
+2. Rolling a [[resolution-system#Emphasized Rolls|Natural Crit]] on a Test does not cause any [[damage|Stress]], and allows a player to regain 1 Resistance in the Potential the Test was rolled in.
 
 ## Better Luck Next Time...
 <h6>Fallout</h6>
@@ -32,8 +32,8 @@ The more [[damage|Stress]] a player accumulates, the more likely they are to fal
 
 >[!important] Recap!
 >Here's a one-stop cheat sheet for Test [[resolution-system|success levels]] and their results:
->- *Natural Crit*: Regain a Resistance of your choice (best plausible outcome)
->- *Crit*: Take no Stress (best plausible outcome)
+>- *Natural Crit*: Regain a Resistance of your choice, take no Stress (best plausible outcome)
+>- *Crit*: Take 1 Stress (best plausible outcome or intended outcome plus an unintended benefit)
 >- *Success*: Take 1 Stress (intended outcome)
 >- *Mixed Success*: Narrative Fallout + take 1 Stress + 1 Beat (positive and negative outcome)
 >- *Failure*: Situational Fallout + 1 Beat (negative outcome)
@@ -48,15 +48,16 @@ Depending on the context of the Fallout, Fallout can take different forms or int
 1. Narrative Fallout - immediate consequences of failing to succeed in a certain task. 
 2. Minor Fallout - consequence of a Risky Test, or the overflow result of 1-2 [[damage|Stress]] applied
 3. Major Fallout - consequence of a Dire Test, or the overflow result of 3-5 [[damage|Stress]] applied
-4. Severe Fallout - consequence of a Desperate Test, or the overflow result 6+ [[damage|Stress]] applied
+4. Severe Fallout - consequence of a Desperate Test, the overflow of Resistance, or the overflow result 6+ [[damage|Stress]] applied
 
-**Minor Fallout** is often a result of a Test resulting in a success level with a cost, only causing a Minor Condition, [[equipment|Equipment Stress]], or 1 Mark, then resetting the relevant [[potentials-and-resistance|Stress Track]]. 
+**Minor Fallout** causes either a Minor Condition, [[equipment|Equipment Stress]], or 1 Mark, then resets the relevant [[potentials-and-resistance|Stress Track]][^2].
 
-**Major Fallout** can be a result of a [[resolution-system|Miff]], and causes either [[equipment|Equipment Fallout]], 3 [[damage|Marks]], Minor Condition with 1 Mark, or a Major Condition, then resetting the relevant [[potentials-and-resistance|Stress Track]]. 
+**Major Fallout** causes either [[equipment|Equipment Fallout]], 3 [[damage|Marks]], Minor Condition with 1 Mark, or a Major Condition, then resets the relevant [[potentials-and-resistance|Stress Track]][^2]. 
 
-**Severe Fallout** can only be caused by [[scenes|Abilities]], and often causes a Major Condition with 3 [[damage|Marks]] or a number of [[damage|Marks]] equal to the number of [[damage|Stress]] points applied, then resetting the relevant [[potentials-and-resistance|Stress Track]].
+**Severe Fallout** causes a Major Condition with 3 [[damage|Marks]] or a number of [[damage|Marks]] equal to the number of [[damage|Stress]] points applied, then resets the relevant [[potentials-and-resistance|Stress Track]][^2].
 
 > [!important]+ GM Discretion
 > Determining the exact outcome of Fallout can be interpreted by the GM based on the narrative situation. Your GM may be open to increasing the duration of a Condition applied in a lower Fallout outcome, thus considering it as a higher level of Fallout (e.g. a Major Condition that lasts Until a Long Rest or even Until Dispelled may be considered Severe Fallout instead of Major Fallout).
 
 [^1]: Since there is no Stress overflow, triggering Severe Fallout in this way only allows for the option that causes the character to take 3 Marks and a Major Condition, or another option determined by GM discretion.
+[^2]: Resetting the Stress Track means all Stress accrued on the relevant Potential Track is erased. The Stress has narratively manifested in the effects of the Fallout. Unless otherwise stated, this does not clear or effect Resistance Drain in any way.
