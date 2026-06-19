@@ -29,6 +29,8 @@ The role of Volatility in a Test is to modify its base success level. Volatility
 
 **Volatility Dice**, in combination with Perks and [[Proficiencies]], capture both a character's experience with certain actions, as well as their accumulative control over such subjects. A player's Volatility Die begins at a D4 in each [[potentials-and-resistance|Potential]], but can be leveled up as gameplay goes on. After rolling all dice in the Volatility Pool and determining the resulting die, the player then resolves any **Perks** assigned to that die's number result. The player then modifies their D20 [[resolution-system|Test]] based on the final result.
 
+![[../assets/volatility-example.png]]
+
 Like in [[resolution-system|Tests]], the thresholds of Volatility Dice are impacted by an external feature: **[[stress-and-fallout|Stress]]**. [[stress-and-fallout|Stress]] represents the amount of strain a creature has accumulated from external influence and exertion. [[stress-and-fallout|Stress]] is more common than [[potentials-and-resistance|Resistance]] Drain, but is easier to reset and recover from.
 
 A Volatility die's **jinx threshold** is determined by the amount of [[stress-and-fallout|Stress]] a player has in the respective [[potentials-and-resistance|Potential]]. The jinx threshold can only be less than the maximum value on a Volatility Die. After rolling their Volatility Pool, if a player's chosen Volatility Die results as within the jinx threshold, the overall success level is decreased by 1. Otherwise, the success level is increased by 1.
