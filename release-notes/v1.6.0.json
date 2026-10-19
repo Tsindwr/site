@@ -1,0 +1,19 @@
+{
+  "version": "1.6.0",
+  "discord_announcement_sent": false,
+  "summary": "Experience Market and Character Sheets",
+  "sections": [
+    {
+      "title": "Experience Market Updates",
+      "description": "Adjusted Enhancement limits per Tier. Increased utility of Concentration discount. Created distinction between General Companion Abilities and Companion Ability Modifiers. Reduced Enhancement cost of Conditions. Added new Conditions. Added Options as an Ability Card type."
+    },
+    {
+      "title": "Sunder Character Sheets!",
+      "description": "<@790697533173268520> has designed an official release of the physical Sunder Character Sheet! Thank you lumi!"
+    },
+    {
+      "title": "Secrets... seeeeecretssssss",
+      "description": "There is lore for those looking for it. It is not ready for release tho so you don't get a link >:)"
+    }
+  ]
+}

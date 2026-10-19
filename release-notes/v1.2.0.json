@@ -1,0 +1,19 @@
+{
+  "version": "1.2.0",
+  "discord_announcement_sent": false,
+  "summary": "Login Updates",
+  "sections": [
+    {
+      "title": "Discord Login Persistence",
+      "description": "Logging in to the website now saves between browser sessions, so you stay logged in! Also the user profile page works now :)"
+    },
+    {
+      "title": "About Page",
+      "description": "Guides for using the site are now displayed for user benefit, as well as general info about the project, its updates, and its ~~creature~~ creator."
+    },
+    {
+      "title": "Display Themes",
+      "description": "We have Dark and Light mode!! For photosensitive users, there has been an alert added to the profile page to stick with light mode for no render flashing."
+    }
+  ]
+}

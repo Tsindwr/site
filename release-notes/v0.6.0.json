@@ -1,0 +1,15 @@
+{
+  "version": "0.6.0",
+  "discord_announcement_sent": false,
+  "summary": "Holiday Update!",
+  "sections": [
+    {
+      "title": "Character Archetypes",
+      "description": "There is now a documentation page describing each of the 10 adventuring archetypes (at least flavor-wise). Soon the level up system will be available, as will example abilities for purchase and maybe rules for homebrewing your own! Boy howdy am I going to be fine-tuning these balancing equations for a while."
+    },
+    {
+      "title": "Merry Critmas to you from the world of Umbrea!",
+      "description": "Much more soon to come! I will be trying to spend at least an hour a day on this project now that I've graduated and have some free time :D"
+    }
+  ]
+}

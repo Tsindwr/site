@@ -1,0 +1,15 @@
+{
+  "version": "0.5.0",
+  "discord_announcement_sent": false,
+  "summary": "Discord Login and Highlight Bookmarks.",
+  "sections": [
+    {
+      "title": "Bookmarks!",
+      "description": "Highlighting text on desktop now has an additional action option: Bookmarking! You can now save important highlights as bookmarks for easy access later. Just highlight the text and select the 'Bookmark' option while logged in."
+    },
+    {
+      "title": "Connecting with Discord Accounts",
+      "description": "In order to store user bookmarks and preferences and other Sunder features in the future, users can now log in using their Discord accounts. This will help streamline the login process and enhance user experience."
+    }
+  ]
+}

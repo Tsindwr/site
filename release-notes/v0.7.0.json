@@ -1,0 +1,11 @@
+{
+  "version": "0.7.0",
+  "discord_announcement_sent": false,
+  "summary": "Combat Update",
+  "sections": [
+    {
+      "title": "More Rules!",
+      "description": "The specifics of initiative, damage, conditions, class archetypes, and more have been released! Spellcasting coming soon >:)"
+    } 
+  ]
+}

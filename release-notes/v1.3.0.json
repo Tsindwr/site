@@ -1,0 +1,15 @@
+{
+  "version": "1.3.0",
+  "discord_announcement_sent": false,
+  "summary": "Mobile Highlight Popup",
+  "sections": [
+    {
+      "title": "Highlighting on Mobile",
+      "description": "You can now highlight text on mobile and use the previously desktop-only highlight popup! This includes the ability to copy a link, ask a question, and save a bookmark!"
+    },
+    {
+      "title": "Minor Rules Updates",
+      "description": "As we've been \"playtesting\" the Experience Market, I've been finding issues with usability and wording so I have been updating that as I go and as we find them (thank you Mary and Vyx)."
+    }
+  ]
+}

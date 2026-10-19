@@ -1,0 +1,15 @@
+{
+  "version": "1.7.0",
+  "discord_announcement_sent": false,
+  "summary": "The Image Update!",
+  "sections": [
+    {
+      "title": "Yippeeee images look nice on the website",
+      "description": "We now have a format for adding images to the ruleset and lore! See if you can find <@790697533173268520>'s new art in the lore pages :D also the continent map has been released thanks to our friend MsAsterisk! All contributor profiles are in the About section."
+    },
+    {
+      "title": "Big Project to Come!",
+      "description": "I'm getting distracted (like always) and have decided to make something before I move on to publishing lore: Creosmark, your one-stop spot to create and manage character sheets online! And all you have to do now is wait in anticipation >:)"
+    }
+  ]
+}

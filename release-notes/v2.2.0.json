@@ -1,0 +1,23 @@
+{
+  "version": "2.2.0",
+  "discord_announcement_sent": false,
+  "summary": "The Supporter Update!",
+  "sections": [
+    {
+      "title": "Ko-fi Supporter Perks",
+      "description": "We now have a distinct public ruleset and premium supporter content: called Scription! The public ruleset is available to everyone, and Scription is available to those who support the project on Ko-fi. The public ruleset includes the core rules and basic content, while the Scription content includes additional character options, equipment, and GM tools. You can support our project on [Ko-fi](https://ko-fi.com/sunderttrpg) to gain access to Scription and its content."
+    },
+    {
+      "title": "GM Tools",
+      "description": "The GM Tools have been expanded from Adversaries to a whole new integration to bring Game Masters closer to the heart of the system. The new GM Tools section allows GMs to feel more involved with gameplay mechanics alongside players, with the introduction of Themes and narrative toys to play with as both a help and hindrance to the characters and plot."
+    },
+    {
+      "title": "SunderTTRPG.world",
+      "description": "Our websites have been migrated to our new custom web domain, sunderttrpg.world! This will be the new base for all Sunder web apps, including the [character builder](https://creosmark.sunderttrpg.world), the [rules site](https://www.sunderttrpg.world), and the new Beta version of the Sunder Scene initiative tracker, called [Gauntlet](https://gauntlet.sunderttrpg.world)."
+    },
+    {
+      "title": "Sidenote",
+      "description": "You may be unable to see some changes to the website until you have cleared your browser cache. To ensure you are getting all access to the latest content, either press Ctrl + Shift + R or clear your browser cache in your settings. Bon voyage!"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+.sunder-vault-app {
+    display: grid;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.sunder-vault-card {
+    padding: 1.25rem;
+    border-radius: 0.85rem;
+    border: 1px solid rgba(90, 45, 130, 0.18);
+    background: rgba(90, 45, 130, 0.06);
+}
+
+[data-md-color-scheme="slate"] .sunder-vault-card {
+    background: rgba(140, 100, 180, 0.12);
+    border-color: rgba(140, 100, 180, 0.28);
+}
+
+.sunder-vault-redeem {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 440px;
+    margin-top: 1rem;
+}
+
+.sunder-vault-list {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.sunder-vault-item {
+    display: grid;
+    gap: 0.25rem;
+    width: 100%;
+    text-align: left;
+    padding: 0.85rem 1rem;
+    border-radius: 0.7rem;
+    border: 1px solid rgba(90, 45, 130, 0.2);
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    cursor: pointer;
+}
+
+.sunder-vault-item:hover,
+.sunder-vault-item:focus-visible {
+    border-color: var(--md-accent-fg-color);
+}
+
+.sunder-vault-title {
+    font-weight: 700;
+}
+
+.sunder-vault-desc {
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.sunder-premium-doc {
+    margin-top: 1.5rem;
+}
+
+.sunder-premium-slot {
+    margin: 1.25rem 0;
+}
+
+.sunder-premium-locked {
+    padding: 1rem 1.15rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(249, 199, 79, 0.35);
+    background: rgba(249, 199, 79, 0.08);
+}
+
+.sunder-premium-locked p {
+    margin-bottom: 0;
+}
+
+.sunder-premium-fragment {
+    padding: 1.25rem;
+    border-radius: 0.85rem;
+    border: 1px solid rgba(90, 45, 130, 0.22);
+    background: rgba(90, 45, 130, 0.055);
+}
+
+[data-md-color-scheme="slate"] .sunder-premium-fragment {
+    background: rgba(140, 100, 180, 0.12);
+    border-color: rgba(140, 100, 180, 0.3);
+}
+
+.sunder-premium-markdown {
+    white-space: pre-wrap;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: var(--md-code-bg-color);
+}
+
+.sunder-premium-nav-heading {
+    color: var(--md-accent-fg-color) !important;
+    font-weight: 700;
+}
+
+.sunder-premium-nav-link::after {
+    content: " ✦";
+    color: var(--md-accent-fg-color);
+}

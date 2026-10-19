@@ -1,0 +1,15 @@
+{
+  "version": "1.5.0",
+  "discord_announcement_sent": false,
+  "summary": "Mobile Site User Experience",
+  "sections": [
+    {
+      "title": "Search Bar",
+      "description": "You may now use the Search function on mobile! Access by pressing the magnifying glass on the header bar."
+    },
+    {
+      "title": "Navigation Menu",
+      "description": "The navigation menu has been flattened to show all pages and sections as dropdowns."
+    }
+  ]
+}

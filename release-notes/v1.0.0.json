@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "discord_announcement_sent": false,
+  "summary": "The Playtesting Release",
+  "sections": [
+    {
+      "title": "Character Creation",
+      "description": "Creating a character is now much more documented. This includes guidelines for the Experience Market, rolling Potential Scores, and purchasing Archetype levels."
+    },
+    {
+      "title": "Roleplay and Gameplay",
+      "description": "A player's General Action cards have been built, giving all players baseline capabilities during initiative scenes. Flavor Tokens have also been added to the ruleset, giving players a rewsrd system for good roleplay. Flaws are now a type of Experience Goal. Resting benefits are now defined."
+    },
+    {
+      "title": "Resolution Rehaul",
+      "description": "The Hybrid Roll-Under and Volatility system has been respecced to promote simplicity and narrative streamlining."
+    }
+  ]
+}

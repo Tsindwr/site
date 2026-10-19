@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"b191d25b7d27522e","type":"file","file":"Locations/Settlements/Dreka Goro.md","x":3661,"y":11360,"width":400,"height":320},
+		{"id":"2f8b0c5943788fe1","type":"file","file":"Images/Original Fellsaire Map.jpg","x":-465,"y":10560,"width":14161,"height":10640},
+<<<<<<< HEAD
+		{"id":"4692170a042ac2af","type":"file","file":"Locations/Regions/Draconia.md","x":12000,"y":11520,"width":400,"height":400},
+		{"id":"b84c9dc38fc5522d","type":"file","file":"Locations/Settlements/Sauztein Geb.md","x":8000,"y":17200,"width":400,"height":168},
+		{"id":"9edc084b647f6432","type":"file","file":"Locations/Settlements/Schtadtvertt.md","x":9120,"y":18160,"width":400,"height":360},
+		{"id":"76df214f26253ec9","type":"file","file":"Locations/Settlements/Cuirefyn.md","x":6800,"y":15704,"width":400,"height":176},
+		{"id":"71d401df5b45c36e","type":"file","file":"Locations/Settlements/Bo Renn.md","x":6080,"y":18520,"width":400,"height":328},
+		{"id":"26d68bff9e95b6d6","type":"file","file":"Locations/Settlements/Vergrenzig.md","x":7680,"y":13120,"width":400,"height":296},
+		{"id":"c21d17cb58a69a54","type":"file","file":"Locations/Settlements/Hellhaven.md","x":6600,"y":14320,"width":400,"height":264},
+		{"id":"0101e4104dfb3d02","type":"file","file":"Locations/Regions/Windbor Coast.md","x":5200,"y":14584,"width":400,"height":400},
+		{"id":"7d26d4c431b0d347","type":"file","file":"Locations/Settlements/Barong.md","x":5000,"y":12400,"width":400,"height":328},
+		{"id":"6c56a10ef436ceb9","type":"file","file":"Locations/Regions/The Fallen Isles.md","x":5280,"y":13520,"width":400,"height":400},
+=======
+		{"id":"4692170a042ac2af","type":"file","file":"Locations/Settlements/Draconic Empire/Draconia.md","x":12000,"y":11520,"width":400,"height":400},
+		{"id":"b84c9dc38fc5522d","type":"file","file":"Locations/Settlements/Opalescent Spires/Sauztein Geb.md","x":8000,"y":17200,"width":400,"height":168},
+		{"id":"9edc084b647f6432","type":"file","file":"Locations/Settlements/TO BE FLESHED/Schtadtvertt.md","x":9120,"y":18160,"width":400,"height":360},
+		{"id":"76df214f26253ec9","type":"file","file":"Locations/Settlements/TO BE FLESHED/Cuirefyn.md","x":6800,"y":15704,"width":400,"height":176},
+		{"id":"71d401df5b45c36e","type":"file","file":"Locations/Settlements/TO BE FLESHED/Bo Renn.md","x":6080,"y":18520,"width":400,"height":328},
+		{"id":"26d68bff9e95b6d6","type":"file","file":"Locations/Settlements/TO BE FLESHED/Vergrenzig.md","x":7680,"y":13120,"width":400,"height":296},
+		{"id":"c21d17cb58a69a54","type":"file","file":"Locations/Settlements/Haven of Hale/Hellhaven.md","x":6600,"y":14320,"width":400,"height":264},
+		{"id":"0101e4104dfb3d02","type":"file","file":"Locations/Regions/Windbor Coast.md","x":5200,"y":14584,"width":400,"height":400},
+		{"id":"7d26d4c431b0d347","type":"file","file":"Locations/Settlements/TO BE FLESHED/Barong.md","x":5000,"y":12400,"width":400,"height":328},
+		{"id":"6c56a10ef436ceb9","type":"file","file":"Locations/Settlements/Free Isles/The Fallen Isles.md","x":5280,"y":13520,"width":400,"height":400},
+>>>>>>> origin/main
+		{"id":"c6ac253c068c643c","type":"file","file":"Locations/Regions/Loierr Fenest.md","x":5680,"y":12960,"width":400,"height":400},
+		{"id":"1fbd7f519b35faee","type":"file","file":"Locations/Settlements/Zillmorkur.md","x":9920,"y":16720,"width":400,"height":264},
+		{"id":"c8372cd25a76b3f7","type":"file","file":"Locations/Regions/Hly'draug.md","x":11040,"y":17440,"width":400,"height":400},
+<<<<<<< HEAD
+		{"id":"17b714c78455b483","type":"file","file":"Locations/Settlements/Vrellyn.md","x":11440,"y":15360,"width":380,"height":240},
+=======
+		{"id":"17b714c78455b483","type":"file","file":"Locations/Settlements/Verdant City/Vrellyn.md","x":11440,"y":15360,"width":380,"height":240},
+>>>>>>> origin/main
+		{"id":"04d0abf12a35287f","type":"file","file":"Locations/Regions/Nontuersans.md","x":2720,"y":12528,"width":400,"height":400},
+		{"id":"b5003c3d67fe5fb7","type":"file","file":"Locations/Landmarks/Ark Tower.md","x":2520,"y":15480,"width":400,"height":400},
+		{"id":"4a70978a234bc0b3","type":"text","text":"Dwarven Merchant Settlement","x":12640,"y":13760,"width":250,"height":200}
+	],
+	"edges":[
+		{"id":"7c136926757f2c96","fromNode":"4a70978a234bc0b3","fromSide":"bottom","toNode":"2f8b0c5943788fe1","toSide":"right"}
+	]
+}
